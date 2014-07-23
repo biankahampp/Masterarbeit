@@ -1,0 +1,92 @@
+\documentclass{thesis}
+
+% hier namen etc. einsetzen
+\fullname{VORNAME NACHNAME}
+\email{vorname.nachname@uni-ulm.de}
+\headline{Thema Zeile 1\\Thema Zeile 2\\Thema Zeile 3}
+\titel{Thema}
+\jahr{JAHR}
+\matnr{MATRIKEL NR}
+\gutachterA{Gutachter 1}
+%\gutachterB{Gutachter 2}
+%\betreuer{Betreuer}
+\typ{Masterarbeit}
+\fakultaet{Ingenieurwissenschaften\\und Informatik}
+\institut{Institut für Datenbanken und Informationssysteme}
+
+% Falls keine Lizenz gewünscht wird bitte den folgenden Text entfernen.
+% Die Lizenz erlaubt es zu nichtkommerziellen Zwecken die Arbeit zu
+% vervielfältigen und Kopien zu machen. Dabei muss aber immer der Autor
+% angegeben werden. Eine kommerzielle Verwertung ist für den Autor
+% weiter möglich.
+\license{
+This work is licensed under the Creative Commons.
+Attribution-NonCommercial-ShareAlike 3.0 License. To view a copy of this
+license, visit http://creativecommons.org/licenses/by-nc-sa/3.0/de/ or send a
+letter to Creative Commons, 543 Howard Street, 5th Floor, San Francisco,
+California, 94105, USA. \\ Satz: PDF-\LaTeXe
+}
+
+\hypersetup{%
+	pdftitle=\pdfescapestring{\thetitel},
+	pdfauthor={\thefullname},
+ 	pdfsubject={\thetyp},
+}
+
+
+% trennungsregeln
+\hyphenation{Sil-ben-trenn-ung}
+
+\usepackage{rotating}
+
+\begin{document}
+\frontmatter
+\maketitle
+% impressum
+\clearpage
+\impressum
+
+\cleardoublepage
+% ab hier zeilenabstand 1,4 fach 10pt/14pt
+\setstretch{1.4}
+
+\input{abstract}
+\cleardoublepage
+%\input{danksagung}
+
+% inhaltsverzeichnis einfügen
+\tableofcontents
+
+\mainmatter
+% hier kommen die kapitel der arbeit
+\input{chapter1}
+\input{chapter2}
+\input{chapter3}
+\input{chapter4}
+\input{chapter5}
+\input{chapter6}
+\input{chapter7}
+\input{chapter8}
+
+
+
+% anhänge
+\appendix
+\input{sources}
+
+% hier kommen die anhänge
+
+\backmatter			% abtrennung für verzeichnisse
+
+% hier die verzeichnisse
+\listoffigures
+\listoftables
+
+% Bibliograhpy
+\bibliographystyle{alphadin} 	% buchstaben + jahr und sortiert
+\bibliography{Literature}
+
+\clearpage
+\erklaerung
+
+\end{document}

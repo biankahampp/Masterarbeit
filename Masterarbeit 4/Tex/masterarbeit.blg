@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (TeX Live 2011)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: masterarbeit.aux
+The style file: alphadin.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: Literature.bib
+Warning--empty number in 2004vmodell
+Warning--empty note in 2004vmodell
+Warning--there's no year in freudenreichevaluierung
+Warning--empty pages in kaschek1998
+Warning--empty title in Kuhrmann2011
+You've used 67 entries,
+            4793 wiz_defined-function locations,
+            1244 strings with 15895 characters,
+and the built_in function-call counts, 37392 in all, are:
+= -- 3689
+> -- 1055
+< -- 1127
++ -- 1277
+- -- 353
+* -- 2298
+:= -- 6590
+add.period$ -- 81
+call.type$ -- 67
+change.case$ -- 326
+chr.to.int$ -- 65
+cite$ -- 72
+duplicate$ -- 1197
+empty$ -- 2785
+format.name$ -- 720
+if$ -- 7358
+int.to.chr$ -- 3
+int.to.str$ -- 0
+missing$ -- 259
+newline$ -- 363
+num.names$ -- 207
+pop$ -- 516
+preamble$ -- 1
+purify$ -- 460
+quote$ -- 0
+skip$ -- 2176
+stack$ -- 0
+substring$ -- 2127
+swap$ -- 237
+text.length$ -- 197
+text.prefix$ -- 40
+top$ -- 0
+type$ -- 516
+warning$ -- 5
+while$ -- 332
+width$ -- 72
+write$ -- 821
+(There were 5 warnings)
