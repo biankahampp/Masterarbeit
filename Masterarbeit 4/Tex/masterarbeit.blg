@@ -13,45 +13,45 @@ Warning--empty note in 2004vmodell
 Warning--there's no year in freudenreichevaluierung
 Warning--empty pages in kaschek1998
 Warning--empty title in Kuhrmann2011
-You've used 67 entries,
+You've used 68 entries,
             4793 wiz_defined-function locations,
-            1244 strings with 15895 characters,
-and the built_in function-call counts, 37392 in all, are:
-= -- 3689
-> -- 1055
-< -- 1127
-+ -- 1277
-- -- 353
-* -- 2298
-:= -- 6590
-add.period$ -- 81
-call.type$ -- 67
-change.case$ -- 326
-chr.to.int$ -- 65
-cite$ -- 72
-duplicate$ -- 1197
-empty$ -- 2785
-format.name$ -- 720
-if$ -- 7358
+            1250 strings with 16019 characters,
+and the built_in function-call counts, 37764 in all, are:
+= -- 3723
+> -- 1063
+< -- 1129
++ -- 1279
+- -- 355
+* -- 2320
+:= -- 6650
+add.period$ -- 83
+call.type$ -- 68
+change.case$ -- 330
+chr.to.int$ -- 66
+cite$ -- 73
+duplicate$ -- 1212
+empty$ -- 2820
+format.name$ -- 726
+if$ -- 7441
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 259
-newline$ -- 363
-num.names$ -- 207
-pop$ -- 516
+missing$ -- 265
+newline$ -- 369
+num.names$ -- 210
+pop$ -- 523
 preamble$ -- 1
-purify$ -- 460
+purify$ -- 466
 quote$ -- 0
-skip$ -- 2176
+skip$ -- 2195
 stack$ -- 0
-substring$ -- 2127
-swap$ -- 237
-text.length$ -- 197
-text.prefix$ -- 40
+substring$ -- 2139
+swap$ -- 240
+text.length$ -- 199
+text.prefix$ -- 41
 top$ -- 0
-type$ -- 516
+type$ -- 528
 warning$ -- 5
-while$ -- 332
-width$ -- 72
-write$ -- 821
+while$ -- 335
+width$ -- 73
+write$ -- 834
 (There were 5 warnings)

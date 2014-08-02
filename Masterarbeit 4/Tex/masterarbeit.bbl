@@ -76,6 +76,13 @@
 \newblock 3.
 \newblock Addison Wesley Pub Co Inc, 1993
 
+\bibitem[{Ecl}14]{eclipseScrum}
+\textsc{{Eclipse}}:
+\newblock \emph{Eclipse Scrum Library}.
+\newblock
+  \url{http://www.eclipse.org/epf/downloads/praclib/praclib_downloads.php}.
+\newblock \,Version:\,July 2014
+
 \bibitem[EHS10]{Basem2010}
 \textsc{El-Haik}, Basem ; \textsc{Shaout}, Adnan:
 \newblock \emph{Software Design For Six Sigma: A Roadmap For Excellence}.
