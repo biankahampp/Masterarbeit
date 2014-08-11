@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file has been generated with the OpenXES library. It conforms -->
+<!-- to the legacy MXML standard for log storage and management. -->
+<!-- OpenXES library version: 1.0RC7 -->
+<!-- OpenXES is available from http://code.deckfour.org/xes/ -->
+<WorkflowLog>
+	<Source program="XES MXML serialization" openxes.version="1.0RC7"/>
+	<Process id="new model" description="process with id new model">
+		<Data>
+			<attribute name="concept:name">new model</attribute>
+		</Data>
+	</Process>
+</WorkflowLog>

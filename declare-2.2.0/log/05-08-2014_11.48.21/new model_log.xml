@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file has been generated with the OpenXES library. It conforms -->
+<!-- to the legacy MXML standard for log storage and management. -->
+<!-- OpenXES library version: 1.0RC7 -->
+<!-- OpenXES is available from http://code.deckfour.org/xes/ -->
+<WorkflowLog>
+	<Source program="XES MXML serialization" openxes.version="1.0RC7"/>
+	<Process id="new model" description="process with id new model">
+		<Data>
+			<attribute name="concept:name">new model</attribute>
+		</Data>
+		<ProcessInstance id="1" description="instance with id 1">
+			<Data>
+				<attribute name="concept:name">1</attribute>
+			</Data>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">1</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-08-05T13:48:31.662+02:00</attribute>
+					<attribute name="concept:name">Iteration planen</attribute>
+				</Data>
+				<WorkflowModelElement>Iteration planen</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-05T13:48:31.662+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">1</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-08-05T13:48:34.983+02:00</attribute>
+					<attribute name="concept:name">Iteration planen</attribute>
+				</Data>
+				<WorkflowModelElement>Iteration planen</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-05T13:48:34.983+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">2</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-08-05T13:48:36.603+02:00</attribute>
+					<attribute name="concept:name">Umgebung vorbereiten</attribute>
+				</Data>
+				<WorkflowModelElement>Umgebung vorbereiten</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-05T13:48:36.603+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">2</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-08-05T13:48:38.009+02:00</attribute>
+					<attribute name="concept:name">Umgebung vorbereiten</attribute>
+				</Data>
+				<WorkflowModelElement>Umgebung vorbereiten</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-05T13:48:38.009+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">3</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-08-05T13:48:39.735+02:00</attribute>
+					<attribute name="concept:name">Prozess massschneidern</attribute>
+				</Data>
+				<WorkflowModelElement>Prozess massschneidern</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-05T13:48:39.735+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">3</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-08-05T13:48:40.853+02:00</attribute>
+					<attribute name="concept:name">Prozess massschneidern</attribute>
+				</Data>
+				<WorkflowModelElement>Prozess massschneidern</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-05T13:48:40.853+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">4</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-08-05T13:48:45.199+02:00</attribute>
+					<attribute name="concept:name">Tools aufsetzen</attribute>
+				</Data>
+				<WorkflowModelElement>Tools aufsetzen</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-05T13:48:45.199+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">4</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-08-05T13:48:46.231+02:00</attribute>
+					<attribute name="concept:name">Tools aufsetzen</attribute>
+				</Data>
+				<WorkflowModelElement>Tools aufsetzen</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-05T13:48:46.231+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">5</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-08-05T13:53:21.708+02:00</attribute>
+					<attribute name="concept:name">Tool-Konfiguration und Implementation verifizieren</attribute>
+				</Data>
+				<WorkflowModelElement>Tool-Konfiguration und Implementation verifizieren</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-05T13:53:21.708+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">5</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-08-05T13:53:23.053+02:00</attribute>
+					<attribute name="concept:name">Tool-Konfiguration und Implementation verifizieren</attribute>
+				</Data>
+				<WorkflowModelElement>Tool-Konfiguration und Implementation verifizieren</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-05T13:53:23.053+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">6</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-08-05T13:53:25.459+02:00</attribute>
+					<attribute name="concept:name">Umfang der Massschneiderung festlegen</attribute>
+				</Data>
+				<WorkflowModelElement>Umfang der Massschneiderung festlegen</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-05T13:53:25.459+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">6</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-08-05T13:53:26.494+02:00</attribute>
+					<attribute name="concept:name">Umfang der Massschneiderung festlegen</attribute>
+				</Data>
+				<WorkflowModelElement>Umfang der Massschneiderung festlegen</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-05T13:53:26.494+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">7</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-08-05T13:53:28.201+02:00</attribute>
+					<attribute name="concept:name">entsprechende Stakeholder einbinden</attribute>
+				</Data>
+				<WorkflowModelElement>entsprechende Stakeholder einbinden</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-05T13:53:28.201+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">7</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-08-05T13:53:29.652+02:00</attribute>
+					<attribute name="concept:name">entsprechende Stakeholder einbinden</attribute>
+				</Data>
+				<WorkflowModelElement>entsprechende Stakeholder einbinden</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-05T13:53:29.652+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">8</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-08-05T13:53:32.057+02:00</attribute>
+					<attribute name="concept:name">Prozess-Dokumentation auswaehlen</attribute>
+				</Data>
+				<WorkflowModelElement>Prozess-Dokumentation auswaehlen</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-05T13:53:32.057+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">8</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-08-05T13:53:33.055+02:00</attribute>
+					<attribute name="concept:name">Prozess-Dokumentation auswaehlen</attribute>
+				</Data>
+				<WorkflowModelElement>Prozess-Dokumentation auswaehlen</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-05T13:53:33.055+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">9</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-08-05T13:53:35.147+02:00</attribute>
+					<attribute name="concept:name">Projektspezifischen Inhalt festlegen</attribute>
+				</Data>
+				<WorkflowModelElement>Projektspezifischen Inhalt festlegen</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-05T13:53:35.147+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">9</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-08-05T13:53:36.455+02:00</attribute>
+					<attribute name="concept:name">Projektspezifischen Inhalt festlegen</attribute>
+				</Data>
+				<WorkflowModelElement>Projektspezifischen Inhalt festlegen</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-05T13:53:36.455+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">10</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-08-05T16:45:43.436+02:00</attribute>
+					<attribute name="concept:name">Umgebung vorbereiten</attribute>
+				</Data>
+				<WorkflowModelElement>Umgebung vorbereiten</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-05T16:45:43.436+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">10</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-08-05T16:45:48.664+02:00</attribute>
+					<attribute name="concept:name">Umgebung vorbereiten</attribute>
+				</Data>
+				<WorkflowModelElement>Umgebung vorbereiten</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-05T16:45:48.664+02:00</timestamp>
+			</AuditTrailEntry>
+		</ProcessInstance>
+	</Process>
+</WorkflowLog>

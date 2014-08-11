@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file has been generated with the OpenXES library. It conforms -->
+<!-- to the legacy MXML standard for log storage and management. -->
+<!-- OpenXES library version: 1.0RC7 -->
+<!-- OpenXES is available from http://code.deckfour.org/xes/ -->
+<WorkflowLog>
+	<Source program="XES MXML serialization" openxes.version="1.0RC7"/>
+	<Process id="new model" description="process with id new model">
+		<Data>
+			<attribute name="concept:name">new model</attribute>
+		</Data>
+		<ProcessInstance id="2" description="instance with id 2">
+			<Data>
+				<attribute name="concept:name">2</attribute>
+			</Data>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">1</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-06-19T09:39:34.115+02:00</attribute>
+					<attribute name="concept:name">Entwickler-Test implementieren</attribute>
+				</Data>
+				<WorkflowModelElement>Entwickler-Test implementieren</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-19T09:39:34.115+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">1</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-06-19T09:39:44.346+02:00</attribute>
+					<attribute name="concept:name">Entwickler-Test implementieren</attribute>
+				</Data>
+				<WorkflowModelElement>Entwickler-Test implementieren</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-19T09:39:44.346+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">2</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-06-19T09:39:50.714+02:00</attribute>
+					<attribute name="concept:name">Entwickler-Test ausfuehren</attribute>
+				</Data>
+				<WorkflowModelElement>Entwickler-Test ausfuehren</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-19T09:39:50.714+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">2</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-06-19T09:39:55.409+02:00</attribute>
+					<attribute name="concept:name">Entwickler-Test ausfuehren</attribute>
+				</Data>
+				<WorkflowModelElement>Entwickler-Test ausfuehren</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-19T09:39:55.409+02:00</timestamp>
+			</AuditTrailEntry>
+		</ProcessInstance>
+	</Process>
+</WorkflowLog>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file has been generated with the OpenXES library. It conforms -->
+<!-- to the legacy MXML standard for log storage and management. -->
+<!-- OpenXES library version: 1.0RC7 -->
+<!-- OpenXES is available from http://code.deckfour.org/xes/ -->
+<WorkflowLog>
+	<Source program="XES MXML serialization" openxes.version="1.0RC7"/>
+	<Process id="new model" description="process with id new model">
+		<Data>
+			<attribute name="concept:name">new model</attribute>
+		</Data>
+		<ProcessInstance id="1" description="instance with id 1">
+			<Data>
+				<attribute name="concept:name">1</attribute>
+			</Data>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">1</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-08-04T16:25:58.083+02:00</attribute>
+					<attribute name="concept:name">Release zusammenstellen</attribute>
+				</Data>
+				<WorkflowModelElement>Release zusammenstellen</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-04T16:25:58.083+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">1</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-08-04T16:25:59.322+02:00</attribute>
+					<attribute name="concept:name">Release zusammenstellen</attribute>
+				</Data>
+				<WorkflowModelElement>Release zusammenstellen</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-04T16:25:59.322+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">2</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-08-04T16:26:01.063+02:00</attribute>
+					<attribute name="concept:name">Deploymentplan ausfuehren</attribute>
+				</Data>
+				<WorkflowModelElement>Deploymentplan ausfuehren</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-04T16:26:01.063+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">2</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-08-04T16:26:02.132+02:00</attribute>
+					<attribute name="concept:name">Deploymentplan ausfuehren</attribute>
+				</Data>
+				<WorkflowModelElement>Deploymentplan ausfuehren</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-04T16:26:02.132+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">3</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-08-04T16:26:06.143+02:00</attribute>
+					<attribute name="concept:name">erfolgreiches Deployment sicherstellen</attribute>
+				</Data>
+				<WorkflowModelElement>erfolgreiches Deployment sicherstellen</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-04T16:26:06.143+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">3</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-08-04T16:26:07.138+02:00</attribute>
+					<attribute name="concept:name">erfolgreiches Deployment sicherstellen</attribute>
+				</Data>
+				<WorkflowModelElement>erfolgreiches Deployment sicherstellen</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-04T16:26:07.138+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">4</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-08-04T16:26:11.148+02:00</attribute>
+					<attribute name="concept:name">Release-Mitteilungen uebermitteln</attribute>
+				</Data>
+				<WorkflowModelElement>Release-Mitteilungen uebermitteln</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-04T16:26:11.148+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">4</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-08-04T16:26:12.384+02:00</attribute>
+					<attribute name="concept:name">Release-Mitteilungen uebermitteln</attribute>
+				</Data>
+				<WorkflowModelElement>Release-Mitteilungen uebermitteln</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-04T16:26:12.384+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">5</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-08-04T16:26:18.506+02:00</attribute>
+					<attribute name="concept:name">Komponenten sammeln</attribute>
+				</Data>
+				<WorkflowModelElement>Komponenten sammeln</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-04T16:26:18.506+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">5</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-08-04T16:26:19.550+02:00</attribute>
+					<attribute name="concept:name">Komponenten sammeln</attribute>
+				</Data>
+				<WorkflowModelElement>Komponenten sammeln</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-04T16:26:19.550+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">6</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-08-04T16:26:22.170+02:00</attribute>
+					<attribute name="concept:name">Release testen</attribute>
+				</Data>
+				<WorkflowModelElement>Release testen</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-04T16:26:22.170+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">6</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-08-04T16:26:23.500+02:00</attribute>
+					<attribute name="concept:name">Release testen</attribute>
+				</Data>
+				<WorkflowModelElement>Release testen</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-04T16:26:23.500+02:00</timestamp>
+			</AuditTrailEntry>
+		</ProcessInstance>
+	</Process>
+</WorkflowLog>

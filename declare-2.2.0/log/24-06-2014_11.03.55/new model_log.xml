@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file has been generated with the OpenXES library. It conforms -->
+<!-- to the legacy MXML standard for log storage and management. -->
+<!-- OpenXES library version: 1.0RC7 -->
+<!-- OpenXES is available from http://code.deckfour.org/xes/ -->
+<WorkflowLog>
+	<Source program="XES MXML serialization" openxes.version="1.0RC7"/>
+	<Process id="new model" description="process with id new model">
+		<Data>
+			<attribute name="concept:name">new model</attribute>
+		</Data>
+		<ProcessInstance id="1" description="instance with id 1">
+			<Data>
+				<attribute name="concept:name">1</attribute>
+			</Data>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">1</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:04:03.856+02:00</attribute>
+					<attribute name="concept:name">Entwicklertest implementieren</attribute>
+				</Data>
+				<WorkflowModelElement>Entwicklertest implementieren</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:04:03.856+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">1</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:04:12.209+02:00</attribute>
+					<attribute name="concept:name">Entwicklertest implementieren</attribute>
+				</Data>
+				<WorkflowModelElement>Entwicklertest implementieren</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:04:12.209+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">2</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:04:14.125+02:00</attribute>
+					<attribute name="concept:name">Entwicklertest ausfuehren</attribute>
+				</Data>
+				<WorkflowModelElement>Entwicklertest ausfuehren</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:04:14.125+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">2</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:04:15.135+02:00</attribute>
+					<attribute name="concept:name">Entwicklertest ausfuehren</attribute>
+				</Data>
+				<WorkflowModelElement>Entwicklertest ausfuehren</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:04:15.135+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">3</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:04:19.949+02:00</attribute>
+					<attribute name="concept:name">Loesung implementieren</attribute>
+				</Data>
+				<WorkflowModelElement>Loesung implementieren</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:04:19.949+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">3</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:04:21.397+02:00</attribute>
+					<attribute name="concept:name">Loesung implementieren</attribute>
+				</Data>
+				<WorkflowModelElement>Loesung implementieren</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:04:21.397+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">4</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:04:22.554+02:00</attribute>
+					<attribute name="concept:name">Entwicklertest ausfuehren</attribute>
+				</Data>
+				<WorkflowModelElement>Entwicklertest ausfuehren</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:04:22.554+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">4</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:04:23.580+02:00</attribute>
+					<attribute name="concept:name">Entwicklertest ausfuehren</attribute>
+				</Data>
+				<WorkflowModelElement>Entwicklertest ausfuehren</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:04:23.580+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">5</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:04:31.070+02:00</attribute>
+					<attribute name="concept:name">Integrieren und Bauen</attribute>
+				</Data>
+				<WorkflowModelElement>Integrieren und Bauen</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:04:31.070+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">5</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:04:32.360+02:00</attribute>
+					<attribute name="concept:name">Integrieren und Bauen</attribute>
+				</Data>
+				<WorkflowModelElement>Integrieren und Bauen</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:04:32.360+02:00</timestamp>
+			</AuditTrailEntry>
+		</ProcessInstance>
+		<ProcessInstance id="2" description="instance with id 2">
+			<Data>
+				<attribute name="concept:name">2</attribute>
+			</Data>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">1</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:07:28.873+02:00</attribute>
+					<attribute name="concept:name">Entwicklertest implementieren</attribute>
+				</Data>
+				<WorkflowModelElement>Entwicklertest implementieren</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:07:28.873+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">1</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:07:34.588+02:00</attribute>
+					<attribute name="concept:name">Entwicklertest implementieren</attribute>
+				</Data>
+				<WorkflowModelElement>Entwicklertest implementieren</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:07:34.588+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">2</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:07:36.065+02:00</attribute>
+					<attribute name="concept:name">Entwicklertest ausfuehren</attribute>
+				</Data>
+				<WorkflowModelElement>Entwicklertest ausfuehren</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:07:36.065+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">2</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:07:37.193+02:00</attribute>
+					<attribute name="concept:name">Entwicklertest ausfuehren</attribute>
+				</Data>
+				<WorkflowModelElement>Entwicklertest ausfuehren</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:07:37.193+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">3</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:07:40.594+02:00</attribute>
+					<attribute name="concept:name">Integrieren und Bauen</attribute>
+				</Data>
+				<WorkflowModelElement>Integrieren und Bauen</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:07:40.594+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">3</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:07:41.500+02:00</attribute>
+					<attribute name="concept:name">Integrieren und Bauen</attribute>
+				</Data>
+				<WorkflowModelElement>Integrieren und Bauen</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:07:41.500+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">4</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:07:43.751+02:00</attribute>
+					<attribute name="concept:name">Loesung implementieren</attribute>
+				</Data>
+				<WorkflowModelElement>Loesung implementieren</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:07:43.751+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">4</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:07:44.625+02:00</attribute>
+					<attribute name="concept:name">Loesung implementieren</attribute>
+				</Data>
+				<WorkflowModelElement>Loesung implementieren</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:07:44.625+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">5</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:07:47.753+02:00</attribute>
+					<attribute name="concept:name">Entwicklertest ausfuehren</attribute>
+				</Data>
+				<WorkflowModelElement>Entwicklertest ausfuehren</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:07:47.753+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">5</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:07:48.667+02:00</attribute>
+					<attribute name="concept:name">Entwicklertest ausfuehren</attribute>
+				</Data>
+				<WorkflowModelElement>Entwicklertest ausfuehren</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:07:48.667+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">6</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:07:49.827+02:00</attribute>
+					<attribute name="concept:name">Loesung implementieren</attribute>
+				</Data>
+				<WorkflowModelElement>Loesung implementieren</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:07:49.827+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">6</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:07:50.941+02:00</attribute>
+					<attribute name="concept:name">Loesung implementieren</attribute>
+				</Data>
+				<WorkflowModelElement>Loesung implementieren</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:07:50.941+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">7</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:07:53.154+02:00</attribute>
+					<attribute name="concept:name">Entwicklertest ausfuehren</attribute>
+				</Data>
+				<WorkflowModelElement>Entwicklertest ausfuehren</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:07:53.154+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">7</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:07:54.615+02:00</attribute>
+					<attribute name="concept:name">Entwicklertest ausfuehren</attribute>
+				</Data>
+				<WorkflowModelElement>Entwicklertest ausfuehren</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:07:54.615+02:00</timestamp>
+			</AuditTrailEntry>
+		</ProcessInstance>
+		<ProcessInstance id="3" description="instance with id 3">
+			<Data>
+				<attribute name="concept:name">3</attribute>
+			</Data>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">1</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:08:56.221+02:00</attribute>
+					<attribute name="concept:name">Entwicklertest implementieren</attribute>
+				</Data>
+				<WorkflowModelElement>Entwicklertest implementieren</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:08:56.221+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">1</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:09:00.122+02:00</attribute>
+					<attribute name="concept:name">Entwicklertest implementieren</attribute>
+				</Data>
+				<WorkflowModelElement>Entwicklertest implementieren</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:09:00.122+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">2</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:09:01.180+02:00</attribute>
+					<attribute name="concept:name">Entwicklertest ausfuehren</attribute>
+				</Data>
+				<WorkflowModelElement>Entwicklertest ausfuehren</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:09:01.180+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">2</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:09:02.307+02:00</attribute>
+					<attribute name="concept:name">Entwicklertest ausfuehren</attribute>
+				</Data>
+				<WorkflowModelElement>Entwicklertest ausfuehren</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:09:02.307+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">3</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:09:03.629+02:00</attribute>
+					<attribute name="concept:name">Loesung implementieren</attribute>
+				</Data>
+				<WorkflowModelElement>Loesung implementieren</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:09:03.629+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">3</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:09:04.739+02:00</attribute>
+					<attribute name="concept:name">Loesung implementieren</attribute>
+				</Data>
+				<WorkflowModelElement>Loesung implementieren</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:09:04.739+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">4</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:09:06.003+02:00</attribute>
+					<attribute name="concept:name">Entwicklertest ausfuehren</attribute>
+				</Data>
+				<WorkflowModelElement>Entwicklertest ausfuehren</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:09:06.003+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">4</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:09:07.153+02:00</attribute>
+					<attribute name="concept:name">Entwicklertest ausfuehren</attribute>
+				</Data>
+				<WorkflowModelElement>Entwicklertest ausfuehren</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:09:07.153+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">5</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:09:08.081+02:00</attribute>
+					<attribute name="concept:name">Integrieren und Bauen</attribute>
+				</Data>
+				<WorkflowModelElement>Integrieren und Bauen</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:09:08.081+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">5</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:09:08.992+02:00</attribute>
+					<attribute name="concept:name">Integrieren und Bauen</attribute>
+				</Data>
+				<WorkflowModelElement>Integrieren und Bauen</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:09:08.992+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">6</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:09:11.929+02:00</attribute>
+					<attribute name="concept:name">Loesung implementieren</attribute>
+				</Data>
+				<WorkflowModelElement>Loesung implementieren</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:09:11.929+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">6</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:09:12.797+02:00</attribute>
+					<attribute name="concept:name">Loesung implementieren</attribute>
+				</Data>
+				<WorkflowModelElement>Loesung implementieren</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:09:12.797+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">7</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:09:14.535+02:00</attribute>
+					<attribute name="concept:name">Entwicklertest ausfuehren</attribute>
+				</Data>
+				<WorkflowModelElement>Entwicklertest ausfuehren</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:09:14.535+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">7</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:09:15.526+02:00</attribute>
+					<attribute name="concept:name">Entwicklertest ausfuehren</attribute>
+				</Data>
+				<WorkflowModelElement>Entwicklertest ausfuehren</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:09:15.526+02:00</timestamp>
+			</AuditTrailEntry>
+		</ProcessInstance>
+		<ProcessInstance id="5" description="instance with id 5">
+			<Data>
+				<attribute name="concept:name">5</attribute>
+			</Data>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">1</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:10:47.144+02:00</attribute>
+					<attribute name="concept:name">Entwicklertest implementieren</attribute>
+				</Data>
+				<WorkflowModelElement>Entwicklertest implementieren</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:10:47.144+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">1</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:10:51.035+02:00</attribute>
+					<attribute name="concept:name">Entwicklertest implementieren</attribute>
+				</Data>
+				<WorkflowModelElement>Entwicklertest implementieren</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:10:51.035+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">2</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:10:52.626+02:00</attribute>
+					<attribute name="concept:name">Entwicklertest ausfuehren</attribute>
+				</Data>
+				<WorkflowModelElement>Entwicklertest ausfuehren</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:10:52.626+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">2</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:10:53.765+02:00</attribute>
+					<attribute name="concept:name">Entwicklertest ausfuehren</attribute>
+				</Data>
+				<WorkflowModelElement>Entwicklertest ausfuehren</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:10:53.765+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">3</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:10:55.642+02:00</attribute>
+					<attribute name="concept:name">Integrieren und Bauen</attribute>
+				</Data>
+				<WorkflowModelElement>Integrieren und Bauen</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:10:55.642+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">3</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:10:56.656+02:00</attribute>
+					<attribute name="concept:name">Integrieren und Bauen</attribute>
+				</Data>
+				<WorkflowModelElement>Integrieren und Bauen</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:10:56.656+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">4</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:11:03.655+02:00</attribute>
+					<attribute name="concept:name">Loesung designen</attribute>
+				</Data>
+				<WorkflowModelElement>Loesung designen</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:11:03.655+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">4</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:11:05.226+02:00</attribute>
+					<attribute name="concept:name">Loesung designen</attribute>
+				</Data>
+				<WorkflowModelElement>Loesung designen</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:11:05.226+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">5</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:11:06.715+02:00</attribute>
+					<attribute name="concept:name">Entwicklertest implementieren</attribute>
+				</Data>
+				<WorkflowModelElement>Entwicklertest implementieren</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:11:06.715+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">5</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:11:07.861+02:00</attribute>
+					<attribute name="concept:name">Entwicklertest implementieren</attribute>
+				</Data>
+				<WorkflowModelElement>Entwicklertest implementieren</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:11:07.861+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">6</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:11:09.717+02:00</attribute>
+					<attribute name="concept:name">Entwicklertest ausfuehren</attribute>
+				</Data>
+				<WorkflowModelElement>Entwicklertest ausfuehren</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:11:09.717+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">6</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-06-24T13:11:11.352+02:00</attribute>
+					<attribute name="concept:name">Entwicklertest ausfuehren</attribute>
+				</Data>
+				<WorkflowModelElement>Entwicklertest ausfuehren</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-06-24T13:11:11.352+02:00</timestamp>
+			</AuditTrailEntry>
+		</ProcessInstance>
+	</Process>
+</WorkflowLog>

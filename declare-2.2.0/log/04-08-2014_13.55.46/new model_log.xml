@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file has been generated with the OpenXES library. It conforms -->
+<!-- to the legacy MXML standard for log storage and management. -->
+<!-- OpenXES library version: 1.0RC7 -->
+<!-- OpenXES is available from http://code.deckfour.org/xes/ -->
+<WorkflowLog>
+	<Source program="XES MXML serialization" openxes.version="1.0RC7"/>
+	<Process id="new model" description="process with id new model">
+		<Data>
+			<attribute name="concept:name">new model</attribute>
+		</Data>
+		<ProcessInstance id="1" description="instance with id 1">
+			<Data>
+				<attribute name="concept:name">1</attribute>
+			</Data>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">1</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-08-04T15:55:59.994+02:00</attribute>
+					<attribute name="concept:name">Release zusammenstellen</attribute>
+				</Data>
+				<WorkflowModelElement>Release zusammenstellen</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-04T15:55:59.994+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">1</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-08-04T15:56:03.694+02:00</attribute>
+					<attribute name="concept:name">Release zusammenstellen</attribute>
+				</Data>
+				<WorkflowModelElement>Release zusammenstellen</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-04T15:56:03.694+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">2</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-08-04T15:56:08.163+02:00</attribute>
+					<attribute name="concept:name">Deploymentplan ausfuehren</attribute>
+				</Data>
+				<WorkflowModelElement>Deploymentplan ausfuehren</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-04T15:56:08.163+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">2</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-08-04T15:56:09.349+02:00</attribute>
+					<attribute name="concept:name">Deploymentplan ausfuehren</attribute>
+				</Data>
+				<WorkflowModelElement>Deploymentplan ausfuehren</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-04T15:56:09.349+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">3</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-08-04T15:56:12.417+02:00</attribute>
+					<attribute name="concept:name">erfolgreiches Deployment sicherstellen</attribute>
+				</Data>
+				<WorkflowModelElement>erfolgreiches Deployment sicherstellen</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-04T15:56:12.417+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">3</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-08-04T15:56:13.374+02:00</attribute>
+					<attribute name="concept:name">erfolgreiches Deployment sicherstellen</attribute>
+				</Data>
+				<WorkflowModelElement>erfolgreiches Deployment sicherstellen</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-04T15:56:13.374+02:00</timestamp>
+			</AuditTrailEntry>
+		</ProcessInstance>
+		<ProcessInstance id="2" description="instance with id 2">
+			<Data>
+				<attribute name="concept:name">2</attribute>
+			</Data>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">1</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-08-04T15:57:09.672+02:00</attribute>
+					<attribute name="concept:name">Release zusammenstellen</attribute>
+				</Data>
+				<WorkflowModelElement>Release zusammenstellen</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-04T15:57:09.672+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">1</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-08-04T15:57:13.701+02:00</attribute>
+					<attribute name="concept:name">Release zusammenstellen</attribute>
+				</Data>
+				<WorkflowModelElement>Release zusammenstellen</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-04T15:57:13.701+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">2</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-08-04T15:57:14.732+02:00</attribute>
+					<attribute name="concept:name">Deploymentplan ausfuehren</attribute>
+				</Data>
+				<WorkflowModelElement>Deploymentplan ausfuehren</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-04T15:57:14.732+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">2</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-08-04T15:57:15.747+02:00</attribute>
+					<attribute name="concept:name">Deploymentplan ausfuehren</attribute>
+				</Data>
+				<WorkflowModelElement>Deploymentplan ausfuehren</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-04T15:57:15.747+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">3</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-08-04T15:57:17.386+02:00</attribute>
+					<attribute name="concept:name">erfolgreiches Deployment sicherstellen</attribute>
+				</Data>
+				<WorkflowModelElement>erfolgreiches Deployment sicherstellen</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-04T15:57:17.386+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">3</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-08-04T15:57:18.472+02:00</attribute>
+					<attribute name="concept:name">erfolgreiches Deployment sicherstellen</attribute>
+				</Data>
+				<WorkflowModelElement>erfolgreiches Deployment sicherstellen</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-04T15:57:18.472+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">4</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-08-04T15:57:21.244+02:00</attribute>
+					<attribute name="concept:name">Release-Mitteilungen uebermitteln</attribute>
+				</Data>
+				<WorkflowModelElement>Release-Mitteilungen uebermitteln</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-04T15:57:21.244+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">4</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-08-04T15:57:22.541+02:00</attribute>
+					<attribute name="concept:name">Release-Mitteilungen uebermitteln</attribute>
+				</Data>
+				<WorkflowModelElement>Release-Mitteilungen uebermitteln</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-04T15:57:22.541+02:00</timestamp>
+			</AuditTrailEntry>
+		</ProcessInstance>
+		<ProcessInstance id="3" description="instance with id 3">
+			<Data>
+				<attribute name="concept:name">3</attribute>
+			</Data>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">1</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-08-04T15:59:51.180+02:00</attribute>
+					<attribute name="concept:name">Release zusammenstellen</attribute>
+				</Data>
+				<WorkflowModelElement>Release zusammenstellen</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-04T15:59:51.180+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">1</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-08-04T15:59:54.625+02:00</attribute>
+					<attribute name="concept:name">Release zusammenstellen</attribute>
+				</Data>
+				<WorkflowModelElement>Release zusammenstellen</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-04T15:59:54.625+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">2</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-08-04T15:59:55.742+02:00</attribute>
+					<attribute name="concept:name">Deploymentplan ausfuehren</attribute>
+				</Data>
+				<WorkflowModelElement>Deploymentplan ausfuehren</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-04T15:59:55.742+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">2</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-08-04T15:59:56.909+02:00</attribute>
+					<attribute name="concept:name">Deploymentplan ausfuehren</attribute>
+				</Data>
+				<WorkflowModelElement>Deploymentplan ausfuehren</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-04T15:59:56.909+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">3</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">start</attribute>
+					<attribute name="time:timestamp">2014-08-04T16:00:01.464+02:00</attribute>
+					<attribute name="concept:name">Deploymentplan ausfuehren</attribute>
+				</Data>
+				<WorkflowModelElement>Deploymentplan ausfuehren</WorkflowModelElement>
+				<EventType>start</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-04T16:00:01.464+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="concept:instance">3</attribute>
+					<attribute name="org:resource">administrator</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="time:timestamp">2014-08-04T16:00:02.335+02:00</attribute>
+					<attribute name="concept:name">Deploymentplan ausfuehren</attribute>
+				</Data>
+				<WorkflowModelElement>Deploymentplan ausfuehren</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<originator>administrator</originator>
+				<timestamp>2014-08-04T16:00:02.335+02:00</timestamp>
+			</AuditTrailEntry>
+		</ProcessInstance>
+	</Process>
+</WorkflowLog>
