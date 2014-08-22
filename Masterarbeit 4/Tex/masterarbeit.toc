@@ -62,8 +62,11 @@
 \contentsline {subsubsection}{Projektdurchf\IeC {\"u}hrungsstrategie}{70}{section*.24}
 \contentsline {subsubsection}{Entscheidungspunkte}{71}{section*.25}
 \contentsline {subsection}{\numberline {6.3.2}Imperative Modellierung V-Modell}{72}{subsection.6.3.2}
+\contentsline {subsubsection}{Angebots- und Vetragswesen}{72}{section*.26}
+\contentsline {subsubsection}{Planung und Steuerung}{72}{section*.27}
 \contentsline {subsection}{\numberline {6.3.3}Deklarative Modellierung V-Modell}{72}{subsection.6.3.3}
 \contentsline {subsection}{\numberline {6.3.4}Vergleich}{72}{subsection.6.3.4}
-\contentsline {chapter}{\numberline {7}Validierung}{79}{chapter.7}
-\contentsline {chapter}{\numberline {8}Zusammenfassung und Ausblick}{81}{chapter.8}
-\contentsline {chapter}{\numberline {A}ConDec Notation}{83}{appendix.A}
+\contentsline {chapter}{\numberline {7}Validierung}{81}{chapter.7}
+\contentsline {chapter}{\numberline {8}Zusammenfassung und Ausblick}{83}{chapter.8}
+\contentsline {chapter}{\numberline {A}BPMN Notation}{85}{appendix.A}
+\contentsline {chapter}{\numberline {B}ConDec Notation}{89}{appendix.B}
