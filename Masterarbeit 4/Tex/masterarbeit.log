@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  22 AUG 2014 14:28
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  26 AUG 2014 13:20
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1749,56 +1749,56 @@ Underfull \hbox (badness 1454) in paragraph at lines 642--642
 zess Lie-fe-rung
  []
 
-<img/PlanungUndSteuerung.pdf, id=2956, 747.3668pt x 114.22595pt>
+<img/PlanungUndSteuerung.pdf, id=2956, 745.46437pt x 141.63705pt>
 File: img/PlanungUndSteuerung.pdf Graphic file (type pdf)
 
 <use img/PlanungUndSteuerung.pdf>
 Package pdftex.def Info: img/PlanungUndSteuerung.pdf used on input line 653.
-(pdftex.def)             Requested size: 418.25555pt x 63.926pt.
+(pdftex.def)             Requested size: 418.25555pt x 79.46964pt.
 
-<img/ProjektfortschrittsEntscheidung.pdf, id=2957, 662.6202pt x 244.13037pt>
+<img/ProjektfortschrittsEntscheidung.pdf, id=2957, 664.11823pt x 242.11385pt>
 File: img/ProjektfortschrittsEntscheidung.pdf Graphic file (type pdf)
 
 <use img/ProjektfortschrittsEntscheidung.pdf>
 Package pdftex.def Info: img/ProjektfortschrittsEntscheidung.pdf used on input 
 line 661.
-(pdftex.def)             Requested size: 418.25555pt x 154.10095pt.
+(pdftex.def)             Requested size: 418.25555pt x 152.4845pt.
 
-<img/ProjekthandbuchErstellen.pdf, id=2958, 690.357pt x 154.53926pt>
+<img/ProjekthandbuchErstellen.pdf, id=2958, 687.91992pt x 151.94196pt>
 File: img/ProjekthandbuchErstellen.pdf Graphic file (type pdf)
 
 <use img/ProjekthandbuchErstellen.pdf>
 Package pdftex.def Info: img/ProjekthandbuchErstellen.pdf used on input line 66
 9.
-(pdftex.def)             Requested size: 418.25555pt x 93.62976pt.
+(pdftex.def)             Requested size: 418.25555pt x 92.38072pt.
 
-<img/QSHandbuch.pdf, id=2959, 382.57309pt x 126.88925pt>
+<img/QSHandbuch.pdf, id=2959, 381.40874pt x 127.20685pt>
 File: img/QSHandbuch.pdf Graphic file (type pdf)
 
 <use img/QSHandbuch.pdf>
 Package pdftex.def Info: img/QSHandbuch.pdf used on input line 677.
-(pdftex.def)             Requested size: 418.25555pt x 138.72667pt.
+(pdftex.def)             Requested size: 418.25555pt x 139.4951pt.
 
-<img/Schatzungdurchfuhren.pdf, id=2960, 376.91977pt x 129.00616pt>
+<img/Schatzungdurchfuhren.pdf, id=2960, 375.01463pt x 126.85944pt>
 File: img/Schatzungdurchfuhren.pdf Graphic file (type pdf)
 
 <use img/Schatzungdurchfuhren.pdf>
 Package pdftex.def Info: img/Schatzungdurchfuhren.pdf used on input line 686.
-(pdftex.def)             Requested size: 418.25555pt x 143.1572pt.
+(pdftex.def)             Requested size: 418.25555pt x 141.4912pt.
 
-<img/RisikenManagen.pdf, id=2961, 295.51404pt x 130.33333pt>
+<img/RisikenManagen.pdf, id=2961, 296.50743pt x 128.3983pt>
 File: img/RisikenManagen.pdf Graphic file (type pdf)
 
 <use img/RisikenManagen.pdf>
 Package pdftex.def Info: img/RisikenManagen.pdf used on input line 696.
-(pdftex.def)             Requested size: 418.25555pt x 184.474pt.
+(pdftex.def)             Requested size: 418.25555pt x 181.12195pt.
 
-<img/ProjektPlanen.pdf, id=2962, 712.28322pt x 153.11986pt>
+<img/ProjektPlanen.pdf, id=2962, 712.34294pt x 156.2898pt>
 File: img/ProjektPlanen.pdf Graphic file (type pdf)
 
 <use img/ProjektPlanen.pdf>
 Package pdftex.def Info: img/ProjektPlanen.pdf used on input line 706.
-(pdftex.def)             Requested size: 418.25555pt x 89.91235pt.
+(pdftex.def)             Requested size: 418.25555pt x 91.76898pt.
 ) (./chapter7.tex [72 <./img/Entscheidungspunkte.pdf>] [73 <./img/v-modell.pdf>
 ] [74 <./img/AngebotsVetragswesenVModell.pdf> <./img/AngebotErstellenVModell.pd
 f>] [75 <./img/Vertragabschliessen.pdf>] [76 <./img/Vertragszusatzabschlieen.pd
@@ -1820,13 +1820,13 @@ Kapitel 8.
 
 ]
 Anhang A.
-<img/BPM.pdf, id=3890, 670.505pt x 814.04124pt>
+<img/BPM.pdf, id=3912, 670.505pt x 814.04124pt>
 File: img/BPM.pdf Graphic file (type pdf)
  <use img/BPM.pdf>
 Package pdftex.def Info: img/BPM.pdf used on input line 6.
 (pdftex.def)             Requested size: 418.25555pt x 507.79324pt.
 
-<img/BPM_2.pdf, id=3891, 518.93875pt x 770.88pt>
+<img/BPM_2.pdf, id=3913, 518.93875pt x 770.88pt>
 File: img/BPM_2.pdf Graphic file (type pdf)
  <use img/BPM_2.pdf>
 Package pdftex.def Info: img/BPM_2.pdf used on input line 14.
@@ -1835,7 +1835,7 @@ Package pdftex.def Info: img/BPM_2.pdf used on input line 14.
 
 LaTeX Warning: Float too large for page by 65.23088pt on input line 18.
 
-<img/gatewa.pdf, id=3892, 561.09625pt x 785.93625pt>
+<img/gatewa.pdf, id=3914, 561.09625pt x 785.93625pt>
 File: img/gatewa.pdf Graphic file (type pdf)
  <use img/gatewa.pdf>
 Package pdftex.def Info: img/gatewa.pdf used on input line 22.
@@ -1846,31 +1846,31 @@ LaTeX Warning: Float too large for page by 29.73279pt on input line 26.
 
 [85] [86 <./img/BPM.pdf>] [87 <./img/BPM_2.pdf>] [88 <./img/gatewa.pdf>]
 Anhang B.
-<img/absence.png, id=3976, 90.3375pt x 75.28125pt>
+<img/absence.png, id=3999, 90.3375pt x 75.28125pt>
 File: img/absence.png Graphic file (type png)
  <use img/absence.png>
 Package pdftex.def Info: img/absence.png used on input line 38.
 (pdftex.def)             Requested size: 45.16862pt x 37.64052pt.
 
-<img/absenceN.png, id=3977, 91.0602pt x 74.679pt>
+<img/absenceN.png, id=4000, 91.0602pt x 74.679pt>
 File: img/absenceN.png Graphic file (type png)
  <use img/absenceN.png>
 Package pdftex.def Info: img/absenceN.png used on input line 50.
 (pdftex.def)             Requested size: 45.52998pt x 37.3394pt.
 
-<img/existenceN.png, id=3978, 91.0602pt x 75.6426pt>
+<img/existenceN.png, id=4001, 91.0602pt x 75.6426pt>
 File: img/existenceN.png Graphic file (type png)
  <use img/existenceN.png>
 Package pdftex.def Info: img/existenceN.png used on input line 60.
 (pdftex.def)             Requested size: 45.52998pt x 37.8212pt.
 
-<img/ExactlyN.png, id=3979, 90.0966pt x 75.6426pt>
+<img/ExactlyN.png, id=4002, 90.0966pt x 75.6426pt>
 File: img/ExactlyN.png Graphic file (type png)
  <use img/ExactlyN.png>
 Package pdftex.def Info: img/ExactlyN.png used on input line 70.
 (pdftex.def)             Requested size: 45.04819pt x 37.8212pt.
 
-<img/Init.png, id=3980, 90.3375pt x 75.28125pt>
+<img/Init.png, id=4003, 90.3375pt x 75.28125pt>
 File: img/Init.png Graphic file (type png)
  <use img/Init.png>
 Package pdftex.def Info: img/Init.png used on input line 81.
@@ -1887,26 +1887,26 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-<img/RespondedExistence.png, id=3985, 332.24126pt x 50.1875pt>
+<img/RespondedExistence.png, id=4008, 332.24126pt x 50.1875pt>
 File: img/RespondedExistence.png Graphic file (type png)
 
 <use img/RespondedExistence.png>
 Package pdftex.def Info: img/RespondedExistence.png used on input line 104.
 (pdftex.def)             Requested size: 166.12021pt x 25.09367pt.
 
-<img/CoExistence.png, id=3986, 332.24126pt x 50.1875pt>
+<img/CoExistence.png, id=4009, 332.24126pt x 50.1875pt>
 File: img/CoExistence.png Graphic file (type png)
 
 <use img/CoExistence.png>
 Package pdftex.def Info: img/CoExistence.png used on input line 113.
 (pdftex.def)             Requested size: 166.12021pt x 25.09367pt.
- <img/response.png, id=3987, 332.24126pt x 50.1875pt>
+ <img/response.png, id=4010, 332.24126pt x 50.1875pt>
 File: img/response.png Graphic file (type png)
 
 <use img/response.png>
 Package pdftex.def Info: img/response.png used on input line 122.
 (pdftex.def)             Requested size: 166.12021pt x 25.09367pt.
- <img/Precedence.png, id=3988, 332.24126pt x 50.1875pt>
+ <img/Precedence.png, id=4011, 332.24126pt x 50.1875pt>
 File: img/Precedence.png Graphic file (type png)
 
 <use img/Precedence.png>
@@ -1917,7 +1917,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--136
 \T1/phv/m/n/10.95 (+20) Beispiel: Kor-rekt: [A,C,B,B,A]; In-kor-
  []
 
-<img/Succession.png, id=3989, 332.24126pt x 50.1875pt>
+<img/Succession.png, id=4012, 332.24126pt x 50.1875pt>
 File: img/Succession.png Graphic file (type png)
 
 <use img/Succession.png>
@@ -1928,42 +1928,42 @@ Underfull \hbox (badness 2173) in paragraph at lines 141--143
 \T1/phv/m/n/10.95 (+20) Beispiel: Kor-rekt: [A,C,A,B,B]; In-kor-rekt:
  []
 
-<img/AlternateResponse.png, id=3990, 332.24126pt x 56.21pt>
+<img/AlternateResponse.png, id=4013, 332.24126pt x 56.21pt>
 File: img/AlternateResponse.png Graphic file (type png)
 
 <use img/AlternateResponse.png>
 Package pdftex.def Info: img/AlternateResponse.png used on input line 146.
 (pdftex.def)             Requested size: 166.12021pt x 28.10492pt.
 
-<img/AlternatePrecedence.png, id=3991, 332.24126pt x 54.2025pt>
+<img/AlternatePrecedence.png, id=4014, 332.24126pt x 54.2025pt>
 File: img/AlternatePrecedence.png Graphic file (type png)
 
 <use img/AlternatePrecedence.png>
 Package pdftex.def Info: img/AlternatePrecedence.png used on input line 159.
 (pdftex.def)             Requested size: 166.12021pt x 27.10118pt.
 
-<img/AlternateSuccession.png, id=3992, 332.24126pt x 54.2025pt>
+<img/AlternateSuccession.png, id=4015, 332.24126pt x 54.2025pt>
 File: img/AlternateSuccession.png Graphic file (type png)
 
 <use img/AlternateSuccession.png>
 Package pdftex.def Info: img/AlternateSuccession.png used on input line 168.
 (pdftex.def)             Requested size: 166.12021pt x 27.10118pt.
 
-<img/ChainResponse.png, id=3993, 332.24126pt x 61.22874pt>
+<img/ChainResponse.png, id=4016, 332.24126pt x 61.22874pt>
 File: img/ChainResponse.png Graphic file (type png)
 
 <use img/ChainResponse.png>
 Package pdftex.def Info: img/ChainResponse.png used on input line 176.
 (pdftex.def)             Requested size: 166.12021pt x 30.61429pt.
 
-<img/ChainPrecedence.png, id=3994, 332.24126pt x 59.22125pt>
+<img/ChainPrecedence.png, id=4017, 332.24126pt x 59.22125pt>
 File: img/ChainPrecedence.png Graphic file (type png)
 
 <use img/ChainPrecedence.png>
 Package pdftex.def Info: img/ChainPrecedence.png used on input line 184.
 (pdftex.def)             Requested size: 166.12021pt x 29.61053pt.
 
-<img/ChainSuccession.png, id=3995, 332.24126pt x 58.2175pt>
+<img/ChainSuccession.png, id=4018, 332.24126pt x 58.2175pt>
 File: img/ChainSuccession.png Graphic file (type png)
 
 <use img/ChainSuccession.png>
@@ -1993,20 +1993,20 @@ ession.png (PNG copy)> <./img/AlternateResponse.png (PNG copy)>] [92 <./img/Alt
 ernatePrecedence.png (PNG copy)> <./img/AlternateSuccession.png (PNG copy)> <./
 img/ChainResponse.png (PNG copy)> <./img/ChainPrecedence.png (PNG copy)> <./img
 /ChainSuccession.png (PNG copy)>]
-<img/Choice.png, id=4015, 286.06876pt x 51.19125pt>
+<img/Choice.png, id=4037, 286.06876pt x 51.19125pt>
 File: img/Choice.png Graphic file (type png)
  <use img/Choice.png>
 Package pdftex.def Info: img/Choice.png used on input line 212.
 (pdftex.def)             Requested size: 143.03403pt x 25.59555pt.
 
-<img/ChoiceOneOfThree.png, id=4016, 283.0575pt x 188.705pt>
+<img/ChoiceOneOfThree.png, id=4038, 283.0575pt x 188.705pt>
 File: img/ChoiceOneOfThree.png Graphic file (type png)
 
 <use img/ChoiceOneOfThree.png>
 Package pdftex.def Info: img/ChoiceOneOfThree.png used on input line 221.
 (pdftex.def)             Requested size: 141.5284pt x 94.35226pt.
 
-<img/ChoiceOneOfTwo.png, id=4017, 286.06876pt x 50.1875pt>
+<img/ChoiceOneOfTwo.png, id=4039, 286.06876pt x 50.1875pt>
 File: img/ChoiceOneOfTwo.png Graphic file (type png)
 
 <use img/ChoiceOneOfTwo.png>
@@ -2022,14 +2022,14 @@ Overfull \hbox (24.30002pt too wide) in paragraph at lines 205--237
 [][] 
  []
 
-<img/ExclusiveChoice.png, id=4018, 286.06876pt x 50.1875pt>
+<img/ExclusiveChoice.png, id=4040, 286.06876pt x 50.1875pt>
 File: img/ExclusiveChoice.png Graphic file (type png)
 
 <use img/ExclusiveChoice.png>
 Package pdftex.def Info: img/ExclusiveChoice.png used on input line 245.
 (pdftex.def)             Requested size: 143.03403pt x 25.09367pt.
 
-<img/ExclusiveChoiceOneOfThree.png, id=4019, 286.06876pt x 156.585pt>
+<img/ExclusiveChoiceOneOfThree.png, id=4041, 286.06876pt x 156.585pt>
 File: img/ExclusiveChoiceOneOfThree.png Graphic file (type png)
 
 <use img/ExclusiveChoiceOneOfThree.png>
@@ -2041,7 +2041,7 @@ Overfull \hbox (24.30002pt too wide) in paragraph at lines 240--261
 [][] 
  []
 
-<img/NotCoExistence.png, id=4020, 308.15125pt x 50.1875pt>
+<img/NotCoExistence.png, id=4042, 308.15125pt x 50.1875pt>
 File: img/NotCoExistence.png Graphic file (type png)
 
 <use img/NotCoExistence.png>
@@ -2052,14 +2052,14 @@ Underfull \hbox (badness 2970) in paragraph at lines 276--280
 \T1/phv/m/n/10.95 (+20) Beispiel: Kor-rekt: [A,C,A,A] ; In-kor-rekt:
  []
 
-<img/NotSuccession.png, id=4021, 308.15125pt x 52.195pt>
+<img/NotSuccession.png, id=4043, 308.15125pt x 52.195pt>
 File: img/NotSuccession.png Graphic file (type png)
 
 <use img/NotSuccession.png>
 Package pdftex.def Info: img/NotSuccession.png used on input line 285.
 (pdftex.def)             Requested size: 154.07524pt x 26.09743pt.
 
-<img/NotChainSuccession.png, id=4022, 314.17375pt x 61.22874pt>
+<img/NotChainSuccession.png, id=4044, 314.17375pt x 61.22874pt>
 File: img/NotChainSuccession.png Graphic file (type png)
 
 <use img/NotChainSuccession.png>
@@ -2173,7 +2173,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
 Here is how much of TeX's memory you used:
  13481 strings out of 493633
  207400 string characters out of 3143378
- 329734 words of memory out of 3000000
+ 329736 words of memory out of 3000000
  15804 multiletter control sequences out of 15000+200000
  84175 words of font info for 238 fonts, out of 3000000 for 9000
  832 hyphenation exceptions out of 8191
@@ -2187,10 +2187,10 @@ public/lm/lmr8.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/courier/
 ucrr8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.
 pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></u
 sr/local/texlive/2011/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on masterarbeit.pdf (116 pages, 3831441 bytes).
+Output written on masterarbeit.pdf (116 pages, 3849509 bytes).
 PDF statistics:
- 4357 PDF objects out of 5155 (max. 8388607)
- 3243 compressed objects within 33 object streams
+ 4379 PDF objects out of 5155 (max. 8388607)
+ 3263 compressed objects within 33 object streams
  339 named destinations out of 1000 (max. 500000)
  29516 words of extra memory for PDF output out of 29859 (max. 10000000)
 
