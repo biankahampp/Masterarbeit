@@ -40,6 +40,14 @@ Das  \textit{Team} trifft sich während des \textit{Sprints} täglich in einem 1
       
 \subsection{Imperative Modellierung Scrum}
 
+Abbildung \ref{fig:ScrumImperativ} zeigt die imperative Modellierung von Scrum. Parallel zu allen anderen Aktivitäten des Teams und des Product Owners muss der Scrum-Master stets den Scrum-Prozess managen. \newline
+Der Product Owner schätzt als erste Aktivität den Product Backlog ab. Anschließend priorisiert er den Product Backlog und erstellt parallel dazu die Releasepläne. \newline
+Wenn alle zwei bis vier Wochen ein neuer Sprint beginnt, was hier durch ein Zeitereignis dargestellt ist, so wird zuerst das Sprint Planning Meeting durchgeführt. Dies ist hier als Unterprozess in Abbildung \ref{fig:ScrumImperativUnter} dargestellt. Zunächst priorisiert der Product Owner die Anforderungen, welche während des Sprints erledigt werden müssen und erstellt danach den Sprint Backlog. Anschließend teilt sich dann das Team selbstständig die Sprint Backlog-Elemente in Tasks ein.\newline
+Im Anschluß findet ein Sprint-Rückblick statt (Abbildung \ref{fig:ScrumImperativ}) statt und der Product Owner führt ein Sprint Review Meeting durch.\newline
+Das Team führt während des Sprints täglich ein 15-minütiges Scrum Meeting durch und jedes Teammitglied arbeitet eine Task nach der anderen ab. Dies wird hier als Schleife dargestellt: Solange noch weitere Tasks vorhanden sind, führt das XOR-Gateway immer wieder zurück zu Tasks abarbeiten. Erst wenn keine weiteren Tasks mehr vorhanden sind, führt der Prozess weiter zum nächsten Entscheidungspunkt.\newline
+Sind noch weitere Aufgaben im Product Backlog vorhanden, die noch erledigt werden müssen, so beginnt ein weiterer Sprint, was hier durch eine Rückschleife dargestellt ist. Ist jedoch schon der komplette Product Backlog abgearbeitet, so endet der Prozess hier.
+
+
 \begin{figure}[htp]
 \begin{center}
   \includegraphics[width=\textwidth]{ScrumImperativ} %pdf, jpg, png...
@@ -50,17 +58,24 @@ Das  \textit{Team} trifft sich während des \textit{Sprints} täglich in einem 1
 
 \begin{figure}[htp]
 \begin{center}
-  \includegraphics[width=\textwidth]{ScrumImperativUnter} %pdf, jpg, png...
+  \includegraphics[scale=0.7]{ScrumImperativUnter} %pdf, jpg, png...
   \caption{Imperative Modellierung Scrum Unterprozess}
   \label{fig:ScrumImperativUnter}
 \end{center}
 \end{figure}
+\clearpage
 
 \subsection{Deklarative Modellierung Scrum}
 
+Abbildung \ref{fig:ScrumDeklarativ} zeigt die deklarative Modelliereung von Scrum.\newline
+Der Prozess beginnt mit der Aktivität \textit{Product Backlog} abschätzen. Dies ist hier durch das init-Label gekennzeichnet. Weiterhin wird diese Aktivität im Prozess genau einmal ausgeführt, was durch das Label 1 dargestellt ist. Das Constraint \textit{precedence} gibt an, dass die Aktivität \textit{Product Backlog abschätzen} vor den Aktivitäten \textit{Product Backlog priorisieren} und \textit{Releasepläne erstellen} ausgeführt werden müssen. Durch das Constarint \textit{response} ist gekennzeichnet, dass die Aktivitäten \textit{Product Backlog priorisieren} und \textit{Releasepläne erstellen} auf jeden Fall nach \textit{Product Backlog abschätzen} genau einmal durchgeführt werden müssen. \newline
+Nach deren Ausführung muss die Aktivität \textit{alle 2-4 Wochen Sprint Planning Meeting durchfuehren} erfolgen. Durch das Constraint \textit{alternate precedence} ist angegeben, dass diese Aktivität immer vor der Aktivität \textit{Sprint Backlog erstellen} ausgeführt werden muss. Somit könnte die nächste Aktivität \textit{Sprint-Backlog erstellen} erst nach der nächsten Ausführung von \textit{alle 2-4 Wochen Sprint Planning Meeting durchfuehren} ausgeführt werden. Durch Setzen des Constraints \textit{alternate precedence} zwischen den Aktivitäten  \textit{alle 2-4 Wochen Sprint Planning Meeting durchfuehren}, \textit{Sprint-Backlog erstellen}, \textit{Sprint-Backlog-Elemente in Tasks einteilen}, \textit{Sprint Rueckblick} in Kombination mit dem Setzen des Constraints \textit{Chain Response} wird hier eine Schleife modelliert, welche darstellen soll, dass all diese Aktivitäten während eines jeden Sprints nacheinander ausgeführt werden und erst beim nachfolgenden Sprint wieder von vorne beginnen.\newline
+Die Aktivitäten \textit{alle 24 Stunden 15-minütiges Scrum-Meeting durchführen} und Tasks abarbeiten können während des Sprints so oft wie nötig durchgeführt werden.
+
+
 \begin{figure}[htp]
 \begin{center}
-  \includegraphics[width=\textwidth]{ScrumDeklarativ} %pdf, jpg, png...
+  \includegraphics[width=\textwidth]{ScrumDec} %pdf, jpg, png...
   \caption{Deklarative Modellierung Scrum}
   \label{fig:ScrumDeklarativ}
 \end{center}
@@ -244,14 +259,17 @@ für die Erstellung und Aktualisierung von Artefakten verantwortlich. Artefakte 
 \subsubsection{Plan and manage iteration- Inception}
 
 Die Aktivität \textit{Plan and manage iteration} wird während des gesamten Projektlebenszyklus ausgeführt. Ihr Ziel ist es, Risiken und Probleme früh genug zu identifizieren, damit diese entschärft werden können, um die Ziele für die Iteration festzulegen und das Team dabei zu unterstützen, diese zu erreichen.\newline
-Die iteration wird durch den Projektmanager und das Team gestartet. Hier findet die Priorisierung der Arbeit für eine gegebene Iteration statt. Der Projektmanager, die Stakeholder und die Teammitglieder einigen sich darauf, was während der Iteration zu entwickeln ist.\newline
+Die Iteration wird durch den Projektmanager und das Team gestartet. Hier findet die Priorisierung der Arbeit für eine gegebene Iteration statt. Der Projektmanager, die Stakeholder und die Teammitglieder einigen sich darauf, was während der Iteration zu entwickeln ist.\newline
 Die Teammitglieder melden sich für die Arbeitsaufgaben, die während der Iteration entwickelt werden müssen. Anschließend teilt sich jedes Teammitglied seine Arbeitsaufgaben selbstständig in Arbeitseinheiten ein und schätzt den Aufwand hierfür ab.\newline
-Während der Iteration trifft sich das Team regelmäßig, um den aktuellen Stand der Arbeit und eventuelle Probleme zu besprechen.
+Während der Iteration trifft sich das Team regelmäßig, um den aktuellen Stand der Arbeit und eventuelle Probleme zu besprechen. \newline
+Abbildung \ref{fig:PlanAndManageIterationInception-2} zeigt die imperative Modellierug von \textit{Plan and manage iteration}. \newline
+Vom Projektmanager sind hierbei nacheinander die Aktivitäten \textit{Iteration planen, Umgebung vorbereiten, Iteration managen} und \textit{Ergebnsse festlegen} durchzuführen und das Team muss nacheinander die Aktivitäten \textit{Arbeitsaufgaben aussuchen, Arbeitsaufgaben in Entwicklungsaufgaben einteilen} sowie \textit{Aufwand abschätzen} ausführen. Hierbei gehen jeweils die Artefakte \textit{Arbeitseinheiten-Liste, Iterationsplan} und \textit{Risiko-Liste} in verschieden Aktivitäten als Input ein und kommen eventuel verändert als Output wieder heraus. \newline
+Die Aktivität \textit{Umgebung vorbereiten} ist als Unterprozess in Abbildung \ref{fig:Umgebungvorbereiten} dargestellt. Hier müssen vom Projektmanager die Aktivitäten \textit{Prozess Maßschneidern} und \textit{Prozess deployen} sequentiell erledigt werden, während der Tool Spezialist die Aufgaben \textit{Tools aufsetzen} und \textit{Tool-Konfiguration und Implementation verifizieren} zu erledigen hat.
 
 
 \begin{figure}[!htbp]
 \begin{center}
-  \includegraphics[width=\linewidth]{PlanAndManageIterationInception-2} %pdf, jpg, png...
+  \includegraphics[scale=0.7]{PlanAndManageIterationInception-2} %pdf, jpg, png...
   \caption{Plan and manage iteration imperativ -Inception}
   \label{fig:PlanAndManageIterationInception-2}
 \end{center}
@@ -259,20 +277,13 @@ Während der Iteration trifft sich das Team regelmäßig, um den aktuellen Stand
 
 \begin{figure}[!htbp]
 \begin{center}
-  \includegraphics[width=\linewidth]{PlanAndManageIterationInception-2Unter} %pdf, jpg, png...
+  \includegraphics[scale=0.7]{Umgebungvorbereiten} %pdf, jpg, png...
   \caption{Plan and manage iteration imperativ -Inception Unterprozess Umgebung vorbereiten} 
-  \label{fig:PlanAndManageIterationInception-2}
+  \label{fig:Umgebungvorbereiten}
 \end{center}
 \end{figure}
 
-
-\begin{figure}[!htbp]
-\begin{center}
-  \includegraphics[width=\linewidth]{PlanAndManageIterationInception-2UnterUnter} %pdf, jpg, png...
-  \caption{Plan and manage iteration imperativ-Inception Unterprozess Prozess maßschneidern}
-  \label{fig:PlanAndManageIterationInception-2UnterUnter}
-\end{center}
-\end{figure}
+\clearpage
 
 
 \subsubsection{Identify and Refine Requirements-Elaboration}
@@ -281,50 +292,19 @@ Während der Iteration trifft sich das Team regelmäßig, um den aktuellen Stand
  Dafür ist es notwendig, zunächst die funktionalen und nicht-funktionalen Anforderungen an das System zu erheben. Genau diese Anforderungen stellen dann die Basis für die Kommunikation und die Übereinstimmung zwischen den Stakeholdern und dem Entwicklungsteam dar, in Bezug auf was das System können muss, um die Wünsche der Stakeholder zu erfüllen.\newline
  Weiterhin müssen die Use-Case-Szenarien und die systemweiten Anforderungen ausführlich genug beschrieben werden, um sicher zu gehen, dass die Anforderungen richtig verstanden wurden und dass diese mit den Erwartungen der Stakeholder übereinstimmen.\newline
  Zudem müssen Testfälle und Testdaten für die Anforderungen entwickelt werden, um ein gemeinsames Verständnis für die spezifischen Bedingungen, die die Lösung erfüllen muss, zu erreichen.
+ In Abbildung \ref{fig:IdentifyAndOutlineKlein} ist die imperative Modellierung von Identify and Refine Requirements abgebildet. \newline
+ Zunächst muss der Analyst die \textit{Anforderungen identifizieren und abgrenzen}, bevor er anschließend die \textit{Use-Case-Szenarien detaillieren} kann. Daraufhin muss er die \textit{Systemweiten Anforderungen detaillieren}, damit der Tester anschließend die \textit{Testfälle erstellen} kann.\newline
+ Hier gehen bei den verschiedenen Aktivitäten die Artefakte \textit{Arbeitseinheitenliste}, \textit{Use Case}, \textit{Glossar}, \textit{Systemweite Anforderungen}, \textit{Use case Modell}, \textit{Technische Spezifikation} und \textit{Testfall} als Input hinein, bzw. als Output heraus.
  
 \begin{figure}[[!htbp]
 \begin{center}
-  \includegraphics[width=\linewidth]{IdentifyAndOutlineRequirements} %pdf, jpg, png...
+  \includegraphics[width=\linewidth]{IdentifyAndOutlineKlein} %pdf, jpg, png...
   \caption{Identify and Refine Requirements-Elaboration}
-  \label{fig:IdentifyAndOutlineRequirements}
+  \label{fig:IdentifyAndOutlineKlein}
 \end{center}
 \end{figure}
 
 
-
-\begin{figure}[!htbp]
-\begin{center}
-  \includegraphics[width=\linewidth]{AnforderungenIdentifizieren} %pdf, jpg, png...
-  \caption{Identify and Refine Requirements-Elaboration Unterprozess Anforderungen identifizieren und abgrenzen}
-  \label{fig:AnforderungenIdentifizieren}
-\end{center}
-\end{figure}
-
-
-\begin{figure}[!htbp]
-\begin{center}
-  \includegraphics[width=\linewidth]{UseCaseSzenarien} %pdf, jpg, png...
-  \caption{Identify and Refine Requirements-Elaboration Unterprozess Use-Case-Szenarien detaillieren}
-  \label{fig:UseCaseSzenarien}
-\end{center}
-\end{figure}
-
-
-\begin{figure}[[!htbp]
-\begin{center}
-  \includegraphics[width=\linewidth]{SystemweiteAnforderungen} %pdf, jpg, png...
-  \caption{Identify and Refine Requirements-Elaboration Unterprozess Systemweite Anforderungen definieren}
-  \label{fig:SystemweiteAnforderungen}
-\end{center}
-\end{figure}
-
-\begin{figure}[!htbp]
-\begin{center}
-  \includegraphics[width=\linewidth]{TestfalleErstellen} %pdf, jpg, png...
-  \caption{Identify and Refine Requirements-Elaboration Unterprozess Testfälle erstellen}
-  \label{fig:TestfalleErstellen}
-\end{center}
-\end{figure}
 
 \subsubsection{Deploy Release-Transition}
 
@@ -334,104 +314,36 @@ Hierfür ist es notwendig ein komplettes, bereitstellungsfähiges Paket zu erste
  Außerdem muss sichergestellt werden, dass der Roll-Out aus klaren, geprüften und wiederholbaren Anweisungen besteht und das Risiko eines Bereitstellungsfehlers muss minimiert werden. \newline
  Zudem muss sichergestellt werden, dass eine Release zu keinen ungewollten Unterbrechungen im Ablauf in der Produktionsumgebung führt. \newline
  Falls eine Release Probleme veursacht oder sie von den Stakeholdern als untauglich empfunden wird, muss diese Release von der Produktionsumgebung so schnell wie möglich entfernt werden. \newline
- Zusätzlich muss dafür gesorgt werden, dass Informationen über eine anstehende Release weitest möglich verteilt werden.
+ Zusätzlich muss dafür gesorgt werden, dass Informationen über eine anstehende Release weitest möglich verteilt werden.\newline
+ 
+  Abbildung \ref{fig:DeployReleaseTransitionKlein} zeigt die imperative Modellierung von Deploy Release.\newline
+  Somit muss der Entwickler zunächst die \textit{Release zusammenstellen}, bevor der Deployment Engineer nacheinander die Aktivitäten \textit{Deploymentplan ausführen} und \textit{erfolgreiches Deployment sicherstellen} ausführt. Falls das Deployment erfolgreich ist, wird gleich anschließend die Aktivität \textit{Releasemitteilungen übermitteln} ausgeführt. Falls das Deployment nicht erfolgreich ist, muss zunächst die Aktivität \textit{Backoutplan ausführen} erledigt werden und erst danach die Aktivität \textit{Releasemitteilungen übermitteln} ausgeführt werden.
+
+
 \begin{figure}[!htbp]
 \begin{center}
-  \includegraphics[width=\linewidth]{DeployReleaseTransition} %pdf, jpg, png...
+  \includegraphics[width=\linewidth]{DeployReleaseTransitionKlein} %pdf, jpg, png...
   \caption{Deploy Release-Transition}
-  \label{fig:DeployRelease}
+  \label{fig:DeployReleaseTransitionKlein}
 \end{center}
 \end{figure}
 
-\begin{figure}[!htbp]
-\begin{center}
-  \includegraphics[width=\linewidth]{Releasezusammenstellen} %pdf, jpg, png...
-  \caption{Deploy Release-Transition Unterprozess Release zusammen stellen}
-  \label{fig:Releasezusammenstellen}
-\end{center}
-\end{figure}
-
-\begin{figure}[!htbp]
-\begin{center}
-  \includegraphics[width=\linewidth]{Deploymentplanausfuhren} %pdf, jpg, png...
-  \caption{Deploy Release-Transition Unterprozess Deploymentplan ausführen}
-  \label{fig:Deploymentplanausfuhren}
-\end{center}
-\end{figure}
-
-\begin{figure}[!htbp]
-\begin{center}
-  \includegraphics[width=\linewidth]{erfolgreichesDeploymentsicherstellen} %pdf, jpg, png...
-  \caption{Deploy Release-Transition Unterprozess Erfolgreiches Deployment sicherstellen}
-  \label{fig:erfolgreichesDeploymentsicherstellen}
-\end{center}
-\end{figure}
-
-\begin{figure}[!htbp]
-\begin{center}
-  \includegraphics[width=\linewidth]{Backoutplanausfuhren} %pdf, jpg, png...
-  \caption{Deploy Release-Transition Unterprozess Backoutplan ausführen}
-  \label{fig:Backoutplanausfuhren}
-\end{center}
-\end{figure}
-
-
-\begin{figure}[!htbp]
-\begin{center}
-  \includegraphics[width=\linewidth]{ReleaseMitteilungenubermitteln} %pdf, jpg, png...
-  \caption{Deploy Release-Transition Unterprozess Release Mitteilungen übermitteln}
-  \label{fig:Backoutplanausfuhren}
-\end{center}
-\end{figure}
 
 \subsubsection{Develop Product Documentation-Construction}
  Das Ziel der Aktivität Develop Product Documentation ist es, die Produktdokumentation und Trainingsmaterial vor zu bereiten. Da die Produktdokumentation oftmals erst nach Abschluß der Entwicklungstätigkeiten erstellt wird, muss sichergstellt werden, dass die Funktionen die während einer Release entwickelt werden klar dokumentiert werden, solange die Funktionalität noch frisch in den Köpfen der Teammitglieder vorhanden ist.\newline
  Hierfür ist es notwendig, dass genug Informationen über die Funktionen, die in einer bestimmten Release entwickelt wurden, dokumentiert werden, um dem Kunden während der gesamten Lebenszeit des Produkts nützlich zu sein.\newline
  Weiterhin müssen den Endnutzern nützliche Informationen bereit gestellt werden in Form von Benutzerhandbüchern, Tutorials, häufig gestellte Fragen (FAQs), Online-Hilfedateien, Installationsanweisungen und Betriebsabläufe. \newline
  Zudem muss sichergestellt werden, dass diejenigen, die mit der Unterstützung des Systems beauftragt sind, genug Informationen über das Produkt haben, um ihre Arbeit effektiv durchzuführen, nachdem das Produkt produktiv gegangen ist. \newline
- Außerdem muss die Einführung des Produkts zu ermöglicht werden und dessen ordnungsgemäße Verwendung gewährleistet werden.
+ Außerdem muss die Einführung des Produkts zu ermöglicht werden und dessen ordnungsgemäße Verwendung gewährleistet werden.\newline
+ 
+ Die imperative Modellierung von Develop Product Documentation kann Abbildung \ref{fig:DevelopProductDocumentationKlein} entnommen werden.\newline
+ Hier sind vom technischen Schreiber nacheinander die Aktivitäten \textit{Produktdokumentation erstellen}, \textit{Benutzerdokumentation erstellen}, \textit{Unterstützungsdokumentation erstellen} und \textit{Trainingsmaterial erstellen} auszuführen. Aus den jeweiligen Aktivitäten enstehen sodann die Artefakte \textit{Produktdokumentation, Benutzerdokumentation, Unterstützungsdokumentation} und \textit{Trainingsmaterial}.
+ 
 \begin{figure}[!htbp]
 \begin{center}
-  \includegraphics[width=\linewidth]{DevelopProductDocumentation} %pdf, jpg, png...
+  \includegraphics[width=\linewidth]{DevelopProductDocumentationKlein} %pdf, jpg, png...
   \caption{Develop Product Documentation-Construction}
-  \label{fig:DevelopProductDocumentation}
-\end{center}
-\end{figure}
-
-\begin{figure}[!htbp]
-\begin{center}
-  \includegraphics[width=\linewidth]{ProduktdokumentationErstellen} %pdf, jpg, png...
-  \caption{Develop Product Documentation-Construction Unterprozess Produktdokumentation erstellen}
-  \label{fig:ProduktdokumentationErstellen}
-\end{center}
-\end{figure}
-
-
-
-
-\begin{figure}[!htbp]
-\begin{center}
-  \includegraphics[width=\linewidth]{BenutzerDokumentationErstellen} %pdf, jpg, png...
-  \caption{Develop Product Documentation-Construction Unterprozess Benutzerdokumentation erstellen}
-  \label{fig:BenutzerDokumentationErstellen}
-\end{center}
-\end{figure}
-
-\clearpage
-
-\begin{figure}[!htbp]
-\begin{center}
-  \includegraphics[width=\linewidth]{UnterstuetzungsdokumentationErstellen} %pdf, jpg, png...
-  \caption{Develop Product Documentation-Construction Unterprozess Unterstützungsdokumentation erstellen}
-  \label{fig:UnterstuetzungsdokumentationErstellen}
-\end{center}
-\end{figure}
-
-\begin{figure}[!htbp]
-\begin{center}
-  \includegraphics[width=\linewidth]{TrainingsmaterialErstellen} %pdf, jpg, png...
-  \caption{Develop Product Documentation-Construction Unterprozess Trainingsmaterial erstellen}
-  \label{fig:TrainingsmaterialErstellen}
+  \label{fig:DevelopProductDocumentationKlein}
 \end{center}
 \end{figure}
 
@@ -452,9 +364,9 @@ Hierfür ist es notwendig ein komplettes, bereitstellungsfähiges Paket zu erste
 
 \begin{figure}[htp]
 \begin{center}
-  \includegraphics[width=\linewidth]{PlanAndManageIterationDec} %pdf, jpg, png...
+  \includegraphics[width=\linewidth]{PlanIterationKlein} %pdf, jpg, png...
   \caption{Plan and manage iteration deklarativ}
-  \label{fig:PlanIterationdeclare}
+  \label{fig:PlanIterationKlein}
 \end{center}
 \end{figure}
 \subsection{Vergleich}
