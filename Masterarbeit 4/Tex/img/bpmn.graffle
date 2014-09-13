@@ -3635,7 +3635,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2014-09-06 08:09:59 +0000</string>
+	<string>2014-09-13 12:38:55 +0000</string>
 	<key>Modifier</key>
 	<string>Bianka Hampp</string>
 	<key>NotesVisible</key>
@@ -3725,7 +3725,7 @@
 		<key>SidebarWidth</key>
 		<integer>120</integer>
 		<key>VisibleRegion</key>
-		<string>{{-82, 196}, {677, 587}}</string>
+		<string>{{-82, 0}, {677, 587}}</string>
 		<key>Zoom</key>
 		<real>1</real>
 		<key>ZoomValues</key>

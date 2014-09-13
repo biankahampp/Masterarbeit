@@ -246,6 +246,10 @@ für die Erstellung und Aktualisierung von Artefakten verantwortlich. Artefakte 
  Falls bei der Ausführung der Tests Fehler ersichtlich werden, muss eine Lösung für diesen Fehler implementiert werden und die Entwicklertests müssen erneut ausgeführt werden. Dies wird solange wiederholt, bis alle Tests bestanden sind.\newline
  Auch wenn alle Tests bestanden werden, sollte der Entwurf an dieser Stelle nochmals überdacht werden. Falls hier beschlossen wird, dass der Code überarbeitet werden muss, muss im Prozess zurückgegangen werden und erneut eine Lösung designt werden, da eine Änderung des Codes die Implementation und die Entwicklertests beeinflussen könnte.\newline
  Da es am Besten ist die Implementierungsteile so klein wie möglich zu halten, sollte zunächst eine kleine Design-Lösung für einen Teil der Arbeitsaufgabe entwickelt werden. Anschließend sollte dies für weitere kleine Teile solange wiederholt werden, bis die gesamte Arbeitsaufgabe implementiert ist. \newline
+ In Abbildung \ref{fig:Develop} ist die imperative Modellierung von develop Solution Increment abgebildet.\newline
+ Die XOR-Verknüpfung am Anfang führt im Falle einer trivialen Änderung zur sofortigen Ausführung der Aktivität \textit{Entwicklertest implementieren}. Falls es sich jedoch um eine typische Änderung handelt, muss zuvor die Aktivität \ref{fig:Lösung designen} ausgeführt werden. Im Anschluß an \textit{Entwicklertest implementieren} muss die Aktivität \textit{Entwicklertest ausführen} durchgeführt werden.\newline
+ Hiernach wird im Falle eines fehlgeschlagenen Tests zunächst eine \textit{Lösung implementiert} und anschließend erneut der \textit{Entwicklertest ausgeführt}. \newline
+ Wenn der Test bestanden ist muss am XOR-Gateway entschieden werden, ob der Code gut designt ist. Falls nein, muss erneut eine Lösung designt werden. Falls doch, kann der Code integriert werden. Ist die Arbeit vollständig erledigt, so ist der Prozess beendet. Wenn jedoch noch weitere Arbeit vorhanden ist, beginnt er von vorne.
  
  
 \begin{figure}[htp]
@@ -347,11 +351,14 @@ Hierfür ist es notwendig ein komplettes, bereitstellungsfähiges Paket zu erste
 \end{center}
 \end{figure}
 
-
+\clearpage
 
 \subsection{Deklarative Modellierung Open UP}
 
-
+Die deklarative Modellierung von Develop Solution Increment kann Abbildung \ref{fig:Develop} entnommen werden.\newline
+Falls eine \textit{Lösung designt} wird, muss danach der \textit{Entwicklertest implementiert} werden. Dies ist durch das Constraint \textit{chain response} zwischen diesen beiden Aktivitäten verlangt. Wenn der Entwicklertest implementiert wird, muss er danach auch ausgeführt werden und er kann nur ausgeführt werden, falls er vorher implementiert wurde (Constraints \textit{chain response} und \textit{precedence}).\newline
+Bevor die Lösung implementiert werden kann, muss vorher der Entwicklertest ausgeführt werden (Constraint \textit{precedence}) und nach der Implementierung der Lösung muss nochmals der Entwicklertest ausgeführt werden (Constraint chain response).\newline
+Vor dem \textit{Integrieren} muss der Entwicklertest ausgeführt worden sein, was durch das Constraint \textit{precedence} vorgegeben wird.
 \begin{figure}[htp]
 \begin{center}
   \includegraphics[width=\linewidth]{DevelopSolutionIncrement} %pdf, jpg, png...
@@ -364,34 +371,46 @@ Hierfür ist es notwendig ein komplettes, bereitstellungsfähiges Paket zu erste
 
 \begin{figure}[htp]
 \begin{center}
-  \includegraphics[width=\linewidth]{PlanIterationKlein} %pdf, jpg, png...
+  \includegraphics[width=\linewidth]{PlanAndmanageDecKlein} %pdf, jpg, png...
   \caption{Plan and manage iteration deklarativ}
-  \label{fig:PlanIterationKlein}
+  \label{fig:PlanAndmanageDecKlein}
 \end{center}
 \end{figure}
 \subsection{Vergleich}
-
+Abbildung \ref{fig:DeployRelease} zeigt die deklarative Modellierung von Deploy Release.\newline
+Zu Beginn muss Die aktivität \textit{Release zusammenstellen} bearbeitet werden, was durch das init-Constraint vorgegeben ist. Danach wird muss die Aktivität \textit{Deploymentplan ausfuehren} durchgeführt werden (Constraint response), aber erst nachdem \textit{Release zusammenstellen} durchgeführt wurde (Contsraint precedence).\newline
+Die gleichen Constraints gelten zwischen den Aktivitäten \textit{Deploymentplan ausfuehren} und \textit{erfolgreiches Deployment sicherstellen}.\newline
+Nach Abschluss der Aktivität \textit{erfolgreiches Deployment sicherstellen} kann entweder die Aktivität \textit{Backoutplan ausfuehren} ausgeführt werden, welche optinal ist (0..1 Constraint) oder die Aktivität \textit{Release-Mitteilungen uebermitteln}, welche auf jeden Fall ausgeführt werden muss.\newline 
+Nach Ausführung von \textit{Release-Mitteilungen uebermitteln} darf \textit{Backoutplan ausfuehren} nicht mehr durchgeführt werden. Dies stellt das Constraint \textit{not succession} sicher.
 \begin{figure}[htp]
 \begin{center}
-  \includegraphics[width=\linewidth]{DeployRelease} %pdf, jpg, png...
+  \includegraphics[width=\linewidth]{DeployReleaseDecKlein} %pdf, jpg, png...
   \caption{Deploy Release-Transition}
-  \label{fig:DeployRelease}
+  \label{fig:DeployReleaseDecKlein}
 \end{center}
 \end{figure}
 
-\begin{figure}[htp]
+
+In Abbildung \ref{fig:IndetifyAndRefineRequirementsDec} ist die deklarative Modellierung von Identify and Refine Requirements dargestellt.\newline
+Zu Beginn muss die Aktivität \textit{Anforderungen identifizieren und abgrenzen} ausgeführt werden, was durch das init-Label dargestellt ist. Im Anschluss muss die Aktivität \textit{Use-Case-Szenarien detaillieren} ausgeführt werden, was durch das Constraint \textit{chain response} festgelegt ist. Das Constraint \textit{precedence} legt hingegen fest, dass bevor \textit{Use-Case-Szenarien detaillieren} ausgeführt werden kann, zunächst \textit{Anforderungen identifizieren und abgrenzen}  bearbeitet werden muss. Die gleichen Constraints gelten zwischen \textit{Use-Case-Szenarien detaillieren} und \textit{Systemweite Anforderungen detaillieren} sowie zwischen \textit{Systemweite Anforderungen detaillieren} und \textit{Testfaelle erstellen}. Alle Aktivitäten werden genau einmal ausgeführt, was jeweils durch das 1-Label dargestellt ist. 
+\begin{figure}[h]
 \begin{center}
-  \includegraphics[width=\linewidth]{IdentifyAndRefineRequirementsDec} %pdf, jpg, png...
+  \includegraphics[width=\linewidth]{IdentifyAndRefineDecKlein} %pdf, jpg, png...
   \caption{Identify and refine requirements-Elaboration}
-  \label{fig:IndetifyAndRefineRequirementsDec}
+  \label{fig:IdentifyAndRefineDecKlein}
 \end{center}
 \end{figure}
 
+
+
+Abbildung \ref{fig:IndetifyAndRefineRequirementsDec} zeigt die deklarative Modellierung von Develop product Documentation.\newline
+Zu Beginn muss die Aktivität \textit{Produktdokumentation entwickeln} ausgeführt werden, was durch das init-Label dargestellt ist. Im Anschluss muss die Aktivität \textit{Benutzerdokumentation entwickeln} ausgeführt werden. Dies ist durch das Constraint \textit{chain response} festgelegt ist. Das Constraint \textit{precedence} legt hingegen fest, dass bevor \textit{Benutzerdokumentation entwickeln} ausgeführt werden kann, zunächst \textit{Produktdokumentation entwickeln} bearbeitet werden muss. Die gleichen Constraints gelten zwischen \textit{Benutzerdokumentation entwickeln} und \textit{Unterstützungsdokumentation entwickeln} sowie zwischen \textit{Unterstützungsdokumentation entwickeln} und \textit{Trainingsmaterial entwickeln}. Alle Aktivitäten werden genau einmal ausgeführt, was jeweils durch das 1-Label dargestellt ist. 
+
 \begin{figure}[htp]
 \begin{center}
-  \includegraphics[width=\linewidth]{DevelopProductDocumentationDec} %pdf, jpg, png...
+  \includegraphics[scale=0.6]{DevelopProductDecKlein} %pdf, jpg, png...
   \caption{Develop Product Documentation-Construction}
-  \label{fig:DevelopProductDocumentationDec}
+  \label{fig:DevelopProductDecKlein}
 \end{center}
 \end{figure}
 
@@ -511,50 +530,20 @@ Die Entscheidungspunkte für die Arbeitgeber/Arbeitnehmer Schnittstelle setzen s
   \label{fig:v-modell}
 \end{center}
 \end{sidewaysfigure}
+
 \subsection{Imperative Modellierung V-Modell}
 
 \subsubsection{Angebots- und Vetragswesen}
+
 \begin{figure}[!htbp]
 \begin{center}
-  \includegraphics[width=\linewidth]{AngebotsVetragswesenVModell} %pdf, jpg, png...
-  \caption{Angebots- und Vetragswesen V-Modell}
-  \label{fig:AngebotsVetragswesenVModell}
+  \includegraphics[width=\linewidth]{AngebotsVetragswesenKlein} %pdf, jpg, png...
+  \caption{Angebots- und Vetragswesen V-Modell - imperativ}
+  \label{fig:AngebotsVetragswesenKlein}
 \end{center}
 \end{figure}
 
 
-\begin{figure}[!htbp]
-\begin{center}
-  \includegraphics[width=\linewidth]{AngebotErstellenVModell} %pdf, jpg, png...
-  \caption{Angebots- und Vetragswesen V-Modell- Unterprozess Angebot erstellen}
-  \label{fig:AngebotErstellenVModell}
-\end{center}
-\end{figure}
-
-\begin{figure}[!htbp]
-\begin{center}
-  \includegraphics[width=\linewidth]{Vertragabschliessen} %pdf, jpg, png...
-  \caption{Angebots- und Vetragswesen V-Modell- Unterprozess Vertrag abschließen}
-  \label{fig:Vertragabschliessen}
-\end{center}
-\end{figure}
-
-
-\begin{figure}[!htbp]
-\begin{center}
-  \includegraphics[width=\linewidth]{Vertragszusatzabschlieen} %pdf, jpg, png...
-  \caption{Angebots- und Vetragswesen V-Modell- Unterprozess Vertragzusatz abschließen}
-  \label{fig:Vertragszusatzabschlieen}
-\end{center}
-\end{figure}
-
-\begin{figure}[!htbp]
-\begin{center}
-  \includegraphics[width=\linewidth]{Lieferungerstellen} %pdf, jpg, png...
-  \caption{Angebots- und Vetragswesen V-Modell- Unterprozess Lieferung erstellen}
-  \label{fig:Lieferungerstellen}
-\end{center}
-\end{figure}
 
 
 \subsubsection{Planung und Steuerung}
@@ -562,64 +551,13 @@ Die Entscheidungspunkte für die Arbeitgeber/Arbeitnehmer Schnittstelle setzen s
 
 \begin{figure}[!htbp]
 \begin{center}
-  \includegraphics[width=\linewidth]{PlanungUndSteuerung} %pdf, jpg, png...
-  \caption{Planung und Steuerung}
-  \label{fig:PlanungUndSteuerung}
-\end{center}
-\end{figure}
-
-\begin{figure}[!htbp]
-\begin{center}
-  \includegraphics[width=\linewidth]{ProjektfortschrittsEntscheidung} %pdf, jpg, png...
-  \caption{Planung und Steuerung - Unterprozess Projektfortschrittsentscheidung herbeiführen}
-  \label{fig:ProjektFortschrittsentscheidung}
-\end{center}
-\end{figure}
-
-\begin{figure}[!htbp]
-\begin{center}
-  \includegraphics[width=\linewidth]{ProjekthandbuchErstellen} %pdf, jpg, png...
-  \caption{Planung und Steuerung - Unterprozess Projekthandbuch erstellen}
-  \label{fig:ProjekthandbuchErstellen}
-\end{center}
-\end{figure}
-
-\begin{figure}[!htbp]
-\begin{center}
-  \includegraphics[width=\linewidth]{QSHandbuch} %pdf, jpg, png...
-  \caption{Planung und Steuerung - Unterprozess QS-Handbuch erstellen}
-  \label{fig:QSHandbuch}
+  \includegraphics[width=\linewidth]{PlanungSteuerungKlein} %pdf, jpg, png...
+  \caption{Planung und Steuerung V-Modell - imperativ}
+  \label{fig:PlanungSteuerungKlein}
 \end{center}
 \end{figure}
 
 
-\begin{figure}[!htbp]
-\begin{center}
-  \includegraphics[width=\linewidth]{Schatzungdurchfuhren} %pdf, jpg, png...
-  \caption{Planung und Steuerung - Schätzung durchführen}
-  \label{fig:Schatzungdurchfuhren}
-\end{center}
-\end{figure}
-
-
-
-\begin{figure}[!htbp]
-\begin{center}
-  \includegraphics[width=\linewidth]{RisikenManagen} %pdf, jpg, png...
-  \caption{Planung und Steuerung - Risiken managen}
-  \label{fig:RisikenManagen}
-\end{center}
-\end{figure}
-
-
-
-\begin{figure}[!htbp]
-\begin{center}
-  \includegraphics[width=\linewidth]{ProjektPlanen} %pdf, jpg, png...
-  \caption{Planung und Steuerung - Projekt planen}
-  \label{fig:ProjektPlanen}
-\end{center}
-\end{figure}
 
 \clearpage
 
@@ -629,93 +567,9 @@ Die Entscheidungspunkte für die Arbeitgeber/Arbeitnehmer Schnittstelle setzen s
 
 \begin{figure}[!htbp]
 \begin{center}
-  \includegraphics[width=\linewidth]{Systementwurf} %pdf, jpg, png...
-  \caption{Systementwurf-imperativ}
-  \label{fig:Systementwurf}
-\end{center}
-\end{figure}
-
-\begin{figure}[!htbp]
-\begin{center}
-  \includegraphics[width=\linewidth]{SystemarchitekturErstellen} %pdf, jpg, png...
-  \caption{Systementwurf-imperativ-Unterprozess Systemarchitektur erstellen}
-  \label{fig:SystemarchitekturErstellen}
-\end{center}
-\end{figure}
-
-\begin{figure}[!htbp]
-\begin{center}
-  \includegraphics[width=\linewidth]{UnterstutzungsSystemarchitektur} %pdf, jpg, png...
-  \caption{Systementwurf-imperativ-Unterprozess Unterstutzungssystemarchitektur erstellen}
-  \label{fig:SystemarchitekturErstellen}
-\end{center}
-\end{figure}
-
-
-\begin{figure}[!htbp]
-\begin{center}
-  \includegraphics[width=\linewidth]{Styleguide} %pdf, jpg, png...
-  \caption{Systementwurf-imperativ-Unterprozess Styleguide fur die Mensch-Maschine-Schnittstelle erstellen}
-  \label{fig:Styleguide}
-\end{center}
-\end{figure}
-
-\begin{figure}[!htbp]
-\begin{center}
-  \includegraphics[width=\linewidth]{HW-Architekturerstellen} %pdf, jpg, png...
-  \caption{Systementwurf-imperativ-Unterprozess HW-Architektur erstellen}
-  \label{fig:HW-Architekturerstellen}
-\end{center}
-\end{figure}
-
-
-\begin{figure}[!htbp]
-\begin{center}
-  \includegraphics[width=\linewidth]{SW-Architekturerstellen} %pdf, jpg, png...
-  \caption{Systementwurf-imperativ-Unterprozess SW-Architektur erstellen}
-  \label{fig:SW-Architekturerstellen}
-\end{center}
-\end{figure}
-
-\begin{figure}[!htbp]
-\begin{center}
-  \includegraphics[width=\linewidth]{Datenbankentwurferstellen} %pdf, jpg, png...
-  \caption{Systementwurf-imperativ-Datenbankentwurf erstellen}
-  \label{fig:Datenbankentwurferstellen}
-\end{center}
-\end{figure}
-
-\begin{figure}[!htbp]
-\begin{center}
-  \includegraphics[width=\linewidth]{Implementierungs} %pdf, jpg, png...
-  \caption{Systementwurf-imperativ-Implementierungs-, Integrations- und Prufkonzept System erstellen}
-  \label{fig:Implementierungs-, Integrations- und Prufkonzept System erstellen}
-\end{center}
-\end{figure}
-
-
-\begin{figure}[!htbp]
-\begin{center}
-  \includegraphics[width=\linewidth]{Integrations} %pdf, jpg, png...
-  \caption{Systementwurf-imperativ-Implementierungs-, Integrations- und Prufkonzept Unterstutzungssystem erstellen}
-  \label{fig:Implementierungs-, Integrations- und Prufkonzept Unterstutzungssystem erstellen}
-\end{center}
-\end{figure}
-
-\begin{figure}[!htbp]
-\begin{center}
-  \includegraphics[width=\linewidth]{Prufkonzept} %pdf, jpg, png...
-  \caption{Systementwurf-imperativ-Implementierungs-, Integrations- und Prufkonzept SW erstellen}
-  \label{fig:Implementierungs-, Integrations- und Prufkonzept SW erstellen}
-\end{center}
-\end{figure}
-
-
-\begin{figure}[!htbp]
-\begin{center}
-  \includegraphics[width=\linewidth]{Migrationskonzepterstellen} %pdf, jpg, png...
-  \caption{Systementwurf-imperativ-Migrationskonzept erstellen}
-  \label{fig:Migrationskonzepterstellen}
+  \includegraphics[width=\linewidth]{SystementwurfKlein} %pdf, jpg, png...
+  \caption{Systementwurf V-Modell - imperativ}
+  \label{fig:SystementwurfKlein}
 \end{center}
 \end{figure}
 
@@ -724,28 +578,12 @@ Die Entscheidungspunkte für die Arbeitgeber/Arbeitnehmer Schnittstelle setzen s
 
 \begin{figure}[!htbp]
 \begin{center}
-  \includegraphics[width=\linewidth]{Berichtswesen} %pdf, jpg, png...
-  \caption{Berichtswesemn-imperativ}
-  \label{fig:ProjektPlanen}
+  \includegraphics[width=\linewidth]{BerichtswesenimpKlein} %pdf, jpg, png...
+  \caption{Berichtswesen-imperativ}
+  \label{fig:BerichtswesenimpKlein}
 \end{center}
 \end{figure}
 
-\begin{figure}[!htbp]
-\begin{center}
-  \includegraphics[width=\linewidth]{Projektstatusbericht} %pdf, jpg, png...
-  \caption{Berichtswesemn-imperativ-Unterprozess Projektstatusbericht erstellen}
-  \label{fig:Projektstatusbericht}
-\end{center}
-\end{figure}
-
-
-\begin{figure}[!htbp]
-\begin{center}
-  \includegraphics[width=\linewidth]{Besprechung} %pdf, jpg, png...
-  \caption{Berichtswesemn-imperativ-Unterprozess Besprechung durchführen}
-  \label{fig:Besprechung}
-\end{center}
-\end{figure}
 
 \subsection{Deklarative Modellierung V-Modell}
 
@@ -753,30 +591,40 @@ Die Entscheidungspunkte für die Arbeitgeber/Arbeitnehmer Schnittstelle setzen s
 
 \begin{figure}[!htbp]
 \begin{center}
-  \includegraphics[width=\linewidth]{Angebotswesen} %pdf, jpg, png...
+  \includegraphics[width=\linewidth]{AngebotErstellenKlein} %pdf, jpg, png...
   \caption{Angebots- und Vertragswesen - deklarativ}
-  \label{fig:Angebotswesen}
+  \label{fig:AngebotErstellenKlein}
 \end{center}
 \end{figure}
 
 
 \begin{figure}[!htbp]
 \begin{center}
-  \includegraphics[width=\linewidth]{Planung} %pdf, jpg, png...
+  \includegraphics[width=\linewidth]{PlanungKleinDec} %pdf, jpg, png...
   \caption{Planung und Steuerung - deklarativ}
-  \label{fig:Planung}
+  \label{fig:PlanungKleinDec}
+\end{center}
+\end{figure}
+
+\begin{figure}[!htbp]
+\begin{center}
+  \includegraphics[width=\linewidth]{SystementwurfKleinDec} %pdf, jpg, png...
+  \caption{Systementwurf - deklarativ}
+  \label{fig:SystementwurfKleinDec}
+\end{center}
+\end{figure}
+
+\begin{figure}[!htbp]
+\begin{center}
+  \includegraphics[width=\linewidth]{BerichtswesenKlein} %pdf, jpg, png...
+  \caption{Berichtswesen - deklarativ}
+  \label{fig:BerichtswesenKlein}
 \end{center}
 \end{figure}
 \subsection{Vergleich}
 
-\begin{figure}[!htbp]
-\begin{center}
-  \includegraphics[width=\linewidth]{BerichtswesenDec} %pdf, jpg, png...
-  \caption{Berichtswesen - deklarativ}
-  \label{fig:Planung}
-\end{center}
-\end{figure}
 \subsection{Vergleich}
+
 
 
 
