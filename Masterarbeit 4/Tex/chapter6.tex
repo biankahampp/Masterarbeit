@@ -376,8 +376,7 @@ Vor dem \textit{Integrieren} muss der Entwicklertest ausgeführt worden sein, wa
   \label{fig:PlanAndmanageDecKlein}
 \end{center}
 \end{figure}
-\subsection{Vergleich}
-Abbildung \ref{fig:DeployRelease} zeigt die deklarative Modellierung von Deploy Release.\newline
+Abbildung \ref{fig:DeployReleaseDecKlein} zeigt die deklarative Modellierung von Deploy Release.\newline
 Zu Beginn muss Die aktivität \textit{Release zusammenstellen} bearbeitet werden, was durch das init-Constraint vorgegeben ist. Danach wird muss die Aktivität \textit{Deploymentplan ausfuehren} durchgeführt werden (Constraint response), aber erst nachdem \textit{Release zusammenstellen} durchgeführt wurde (Contsraint precedence).\newline
 Die gleichen Constraints gelten zwischen den Aktivitäten \textit{Deploymentplan ausfuehren} und \textit{erfolgreiches Deployment sicherstellen}.\newline
 Nach Abschluss der Aktivität \textit{erfolgreiches Deployment sicherstellen} kann entweder die Aktivität \textit{Backoutplan ausfuehren} ausgeführt werden, welche optinal ist (0..1 Constraint) oder die Aktivität \textit{Release-Mitteilungen uebermitteln}, welche auf jeden Fall ausgeführt werden muss.\newline 
@@ -391,7 +390,7 @@ Nach Ausführung von \textit{Release-Mitteilungen uebermitteln} darf \textit{Bac
 \end{figure}
 
 
-In Abbildung \ref{fig:IndetifyAndRefineRequirementsDec} ist die deklarative Modellierung von Identify and Refine Requirements dargestellt.\newline
+In Abbildung \ref{fig:IdentifyAndRefineDecKlein} ist die deklarative Modellierung von Identify and Refine Requirements dargestellt.\newline
 Zu Beginn muss die Aktivität \textit{Anforderungen identifizieren und abgrenzen} ausgeführt werden, was durch das init-Label dargestellt ist. Im Anschluss muss die Aktivität \textit{Use-Case-Szenarien detaillieren} ausgeführt werden, was durch das Constraint \textit{chain response} festgelegt ist. Das Constraint \textit{precedence} legt hingegen fest, dass bevor \textit{Use-Case-Szenarien detaillieren} ausgeführt werden kann, zunächst \textit{Anforderungen identifizieren und abgrenzen}  bearbeitet werden muss. Die gleichen Constraints gelten zwischen \textit{Use-Case-Szenarien detaillieren} und \textit{Systemweite Anforderungen detaillieren} sowie zwischen \textit{Systemweite Anforderungen detaillieren} und \textit{Testfaelle erstellen}. Alle Aktivitäten werden genau einmal ausgeführt, was jeweils durch das 1-Label dargestellt ist. 
 \begin{figure}[h]
 \begin{center}
@@ -403,7 +402,7 @@ Zu Beginn muss die Aktivität \textit{Anforderungen identifizieren und abgrenzen
 
 
 
-Abbildung \ref{fig:IndetifyAndRefineRequirementsDec} zeigt die deklarative Modellierung von Develop product Documentation.\newline
+Abbildung \ref{fig:DevelopProductDecKlein} zeigt die deklarative Modellierung von Develop product Documentation.\newline
 Zu Beginn muss die Aktivität \textit{Produktdokumentation entwickeln} ausgeführt werden, was durch das init-Label dargestellt ist. Im Anschluss muss die Aktivität \textit{Benutzerdokumentation entwickeln} ausgeführt werden. Dies ist durch das Constraint \textit{chain response} festgelegt ist. Das Constraint \textit{precedence} legt hingegen fest, dass bevor \textit{Benutzerdokumentation entwickeln} ausgeführt werden kann, zunächst \textit{Produktdokumentation entwickeln} bearbeitet werden muss. Die gleichen Constraints gelten zwischen \textit{Benutzerdokumentation entwickeln} und \textit{Unterstützungsdokumentation entwickeln} sowie zwischen \textit{Unterstützungsdokumentation entwickeln} und \textit{Trainingsmaterial entwickeln}. Alle Aktivitäten werden genau einmal ausgeführt, was jeweils durch das 1-Label dargestellt ist. 
 
 \begin{figure}[htp]
@@ -415,6 +414,7 @@ Zu Beginn muss die Aktivität \textit{Produktdokumentation entwickeln} ausgefüh
 \end{figure}
 
 
+\subsection{Vergleich}
 
 
 
@@ -534,6 +534,10 @@ Die Entscheidungspunkte für die Arbeitgeber/Arbeitnehmer Schnittstelle setzen s
 \subsection{Imperative Modellierung V-Modell}
 
 \subsubsection{Angebots- und Vetragswesen}
+Die imperative Modellierung von Angebots- und Vertragswesen zeigt Abbildung \ref{fig:AngebotsVertragswesenKlein}. \newline
+Zunächst wird in der Aktivität\textit{Angebot erstellen} ein \textit{Angebot} angefertigt.\newlineDie nachfolgende Aktivität \textit{Vertrag abschließen} bringt den \textit{Vertrag (AG)} als Output hervor.\newlineAnschließend wird in der folgenden Aktivität \textit{Vertragszusatz abschließen} der \textit{Vertragszusatz (AG)} abgeschlossen.\newlineDie Aktivität \textit{Lieferung erstellen und ausliefern} erbringt sodann die \textit{Lieferung}hervor.\newlineAus der letzten Aktivität \textit{Abnahmeerklärung erhalten} kommt die \textit{Abnahmeerklärung(AG)} heraus.
+
+
 
 \begin{figure}[!htbp]
 \begin{center}
@@ -547,7 +551,8 @@ Die Entscheidungspunkte für die Arbeitgeber/Arbeitnehmer Schnittstelle setzen s
 
 
 \subsubsection{Planung und Steuerung}
-
+In Abbildung \ref{fig:PlanungSteuerungKlein} ist die imperative Modellierung von Planung und Steuerung abgebildet. \newline
+Zu Beginn von Planung und Steuerung muss ein \textit{Projektfortschrittsentscheidung herbeigeführt} werden. Hieraus entsteht das Artefakt \textit{Projektfortschrittsentscheidung}.\newlineHiernach ist in der gleichnamigen Aktivität das \textit{Projekthandbuch zu erstellen}, welches auch als Artefakt aus dieser Aktivität hervorgeht.\newlineIm nächsten Schritt wird das \textit{QS-Handbuch erstellt}.\newlineIn der nachfolgenden Aktivität wird die \textit{Projektmanagement-Infrastruktur eingerichtet und gepflegt}, woraus das Artefakt \textit{Projektmanagementinfrastruktur} entsteht.\newlineAnschließend erfolgt die Durchführung der Aktivität \textit{Schätzung durchführen}, in welche die Artefakte \textit{Schätzmodelle} und \textit{Projektplanung} eingehen und das Artefakt \textit{Projektplan} als Artefakt herauskommt.\newlineBei der nächsten Aktivität wird der \textit{Arbeitsauftrag vergeben} und danach wird die \textit{Kaufmännische Projektkalkulation durchgeführt} mit Hilfe von \textit{Kosten-Nutzen-Analysen und Schätzmodellen} als Input.
 
 \begin{figure}[!htbp]
 \begin{center}
@@ -576,6 +581,9 @@ Die Entscheidungspunkte für die Arbeitgeber/Arbeitnehmer Schnittstelle setzen s
 
 \subsubsection{Berichtswesen}
 
+
+Am Anfang von Berichtswesen (Abbildung \ref{fig:BerichtswesenimpKlein}) muss eine \textit{Besprechung durchgeführt} werden. Hieraus entsteht das Artefakt \textit{Besprechungsdokument}.\newlineHiernach ist in der gleichnamigen Aktivität das \textit{Projekthandbuch zu erstellen}, welches auch als Artefakt aus dieser Aktivität hervorgeht.\newlineIm nächsten Schritt wird das \textit{QS-Handbuch erstellt}.\newlineIn der nachfolgenden Aktivität wird die \textit{Projektmanagement-Infrastruktur eingerichtet und gepflegt}, woraus das Artefakt \textit{Projektmanagementinfrastruktur} entsteht.\newlineAnschließend erfolgt die Durchführung der Aktivität \textit{Schätzung durchführen}, in welche die Artefakte \textit{Schätzmodelle} und \textit{Projektplanung} eingehen und das Artefakt \textit{Projektplan} als Artefakt herauskommt.\newlineBei der nächsten Aktivität wird der \textit{Arbeitsauftrag vergeben} und danach wird die \textit{Kaufmännische Projektkalkulation durchgeführt} mit Hilfe von \textit{Kosten-Nutzen-Analysen und Schätzmodellen} als Input.
+
 \begin{figure}[!htbp]
 \begin{center}
   \includegraphics[width=\linewidth]{BerichtswesenimpKlein} %pdf, jpg, png...
@@ -584,10 +592,11 @@ Die Entscheidungspunkte für die Arbeitgeber/Arbeitnehmer Schnittstelle setzen s
 \end{center}
 \end{figure}
 
-
+\clearpage
 \subsection{Deklarative Modellierung V-Modell}
 
 
+In der deklarativen Modellierung von Angebots- und Vertragswesen (Abbildung \ref:{fig:AngebotsVetragswesenKlein} wird mit der Aktivität \textit{Angebot erstellen} begonnen. Anschließend wird die Aktivität \textit{ Vertrag abschliessen} ausgeführt. Die Ausführung dieser darf nicht vor \textit{ Angebot erstellen } erfolgen, muss jedoch nach deren Ausführung ausgeführt werden. Deshalb befindet sich das Constraint \textit{succession} zwischen diesen beiden Aktivitäten. Das gleiche Ausführungsmuster gilt auch für alle weiteren Aktivitäten in diesem Modell. Zudem wird jede  Aktivität in diesem Modell genau einmal ausgeführt.
 
 \begin{figure}[!htbp]
 \begin{center}
@@ -597,6 +606,10 @@ Die Entscheidungspunkte für die Arbeitgeber/Arbeitnehmer Schnittstelle setzen s
 \end{center}
 \end{figure}
 
+
+
+Die deklarative Implementierung von Planung und Steuerng ist in Abbildung \ref{fig:PlanungKleinDec} abgebildet.\newline
+Angefangen wird mit der Aktivität \textit{Projektfortschrittsentscheidung herbeiführen}. Danach wird die Aktivität \textit{Projekthandbuch erstellen} ausgeführt. Die Ausführung dieser darf nicht vor \textit{Projektfortschrittsentscheidung herbeiführen} erfolgen, muss jedoch nach deren Ausführung ausgeführt werden. Aus diesem Grund befindet sich das Constraint \textit{succession} zwischen diesen beiden Aktivitäten. Das gleiche Ausführungsmuster gilt auch für alle weiteren Aktivitäten in diesem Modell. Außerdem erfolgt die Ausführung der jeder Aktivität in diesem Modell genau einmal.
 
 \begin{figure}[!htbp]
 \begin{center}
