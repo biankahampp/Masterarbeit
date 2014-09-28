@@ -70,7 +70,7 @@ Sind noch weitere Aufgaben im Product Backlog vorhanden, die noch erledigt werde
 Abbildung \ref{fig:ScrumDeklarativ} zeigt die deklarative Modelliereung von Scrum.\newline
 Der Prozess beginnt mit der Aktivität \textit{Product Backlog} abschätzen. Dies ist hier durch das init-Label gekennzeichnet. Weiterhin wird diese Aktivität im Prozess genau einmal ausgeführt, was durch das Label 1 dargestellt ist. Das Constraint \textit{precedence} gibt an, dass die Aktivität \textit{Product Backlog abschätzen} vor den Aktivitäten \textit{Product Backlog priorisieren} und \textit{Releasepläne erstellen} ausgeführt werden müssen. Durch das Constarint \textit{response} ist gekennzeichnet, dass die Aktivitäten \textit{Product Backlog priorisieren} und \textit{Releasepläne erstellen} auf jeden Fall nach \textit{Product Backlog abschätzen} genau einmal durchgeführt werden müssen. \newline
 Nach deren Ausführung muss die Aktivität \textit{alle 2-4 Wochen Sprint Planning Meeting durchfuehren} erfolgen. Durch das Constraint \textit{alternate precedence} ist angegeben, dass diese Aktivität immer vor der Aktivität \textit{Sprint Backlog erstellen} ausgeführt werden muss. Somit könnte die nächste Aktivität \textit{Sprint-Backlog erstellen} erst nach der nächsten Ausführung von \textit{alle 2-4 Wochen Sprint Planning Meeting durchfuehren} ausgeführt werden. Durch Setzen des Constraints \textit{alternate precedence} zwischen den Aktivitäten  \textit{alle 2-4 Wochen Sprint Planning Meeting durchfuehren}, \textit{Sprint-Backlog erstellen}, \textit{Sprint-Backlog-Elemente in Tasks einteilen}, \textit{Sprint Rueckblick} in Kombination mit dem Setzen des Constraints \textit{Chain Response} wird hier eine Schleife modelliert, welche darstellen soll, dass all diese Aktivitäten während eines jeden Sprints nacheinander ausgeführt werden und erst beim nachfolgenden Sprint wieder von vorne beginnen.\newline
-Die Aktivitäten \textit{alle 24 Stunden 15-minütiges Scrum-Meeting durchführen} und Tasks abarbeiten können während des Sprints so oft wie nötig durchgeführt werden.
+Die Aktivitäten \textit{alle 24 Stunden 15-minütiges Scrum-Meeting durchführen} und \textit{Tasks abarbeiten} können während des Sprints so oft wie nötig durchgeführt werden.
 
 
 \begin{figure}[htp]
@@ -80,8 +80,58 @@ Die Aktivitäten \textit{alle 24 Stunden 15-minütiges Scrum-Meeting durchführe
   \label{fig:ScrumDeklarativ}
 \end{center}
 \end{figure}
+\clearpage
 
 \subsection{Vergleich}
+
+Der Vergleich zwischen den in der deklarativen Prozessmodellierungssprache ConDec und dem in der imperativen Prozessmodellierungssprache BPMN erstellten Scrum Prozessmodellen wird im Folgenden anhand der in Kapitel 5 definierten Anforderungen durchgeführt. \newline
+Wie Abbildung \ref{fig:Akt} entnommen werden kann, unterscheidet sich die Anzahl der Aktivitäten zwischen den in BPMN und ConDec modellierten Prozessmodellen nicht voneinander. In jedem Prozessmodell gibt es 12 Aktivitäten.\newline
+
+\begin{figure}[htp]
+\begin{center}
+  \includegraphics[scale=0.8]{Akt} %pdf, jpg, png...
+  \caption{Vergleich der Anzahl der Aktivitäten Scrum}
+  \label{fig:Akt}
+\end{center}
+\end{figure}
+
+Die Anzahl der Verbindungselemente, welche zur Beschreibung des Ablaufes notwendig sind, unterscheiden sich jedoch, wie Abbildung \ref{fig:Flusselemente} zeigt.\newline
+So werden in BPMN 8 Gateways und 20 Sequenzflusselmente benötigt, um den Ablauf des Metamodells darzustellen. Bei Verwendung von ConDec werden 21 Verbindungselemente benötigt.\newline
+\begin{figure}[htp]
+\begin{center}
+  \includegraphics[scale=0.8]{Flusselemente} %pdf, jpg, png...
+  \caption{Vergleich der Anzahl der Flusselmente Scrum}
+  \label{fig:Flusselemente}
+\end{center}
+\end{figure}
+
+Weiterhin werden in BPMN 4 Artefakte zum Beschreiben des Metamodells benötigt, in ConDec gibt es jedoch keine Modellierungselemente hierfür, weshalb es hier im deklarativen Modell keine Artefakte gibt.\newline
+\begin{figure}[htp]
+\begin{center}
+  \includegraphics[scale=0.8]{Artefakte} %pdf, jpg, png...
+  \caption{Vergleich der Anzahl der Artefakte Scrum}
+  \label{fig:Artefakte}
+\end{center}
+\end{figure}
+
+
+Genau wie bei den Artefakten gibt es in ConDec keine Möglichkeite verschiedene Rollen innerhalb eines Prozessmodelles darzustellen. Aus diesem Grund gibt es in BPMN 3 Rollen und in ConDec keine (Abbildung \ref{fig:Rollen}).
+
+\begin{figure}[htp]
+\begin{center}
+  \includegraphics[scale=0.8]{Rollen} %pdf, jpg, png...
+  \caption{Vergleich der Anzahl der Rollen Scrum}
+  \label{fig:Rollen}
+\end{center}
+\end{figure}
+
+In Bezug auf die \textit{Klarheit}, welche in Kapitel 5 als Anforderungskriterium festgelegt wurde, haben beide Modellierungssprachen Stärken und Schwächen. Die Anzahl der Aktivitäten unterscheidet sich nicht, jedoch die Anzahl der Flusselemente. Eine größere Anzahl an Verbindungselementen kann sich negativ auf die Verständlichkeit auswirken. Hier ist die Anzahl aber bei BPMN nur leicht höher ist als bei ConDec.\newline
+Die \textit{Richtigkeit} lässt sich mit BPMN in Bezug auf Rollen und Artefakte besser einhalten, als mit ConDec. Da es bei ConDec keine Möglichkeit gibt, Rollen und Artefakte im Prozessmodell selbst abzubilden, müssen diese Informationen weggelassen werden. Die Rollen und Artefakte können zwar in Declare abgebildet werden, jedoch ist dies auf Papier/Bild nicht sichtbar. Aus desem Grund müssen diese Informationen beim Modellieren weggelassen werden, was zur Folge hat, dass das im Metamodell beschriebene Verhalten nicht vollständig abgebildet werden kann und somit leidet auch der Nutzen des Modells.\newline
+\textit{Wirtschaftlichkeit} lässt sich mit beiden Modellierungssprachen einhalten. Die Aufwände zum Erstellen der Modelle unterscheiden sich in den beiden verwendeten Sprachen nicht voneinander, da sie beide ungefähr die gleiche Größe haben.\newline
+Beide Prozessmodelle können mit minimal relevanten Informationen erstellt werden. Bei keiner der beiden Modellierungssprachen war es notwendig, weitere Informationen zum Modell hinzuzufügen, um dessen Qualität zu erhöhen. Somit kann \textit{Relevanz} bei beiden Prozessmodellen eingehalten werden.\newline
+
+Da nur BPMN die Möglchkeit bietet, Artefakte im Prozessmodell abzubilden und somit die Integration anderer Sichten in das Modell zulässt. Da ConDec dies nicht zulässt, schmälert es die Eignung von ConDec zum Modellieren in Bezug auf Softwareprozessmodelle. Hierdurch können wichtige Informationen aus dem Metamodell nicht abgebildet werden. 
+
 
 
 
@@ -104,7 +154,7 @@ Es werden Rollen, Aufgaben, Artefakte und Ebenen in Open Up definiert. Dies soll
 \end{center}
 \end{figure}
 
-Der Open UP wird im Folgenden genauestens analysiert.
+Der Open UP wird im Folgenden analysiert.
 
 \subsection{Analyse Open UP}
 
@@ -582,7 +632,8 @@ Bei der nächsten Aktivität wird der \textit{Arbeitsauftrag vergeben} und danac
 
 \subsubsection{Systementwurf}
 
-
+Abbildung \ref{fig:SystementwurfKlein} zeigt die imperative Modellierung von Systementwurf.\newline
+Die Aktivitäten \textit{Systemarchitektur erstellen, Unterstütungssystemarchitektur erstellen, Styleguide für die Mensch-Maschine-Schnittstelle erstellen, HW-Architektur erstellen, SW-Architektur erstellen, Datenbankentwurf erstellen, Implementierungs-, Integrations- und Prüfkonzept Unterstützungssystem erstellen, Integrations- und Prüfkonzept Hardware (HW) erstellen, Integrations- und Prüfkonzept Software (SW) erstellen} und \textit{Migrationskonzept erstellen} werden hier nacheinander ausgeführt.
 \begin{figure}[!htbp]
 \begin{center}
   \includegraphics[width=\linewidth]{SystementwurfKlein} %pdf, jpg, png...
@@ -596,11 +647,12 @@ Bei der nächsten Aktivität wird der \textit{Arbeitsauftrag vergeben} und danac
 
 
 Am Anfang von Berichtswesen (Abbildung \ref{fig:BerichtswesenimpKlein}) muss eine \textit{Besprechung durchgeführt} werden. Hieraus entsteht das Artefakt \textit{Besprechungsdokument}.\newline
-Hiernach ist in der gleichnamigen Aktivität das \textit{Projekthandbuch zu erstellen}, welches auch als Artefakt aus dieser Aktivität hervorgeht.\newline
-Im nächsten Schritt wird das \textit{QS-Handbuch erstellt}.\newline
-In der nachfolgenden Aktivität wird die \textit{Projektmanagement-Infrastruktur eingerichtet und gepflegt}, woraus das Artefakt \textit{Projektmanagementinfrastruktur} entsteht.\newline
-Anschließend erfolgt die Durchführung der Aktivität \textit{Schätzung durchführen}, in welche die Artefakte \textit{Schätzmodelle} und \textit{Projektplanung} eingehen und das Artefakt \textit{Projektplan} als Artefakt herauskommt.\newline
-Bei der nächsten Aktivität wird der \textit{Arbeitsauftrag vergeben} und danach wird die \textit{Kaufmännische Projektkalkulation durchgeführt} mit Hilfe von \textit{Kosten-Nutzen-Analysen und Schätzmodellen} als Input.
+Parallel zu allen anderen Aktivitäten ist bei Bedarf bei jeder Änderung das \textit{Projekttagebuch zu führen}. Dies wird durch das Parallel-Gateway sichergstellt und die XOR-Schleife stellt sicher, dass die Akrtivität so oft durchgeführt wird, wie Anpassungen notwendig sind. \newline
+Im nächsten Schritt werden die \textit{Messdaten erfasst}.\newline
+In der nachfolgenden Aktivität wird die \textit{Metrik berechnet und ausgewertet}, woraus das Artefakt \textit{Metrikauswertung} entsteht.\newline
+Anschließend erfolgt die Durchführung der Aktivität \textit{Kaufmännischen Projektstausbericht erstellen}, wobei das Artefakt \textit{Kaufmännischer Projektstausbericht} als Artefakt herauskommt.\newline
+Bei der nächsten Aktivität wird der \textit{Prjektstatusbericht erstellt} und danach wird der \textit{Gesamtprojektfortschritt erittelt}\newline
+Die Aktivität \textit{QS-Bericht erstellen} bringt dann das Artefakt \textit{QS-Bericht hervor} und die nachfolgende Aktivität \textit{Projekt abschließen} den \textit{Projektabschlußbericht}.
 
 \begin{figure}[!htbp]
 \begin{center}
@@ -638,6 +690,9 @@ Angefangen wird mit der Aktivität \textit{Projektfortschrittsentscheidung herbe
 \end{center}
 \end{figure}
 
+Abbildung \ref{fig:SystementwurfKleinDec} zeigt die deklarative Modellierung von Systementwurf.\newline
+Die Aktivitäten \textit{Systemarchitektur erstellen, Unterstütungssystemarchitektur erstellen, Styleguide für die Mensch-Maschine-Schnittstelle erstellen, HW-Architektur erstellen, SW-Architektur erstellen, Datenbankentwurf erstellen, Implementierungs-, Integrations- und Prüfkonzept Unterstützungssystem erstellen, Integrations- und Prüfkonzept Hardware (HW) erstellen, Integrations- und Prüfkonzept Software (SW) erstellen} und \textit{Migrationskonzept erstellen} werden hier nacheinander ausgeführt. Da die vorherige Aktivität immer Vorraussetzung für das Ausführen der nachfolgenden Aktivität ist, und die nachfolgende Aktivität nach der vorherigen ausgeführt werden muss, ist zwischen allen Aktivitäten jeweils \textit{succession} als Constraint eingefügt.
+
 \begin{figure}[!htbp]
 \begin{center}
   \includegraphics[width=\linewidth]{SystementwurfKleinDec} %pdf, jpg, png...
@@ -645,6 +700,15 @@ Angefangen wird mit der Aktivität \textit{Projektfortschrittsentscheidung herbe
   \label{fig:SystementwurfKleinDec}
 \end{center}
 \end{figure}
+
+
+Am Anfang von Berichtswesen (Abbildung \ref{fig:BerichtswesenKlein}) muss eine \textit{Besprechung durchgeführt} werden. Dies wird durc das constraint \textit{init} sichergestellt.\newline
+Bei jeder Änderung muss die Aktivität \textit{Projekttagebuch fuehren} ausgeführt werden. Aus diesem Grund ist diese durch kein Constraint mit einer anderen Aktivität verbunden, da sie jederzeit ausgeführt werden kann und so oft wie nötig.\newline
+Im nächsten Schritt werden die \textit{Messdaten erfasst}. Da ab hier alle Aktivitäten nacheinander auszuführen sind, sind dies jeweils durch das Constraint \textit{succession} verbunden.\newline
+In der nachfolgenden Aktivität wird die \textit{Metrik berechnet und ausgewertet}.\newline
+Anschließend erfolgt die Durchführung der Aktivität \textit{Kaufmännischen Projektstausbericht erstellen}\newline
+Bei der nächsten Aktivität wird der \textit{Prjektstatusbericht erstellt} und danach wird der \textit{Gesamtprojektfortschritt erittelt}\newline
+Danach werden noch die Aktivitäten \textit{QS-Bericht erstellen}und \textit{Projekt abschließen} ausgeführt.
 
 \begin{figure}[!htbp]
 \begin{center}

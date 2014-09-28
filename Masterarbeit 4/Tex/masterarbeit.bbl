@@ -267,6 +267,14 @@
 \newblock \url{http://epf.eclipse.org/wikis/scrum/}.
 \newblock \,Version:\,April 2014
 
+\bibitem[MRC]{bpm07}
+\textsc{Mendling}, J. ; \textsc{Reijers}, H.A.  ; \textsc{Cardoso}, J.:
+\newblock What Makes Process Models Understandable?
+\newblock {In: }\textsc{Alonso}, G. (Hrsg.) ; \textsc{Dadam}, P. (Hrsg.)  ;
+  \textsc{Rosemann}, M. (Hrsg.): \emph{International Conference on Business
+  Process Management (BPM 2007)}, Springer-Verlag, Berlin (Lecture Notes in
+  Computer Science), S. 48--63
+
 \bibitem[MRW12]{quteprints}
 \textsc{Mendling}, Jan ; \textsc{Recker}, Jan~C.  ; \textsc{Wolf}, Johannes:
 \newblock Collaboration features in current BPM tools.

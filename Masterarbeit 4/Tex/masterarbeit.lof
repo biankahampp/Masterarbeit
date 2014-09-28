@@ -24,39 +24,43 @@
 \contentsline {figure}{\numberline {\relax 6.2}{\ignorespaces Imperative Modellierung Scrum}}{42}{figure.6.2}
 \contentsline {figure}{\numberline {\relax 6.3}{\ignorespaces Imperative Modellierung Scrum Unterprozess}}{42}{figure.6.3}
 \contentsline {figure}{\numberline {\relax 6.4}{\ignorespaces Deklarative Modellierung Scrum}}{44}{figure.6.4}
-\contentsline {figure}{\numberline {\relax 6.5}{\ignorespaces Open Up \IeC {\"U}berblick nach \cite {eclipseopenup}}}{46}{figure.6.5}
-\contentsline {figure}{\numberline {\relax 6.6}{\ignorespaces Phasen Open UP nach \cite {eclipseopenup}}}{47}{figure.6.6}
-\contentsline {figure}{\numberline {\relax 6.7}{\ignorespaces Rollen in Open UP nach \cite {openup}}}{50}{figure.6.7}
-\contentsline {figure}{\numberline {\relax 6.8}{\ignorespaces Develop Solution Increment imperativ}}{52}{figure.6.8}
-\contentsline {figure}{\numberline {\relax 6.9}{\ignorespaces Plan and manage iteration imperativ -Inception}}{53}{figure.6.9}
-\contentsline {figure}{\numberline {\relax 6.10}{\ignorespaces Plan and manage iteration imperativ -Inception Unterprozess Umgebung vorbereiten}}{53}{figure.6.10}
-\contentsline {figure}{\numberline {\relax 6.11}{\ignorespaces Identify and Refine Requirements-Elaboration}}{55}{figure.6.11}
-\contentsline {figure}{\numberline {\relax 6.12}{\ignorespaces Deploy Release-Transition}}{56}{figure.6.12}
-\contentsline {figure}{\numberline {\relax 6.13}{\ignorespaces Develop Product Documentation-Construction}}{57}{figure.6.13}
-\contentsline {figure}{\numberline {\relax 6.14}{\ignorespaces Develop Solution Increment deklarativ}}{58}{figure.6.14}
-\contentsline {figure}{\numberline {\relax 6.15}{\ignorespaces Plan and manage iteration deklarativ}}{59}{figure.6.15}
-\contentsline {figure}{\numberline {\relax 6.16}{\ignorespaces Deploy Release-Transition}}{59}{figure.6.16}
-\contentsline {figure}{\numberline {\relax 6.17}{\ignorespaces Identify and refine requirements-Elaboration}}{60}{figure.6.17}
-\contentsline {figure}{\numberline {\relax 6.18}{\ignorespaces Develop Product Documentation-Construction}}{61}{figure.6.18}
-\contentsline {figure}{\numberline {\relax 6.19}{\ignorespaces Grundstruktur V-Modell XT nach \cite {2004vmodell}}}{62}{figure.6.19}
-\contentsline {figure}{\numberline {\relax 6.20}{\ignorespaces Projekttypen V-Modell XT nach \cite {2004vmodell}}}{63}{figure.6.20}
-\contentsline {figure}{\numberline {\relax 6.21}{\ignorespaces Zuordnung der Projekttypvarianten zu den Projekttypen des V-Modell XT \cite {2004vmodell}}}{65}{figure.6.21}
-\contentsline {figure}{\numberline {\relax 6.22}{\ignorespaces Vorgehensbausteine V-Modell XT nach \cite {2004vmodell}}}{66}{figure.6.22}
-\contentsline {figure}{\numberline {\relax 6.23}{\ignorespaces V-Modell-Kern und Vorgehensbausteinlandkarte nach \cite {2004vmodell}}}{67}{figure.6.23}
-\contentsline {figure}{\numberline {\relax 6.24}{\ignorespaces Entscheidungspunkte V-Modell XT nach \cite {2004vmodell}}}{70}{figure.6.24}
-\contentsline {figure}{\numberline {\relax 6.25}{\ignorespaces Entscheidungspunkte f\IeC {\"u}r die Projektdurchf\IeC {\"u}hrungsstrategie nach \cite {2004vmodell}}}{71}{figure.6.25}
-\contentsline {figure}{\numberline {\relax 6.26}{\ignorespaces Angebots- und Vetragswesen V-Modell - imperativ}}{72}{figure.6.26}
-\contentsline {figure}{\numberline {\relax 6.27}{\ignorespaces Planung und Steuerung V-Modell - imperativ}}{72}{figure.6.27}
-\contentsline {figure}{\numberline {\relax 6.28}{\ignorespaces Systementwurf V-Modell - imperativ}}{73}{figure.6.28}
-\contentsline {figure}{\numberline {\relax 6.29}{\ignorespaces Berichtswesen-imperativ}}{74}{figure.6.29}
-\contentsline {figure}{\numberline {\relax 6.30}{\ignorespaces Angebots- und Vertragswesen - deklarativ}}{75}{figure.6.30}
-\contentsline {figure}{\numberline {\relax 6.31}{\ignorespaces Planung und Steuerung - deklarativ}}{76}{figure.6.31}
-\contentsline {figure}{\numberline {\relax 6.32}{\ignorespaces Systementwurf - deklarativ}}{76}{figure.6.32}
-\contentsline {figure}{\numberline {\relax 6.33}{\ignorespaces Berichtswesen - deklarativ}}{77}{figure.6.33}
+\contentsline {figure}{\numberline {\relax 6.5}{\ignorespaces Vergleich der Anzahl der Aktivit\IeC {\"a}ten Scrum}}{45}{figure.6.5}
+\contentsline {figure}{\numberline {\relax 6.6}{\ignorespaces Vergleich der Anzahl der Flusselmente Scrum}}{46}{figure.6.6}
+\contentsline {figure}{\numberline {\relax 6.7}{\ignorespaces Vergleich der Anzahl der Artefakte Scrum}}{46}{figure.6.7}
+\contentsline {figure}{\numberline {\relax 6.8}{\ignorespaces Vergleich der Anzahl der Rollen Scrum}}{47}{figure.6.8}
+\contentsline {figure}{\numberline {\relax 6.9}{\ignorespaces Open Up \IeC {\"U}berblick nach \cite {eclipseopenup}}}{49}{figure.6.9}
+\contentsline {figure}{\numberline {\relax 6.10}{\ignorespaces Phasen Open UP nach \cite {eclipseopenup}}}{50}{figure.6.10}
+\contentsline {figure}{\numberline {\relax 6.11}{\ignorespaces Rollen in Open UP nach \cite {openup}}}{53}{figure.6.11}
+\contentsline {figure}{\numberline {\relax 6.12}{\ignorespaces Develop Solution Increment imperativ}}{55}{figure.6.12}
+\contentsline {figure}{\numberline {\relax 6.13}{\ignorespaces Plan and manage iteration imperativ -Inception}}{57}{figure.6.13}
+\contentsline {figure}{\numberline {\relax 6.14}{\ignorespaces Plan and manage iteration imperativ -Inception Unterprozess Umgebung vorbereiten}}{57}{figure.6.14}
+\contentsline {figure}{\numberline {\relax 6.15}{\ignorespaces Identify and Refine Requirements-Elaboration}}{59}{figure.6.15}
+\contentsline {figure}{\numberline {\relax 6.16}{\ignorespaces Deploy Release-Transition}}{60}{figure.6.16}
+\contentsline {figure}{\numberline {\relax 6.17}{\ignorespaces Develop Product Documentation-Construction}}{61}{figure.6.17}
+\contentsline {figure}{\numberline {\relax 6.18}{\ignorespaces Develop Solution Increment deklarativ}}{62}{figure.6.18}
+\contentsline {figure}{\numberline {\relax 6.19}{\ignorespaces Plan and manage iteration deklarativ}}{63}{figure.6.19}
+\contentsline {figure}{\numberline {\relax 6.20}{\ignorespaces Deploy Release-Transition}}{64}{figure.6.20}
+\contentsline {figure}{\numberline {\relax 6.21}{\ignorespaces Identify and refine requirements-Elaboration}}{64}{figure.6.21}
+\contentsline {figure}{\numberline {\relax 6.22}{\ignorespaces Develop Product Documentation-Construction}}{65}{figure.6.22}
+\contentsline {figure}{\numberline {\relax 6.23}{\ignorespaces Grundstruktur V-Modell XT nach \cite {2004vmodell}}}{66}{figure.6.23}
+\contentsline {figure}{\numberline {\relax 6.24}{\ignorespaces Projekttypen V-Modell XT nach \cite {2004vmodell}}}{67}{figure.6.24}
+\contentsline {figure}{\numberline {\relax 6.25}{\ignorespaces Zuordnung der Projekttypvarianten zu den Projekttypen des V-Modell XT \cite {2004vmodell}}}{68}{figure.6.25}
+\contentsline {figure}{\numberline {\relax 6.26}{\ignorespaces Vorgehensbausteine V-Modell XT nach \cite {2004vmodell}}}{70}{figure.6.26}
+\contentsline {figure}{\numberline {\relax 6.27}{\ignorespaces V-Modell-Kern und Vorgehensbausteinlandkarte nach \cite {2004vmodell}}}{71}{figure.6.27}
+\contentsline {figure}{\numberline {\relax 6.28}{\ignorespaces Entscheidungspunkte V-Modell XT nach \cite {2004vmodell}}}{74}{figure.6.28}
+\contentsline {figure}{\numberline {\relax 6.29}{\ignorespaces Entscheidungspunkte f\IeC {\"u}r die Projektdurchf\IeC {\"u}hrungsstrategie nach \cite {2004vmodell}}}{75}{figure.6.29}
+\contentsline {figure}{\numberline {\relax 6.30}{\ignorespaces Angebots- und Vetragswesen V-Modell - imperativ}}{76}{figure.6.30}
+\contentsline {figure}{\numberline {\relax 6.31}{\ignorespaces Planung und Steuerung V-Modell - imperativ}}{76}{figure.6.31}
+\contentsline {figure}{\numberline {\relax 6.32}{\ignorespaces Systementwurf V-Modell - imperativ}}{77}{figure.6.32}
+\contentsline {figure}{\numberline {\relax 6.33}{\ignorespaces Berichtswesen-imperativ}}{78}{figure.6.33}
+\contentsline {figure}{\numberline {\relax 6.34}{\ignorespaces Angebots- und Vertragswesen - deklarativ}}{79}{figure.6.34}
+\contentsline {figure}{\numberline {\relax 6.35}{\ignorespaces Planung und Steuerung - deklarativ}}{80}{figure.6.35}
+\contentsline {figure}{\numberline {\relax 6.36}{\ignorespaces Systementwurf - deklarativ}}{80}{figure.6.36}
+\contentsline {figure}{\numberline {\relax 6.37}{\ignorespaces Berichtswesen - deklarativ}}{81}{figure.6.37}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax A.1}{\ignorespaces BPMN Ereignisse}}{84}{figure.A.1}
-\contentsline {figure}{\numberline {\relax A.2}{\ignorespaces BPMN \IeC {\"U}bersicht}}{85}{figure.A.2}
-\contentsline {figure}{\numberline {\relax A.3}{\ignorespaces BPMN Gateways}}{86}{figure.A.3}
+\contentsline {figure}{\numberline {\relax A.1}{\ignorespaces BPMN Ereignisse}}{88}{figure.A.1}
+\contentsline {figure}{\numberline {\relax A.2}{\ignorespaces BPMN \IeC {\"U}bersicht}}{89}{figure.A.2}
+\contentsline {figure}{\numberline {\relax A.3}{\ignorespaces BPMN Gateways}}{90}{figure.A.3}
 \addvspace {10\p@ }
