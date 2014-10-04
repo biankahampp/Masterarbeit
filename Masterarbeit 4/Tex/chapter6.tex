@@ -67,17 +67,29 @@ Sind noch weitere Aufgaben im Product Backlog vorhanden, die noch erledigt werde
 
 \subsection{Deklarative Modellierung Scrum}
 
-Abbildung \ref{fig:ScrumDeklarativ} zeigt die deklarative Modelliereung von Scrum.\newline
+Abbildung \ref{fig:ScrumDecHaupt} zeigt die deklarative Modelliereung von Scrum.\newline
 Der Prozess beginnt mit der Aktivität \textit{Product Backlog} abschätzen. Dies ist hier durch das init-Label gekennzeichnet. Weiterhin wird diese Aktivität im Prozess genau einmal ausgeführt, was durch das Label 1 dargestellt ist. Das Constraint \textit{precedence} gibt an, dass die Aktivität \textit{Product Backlog abschätzen} vor den Aktivitäten \textit{Product Backlog priorisieren} und \textit{Releasepläne erstellen} ausgeführt werden müssen. Durch das Constarint \textit{response} ist gekennzeichnet, dass die Aktivitäten \textit{Product Backlog priorisieren} und \textit{Releasepläne erstellen} auf jeden Fall nach \textit{Product Backlog abschätzen} genau einmal durchgeführt werden müssen. \newline
-Nach deren Ausführung muss die Aktivität \textit{alle 2-4 Wochen Sprint Planning Meeting durchfuehren} erfolgen. Durch das Constraint \textit{alternate precedence} ist angegeben, dass diese Aktivität immer vor der Aktivität \textit{Sprint Backlog erstellen} ausgeführt werden muss. Somit könnte die nächste Aktivität \textit{Sprint-Backlog erstellen} erst nach der nächsten Ausführung von \textit{alle 2-4 Wochen Sprint Planning Meeting durchfuehren} ausgeführt werden. Durch Setzen des Constraints \textit{alternate precedence} zwischen den Aktivitäten  \textit{alle 2-4 Wochen Sprint Planning Meeting durchfuehren}, \textit{Sprint-Backlog erstellen}, \textit{Sprint-Backlog-Elemente in Tasks einteilen}, \textit{Sprint Rueckblick} in Kombination mit dem Setzen des Constraints \textit{Chain Response} wird hier eine Schleife modelliert, welche darstellen soll, dass all diese Aktivitäten während eines jeden Sprints nacheinander ausgeführt werden und erst beim nachfolgenden Sprint wieder von vorne beginnen.\newline
+
+Nach deren Ausführung muss die Aktivität \textit{alle 2-4 Wochen Sprint Planning Meeting durchfuehren} erfolgen. Der zugehörige Unterprozess ist in Abbildung \ref{fig:ScrumDecUnterprozess} zu finden. Hier sind die Aktivitäten \textit{Anforderungen priorisieren}, \textit{Sprint Backlog erstellen} und \textit{Sprint-Backlog-Elemente in Tasks einteilen} durch das Constraint \textit{precedence} miteinander verbunden, um die Einhaltung deren Reihenfolge nacheinander zu gewährleisten. Außerdem dürfen diese Aktivitäten pro Ausführung des Unterprozesses, also pro Prozessinstanz nur einmal ausgeführt werden.\newline
+Nach der Ausführung der Aktivitäten des Unterprozesses Sprint-Planning-Meeting durchführen, muss im Anschluß die Aktivität \textit{Sprint Rückblick} durchgeführt werden. Dies wird durch das Constraint \textit{chain response} sichergestellt.Eine erneute Ausführung von  \textit{alle 24 Stunden 15-minütiges Scrum-Meeting durchführen} ist erst nach Durchführung von \textit{Sprint Rückblick} möglich (Constraint \textit{alternate precedence}). Hierdurch wird eine Schleife modelliert, welche den immer wiederkehrenden Sprint simuliert.\newline
 Die Aktivitäten \textit{alle 24 Stunden 15-minütiges Scrum-Meeting durchführen} und \textit{Tasks abarbeiten} können während des Sprints so oft wie nötig durchgeführt werden.
 
 
 \begin{figure}[htp]
 \begin{center}
-  \includegraphics[width=\textwidth]{ScrumDec} %pdf, jpg, png...
+  \includegraphics[width=\textwidth]{ScrumDecHaupt} %pdf, jpg, png...
   \caption{Deklarative Modellierung Scrum}
-  \label{fig:ScrumDeklarativ}
+  \label{fig:ScrumDecHaupt}
+\end{center}
+\end{figure}
+
+
+
+\begin{figure}[htp]
+\begin{center}
+  \includegraphics[width=\textwidth]{ScrumDecUnterprozess} %pdf, jpg, png...
+  \caption{Deklarative Modellierung Scrum-Unterprozess Sprint-Planning-Meeting durchführen}
+  \label{fig:ScrumDecUnterprozess}
 \end{center}
 \end{figure}
 \clearpage
@@ -320,7 +332,6 @@ In Abbildung \ref{fig:OpenUpElaboration} ist die imperative Modellierung der Pha
   \label{fig:OpenUpElaboration}
 \end{center}
 \end{figure}
-\subsubsection{Develop Solution Increment}
 
 Die imperative Modellierung der Phase Construction kann Abbildung \ref{fig:OpenUpConstruction} entnommen werden. Hier werden die sechs Aktivitäten \textit{Anforderungen identifizieren und verfeinern, Lösungsinkrement entwickeln, Lösung testen, Iteration planen und managen, weitere Aufgaben erledigen} und \textit{Produktdokumentation und Training erstellen} nebeneinander parallel ausgeführt.
 \begin{figure}[htp]
@@ -347,7 +358,7 @@ Die Phasen \textit{Anforderungen identifizieren und verfeinern, Produkt Training
 Im weiteren Verlauf wird aus jeder der vier Phasen Inception, Elaboration, Construction und Transition des Open UP jeweils ein Unterprozess modelliert, da die Abbildung aller Unterprozesse aus jeder Phase den Rahmen der Arbeit sprengen würde. \newline
 Somit wird für die Phase Inception der Unterprozess \textit{Iteration planen und managen}, für die Phase Elaboration der Unterprozess \textit{Anforderungen identifizieren und verfeinern}, für die Phase Construction der Unterprozess \textit{Release deployen} und für die Phase Transition der Unterprozess \textit{Produktdokumentation und Training erstellen} modelliert. Außerdem wird der in den drei Phasen Elaboration, Construction und Transition wiederkehrende Unterprozess \textit{Lösungsinkrement entwickeln} modelliert.
 
-\subsubsection{Develop Solution Increment}
+\subsubsection{Lösungsinkrement entwickeln}
 
 Im Unterprozess \textit{Lösungsinkrement entwickeln} geht es um das Design, die Implementierung, das Testen und die Integration der Lösung für eine Anforderung in einem bestimmten Kontext. Sie tritt genauso viele Male auf, wie es Arbeitsaufgaben gibt, die in einer Iteration entwickelt werden müssen.
  Handelt es sich um eine typische Veränderung wird zunächst eine Lösung designt und anschließend ein Entwickeltest implementiert. Bei einer trivialen Änderung an der bestehenden Implementierung kann diese auch direkt in der bestehenden Architektur vorgenommen werden. \newline
@@ -464,6 +475,71 @@ Hierfür ist es notwendig ein komplettes, bereitstellungsfähiges Paket zu erste
 \clearpage
 
 \subsection{Deklarative Modellierung Open UP}
+
+
+
+
+\subsubsection{Phasen des Open UP}
+
+
+In Abbildung \ref{fig:OpenUpPhasenDec} sind die vier Phasen des Open UP deklarativ modelliert. Jede Phase kann in Iterationen mehrmals durchlaufen werden. Aus diesem Grund sind die vier Phasen durch das Constraint \textit{succesion} miteinander verbunden. Hierdurch wird gewährleistet, dass jede Phase so oft ausgeführt werden kann, wie nötig, aber das ebenfalls die reihenfolge eingehalten wird. Z.B. kann die Phase Elaboration so erst durchlaufen werden, nachdem die Phase Inception durchlaufen wurde.
+\begin{figure}[htp]
+\begin{center}
+  \includegraphics[width=\linewidth]{OpenUpPhasenDec} %pdf, jpg, png...
+  \caption{Phasen Open UP- deklarativ}
+  \label{fig:OpenUpPhasenDec}
+\end{center}
+\end{figure}
+
+
+
+
+Abbildung \ref{fig:InceptionDecUnter} zeigt die deklarative Modellierung der Phase Inception. Die Aktivität \textit{Projekt planen und managen} kann parallel zu allen anderen Aktivitäten des Modells ausgeführt werden.\newline
+Nach Ausführung der Aktivität \textit{Iteration planen} werden die Aktvitäten \textit{Anforderungen identifizieren und aufbereiten} und \textit{auf technisches Vorgehen einigen} parallel zueinander ausgeführt. Aus diesem Grund sind die Aktvitäten \textit{Anforderungen identifizieren und aufbereiten} und \textit{auf technisches Vorgehen einigen} mit der Aktivität  \textit{Projekt planen und managen} surch das Constraint succession verbunden, da sie erst nach deren Ausführung ausgeführt werden dürfen und auch ausgeführt werden müssen. \newline
+
+\begin{figure}[htp]
+\begin{center}
+  \includegraphics[width=\linewidth]{InceptionDecUnter} %pdf, jpg, png...
+  \caption{Phasen Open UP Unterprozess Inception- deklarativ}
+  \label{fig:InceptionDecUnter}
+\end{center}
+\end{figure}
+
+In Abbildung \ref{fig:ElaborationDecUnter} ist die deklarative Modellierung der Phase Elaboration abgebildet. Die sechs Aktivtäten \textit{Anforderungen identifizieren und verfeinern, Architektur entwickeln, Lösungsinkrement entwickeln, Lösung testen, Iteration planen und managen} sowie \textit{weitere Aufgaben erledigen} werden parallel zueinander ausgeführt. Aus diesem Grund befindet sich lediglich das Constraint \textit{Ecactly 1} an jeder Aktivität, da sie innerhalb einer Prozesinstanz nur einmal ausgeführt werden dürfen, dies aber in beliebiger Reihenfolge. Im Falle einer weiteren Iteration der Phase Elaboration wird eine neue Prozessinstanz aufgerufen. \newline
+
+\begin{figure}[htp]
+\begin{center}
+  \includegraphics[width=\linewidth]{ElaborationDecUnter} %pdf, jpg, png...
+  \caption{Phasen Open UP Unterprozess Elaboration- deklarativ} 
+  \label{fig:ElaborationDecUnter}
+\end{center}
+\end{figure}
+
+Die deklarative Modellierung der Phase Construction kann Abbildung \ref{fig:ConstructionDecUnter} entnommen werden. Hier werden die sechs Aktivitäten \textit{Anforderungen identifizieren und verfeinern, Lösungsinkrement entwickeln, Lösung testen, Iteration planen und managen, weitere Aufgaben erledigen} und \textit{Produktdokumentation und Training erstellen} nebeneinander parallel ausgeführt.
+\begin{figure}[htp]
+\begin{center}
+  \includegraphics[width=\linewidth]{ConstructionDecUnter} %pdf, jpg, png...
+  \caption{Phasen Open UP Unterprozess Construction- deklarativ}
+  \label{fig:ConstructionDecUnter}
+\end{center}
+\end{figure}
+
+Abbildung \ref{fig:TransitionDecUnter} kann die deklarative Modellierung der Phase Transition entnommen werden.\newline
+Die Phasen \textit{Anforderungen identifizieren und verfeinern, Produkt Training durchführen, Lösungsinkrement entwickeln, Lösung testen, Iteration planen und managen, weitere Aufgaben erledigen, Produktdokumentation und Training abschließen} sowie \textit{Release für die Produktion freigeben} werden parallel zueinander ausgeführt.
+
+\begin{figure}[htp]
+\begin{center}
+  \includegraphics[width=\linewidth]{TransitionDecUnter} %pdf, jpg, png...
+  \caption{Phasen Open UP Unterprozess Transition- deklarativ}
+  \label{fig:TransitionDecUnter}
+\end{center}
+\end{figure}
+
+
+
+Im weiteren Verlauf wird aus jeder der vier Phasen Inception, Elaboration, Construction und Transition des Open UP jeweils ein Unterprozess modelliert, da die Abbildung aller Unterprozesse aus jeder Phase den Rahmen der Arbeit sprengen würde. \newline
+Somit wird für die Phase Inception der Unterprozess \textit{Iteration planen und managen}, für die Phase Elaboration der Unterprozess \textit{Anforderungen identifizieren und verfeinern}, für die Phase Construction der Unterprozess \textit{Release deployen} und für die Phase Transition der Unterprozess \textit{Produktdokumentation und Training erstellen} modelliert. Außerdem wird der in den drei Phasen Elaboration, Construction und Transition wiederkehrende Unterprozess \textit{Lösungsinkrement entwickeln} modelliert.
+
 
 Die deklarative Modellierung von Develop Solution Increment kann Abbildung \ref{fig:Develop} entnommen werden.\newline
 Falls eine \textit{Lösung designt} wird, muss danach der \textit{Entwicklertest implementiert} werden. Dies ist durch das Constraint \textit{chain response} zwischen diesen beiden Aktivitäten verlangt. Wenn der Entwicklertest implementiert wird, muss er danach auch ausgeführt werden und er kann nur ausgeführt werden, falls er vorher implementiert wurde (Constraints \textit{chain response} und \textit{precedence}).\newline
@@ -646,6 +722,7 @@ Die Entscheidungspunkte für die Arbeitgeber/Arbeitnehmer Schnittstelle setzen s
 \end{sidewaysfigure}
 
 Im Folgenden werden Teile des V-Modells XT modelliert, da das ganze V-Modell in dieser Arbeit nicht  modelliert werden kann. Aus diesem Grund wird zum Einen das \textit{Systementwicklungsprojekt AG/AN} modelliert. Weiterhin wird ein hierzu gehöriger Unterprozess \textit{Inkrementelle Entwicklung} und die hierzu gehörenden Unterprozesse \textit{System entwerfen} und \textit{System spezifizieren} modelliert.
+\clearpage
 
 \subsection{Imperative Modellierung V-Modell}
 
@@ -659,7 +736,7 @@ Zunächst muss ein Projekt genehmigt und definiert werden. Dies ist durch die ei
 In der nachfolgenden Aktivität müssen sodann die \textit{Anforderungen festgelegt werden}, bevor die \textit{Iteration geplant} werden kann. \newline
 Hiernach muss entschieden werden, ob eine \textit{Prototypische Entwicklung durchgeführt}, eine \textit{Komponenten-basierte Entwicklung durchgeführt} oder eine \textit{Inkrementelle Entwicklung durchgeführt} werden soll. dies wird durch das XOR-Gateway beschrieben, welche nur eine Alternative zulässt.\newline
 Anschließend wird das \textit{System abgenommen}.\newline
-An dieser Stelle wird enschieden, ob erneut zu \textit{Anforderungen festlegen} zurückgekehrt wird und der Prozess ab dieser Aktivität erneut startet oder ob zu \textit{Projekt ausschreiben} zurückgekehrt wird und der Prozess ab hier erneut startet. Ansonsten ndet der Prozess mit der Aktivität \textit{Projekt abschließen}.
+An dieser Stelle wird enschieden, ob erneut zu \textit{Anforderungen festlegen} zurückgekehrt wird und der Prozess ab dieser Aktivität erneut startet oder ob zu \textit{Projekt ausschreiben} zurückgekehrt wird und der Prozess ab hier erneut startet. Ansonsten endet der Prozess mit der Aktivität \textit{Projekt abschließen}.
 
 \begin{figure}[!htbp]
 \begin{center}
@@ -677,7 +754,7 @@ In Abbildung \ref{fig:Inkrementell} ist die imperative Modellierung des Unterpro
 Zu Beginn muss das \textit{System spezifiziert} werden und anschließend wird das \textit{System entworfen}. \newline
 Hiernach wird der \textit{Feinentwurf entworfen} und \textit{Systemelemente realisiert}. Diese beiden Aktivitäten können so oft wie nötig durchgeführt werden, was durch das XOR-Gateway beschrieben ist.  \newline
 Im nächsten Schritt wird das \textit{System integriert} und es beginnt eine neue Iteration bei der Aktivität System entwerfen.\newline
-Falls keine weitere Iteration mehr notwedig ist, wird die \textit{Lieferung durchgeführt} und der Unterprozess endet.. \newline
+Falls keine weitere Iteration mehr notwedig ist, wird die \textit{Lieferung durchgeführt} und der Unterprozess endet hier. \newline
 \begin{figure}[!htbp]
 \begin{center}
   \includegraphics[width=\linewidth]{Inkrementell} %pdf, jpg, png...
