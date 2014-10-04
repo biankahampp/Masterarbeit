@@ -288,15 +288,74 @@ für die Erstellung und Aktualisierung von Artefakten verantwortlich. Artefakte 
 
 \subsection{Imperative Modellierung Open UP}
 
+ \subsubsection{Phasen Open UP}
+
+In Abbildung \ref{fig:OpenUpPhasen} sind die vier Phasen des Open UP modelliert. Da jede Phase in Iterationen mehrmals durchlaufen werden kann, gibt es nach jeder Phase ein XOR-Gateway, welches im Falle einer weiteren notwendigen Iteartion zum Anfang der Phase zurück führt. Diese kann sodann erneut durchlaufen werden.
+
+\begin{figure}[htp]
+\begin{center}
+  \includegraphics[width=\linewidth]{OpenUpPhasen} %pdf, jpg, png...
+  \caption{Phasen Open UP- imperativ}
+  \label{fig:OpenUpPhasen}
+\end{center}
+\end{figure}
+
+Abbildung \ref{fig:OpenUpInception} zeigt die imperative Modellierung der Phase Inception. Die Aktivität \textit{Projekt planen und managen} kann parallel zu allen anderen Aktivitäten des Modells ausgeführt werden.\newline
+Nach Ausführung der Aktivität \textit{Iteration planen} werden die Aktvitäten \textit{Anforderungen identifizieren und aufbereiten} und \textit{auf technisches Vorgehen einigen} parallel zueinander ausgeführt.
+
+\begin{figure}[htp]
+\begin{center}
+  \includegraphics[scale=0.8]{OpenUpInception} %pdf, jpg, png...
+  \caption{Phasen Open UP Unterprozess Inception- imperativ}
+  \label{fig:OpenUpInception}
+\end{center}
+\end{figure}
+
+In Abbildung \ref{fig:OpenUpElaboration} ist die imperative Modellierung der Phase Elaboration abgebildet. Die sechs Aktivtäten \textit{Anforderungen identifizieren und verfeinern, Architektur entwickeln, Lösungsinkrement entwickeln, Lösung testen, Iteration planen und managen} sowie \textit{weitere Aufgaben erledigen} werden parallel zueinander ausgeführt.
+
+\begin{figure}[htp]
+\begin{center}
+  \includegraphics[scale=0.8]{OpenUpElaboration} %pdf, jpg, png...
+  \caption{Phasen Open UP Unterprozess Elaboration- imperativ}
+  \label{fig:OpenUpElaboration}
+\end{center}
+\end{figure}
 \subsubsection{Develop Solution Increment}
 
- Bei der Aktivität \textit{Develop Solution Increment} geht es um das Design, die Implementierung, das Testen und die Integration der Lösung für eine Anforderung in einem bestimmten Kontext. Sie tritt genauso viele Male auf, wie es Arbeitsaufgaben gibt, die in einer Iteration entwickelt werden müssen.
+Die imperative Modellierung der Phase Construction kann Abbildung \ref{fig:OpenUpConstruction} entnommen werden. Hier werden die sechs Aktivitäten \textit{Anforderungen identifizieren und verfeinern, Lösungsinkrement entwickeln, Lösung testen, Iteration planen und managen, weitere Aufgaben erledigen} und \textit{Produktdokumentation und Training erstellen} nebeneinander parallel ausgeführt.
+\begin{figure}[htp]
+\begin{center}
+  \includegraphics[scale=0.8]{OpenUpConstruction} %pdf, jpg, png...
+  \caption{Phasen Open UP Unterprozess Construction- imperativ}
+  \label{fig:OpenUpConstruction}
+\end{center}
+\end{figure}
+
+Abbildung \ref{fig:OpenUpTransition} kann die imperative Modellierung der Phase Transition entnommen werden.\newline
+Die Phasen \textit{Anforderungen identifizieren und verfeinern, Produkt Training durchführen, Lösungsinkrement entwickeln, Lösung testen, Iteration planen und managen, weitere Aufgaben erledigen, Produktdokumentation und Training abschließen} sowie \textit{Release für die Produktion freigeben} werden parallel zueinander ausgeführt.
+
+\begin{figure}[htp]
+\begin{center}
+  \includegraphics[scale=0.8]{OpenUpTransition} %pdf, jpg, png...
+  \caption{Phasen Open UP Unterprozess Transition- imperativ}
+  \label{fig:OpenUpTransition}
+\end{center}
+\end{figure}
+
+
+
+Im weiteren Verlauf wird aus jeder der vier Phasen Inception, Elaboration, Construction und Transition des Open UP jeweils ein Unterprozess modelliert, da die Abbildung aller Unterprozesse aus jeder Phase den Rahmen der Arbeit sprengen würde. \newline
+Somit wird für die Phase Inception der Unterprozess \textit{Iteration planen und managen}, für die Phase Elaboration der Unterprozess \textit{Anforderungen identifizieren und verfeinern}, für die Phase Construction der Unterprozess \textit{Release deployen} und für die Phase Transition der Unterprozess \textit{Produktdokumentation und Training erstellen} modelliert. Außerdem wird der in den drei Phasen Elaboration, Construction und Transition wiederkehrende Unterprozess \textit{Lösungsinkrement entwickeln} modelliert.
+
+\subsubsection{Develop Solution Increment}
+
+Im Unterprozess \textit{Lösungsinkrement entwickeln} geht es um das Design, die Implementierung, das Testen und die Integration der Lösung für eine Anforderung in einem bestimmten Kontext. Sie tritt genauso viele Male auf, wie es Arbeitsaufgaben gibt, die in einer Iteration entwickelt werden müssen.
  Handelt es sich um eine typische Veränderung wird zunächst eine Lösung designt und anschließend ein Entwickeltest implementiert. Bei einer trivialen Änderung an der bestehenden Implementierung kann diese auch direkt in der bestehenden Architektur vorgenommen werden. \newline
  Sobald die Fragen der technischen Umsetzung geklärt sind, werden Entwicklertests implementiert, um die Implementierung zu verifizieren. Anschließend werden diese Entwicklertests ausgeführt.\newline
  Falls bei der Ausführung der Tests Fehler ersichtlich werden, muss eine Lösung für diesen Fehler implementiert werden und die Entwicklertests müssen erneut ausgeführt werden. Dies wird solange wiederholt, bis alle Tests bestanden sind.\newline
  Auch wenn alle Tests bestanden werden, sollte der Entwurf an dieser Stelle nochmals überdacht werden. Falls hier beschlossen wird, dass der Code überarbeitet werden muss, muss im Prozess zurückgegangen werden und erneut eine Lösung designt werden, da eine Änderung des Codes die Implementation und die Entwicklertests beeinflussen könnte.\newline
  Da es am Besten ist die Implementierungsteile so klein wie möglich zu halten, sollte zunächst eine kleine Design-Lösung für einen Teil der Arbeitsaufgabe entwickelt werden. Anschließend sollte dies für weitere kleine Teile solange wiederholt werden, bis die gesamte Arbeitsaufgabe implementiert ist. \newline
- In Abbildung \ref{fig:Develop} ist die imperative Modellierung von develop Solution Increment abgebildet.\newline
+ In Abbildung \ref{fig:Develop} ist die imperative Modellierung von \textit{Lösungsinkrement entwickeln} abgebildet.\newline
  Die XOR-Verknüpfung am Anfang führt im Falle einer trivialen Änderung zur sofortigen Ausführung der Aktivität \textit{Entwicklertest implementieren}. Falls es sich jedoch um eine typische Änderung handelt, muss zuvor die Aktivität \textit{Lösung designen} ausgeführt werden. Im Anschluß an \textit{Entwicklertest implementieren} muss die Aktivität \textit{Entwicklertest ausführen} durchgeführt werden.\newline
  Hiernach wird im Falle eines fehlgeschlagenen Tests zunächst eine \textit{Lösung implementiert} und anschließend erneut der \textit{Entwicklertest ausgeführt}. \newline
  Wenn der Test bestanden ist muss am XOR-Gateway entschieden werden, ob der Code gut designt ist. Falls nein, muss erneut eine Lösung designt werden. Falls doch, kann der Code integriert werden. Ist die Arbeit vollständig erledigt, so ist der Prozess beendet. Wenn jedoch noch weitere Arbeit vorhanden ist, beginnt er von vorne.
@@ -305,18 +364,18 @@ für die Erstellung und Aktualisierung von Artefakten verantwortlich. Artefakte 
 \begin{figure}[htp]
 \begin{center}
   \includegraphics[width=\linewidth]{DevelopSolution} %pdf, jpg, png...
-  \caption{Develop Solution Increment imperativ}
+  \caption{Lösungsinkrement entwickeln imperativ}
   \label{fig:Develop}
 \end{center}
 \end{figure}
 
-\subsubsection{Plan and manage iteration- Inception}
+\subsubsection{Iteration planen und managen- Inception}
 
-Die Aktivität \textit{Plan and manage iteration} wird während des gesamten Projektlebenszyklus ausgeführt. Ihr Ziel ist es, Risiken und Probleme früh genug zu identifizieren, damit diese entschärft werden können, um die Ziele für die Iteration festzulegen und das Team dabei zu unterstützen, diese zu erreichen.\newline
+Die Aktivität \textit{Iteration planen und managen} wird während des gesamten Projektlebenszyklus ausgeführt. Ihr Ziel ist es, Risiken und Probleme früh genug zu identifizieren, damit diese entschärft werden können, um die Ziele für die Iteration festzulegen und das Team dabei zu unterstützen, diese zu erreichen.\newline
 Die Iteration wird durch den Projektmanager und das Team gestartet. Hier findet die Priorisierung der Arbeit für eine gegebene Iteration statt. Der Projektmanager, die Stakeholder und die Teammitglieder einigen sich darauf, was während der Iteration zu entwickeln ist.\newline
 Die Teammitglieder melden sich für die Arbeitsaufgaben, die während der Iteration entwickelt werden müssen. Anschließend teilt sich jedes Teammitglied seine Arbeitsaufgaben selbstständig in Arbeitseinheiten ein und schätzt den Aufwand hierfür ab.\newline
 Während der Iteration trifft sich das Team regelmäßig, um den aktuellen Stand der Arbeit und eventuelle Probleme zu besprechen. \newline
-Abbildung \ref{fig:PlanAndManageIterationInception-2} zeigt die imperative Modellierug von \textit{Plan and manage iteration}. \newline
+Abbildung \ref{fig:PlanAndManageIterationInception-2} zeigt die imperative Modellierug von \textit{Iteration planen und managen}. \newline
 Vom Projektmanager sind hierbei nacheinander die Aktivitäten \textit{Iteration planen, Umgebung vorbereiten, Iteration managen} und \textit{Ergebnsse festlegen} durchzuführen und das Team muss nacheinander die Aktivitäten \textit{Arbeitsaufgaben aussuchen, Arbeitsaufgaben in Entwicklungsaufgaben einteilen} sowie \textit{Aufwand abschätzen} ausführen. Hierbei gehen jeweils die Artefakte \textit{Arbeitseinheiten-Liste, Iterationsplan} und \textit{Risiko-Liste} in verschieden Aktivitäten als Input ein und kommen eventuel verändert als Output wieder heraus. \newline
 Die Aktivität \textit{Umgebung vorbereiten} ist als Unterprozess in Abbildung \ref{fig:Umgebungvorbereiten} dargestellt. Hier müssen vom Projektmanager die Aktivitäten \textit{Prozess Maßschneidern} und \textit{Prozess deployen} sequentiell erledigt werden, während der Tool Spezialist die Aufgaben \textit{Tools aufsetzen} und \textit{Tool-Konfiguration und Implementation verifizieren} zu erledigen hat.
 
@@ -324,7 +383,7 @@ Die Aktivität \textit{Umgebung vorbereiten} ist als Unterprozess in Abbildung \
 \begin{figure}[!htbp]
 \begin{center}
   \includegraphics[scale=0.7]{PlanAndManageIterationInception-2} %pdf, jpg, png...
-  \caption{Plan and manage iteration imperativ -Inception}
+  \caption{Iteration planen und managen imperativ -Inception}
   \label{fig:PlanAndManageIterationInception-2}
 \end{center}
 \end{figure}
@@ -332,7 +391,7 @@ Die Aktivität \textit{Umgebung vorbereiten} ist als Unterprozess in Abbildung \
 \begin{figure}[!htbp]
 \begin{center}
   \includegraphics[scale=0.7]{Umgebungvorbereiten} %pdf, jpg, png...
-  \caption{Plan and manage iteration imperativ -Inception Unterprozess Umgebung vorbereiten} 
+  \caption{Iteration planen und managen imperativ -Inception Unterprozess Umgebung vorbereiten} 
   \label{fig:Umgebungvorbereiten}
 \end{center}
 \end{figure}
@@ -340,66 +399,67 @@ Die Aktivität \textit{Umgebung vorbereiten} ist als Unterprozess in Abbildung \
 \clearpage
 
 
-\subsubsection{Identify and Refine Requirements-Elaboration}
- Die Aktivität Identify and Refine Requirements beschreibt die Aufgaben, welche durchzuführen sind, um die Anforderungen eines Systems zu sammeln, zu analysieren und zu validieren bevor die Implemementierung und die Validierung stattfinden. Sie wird in Zusammenarbeit mit Stakeholdern und dem gesamten Entwicklungsteam ausgeführt, um sicher zu gehen, dass klare, konsistente, korrekte und nachprüfbare Anforderungen vorhanden sind.\newline
+\subsubsection{Anforderungen identifizieren und verfeinern}
+ Der Unterprozess \textit{Anforderungen identifizieren und verfeinern} beschreibt die Aufgaben, welche durchzuführen sind, um die Anforderungen eines Systems zu sammeln, zu analysieren und zu validieren bevor die Implemementierung und die Validierung stattfinden. Sie wird in Zusammenarbeit mit Stakeholdern und dem gesamten Entwicklungsteam ausgeführt, um sicher zu gehen, dass klare, konsistente, korrekte und nachprüfbare Anforderungen vorhanden sind.\newline
  In der Phase Elaboration liegt der Fokus hierbei auf der Definition der Lösung. Hierfür müssen diejenigen Anforderungen gefunden werden, welche für die Stakeholder am wichtigsten sind, die besonders herausfordernd oder sogar riskant sind oder eine große Bedeutung für die Architektur haben.\newline
  Dafür ist es notwendig, zunächst die funktionalen und nicht-funktionalen Anforderungen an das System zu erheben. Genau diese Anforderungen stellen dann die Basis für die Kommunikation und die Übereinstimmung zwischen den Stakeholdern und dem Entwicklungsteam dar, in Bezug auf was das System können muss, um die Wünsche der Stakeholder zu erfüllen.\newline
  Weiterhin müssen die Use-Case-Szenarien und die systemweiten Anforderungen ausführlich genug beschrieben werden, um sicher zu gehen, dass die Anforderungen richtig verstanden wurden und dass diese mit den Erwartungen der Stakeholder übereinstimmen.\newline
  Zudem müssen Testfälle und Testdaten für die Anforderungen entwickelt werden, um ein gemeinsames Verständnis für die spezifischen Bedingungen, die die Lösung erfüllen muss, zu erreichen.
- In Abbildung \ref{fig:IdentifyAndOutlineKlein} ist die imperative Modellierung von Identify and Refine Requirements abgebildet. \newline
+ In Abbildung \ref{fig:IdentifyAndOutlineKlein} ist die imperative Modellierung von \textit{Anforderungen identifizieren und verfeinern} abgebildet. \newline
  Zunächst muss der Analyst die \textit{Anforderungen identifizieren und abgrenzen}, bevor er anschließend die \textit{Use-Case-Szenarien detaillieren} kann. Daraufhin muss er die \textit{Systemweiten Anforderungen detaillieren}, damit der Tester anschließend die \textit{Testfälle erstellen} kann.\newline
  Hier gehen bei den verschiedenen Aktivitäten die Artefakte \textit{Arbeitseinheitenliste}, \textit{Use Case}, \textit{Glossar}, \textit{Systemweite Anforderungen}, \textit{Use case Modell}, \textit{Technische Spezifikation} und \textit{Testfall} als Input hinein, bzw. als Output heraus.
  
 \begin{figure}[[!htbp]
 \begin{center}
   \includegraphics[width=\linewidth]{IdentifyAndOutlineKlein} %pdf, jpg, png...
-  \caption{Identify and Refine Requirements-Elaboration}
+  \caption{Anforderungen identifizieren und verfeinern-Elaboration}
   \label{fig:IdentifyAndOutlineKlein}
 \end{center}
 \end{figure}
 
 
+\subsubsection{Produktdokumentation und Training erstellen-Construction}
+ Das Ziel des Unterprozesses \textit{Produktdokumentation und Training erstellen} ist es, die Produktdokumentation und Trainingsmaterial vorzubereiten. Da die Produktdokumentation oftmals erst nach Abschluß der Entwicklungstätigkeiten erstellt wird, muss sichergstellt werden, dass die Funktionen die während einer Release entwickelt werden klar dokumentiert werden, solange die Funktionalität noch frisch in den Köpfen der Teammitglieder vorhanden ist.\newline
+ Hierfür ist es notwendig, dass genug Informationen über die Funktionen, die in einer bestimmten Release entwickelt wurden, dokumentiert werden, um dem Kunden während der gesamten Lebenszeit des Produkts nützlich zu sein.\newline
+ Weiterhin müssen den Endnutzern nützliche Informationen bereit gestellt werden in Form von Benutzerhandbüchern, Tutorials, häufig gestellte Fragen (FAQs), Online-Hilfedateien, Installationsanweisungen und Betriebsabläufe. \newline
+ Zudem muss sichergestellt werden, dass diejenigen, die mit der Unterstützung des Systems beauftragt sind, genug Informationen über das Produkt haben, um ihre Arbeit effektiv durchzuführen, nachdem das Produkt produktiv gegangen ist. \newline
+ Außerdem muss die Einführung des Produkts zu ermöglicht werden und dessen ordnungsgemäße Verwendung gewährleistet werden.\newline
+ 
+ Die imperative Modellierung von \textit{Produktdokumentation und Training erstellen} kann Abbildung \ref{fig:DevelopProductDocumentationKlein} entnommen werden.\newline
+ Hier sind vom technischen Schreiber nacheinander die Aktivitäten \textit{Produktdokumentation erstellen}, \textit{Benutzerdokumentation erstellen}, \textit{Unterstützungsdokumentation erstellen} und \textit{Trainingsmaterial erstellen} auszuführen. Aus den jeweiligen Aktivitäten enstehen sodann die Artefakte \textit{Produktdokumentation, Benutzerdokumentation, Unterstützungsdokumentation} und \textit{Trainingsmaterial}.
+ 
+\begin{figure}[!htbp]
+\begin{center}
+  \includegraphics[width=\linewidth]{DevelopProductDocumentationKlein} %pdf, jpg, png...
+  \caption{Produktdokumentation und Training erstellen}
+  \label{fig:DevelopProductDocumentationKlein}
+\end{center}
+\end{figure}
 
-\subsubsection{Deploy Release-Transition}
+
+\subsubsection{Release deployen-Transition}
 
 
-Das Ergebnis dieser Aktivität ist die Release eines Sets von integrierten Komponenten in der Integrationsumgebung. \newline
+Das Ergebnis dieses Unterprozesses ist die Release eines Sets von integrierten Komponenten in der Integrationsumgebung. \newline
 Hierfür ist es notwendig ein komplettes, bereitstellungsfähiges Paket zu erstellen, welches vom Deployment Engineer in die Bereitstellungsumgebung releast werden kann.\newline
  Außerdem muss sichergestellt werden, dass der Roll-Out aus klaren, geprüften und wiederholbaren Anweisungen besteht und das Risiko eines Bereitstellungsfehlers muss minimiert werden. \newline
  Zudem muss sichergestellt werden, dass eine Release zu keinen ungewollten Unterbrechungen im Ablauf in der Produktionsumgebung führt. \newline
  Falls eine Release Probleme veursacht oder sie von den Stakeholdern als untauglich empfunden wird, muss diese Release von der Produktionsumgebung so schnell wie möglich entfernt werden. \newline
  Zusätzlich muss dafür gesorgt werden, dass Informationen über eine anstehende Release weitest möglich verteilt werden.\newline
  
-  Abbildung \ref{fig:DeployReleaseTransitionKlein} zeigt die imperative Modellierung von Deploy Release.\newline
+  Abbildung \ref{fig:DeployReleaseTransitionKlein} zeigt die imperative Modellierung von \textit{Release deployen}.\newline
   Somit muss der Entwickler zunächst die \textit{Release zusammenstellen}, bevor der Deployment Engineer nacheinander die Aktivitäten \textit{Deploymentplan ausführen} und \textit{erfolgreiches Deployment sicherstellen} ausführt. Falls das Deployment erfolgreich ist, wird gleich anschließend die Aktivität \textit{Releasemitteilungen übermitteln} ausgeführt. Falls das Deployment nicht erfolgreich ist, muss zunächst die Aktivität \textit{Backoutplan ausführen} erledigt werden und erst danach die Aktivität \textit{Releasemitteilungen übermitteln} ausgeführt werden.
 
 
 \begin{figure}[!htbp]
 \begin{center}
   \includegraphics[width=\linewidth]{DeployReleaseTransitionKlein} %pdf, jpg, png...
-  \caption{Deploy Release-Transition}
+  \caption{Release deployen-Transition}
   \label{fig:DeployReleaseTransitionKlein}
 \end{center}
 \end{figure}
 
 
-\subsubsection{Develop Product Documentation-Construction}
- Das Ziel der Aktivität Develop Product Documentation ist es, die Produktdokumentation und Trainingsmaterial vor zu bereiten. Da die Produktdokumentation oftmals erst nach Abschluß der Entwicklungstätigkeiten erstellt wird, muss sichergstellt werden, dass die Funktionen die während einer Release entwickelt werden klar dokumentiert werden, solange die Funktionalität noch frisch in den Köpfen der Teammitglieder vorhanden ist.\newline
- Hierfür ist es notwendig, dass genug Informationen über die Funktionen, die in einer bestimmten Release entwickelt wurden, dokumentiert werden, um dem Kunden während der gesamten Lebenszeit des Produkts nützlich zu sein.\newline
- Weiterhin müssen den Endnutzern nützliche Informationen bereit gestellt werden in Form von Benutzerhandbüchern, Tutorials, häufig gestellte Fragen (FAQs), Online-Hilfedateien, Installationsanweisungen und Betriebsabläufe. \newline
- Zudem muss sichergestellt werden, dass diejenigen, die mit der Unterstützung des Systems beauftragt sind, genug Informationen über das Produkt haben, um ihre Arbeit effektiv durchzuführen, nachdem das Produkt produktiv gegangen ist. \newline
- Außerdem muss die Einführung des Produkts zu ermöglicht werden und dessen ordnungsgemäße Verwendung gewährleistet werden.\newline
- 
- Die imperative Modellierung von Develop Product Documentation kann Abbildung \ref{fig:DevelopProductDocumentationKlein} entnommen werden.\newline
- Hier sind vom technischen Schreiber nacheinander die Aktivitäten \textit{Produktdokumentation erstellen}, \textit{Benutzerdokumentation erstellen}, \textit{Unterstützungsdokumentation erstellen} und \textit{Trainingsmaterial erstellen} auszuführen. Aus den jeweiligen Aktivitäten enstehen sodann die Artefakte \textit{Produktdokumentation, Benutzerdokumentation, Unterstützungsdokumentation} und \textit{Trainingsmaterial}.
- 
-\begin{figure}[!htbp]
-\begin{center}
-  \includegraphics[width=\linewidth]{DevelopProductDocumentationKlein} %pdf, jpg, png...
-  \caption{Develop Product Documentation-Construction}
-  \label{fig:DevelopProductDocumentationKlein}
-\end{center}
-\end{figure}
 
 \clearpage
 
@@ -585,43 +645,44 @@ Die Entscheidungspunkte für die Arbeitgeber/Arbeitnehmer Schnittstelle setzen s
 \end{center}
 \end{sidewaysfigure}
 
+Im Folgenden werden Teile des V-Modells XT modelliert, da das ganze V-Modell in dieser Arbeit nicht  modelliert werden kann. Aus diesem Grund wird zum Einen das \textit{Systementwicklungsprojekt AG/AN} modelliert. Weiterhin wird ein hierzu gehöriger Unterprozess \textit{Inkrementelle Entwicklung} und die hierzu gehörenden Unterprozesse \textit{System entwerfen} und \textit{System spezifizieren} modelliert.
+
 \subsection{Imperative Modellierung V-Modell}
 
-\subsubsection{Angebots- und Vetragswesen}
-Die imperative Modellierung von Angebots- und Vertragswesen zeigt Abbildung \ref{fig:AngebotsVertragswesenKlein}. \newline
-Zunächst wird in der Aktivität\textit{Angebot erstellen} ein \textit{Angebot} angefertigt.\newline
-Die nachfolgende Aktivität \textit{Vertrag abschließen} bringt den \textit{Vertrag (AG)} als Output hervor.\newline
-Anschließend wird in der folgenden Aktivität \textit{Vertragszusatz abschließen} der \textit{Vertragszusatz (AG)} abgeschlossen.\newline
-Die Aktivität \textit{Lieferung erstellen und ausliefern} erbringt sodann die \textit{Lieferung}hervor.\newline
-Aus der letzten Aktivität \textit{Abnahmeerklärung erhalten} kommt die \textit{Abnahmeerklärung(AG)} heraus.
 
 
+\subsubsection{Systementwicklungsprojekt AG/AN}
+
+
+Die imperative Modellierung von \textit{Systementwicklungsprojekt AG/AN}  zeigt Abbildung \ref{fig:Systementwicklung}. \newline
+Zunächst muss ein Projekt genehmigt und definiert werden. Dies ist durch die einander folgenden Aktivitäten\textit{Projekt genehmigen} und \textit{Projekt definieren} dargestellt.\newline
+In der nachfolgenden Aktivität müssen sodann die \textit{Anforderungen festgelegt werden}, bevor die \textit{Iteration geplant} werden kann. \newline
+Hiernach muss entschieden werden, ob eine \textit{Prototypische Entwicklung durchgeführt}, eine \textit{Komponenten-basierte Entwicklung durchgeführt} oder eine \textit{Inkrementelle Entwicklung durchgeführt} werden soll. dies wird durch das XOR-Gateway beschrieben, welche nur eine Alternative zulässt.\newline
+Anschließend wird das \textit{System abgenommen}.\newline
+An dieser Stelle wird enschieden, ob erneut zu \textit{Anforderungen festlegen} zurückgekehrt wird und der Prozess ab dieser Aktivität erneut startet oder ob zu \textit{Projekt ausschreiben} zurückgekehrt wird und der Prozess ab hier erneut startet. Ansonsten ndet der Prozess mit der Aktivität \textit{Projekt abschließen}.
 
 \begin{figure}[!htbp]
 \begin{center}
-  \includegraphics[width=\linewidth]{AngebotsVetragswesenKlein} %pdf, jpg, png...
-  \caption{Angebots- und Vetragswesen V-Modell - imperativ}
-  \label{fig:AngebotsVetragswesenKlein}
+  \includegraphics[width=\linewidth]{Systementwicklung} %pdf, jpg, png...
+  \caption{Systementwicklungsprojekt AG/AN  V-Modell - imperativ}
+  \label{fig:Systementwicklung}
 \end{center}
 \end{figure}
 
 
 
 
-\subsubsection{Planung und Steuerung}
-In Abbildung \ref{fig:PlanungSteuerungKlein} ist die imperative Modellierung von Planung und Steuerung abgebildet. \newline
-Zu Beginn von Planung und Steuerung muss ein \textit{Projektfortschrittsentscheidung herbeigeführt} werden. Hieraus entsteht das Artefakt \textit{Projektfortschrittsentscheidung}.\newline
-Hiernach ist in der gleichnamigen Aktivität das \textit{Projekthandbuch zu erstellen}, welches auch als Artefakt aus dieser Aktivität hervorgeht.\newline
-Im nächsten Schritt wird das \textit{QS-Handbuch erstellt}.\newline
-In der nachfolgenden Aktivität wird die \textit{Projektmanagement-Infrastruktur eingerichtet und gepflegt}, woraus das Artefakt \textit{Projektmanagementinfrastruktur} entsteht.\newline
-Anschließend erfolgt die Durchführung der Aktivität \textit{Schätzung durchführen}, in welche die Artefakte \textit{Schätzmodelle} und \textit{Projektplanung} eingehen und das Artefakt \textit{Projektplan} als Artefakt herauskommt.\newline
-Bei der nächsten Aktivität wird der \textit{Arbeitsauftrag vergeben} und danach wird die \textit{Kaufmännische Projektkalkulation durchgeführt} mit Hilfe von \textit{Kosten-Nutzen-Analysen und Schätzmodellen} als Input.
-
+\subsubsection{Inkrementelle Entwicklung durchführen}
+In Abbildung \ref{fig:Inkrementell} ist die imperative Modellierung des Unterprozesses \textit{Inkrementelle Entwicklung durchführen} abgebildet. \newline
+Zu Beginn muss das \textit{System spezifiziert} werden und anschließend wird das \textit{System entworfen}. \newline
+Hiernach wird der \textit{Feinentwurf entworfen} und \textit{Systemelemente realisiert}. Diese beiden Aktivitäten können so oft wie nötig durchgeführt werden, was durch das XOR-Gateway beschrieben ist.  \newline
+Im nächsten Schritt wird das \textit{System integriert} und es beginnt eine neue Iteration bei der Aktivität System entwerfen.\newline
+Falls keine weitere Iteration mehr notwedig ist, wird die \textit{Lieferung durchgeführt} und der Unterprozess endet.. \newline
 \begin{figure}[!htbp]
 \begin{center}
-  \includegraphics[width=\linewidth]{PlanungSteuerungKlein} %pdf, jpg, png...
-  \caption{Planung und Steuerung V-Modell - imperativ}
-  \label{fig:PlanungundSteuerung}
+  \includegraphics[width=\linewidth]{Inkrementell} %pdf, jpg, png...
+  \caption{Unterprozess Inkrementelle Entwicklung durchführen V-Modell - imperativ}
+  \label{fig:Inkrementell}
 \end{center}
 \end{figure}
 
@@ -630,23 +691,23 @@ Bei der nächsten Aktivität wird der \textit{Arbeitsauftrag vergeben} und danac
 \clearpage
 
 
-\subsubsection{Systementwurf}
+\subsubsection{System entwerfen}
 
-Abbildung \ref{fig:SystementwurfKlein} zeigt die imperative Modellierung von Systementwurf.\newline
+Abbildung \ref{fig:SystementwurfKlein} zeigt die imperative Modellierung des Unterprozesses \textit{System entwerfen}.\newline
 Die Aktivitäten \textit{Systemarchitektur erstellen, Unterstütungssystemarchitektur erstellen, Styleguide für die Mensch-Maschine-Schnittstelle erstellen, HW-Architektur erstellen, SW-Architektur erstellen, Datenbankentwurf erstellen, Implementierungs-, Integrations- und Prüfkonzept Unterstützungssystem erstellen, Integrations- und Prüfkonzept Hardware (HW) erstellen, Integrations- und Prüfkonzept Software (SW) erstellen} und \textit{Migrationskonzept erstellen} werden hier nacheinander ausgeführt.
 \begin{figure}[!htbp]
 \begin{center}
   \includegraphics[width=\linewidth]{SystementwurfKlein} %pdf, jpg, png...
-  \caption{Systementwurf V-Modell - imperativ}
+  \caption{System entwerfen V-Modell - imperativ}
   \label{fig:SystementwurfKlein}
 \end{center}
 \end{figure}
 
 
-\subsubsection{Berichtswesen}
+\subsubsection{System spezifizieren}
 
 
-Am Anfang von Berichtswesen (Abbildung \ref{fig:BerichtswesenimpKlein}) muss eine \textit{Besprechung durchgeführt} werden. Hieraus entsteht das Artefakt \textit{Besprechungsdokument}.\newline
+Am Anfang des Unterprozesses \textit{System spezifizieren} (Abbildung \ref{fig:BerichtswesenimpKlein}) muss eine \textit{Besprechung durchgeführt} werden. Hieraus entsteht das Artefakt \textit{Besprechungsdokument}.\newline
 Parallel zu allen anderen Aktivitäten ist bei Bedarf bei jeder Änderung das \textit{Projekttagebuch zu führen}. Dies wird durch das Parallel-Gateway sichergstellt und die XOR-Schleife stellt sicher, dass die Akrtivität so oft durchgeführt wird, wie Anpassungen notwendig sind. \newline
 Im nächsten Schritt werden die \textit{Messdaten erfasst}.\newline
 In der nachfolgenden Aktivität wird die \textit{Metrik berechnet und ausgewertet}, woraus das Artefakt \textit{Metrikauswertung} entsteht.\newline
@@ -657,7 +718,7 @@ Die Aktivität \textit{QS-Bericht erstellen} bringt dann das Artefakt \textit{QS
 \begin{figure}[!htbp]
 \begin{center}
   \includegraphics[width=\linewidth]{BerichtswesenimpKlein} %pdf, jpg, png...
-  \caption{Berichtswesen-imperativ}
+  \caption{System spezifizieren-imperativ}
   \label{fig:BerichtswesenimpKlein}
 \end{center}
 \end{figure}
