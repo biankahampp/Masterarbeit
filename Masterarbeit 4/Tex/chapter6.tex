@@ -97,52 +97,33 @@ Die Aktivitäten \textit{alle 24 Stunden 15-minütiges Scrum-Meeting durchführe
 \subsection{Vergleich}
 
 Der Vergleich zwischen den in der deklarativen Prozessmodellierungssprache ConDec und dem in der imperativen Prozessmodellierungssprache BPMN erstellten Scrum Prozessmodellen wird im Folgenden anhand der in Kapitel 5 definierten Anforderungen durchgeführt. \newline
-Wie Abbildung \ref{fig:Akt} entnommen werden kann, unterscheidet sich die Anzahl der Aktivitäten zwischen den in BPMN und ConDec modellierten Prozessmodellen nicht voneinander. In jedem Prozessmodell gibt es 12 Aktivitäten.\newline
+Wie Abbildung \ref{fig:ScrumExcel} entnommen werden kann, unterscheidet sich die Anzahl der Aktivitäten zwischen den in BPMN und ConDec modellierten Prozessmodellen nicht voneinander. In jedem Prozessmodell gibt es 12 Aktivitäten.\newline
 
 \begin{figure}[htp]
 \begin{center}
-  \includegraphics[scale=0.8]{Akt} %pdf, jpg, png...
-  \caption{Vergleich der Anzahl der Aktivitäten Scrum}
-  \label{fig:Akt}
+  \includegraphics[scale=0.8]{ScrumExcel} %pdf, jpg, png...
+  \caption{Vergleich der Anzahl der Elemente Scrum}
+  \label{fig:ScrumExcel}
 \end{center}
 \end{figure}
 
-Die Anzahl der Verbindungselemente, welche zur Beschreibung des Ablaufes notwendig sind, unterscheiden sich jedoch, wie Abbildung \ref{fig:Flusselemente} zeigt.\newline
-So werden in BPMN 8 Gateways und 20 Sequenzflusselmente benötigt, um den Ablauf des Metamodells darzustellen. Bei Verwendung von ConDec werden 21 Verbindungselemente benötigt.\newline
-\begin{figure}[htp]
-\begin{center}
-  \includegraphics[scale=0.8]{Flusselemente} %pdf, jpg, png...
-  \caption{Vergleich der Anzahl der Flusselmente Scrum}
-  \label{fig:Flusselemente}
-\end{center}
-\end{figure}
+Die Anzahl der Verbindungselemente, welche zur Beschreibung des Ablaufes notwendig sind, unterscheiden sich jedoch, wie Abbildung \ref{fig:ScrumExcel} zeigt.\newline
+So werden in BPMN 8 Gateways und 20 Sequenzflusselmente benötigt, also insgesamt 28 Verbindungselemente um den Ablauf des Metamodells darzustellen. Bei Verwendung von ConDec werden 20 Verbindungselemente benötigt.\newline
+
 
 Weiterhin werden in BPMN 4 Artefakte zum Beschreiben des Metamodells benötigt, in ConDec gibt es jedoch keine Modellierungselemente hierfür, weshalb es hier im deklarativen Modell keine Artefakte gibt.\newline
-\begin{figure}[htp]
-\begin{center}
-  \includegraphics[scale=0.8]{Artefakte} %pdf, jpg, png...
-  \caption{Vergleich der Anzahl der Artefakte Scrum}
-  \label{fig:Artefakte}
-\end{center}
-\end{figure}
 
 
-Genau wie bei den Artefakten gibt es in ConDec keine Möglichkeite verschiedene Rollen innerhalb eines Prozessmodelles darzustellen. Aus diesem Grund gibt es in BPMN 3 Rollen und in ConDec keine (Abbildung \ref{fig:Rollen}).
+Genau wie bei den Artefakten gibt es in ConDec keine Möglichkeite verschiedene Rollen innerhalb eines Prozessmodelles darzustellen. Aus diesem Grund gibt es in BPMN 3 Rollen und in ConDec keine.\newline
 
-\begin{figure}[htp]
-\begin{center}
-  \includegraphics[scale=0.8]{Rollen} %pdf, jpg, png...
-  \caption{Vergleich der Anzahl der Rollen Scrum}
-  \label{fig:Rollen}
-\end{center}
-\end{figure}
 
 In Bezug auf die \textit{Klarheit}, welche in Kapitel 5 als Anforderungskriterium festgelegt wurde, haben beide Modellierungssprachen Stärken und Schwächen. Die Anzahl der Aktivitäten unterscheidet sich nicht, jedoch die Anzahl der Flusselemente. Eine größere Anzahl an Verbindungselementen kann sich negativ auf die Verständlichkeit auswirken. Hier ist die Anzahl aber bei BPMN nur leicht höher ist als bei ConDec.\newline
 Die \textit{Richtigkeit} lässt sich mit BPMN in Bezug auf Rollen und Artefakte besser einhalten, als mit ConDec. Da es bei ConDec keine Möglichkeit gibt, Rollen und Artefakte im Prozessmodell selbst abzubilden, müssen diese Informationen weggelassen werden. Die Rollen und Artefakte können zwar in Declare abgebildet werden, jedoch ist dies auf Papier/Bild nicht sichtbar. Aus desem Grund müssen diese Informationen beim Modellieren weggelassen werden, was zur Folge hat, dass das im Metamodell beschriebene Verhalten nicht vollständig abgebildet werden kann und somit leidet auch der Nutzen des Modells.\newline
 \textit{Wirtschaftlichkeit} lässt sich mit beiden Modellierungssprachen einhalten. Die Aufwände zum Erstellen der Modelle unterscheiden sich in den beiden verwendeten Sprachen nicht voneinander, da sie beide ungefähr die gleiche Größe haben.\newline
 Beide Prozessmodelle können mit minimal relevanten Informationen erstellt werden. Bei keiner der beiden Modellierungssprachen war es notwendig, weitere Informationen zum Modell hinzuzufügen, um dessen Qualität zu erhöhen. Somit kann \textit{Relevanz} bei beiden Prozessmodellen eingehalten werden.\newline
+Nur BPMN bietet die Möglchkeit bietet, Artefakte im Prozessmodell abzubilden und lässt somit die Integration anderer Sichten in das Modell zu. Somit kann der Modellierungsgrundsatz des \textit{systematischen Aufbaus} nur von BPMN eingehalten werden. Da ConDec dies nicht zulässt, schmälert es die Eignung von ConDec zum Modellieren in Bezug auf Softwareprozessmodelle. Hierdurch können wichtige Informationen aus dem Metamodell nicht abgebildet werden. \newline 
+Da bei BPMN mehr Verbindungselemente benötigt werden, weißt das mit BPMN erstellte Modell auch insgesamt mehr Elemente auf. Während bei ConDEc insgesamt 32 Elemente benötigt werden, werden zur Darstellung des gleichen Sachverhaltes bei BPMN 40 Elemente benötigt. Die \textit{Vergleichbarkeit} ist dadurch nicht ganz gewährleistet, da die Anzahl der Elemente bei BPMN höher ist, als bei ConDec.
 
-Da nur BPMN die Möglchkeit bietet, Artefakte im Prozessmodell abzubilden und somit die Integration anderer Sichten in das Modell zulässt. Da ConDec dies nicht zulässt, schmälert es die Eignung von ConDec zum Modellieren in Bezug auf Softwareprozessmodelle. Hierdurch können wichtige Informationen aus dem Metamodell nicht abgebildet werden. 
 
 
 
@@ -553,7 +534,7 @@ Vor dem \textit{Integrieren} muss der Entwicklertest ausgeführt worden sein, wa
 \end{center}
 \end{figure}
 
-Die deklarative Modellierung von Plan and manage iteration findet sich in Abbildung \textit{PlanAndmanageDecKlein}. Gestartet werden kann mit den Aktivitäten {Iteration planen} oder {Arbeitsaufgaben aussuchen}, da diese unabhängig voneinander ausgeführt werden können und von zwei verschiedenen Personen ausgeführt werden können.\newline
+Die deklarative Modellierung von Plan and manage iteration findet sich in Abbildung \textit{IterationPlanenDec}. Gestartet werden kann mit den Aktivitäten {Iteration planen} oder {Arbeitsaufgaben aussuchen}, da diese unabhängig voneinander ausgeführt werden können und von zwei verschiedenen Personen ausgeführt werden können.\newline
 danach können entweder die Aktivitäten \textit{Umgebung vorbereiten} oder \textit{Arbeitsaufgaben in Entwicklungsaufgaben einteilen} ausgeführt werden. Diese sind jeweils mit ihrer Vorgängeraktivität durch das Constraint \textit{succession} verbunden und müssen deshalb auf die Ausführung ihres Vorgängers warten und nach dessen Ausführung ausgeführt werden.\newline
 Das gleiche Ausführungsverhalten gilt auch für die anderen Aktivitäten im Prozess. 
 
@@ -561,11 +542,20 @@ Das gleiche Ausführungsverhalten gilt auch für die anderen Aktivitäten im Pro
 
 \begin{figure}[htp]
 \begin{center}
-  \includegraphics[width=\linewidth]{PlanAndmanageDecKlein} %pdf, jpg, png...
+  \includegraphics[width=\linewidth]{IterationPlanenDec} %pdf, jpg, png...
   \caption{Plan and manage iteration deklarativ}
-  \label{fig:PlanAndmanageDecKlein}
+  \label{fig:IterationPlanenDec}
 \end{center}
 \end{figure}
+
+\begin{figure}[htp]
+\begin{center}
+  \includegraphics[width=\linewidth]{UmgebungvorbereitenDec} %pdf, jpg, png...
+  \caption{Plan and manage iteration deklarativ}
+  \label{fig:UmgebungVorbereitenDec}
+\end{center}
+\end{figure}
+
 Abbildung \ref{fig:DeployReleaseDecKlein} zeigt die deklarative Modellierung von Deploy Release.\newline
 Zu Beginn muss Die Aktivität \textit{Release zusammenstellen} bearbeitet werden, was durch das init-Constraint vorgegeben ist. Danach wird muss die Aktivität \textit{Deploymentplan ausfuehren} durchgeführt werden (Constraint response), aber erst nachdem \textit{Release zusammenstellen} durchgeführt wurde (Contsraint precedence).\newline
 Die gleichen Constraints gelten zwischen den Aktivitäten \textit{Deploymentplan ausfuehren} und \textit{erfolgreiches Deployment sicherstellen}.\newline
@@ -592,7 +582,7 @@ Zu Beginn muss die Aktivität \textit{Anforderungen identifizieren und abgrenzen
 
 
 
-Abbildung \ref{fig:DevelopProductDecKlein} zeigt die deklarative Modellierung von Develop product Documentation.\newline
+Abbildung \ref{fig:DevelopProductDecKlein} zeigt die deklarative Modellierung von Develop Product Documentation.\newline
 Zu Beginn muss die Aktivität \textit{Produktdokumentation entwickeln} ausgeführt werden, was durch das init-Label dargestellt ist. Im Anschluss muss die Aktivität \textit{Benutzerdokumentation entwickeln} ausgeführt werden. Dies ist durch das Constraint \textit{chain response} festgelegt ist. Das Constraint \textit{precedence} legt hingegen fest, dass bevor \textit{Benutzerdokumentation entwickeln} ausgeführt werden kann, zunächst \textit{Produktdokumentation entwickeln} bearbeitet werden muss. Die gleichen Constraints gelten zwischen \textit{Benutzerdokumentation entwickeln} und \textit{Unterstützungsdokumentation entwickeln} sowie zwischen \textit{Unterstützungsdokumentation entwickeln} und \textit{Trainingsmaterial entwickeln}. Alle Aktivitäten werden genau einmal ausgeführt, was jeweils durch das 1-Label dargestellt ist. 
 
 \begin{figure}[htp]
@@ -606,7 +596,47 @@ Zu Beginn muss die Aktivität \textit{Produktdokumentation entwickeln} ausgefüh
 
 \subsection{Vergleich}
 
+Abbildung \ref{fig:PhasenOpenUpExcel} zeigt die Auswertung der Elemente im Modell Phasen des Open UP. Während bei BPMN vier Aktivitäten, acht Gateways und 25 Verbindungselemente, also gesamt 29 Elemente für das Modell benötigt werden, werden in ConDec nur vier Aktivitäten und sechs Constraints, also insgesamt zehn Elemente benötigt.
 
+\begin{figure}[htp]
+\begin{center}
+  \includegraphics[scale=0.6]{PhasenOpenUpExcel} %pdf, jpg, png...
+  \caption{Phasen Open UP}
+  \label{fig:PhasenOpenUpExcel}
+\end{center}
+\end{figure}
+
+
+\subsubsection {Phasen Open UP-Inception}
+
+Die Anzahl der Elemente zur darstellung der Phase Inception in ConDec und BPMN können Abbildung \ref{fig:InceptionExcel} entnommen werden. BPMN benötigt somit insgesamt 19 Elemente zur Darstellung dieser Phase (vier Aktivitäten, vier Gateways und 15 Verbindungselemente), ConDec nur zehn (vier Aktivitäten, sechs Constraints). \newline
+\begin{figure}[htp]
+\begin{center}
+  \includegraphics[scale=0.6]{InceptionExcel} %pdf, jpg, png...
+  \caption{Open UP-Inception}
+  \label{fig:InceptionExcel}
+\end{center}
+\end{figure}
+
+Abbildung \ref{fig:IterationPlanenExcel} kann die Anzahl der Elemente, welche jeweils zur Darstellung des Unterprozesses Iteration planen und managen notwendig sind entnommen werden. Sowohl in BPMN, als auch in ConDec werden somit jeweils 11 Aktivitäten benötigt. In BPMN werden keine Gateways und 15 Sequenzflüsse benötigt. In ConDec sind zur korrekten Darstellung 21 Constraints notwendig. Somit werden in BPMN insgesamt 26 Elemente und in ConDec 32 Elemente verwendet.\newline
+
+\begin{figure}[htp]
+\begin{center}
+  \includegraphics[scale=0.6]{IterationPlanenExcel} %pdf, jpg, png...
+  \caption{Open UP-Iteration planen}
+  \label{fig:IterationPlanenExcel}
+\end{center}
+\end{figure}
+
+Wird die komplette Phase Inception mit allen Unterprozessen(Phasen Open UP, Inception, Iteration planen und managen) betrachtet, werden in Summe zur Darstellung in BPMN 70 Elemente und in ConDec 52 Elemente benötigt (Abbildung \ref{fig:InceptionGesamt}).
+
+\begin{figure}[htp]
+\begin{center}
+  \includegraphics[scale=0.6]{InceptionGesamt} %pdf, jpg, png...
+  \caption{Open UP-Inception gesamt }
+  \label{fig:InceptionGesamt}
+\end{center}
+\end{figure}
 
 
 \section{V-Modell XT}
@@ -804,43 +834,65 @@ Die Aktivität \textit{QS-Bericht erstellen} bringt dann das Artefakt \textit{QS
 \subsection{Deklarative Modellierung V-Modell}
 
 
-In der deklarativen Modellierung von Angebots- und Vertragswesen (Abbildung \ref:{fig:AngebotsVetragswesenKlein} wird mit der Aktivität \textit{Angebot erstellen} begonnen. Anschließend wird die Aktivität \textit{ Vertrag abschliessen} ausgeführt. Die Ausführung dieser darf nicht vor \textit{ Angebot erstellen } erfolgen, muss jedoch nach deren Ausführung ausgeführt werden. Deshalb befindet sich das Constraint \textit{succession} zwischen diesen beiden Aktivitäten. Das gleiche Ausführungsmuster gilt auch für alle weiteren Aktivitäten in diesem Modell. Zudem wird jede  Aktivität in diesem Modell genau einmal ausgeführt.
+Die deklarative Modellierung von \textit{Systementwicklungsprojekt AG/AN}  zeigt Abbildung \ref{fig:SystemV}. \newline
+Zunächst muss ein Projekt genehmigt und definiert werden. Dies ist durch die aufeinander folgenden Aktivitäten \textit{Projekt genehmigen} und \textit{Projekt definieren} dargestellt, welche durch das Constraint \textit{succession} verbunden sind.\newline
+In der nachfolgenden Aktivität müssen sodann die \textit{Anforderungen festgelegt werden}, bevor die \textit{Iteration geplant} werden kann. \newline
+Hiernach muss entschieden werden, ob eine \textit{Prototypische Entwicklung durchgeführt}, eine \textit{Komponentenbasierte Entwicklung durchgeführt} oder eine \textit{Inkrementelle Entwicklung durchgeführt} werden soll. Dies wird hier durch einen extra Unterprozess \textit{Entwicklung durchführen} (Abbildung \ref{fig:SystemVUnter} dargestellt, da dieser Sachverhalt auf Grund der Schleifen im Prozess ohne Unterprozess nicht darstellbar war. Im Unterprozess kann dann eine der drei Aktivitäten ausgeführt werden, was das Constraint \textit{1of 3} vorgibt.\newline
+Anschließend wird das \textit{System abgenommen}.\newline
+An dieser Stelle wird enschieden, ob erneut zu \textit{Anforderungen festlegen} zurückgekehrt wird und der Prozess ab dieser Aktivität erneut startet oder ob zu \textit{Projekt ausschreiben} zurückgekehrt wird und der Prozess ab hier erneut startet. Ansonsten endet der Prozess mit der Aktivität \textit{Projekt abschließen}.
 
 \begin{figure}[!htbp]
 \begin{center}
-  \includegraphics[width=\linewidth]{AngebotErstellenKlein} %pdf, jpg, png...
-  \caption{Angebots- und Vertragswesen - deklarativ}
-  \label{fig:AngebotErstellenKlein}
+  \includegraphics[width=\linewidth]{SystemV} %pdf, jpg, png...
+  \caption{Systementwicklungsprojekt AG/AN  V-Modell - deklarativ}
+  \label{fig:SystemeV}
+\end{center}
+\end{figure}
+
+\begin{figure}[!htbp]
+\begin{center}
+  \includegraphics[width=\linewidth]{SystemVUnter} %pdf, jpg, png...
+  \caption{Systementwicklungsprojekt AG/AN  V-Modell Unterprozess Entwicklung durchführen - deklarativ}
+  \label{fig:SystemeVUnter}
 \end{center}
 \end{figure}
 
 
 
-
-Die deklarative Implementierung von Planung und Steuerng ist in Abbildung \ref{fig:PlanungKleinDec} abgebildet.\newline
-Angefangen wird mit der Aktivität \textit{Projektfortschrittsentscheidung herbeiführen}. Danach wird die Aktivität \textit{Projekthandbuch erstellen} ausgeführt. Die Ausführung dieser darf nicht vor \textit{Projektfortschrittsentscheidung herbeiführen} erfolgen, muss jedoch nach deren Ausführung ausgeführt werden. Aus diesem Grund befindet sich das Constraint \textit{succession} zwischen diesen beiden Aktivitäten. Das gleiche Ausführungsmuster gilt auch für alle weiteren Aktivitäten in diesem Modell. Außerdem erfolgt die Ausführung der jeder Aktivität in diesem Modell genau einmal.
-
+\subsubsection{Inkrementelle Entwicklung durchführen}
+In Abbildung \ref{fig:SystementwicklungDec} ist die deklarative Modellierung des Unterprozesses \textit{Inkrementelle Entwicklung durchführen} abgebildet. \newline
+Zu Beginn muss das \textit{System spezifiziert} werden, weshalb diese Aktivität mit dem Constraint \textit{init} beschrieben ist und anschließend wird das \textit{System entworfen}, was durch das Constraint \textit{succession} zwischen diesen beiden Aktivitäten sichergestellt wird.\newline
+Hiernach wird der Feinentwurf entworfen und Systemelemente realisiert. Diese beiden Aktivitäten können so oft wie nötig durchgeführt werden. Es kommt nur darauf an, dass zuerst die Aktivität  \textit{Feinentwurf entwerfen} und anschließend die Aktivität \textit{Systemelemente realisieren} durchgeführt wird, weshlab das Constraint \textit{chain succession} sich zwischen diesen beiden Aktivitäten befindet. \newline
+Im nächsten Schritt wird das System integriert und es beginnt eine neue Iteration bei der Aktivität System entwerfen. Aus diesem Grund befindet sich hier das Constraint \textit{alternate succession} zwischen den Aktivitäten \textit{System integrieren} und \textit{System entwerfen}, da eine erneute Ausführung von \textit{System entwerfen} erst nach Ausführung der Aktivität \textit{System integrieren} möglich ist. \newline
+Falls keine weitere Iteration mehr notwedig ist, wird die \textit{Lieferung durchgeführt} und der Unterprozess endet hier, da durch die Constraints zu \textit{System entwerfen} und \textit{Feinentwurf entwerfen} keine weitere Aktivität mehr ausgeführt werden kann. \newline
 \begin{figure}[!htbp]
 \begin{center}
-  \includegraphics[width=\linewidth]{PlanungKleinDec} %pdf, jpg, png...
-  \caption{Planung und Steuerung - deklarativ}
-  \label{fig:PlanungKleinDec}
+  \includegraphics[width=\linewidth]{SystementwicklungDec} %pdf, jpg, png...
+  \caption{Unterprozess Inkrementelle Entwicklung durchführen V-Modell - imperativ}
+  \label{fig:SystementwicklungDec}
 \end{center}
 \end{figure}
 
-Abbildung \ref{fig:SystementwurfKleinDec} zeigt die deklarative Modellierung von Systementwurf.\newline
+
+
+\subsubsection{System entwerfen}
+
+
+Abbildung \ref{fig:SystementwurfKleinDec} zeigt die deklarative Modellierung von System entwerfen.\newline
 Die Aktivitäten \textit{Systemarchitektur erstellen, Unterstütungssystemarchitektur erstellen, Styleguide für die Mensch-Maschine-Schnittstelle erstellen, HW-Architektur erstellen, SW-Architektur erstellen, Datenbankentwurf erstellen, Implementierungs-, Integrations- und Prüfkonzept Unterstützungssystem erstellen, Integrations- und Prüfkonzept Hardware (HW) erstellen, Integrations- und Prüfkonzept Software (SW) erstellen} und \textit{Migrationskonzept erstellen} werden hier nacheinander ausgeführt. Da die vorherige Aktivität immer Vorraussetzung für das Ausführen der nachfolgenden Aktivität ist, und die nachfolgende Aktivität nach der vorherigen ausgeführt werden muss, ist zwischen allen Aktivitäten jeweils \textit{succession} als Constraint eingefügt.
 
 \begin{figure}[!htbp]
 \begin{center}
   \includegraphics[width=\linewidth]{SystementwurfKleinDec} %pdf, jpg, png...
-  \caption{Systementwurf - deklarativ}
+  \caption{System entwerfen - deklarativ}
   \label{fig:SystementwurfKleinDec}
 \end{center}
 \end{figure}
 
+\subsubsection{System spezifizieren}
 
-Am Anfang von Berichtswesen (Abbildung \ref{fig:BerichtswesenKlein}) muss eine \textit{Besprechung durchgeführt} werden. Dies wird durc das constraint \textit{init} sichergestellt.\newline
+
+Am Anfang von System spezifizieren (Abbildung \ref{fig:BerichtswesenKlein}) muss eine \textit{Besprechung durchgeführt} werden. Dies wird durc das constraint \textit{init} sichergestellt.\newline
 Bei jeder Änderung muss die Aktivität \textit{Projekttagebuch fuehren} ausgeführt werden. Aus diesem Grund ist diese durch kein Constraint mit einer anderen Aktivität verbunden, da sie jederzeit ausgeführt werden kann und so oft wie nötig.\newline
 Im nächsten Schritt werden die \textit{Messdaten erfasst}. Da ab hier alle Aktivitäten nacheinander auszuführen sind, sind dies jeweils durch das Constraint \textit{succession} verbunden.\newline
 In der nachfolgenden Aktivität wird die \textit{Metrik berechnet und ausgewertet}.\newline
@@ -851,7 +903,7 @@ Danach werden noch die Aktivitäten \textit{QS-Bericht erstellen}und \textit{Pro
 \begin{figure}[!htbp]
 \begin{center}
   \includegraphics[width=\linewidth]{BerichtswesenKlein} %pdf, jpg, png...
-  \caption{Berichtswesen - deklarativ}
+  \caption{System spezifizieren- deklarativ}
   \label{fig:BerichtswesenKlein}
 \end{center}
 \end{figure}
