@@ -27,9 +27,9 @@
 \contentsline {figure}{\numberline {\relax 6.5}{\ignorespaces Deklarative Modellierung Scrum-Unterprozess Sprint-Planning-Meeting durchf\IeC {\"u}hren}}{44}{figure.6.5}
 \contentsline {figure}{\numberline {\relax 6.6}{\ignorespaces Vergleich der Anzahl der Elemente Scrum}}{45}{figure.6.6}
 \contentsline {figure}{\numberline {\relax 6.7}{\ignorespaces Open Up \IeC {\"U}berblick nach \cite {eclipseopenup}}}{48}{figure.6.7}
-\contentsline {figure}{\numberline {\relax 6.8}{\ignorespaces Phasen Open UP nach \cite {eclipseopenup}}}{49}{figure.6.8}
-\contentsline {figure}{\numberline {\relax 6.9}{\ignorespaces Rollen in Open UP nach \cite {openup}}}{52}{figure.6.9}
-\contentsline {figure}{\numberline {\relax 6.10}{\ignorespaces Phasen Open UP- imperativ}}{53}{figure.6.10}
+\contentsline {figure}{\numberline {\relax 6.8}{\ignorespaces Phasen Open UP nach \cite {eclipseopenup}}}{52}{figure.6.8}
+\contentsline {figure}{\numberline {\relax 6.9}{\ignorespaces Rollen in Open UP nach \cite {openup}}}{53}{figure.6.9}
+\contentsline {figure}{\numberline {\relax 6.10}{\ignorespaces Phasen Open UP- imperativ}}{54}{figure.6.10}
 \contentsline {figure}{\numberline {\relax 6.11}{\ignorespaces Phasen Open UP Unterprozess Inception- imperativ}}{54}{figure.6.11}
 \contentsline {figure}{\numberline {\relax 6.12}{\ignorespaces Phasen Open UP Unterprozess Elaboration- imperativ}}{55}{figure.6.12}
 \contentsline {figure}{\numberline {\relax 6.13}{\ignorespaces Phasen Open UP Unterprozess Construction- imperativ}}{56}{figure.6.13}
@@ -69,14 +69,13 @@
 \contentsline {figure}{\numberline {\relax 6.47}{\ignorespaces Systementwicklungsprojekt AG/AN V-Modell - deklarativ}}{92}{figure.6.47}
 \contentsline {figure}{\numberline {\relax 6.48}{\ignorespaces Systementwicklungsprojekt AG/AN V-Modell Unterprozess Entwicklung durchf\IeC {\"u}hren - deklarativ}}{92}{figure.6.48}
 \contentsline {figure}{\numberline {\relax 6.49}{\ignorespaces Unterprozess Inkrementelle Entwicklung durchf\IeC {\"u}hren V-Modell - imperativ}}{93}{figure.6.49}
-\contentsline {figure}{\numberline {\relax 6.50}{\ignorespaces Angebots- und Vertragswesen - deklarativ}}{94}{figure.6.50}
-\contentsline {figure}{\numberline {\relax 6.51}{\ignorespaces Planung und Steuerung - deklarativ}}{94}{figure.6.51}
-\contentsline {figure}{\numberline {\relax 6.52}{\ignorespaces Systementwurf - deklarativ}}{95}{figure.6.52}
-\contentsline {figure}{\numberline {\relax 6.53}{\ignorespaces Berichtswesen - deklarativ}}{96}{figure.6.53}
+\contentsline {figure}{\numberline {\relax 6.50}{\ignorespaces System entwerfen - deklarativ}}{94}{figure.6.50}
+\contentsline {figure}{\numberline {\relax 6.51}{\ignorespaces System spezifizieren- deklarativ}}{95}{figure.6.51}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax A.1}{\ignorespaces BPMN Ereignisse}}{102}{figure.A.1}
-\contentsline {figure}{\numberline {\relax A.2}{\ignorespaces BPMN \IeC {\"U}bersicht}}{103}{figure.A.2}
-\contentsline {figure}{\numberline {\relax A.3}{\ignorespaces BPMN Gateways}}{104}{figure.A.3}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {\relax A.1}{\ignorespaces BPMN Ereignisse}}{104}{figure.A.1}
+\contentsline {figure}{\numberline {\relax A.2}{\ignorespaces BPMN \IeC {\"U}bersicht}}{105}{figure.A.2}
+\contentsline {figure}{\numberline {\relax A.3}{\ignorespaces BPMN Gateways}}{106}{figure.A.3}
 \addvspace {10\p@ }
