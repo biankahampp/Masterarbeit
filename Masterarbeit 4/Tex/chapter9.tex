@@ -2,17 +2,30 @@
 
 \section{Modellierung von Software-Engineering Prozessmodellen}
 
+\subsection {Analyse und Überführung von Softwareentwicklungsprozessen in die standardisierte BPMN Notation}
+Die Bachelorarbeit \cite{Menhorn2014} beschäftigt sich mit der Analyse und der Überführung von Softwareentwicklungsprozessen in die Prozessmodellierungssprache BPMN. Da es hierbei zu Problemen bei der Darstellung von Zuständigkeiten, Ergebnissen und Abhängigkeiten kommen kann, wird BPMN um weiter Elemente zur Darstellung dieser Sachverhalte erweitert. Die Softwareentwicklungsprozesse werden dann mit diesen Erweiterungen modelliert.\newline
+In der vorliegenen Arbeit werden die imperativen und deklrativen Prozessmodellierungssprachen zwar auf ihre Grenzen in der Darstellbarkeit bestimmter Sachverhalte untersucht, jedoch werden sie nicht um weitere Elemente erweitert. Die vorliegende Arbeit beschäftigt sich explizit mit dem Vergleich der beiden Prozessmodellierungssprachen und auch mit ihren Grenzen in der Darstellbarkeit. Jedoch werden die Grenzen der Darstellbarkeit nicht so detailliert wie in \cite{Menhorn2014} betrachtet, sondern auf einer niedrigeren Ebene. \newline
+
+
 \section{Verständlichkeit von Prozessmodellierungssprachen}
 
 \subsection{Investigating expressiveness and understandability of hierarchy
 in declarative business process models}
 
-In \ref{sabrina942} wird die Verständlichkeit von deklarativen Prozessmodellen im Hinblick auf die Verwendung von hierarchischen Unterprozessen untersucht. Es wird gezeigt, dass der Einsatz von Hierarchie in deklarativen Prozessmodellen zwar deren Ausdrucksfähigkeit erhöht, aber nicht beliebig überall im Modell eingesetzt werden kann. Eine durchgeführte Studie zum Validieren der Erkenntnisse kam zu dem Ergebnis, dass Hierarchie beim Verstehen der Prozessmodelle unterstützt, jedoch waren die Ergebnisse nicht schlüssig.\newline
-Die Arbeit  \ref{sabrina942} fokussiert auf den Einsatz von Unterprozessen als Unterstützung bei der Verständlichkeit von deklarativen Prozessmodellen. In der vorliegenden Arbeit wurden Unterprozesse beim Modellieren verwendet, um komplexe Prozessmodelle verständlicher zu machen. Diese wurden  aber beim Modellieren von sowohl BPMN, als auch ConDec bei den gleichen Sachverhalten verwendet. Die vorliegende Arbeit auf den Vergleich von deklarativen und imperativen Prozessmodellen im Allgemeinen und nicht im Hinblick auf die Verwendung von Unterpozessen. \newline
+In \cite{sabrina942} wird die Verständlichkeit von deklarativen Prozessmodellen im Hinblick auf die Verwendung von hierarchischen Unterprozessen untersucht. Es wird gezeigt, dass der Einsatz von Hierarchie in deklarativen Prozessmodellen zwar deren Ausdrucksfähigkeit erhöht, aber nicht beliebig überall im Modell eingesetzt werden kann. Eine durchgeführte Studie zum Validieren der Erkenntnisse kam zu dem Ergebnis, dass Hierarchie beim Verstehen der Prozessmodelle unterstützt, jedoch waren die Ergebnisse nicht schlüssig.\newline
+Die Arbeit  \cite{sabrina942} fokussiert auf den Einsatz von Unterprozessen als Unterstützung bei der Verständlichkeit von deklarativen Prozessmodellen. In der vorliegenden Arbeit wurden Unterprozesse beim Modellieren verwendet, um komplexe Prozessmodelle übersichtlicher darzustellen. Diese wurden  aber beim Modellieren von sowohl BPMN, als auch ConDec bei den gleichen Sachverhalten verwendet. Die vorliegende Arbeit fokussiert auf den Vergleich von deklarativen und imperativen Prozessmodellen im Allgemeinen und nicht im Hinblick auf die Verwendung von Unterpozessen. \newline
 
 
 \section{Vergleich von Prozessmodellierungssprachen}
 
+\subsection{Declarative versus Imperative Process Modeling Languages: An Empirical Investigation}
+
+Der Artikel \cite{fahland2009} beschäftigt sich mit dem Unterschied zwischen imperativen und deklarativen Prozessmodellierungssprachen und arbeitet deren Stärken und Schwächen heraus. Der Vergleich baut auf den Unterschieden von imperativen und deklarativen Programmiersprachen auf. Es werden verschiedne imperative und deklarative Prozessmodellierungssprachen betrachtet, wie z.B. Petrinetze, Business Process Execution Language (BPEL), ConDec, Linear-Time Temporal Logic (LTL)...Die Arbeit kommt zu dem Schluß, dass sequentielle Informationen durch das Nutzen von imperativen Prozessmodellierungssprachen und umständliche Informationen durch das Nutzen von deklarativen Prozessmodellierungssprachen verständlicher darzustellen sind.\newline
+\cite{fahland2009} betrachtet im Wesentlichen die Stärken und Schwächen von imperativen und deklarativen Prozessmodellierungssprachen im Allgemeinen. Die vorliegende Arbeit untersucht die Stärken und Schwächen von imperativen und deklarativen Prozessmodellierungssprachen im Hinblick auf deren Eignung zur Modellierung in Bezug auf unterschiedlich große Pozessmodelle. Hier liegt der Fokus nicht auf sequentiellen und umständlichen Informationen sondern es werden die Stärken und Schwächen der imperativen und deklarativen Prozessmodellierungssprachen in Bezug auf den gleichen Sachverhalt und damit auch die gleichen abzubildenden Informationen betrachtet.\newline
+
+
 \subsection{Imperative versus Declarative Process Modeling Languages: An Empirical Investigation}
 
-\subsection{Declarative vesus Imperative Process Modeling Languages: An Empirical Investigation}
+\cite{pichler2012} untersucht aufbauend auf den Erkenntnissen von  \cite{fahland2009} die Verständlichkeit von imperativen und deklarativen Prozessmodellierungssprachen anhand einer Studie. Als imperative Prozessmodellierungssprache dient in diesem Artikel ebenfalls BPMN und als deklarative Prozessmodellierungssprache ebenfalls ConDec. \newline 
+Hierfür wurden die teilnehmenden Probanden sowohl in BPMN, als auch in ConDec eingehend trainiert. Anschließend wurden sie in zwei Gruppen eingeteilt und ihnen wurden jeweils zwei imperative und zwei deklarative Prozessmodelle vorgelegt. Am ende stellten sich die imperativen Prozessmodelle als verständlicher heraus. Jedoch ist das Ergebnis durch das vorhergehende intensive Training und die damit einhergehende starke Vertrautheit der Probanden mit BPMN und ConDec kritisch zu betrachten. \newline
+Die vorliegende Arbeit untersucht die Verständlichkeit von deklarativen und imperativen Prozessmodellen nicht nur wie \cite{pichler2012} im Allgemeinen, sondern auch speziell im Hinblick auf Unterschiede in der Verständlichkeit bei großen und kleinen Prozessmodellen. Auch wurde in der Studie darauf geachtet Probanden mit unterschiedlichem Hintergrundswissen zu imperativen und deklarativen Prozessmodellen zu befragen. Das Wissen der Teilnehmer der Studie reichte hier von sehr großem Wissen bis überhaupt kein Wissen.\newline
