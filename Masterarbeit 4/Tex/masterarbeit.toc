@@ -78,12 +78,13 @@
 \contentsline {chapter}{\numberline {7}Validierung}{97}{chapter.7}
 \contentsline {chapter}{\numberline {8}Related Work}{99}{chapter.8}
 \contentsline {section}{\numberline {8.1}Modellierung von Software-Engineering Prozessmodellen}{99}{section.8.1}
-\contentsline {subsection}{\numberline {8.1.1}Analyse und \IeC {\"U}berf\IeC {\"u}hrung von Softwareentwicklungsprozessen in die standardisierte BPMN Notation}{99}{subsection.8.1.1}
-\contentsline {section}{\numberline {8.2}Verst\IeC {\"a}ndlichkeit von Prozessmodellierungssprachen}{100}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}Investigating expressiveness and understandability of hierarchy in declarative business process models}{100}{subsection.8.2.1}
-\contentsline {section}{\numberline {8.3}Vergleich von Prozessmodellierungssprachen}{101}{section.8.3}
-\contentsline {subsection}{\numberline {8.3.1}Declarative versus Imperative Process Modeling Languages: An Empirical Investigation}{101}{subsection.8.3.1}
-\contentsline {subsection}{\numberline {8.3.2}Imperative versus Declarative Process Modeling Languages: An Empirical Investigation}{101}{subsection.8.3.2}
-\contentsline {chapter}{\numberline {9}Zusammenfassung und Ausblick}{103}{chapter.9}
-\contentsline {chapter}{\numberline {A}BPMN Notation}{105}{appendix.A}
-\contentsline {chapter}{\numberline {B}ConDec Notation}{109}{appendix.B}
+\contentsline {subsection}{\numberline {8.1.1}Analyse und \IeC {\"U}berf\IeC {\"u}hrung von Softwareentwicklungsprozessen in die standardisierte BPMN Notation}{100}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Fallstudie zur Modellierung von Software-Entwicklungsprozessen auf Basis des Software Process Engineering Metamodells 2.0, Software Processes with BPMN: An Empirical Analysis, Projektdurchf\IeC {\"u}hrungsstrategie als strategisches Prozessmodell in BPMN}{100}{subsection.8.1.2}
+\contentsline {section}{\numberline {8.2}Verst\IeC {\"a}ndlichkeit von Prozessmodellierungssprachen}{101}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Investigating expressiveness and understandability of hierarchy in declarative business process models}{101}{subsection.8.2.1}
+\contentsline {section}{\numberline {8.3}Vergleich von Prozessmodellierungssprachen}{102}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}Declarative versus Imperative Process Modeling Languages: An Empirical Investigation}{102}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.2}Imperative versus Declarative Process Modeling Languages: An Empirical Investigation}{103}{subsection.8.3.2}
+\contentsline {chapter}{\numberline {9}Zusammenfassung und Ausblick}{105}{chapter.9}
+\contentsline {chapter}{\numberline {A}BPMN Notation}{107}{appendix.A}
+\contentsline {chapter}{\numberline {B}ConDec Notation}{111}{appendix.B}
