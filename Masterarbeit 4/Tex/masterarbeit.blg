@@ -9,7 +9,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Literature.bib
 Warning--entry type for "Menhorn2014" isn't style-file defined
---line 629 of file Literature.bib
+--line 644 of file Literature.bib
 Warning--empty number in 2004vmodell
 Warning--empty note in 2004vmodell
 Warning--there's no year in freudenreichevaluierung
@@ -18,43 +18,43 @@ Warning--empty title in Kuhrmann2011
 Warning--neither address nor publication date in bpm07
 You've used 74 entries,
             4793 wiz_defined-function locations,
-            1283 strings with 17222 characters,
-and the built_in function-call counts, 41697 in all, are:
-= -- 4153
-> -- 1181
-< -- 1272
-+ -- 1439
-- -- 396
-* -- 2565
-:= -- 7353
-add.period$ -- 89
+            1269 strings with 16579 characters,
+and the built_in function-call counts, 40669 in all, are:
+= -- 4015
+> -- 1152
+< -- 1193
++ -- 1359
+- -- 383
+* -- 2489
+:= -- 7146
+add.period$ -- 87
 call.type$ -- 74
 change.case$ -- 362
 chr.to.int$ -- 72
 cite$ -- 80
-duplicate$ -- 1319
-empty$ -- 3050
-format.name$ -- 807
-if$ -- 8191
+duplicate$ -- 1307
+empty$ -- 3032
+format.name$ -- 780
+if$ -- 8011
 int.to.chr$ -- 3
 int.to.str$ -- 0
 missing$ -- 284
-newline$ -- 399
-num.names$ -- 229
-pop$ -- 569
+newline$ -- 397
+num.names$ -- 226
+pop$ -- 576
 preamble$ -- 1
 purify$ -- 510
 quote$ -- 0
-skip$ -- 2433
+skip$ -- 2364
 stack$ -- 0
-substring$ -- 2380
-swap$ -- 267
-text.length$ -- 221
+substring$ -- 2320
+swap$ -- 259
+text.length$ -- 213
 text.prefix$ -- 44
 top$ -- 0
 type$ -- 590
 warning$ -- 6
-while$ -- 371
+while$ -- 360
 width$ -- 78
-write$ -- 909
+write$ -- 896
 (There were 7 warnings)

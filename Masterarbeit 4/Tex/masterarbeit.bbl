@@ -111,7 +111,7 @@
 \textsc{Friedrich}, Jan ; \textsc{Hammerschall}, Ulrike ; \textsc{Kuhrmann},
   Marco  ; \textsc{Sihling}, Marc:
 \newblock \emph{Das V-Modell XT}.
-\newblock Springer, 2008 (Informatik im Fokus)
+\newblock Heidelberg : Springer, 2008 (Informatik im Fokus)
 
 \bibitem[FLM{\etalchar{+}}09]{fahland2009}
 \textsc{Fahland}, Dirk ; \textsc{L{\"u}bke}, Daniel ; \textsc{Mendling}, Jan ;
@@ -171,7 +171,7 @@
 \bibitem[Han10]{Hanser2010}
 \textsc{Hanser}, Eckhart:
 \newblock \emph{Agile Prozesse}.
-\newblock Springer, 2010
+\newblock Heidelberg : Springer, 2010
 
 \bibitem[Hei07]{heinrich2007}
 \textsc{Heinrich}, G.:
@@ -181,8 +181,7 @@
 \bibitem[HM08]{Hesse2008}
 \textsc{Hesse}, Wolfgang ; \textsc{Mayr}, Heinrich~C.:
 \newblock Modellierung in der Softwaretechnik: eine Bestandsaufnahme.
-\newblock {In: }\emph{Informatik-Spektrum} 31 (2008), Nr. 5, 377-393.
-\newblock \url{http://dx.doi.org/10.1007/s00287-008-0276-7}
+\newblock {In: }\emph{Informatik-Spektrum} 31 (2008), Nr. 5, S. 377--393
 
 \bibitem[HM10]{hauber2010}
 \textsc{Hauber}, Rudolf ; \textsc{Muth}, Bertil:
@@ -214,7 +213,6 @@
 \newblock \emph{Agile game development with Scrum: Description based on print
   version record}.
 \newblock Upper Saddle River, N.J. : Addison-Wesley, 2010
-  \url{http://proquest.tech.safaribooksonline.de/9780321670311}
 
 \bibitem[Kir06]{kircher2006}
 \textsc{Kircher}, H.:
@@ -225,13 +223,13 @@
 \textsc{Kuhrmann}, Marco ; \textsc{Lange}, Christian  ; \textsc{Schnackenburg},
   André:
 \newblock {In: }\textsc{O'Connor}, Rory (Hrsg.) ; \textsc{Pries-Heje}, Jan
-  (Hrsg.)  ; \textsc{Messnarz}, Richard (Hrsg.): \emph{EuroSPI}, Springer, 2011
-  (Communications in Computer and Information Science), S. 49--60
+  (Hrsg.)  ; \textsc{Messnarz}, Richard (Hrsg.): \emph{EuroSPI}.
+\newblock Heidelberg : Springer, 2011, S. 49--60
 
 \bibitem[Koc11]{koch2011}
 \textsc{Koch}, Susanne:
 \newblock \emph{Einführung in das Management von Geschäftsprozessen}.
-\newblock Springer, 2011
+\newblock Heidelberg : Springer, 2011
 
 \bibitem[Kö00]{Koelmel2000}
 \textsc{Kölmel}, Bernhard:
@@ -241,9 +239,7 @@
 \bibitem[Lac12]{Lacey2012}
 \textsc{Lacey}, Mitch:
 \newblock \emph{The Scrum field guide: practical advice for your first year}.
-\newblock 1st ed.
 \newblock [S.l.] : Addison-Wesley Professional, 2012
-  \url{http://proquest.tech.safaribooksonline.de/9780321670380}
 
 \bibitem[Lei12]{leimeister2012}
 \textsc{Leimeister}, J.M.:
@@ -312,18 +308,16 @@
   169--180
 
 \bibitem[Pha12]{Pham2012}
-\textsc{Pham}, Andrew ; \textsc{Pham}, Phuong-Van (Hrsg.):
+\textsc{Pham}, Andrew:
 \newblock \emph{Scrum in action: agile software project management and
   development}.
 \newblock Boston, Mass. : Course Technology, 2012
-  \url{http://proquest.tech.safaribooksonline.de/9781435459137}
 
 \bibitem[Pic10]{Pichler2010}
 \textsc{Pichler}, Roman:
 \newblock \emph{Agile product management with Scrum: creating products that
   customers love. - Description based on print version record}.
 \newblock Upper Saddle River, N.J. : Addison-Wesley, 2010
-  \url{http://proquest.tech.safaribooksonline.de/9780321684165}
 
 \bibitem[Pit10]{pitschke2010}
 \textsc{Pitschke}, J.:
@@ -335,7 +329,6 @@
 \textsc{Pries}, Kim~H. ; \textsc{Quigley}, Jon~M.:
 \newblock \emph{Scrum project management}.
 \newblock Boca Raton, Fla. [u.a.] : Woodhead Publishing Limited, 2011
-  \url{http://www.gbv.de/dms/tib-ub-hannover/630278210.pdf}
 
 \bibitem[PSA07]{pesic2007declare}
 \textsc{Pesic}, Maja ; \textsc{Schonenberg}, Helen  ; \textsc{Aalst},
@@ -415,7 +408,7 @@
 \newblock \emph{Geschäftsprozessanalyse: Ereignisgesteuerte Prozessketten und
   objektorientierte Geschäftsprozessmodellierung für betriebswirtschaftliche
   Standardsoftware}.
-\newblock Springer, 2006
+\newblock Heidelberg : Springer, 2006
 
 \bibitem[St{\"o}05]{Stoerrle2005}
 \textsc{St{\"o}rrle}, Harald:
@@ -430,9 +423,7 @@
 \bibitem[TN86]{Takeuchi1986}
 \textsc{Takeuchi}, Hirotaka ; \textsc{Nonaka}, Ikujiro:
 \newblock The New New Product Development Game.
-\newblock {In: }\emph{Harvard Business Review}  (1986).
-\newblock
-  \url{http://apln-richmond.pbwiki.com/f/New%20New%20Prod%20Devel%20Game.pdf}
+\newblock {In: }\emph{Harvard Business Review}  (1986)
 
 \bibitem[Whi04]{white2004}
 \textsc{White}, Stephen~A.:
@@ -440,22 +431,16 @@
 \newblock {In: }\emph{IBM Cooperation} 2 (2004)
 
 \bibitem[Wol11a]{Henning2011}
-\textsc{Wolf}, Henning ; \textsc{Solingen}, Rini~v. (Hrsg.) ;
-  \textsc{Rustenburg}, Eelco (Hrsg.) ; \textsc{Solingen}, Rini~v. (Hrsg.)  ;
-  \textsc{Rustenburg}, Eelco (Hrsg.):
+\textsc{Wolf}, Henning:
 \newblock \emph{Die Kraft von Scrum: eine inspirierende Geschichte über einen
   revolutionären Projektmanagementansatz}.
 \newblock München : Addison-Wesley, 2011
-  \url{http://proquest.tech.safaribooksonline.de/9783827330529}
 
 \bibitem[Wol11b]{Wolf2011}
-\textsc{Wolf}, Henning ; \textsc{Solingen}, Rini~v. (Hrsg.) ;
-  \textsc{Rustenburg}, Eelco (Hrsg.) ; \textsc{Solingen}, Rini~v. (Hrsg.)  ;
-  \textsc{Rustenburg}, Eelco (Hrsg.):
+\textsc{Wolf}, Henning:
 \newblock \emph{Die Kraft von Scrum: eine inspirierende Geschichte über einen
   revolutionären Projektmanagementansatz}.
 \newblock München : Addison-Wesley, 2011
-  \url{http://proquest.tech.safaribooksonline.de/9783827330529}
 
 \bibitem[WPR07]{Wang2007}
 \textsc{Wang}, Qing (Hrsg.) ; \textsc{Pfahl}, Dietmar (Hrsg.)  ;
@@ -464,7 +449,7 @@
   on Software Process, ICSP 2007, Minneapolis, MN, USA, May 19-20, 2007,
   Proceedings}.
 \newblock \emph{{\textnormal{Bd.}} 4470}.
-\newblock Springer, 2007 (Lecture Notes in Computer Science)
+\newblock Heidelberg : Springer, 2007 (Lecture Notes in Computer Science)
 
 \bibitem[ZSH{\etalchar{+}}13]{sabrina942}
 \textsc{Zugal}, Stefan ; \textsc{Soffer}, Pnina ; \textsc{Haisjackl}, Cornelia

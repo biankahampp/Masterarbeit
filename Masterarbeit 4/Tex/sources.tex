@@ -51,7 +51,7 @@ Aktivität A darf nicht ausgeführt werden
     \end{center}
 
 & \textbf{absence (n+1, A)} \newline
-Aktivität A kann höchsten n mal ausgeführt werden, aber nicht n+1-mal
+Aktivität A kann höchstens n-mal ausgeführt werden, aber nicht n+1-mal
 
 \\
 \hline
@@ -141,19 +141,22 @@ Beispiel: Korrekt: [A,C,B,B,A]; Inkorrekt:[C,B,B,A]
 \textbf{succession} \newline Verlangt, dass die beiden Constraints precedence und response zwischen den Aktivitäten A und B eingehalten werden. Somit muss jede Aktivirtät A von Aktivität B gefolgt werden und für jede Aktivität B muss eine Aktivität A vorhanden sein. \newline
 Beispiel: Korrekt: [A,C,A,B,B]; Inkorrekt: [A,C,B,B]\\
 \hline
- \begin{center}
-
-  \includegraphics[scale=0.5]{AlternateResponse} %pdf, jpg, png...
-    \end{center} &
-\textbf{alternate response}  Verlangt, dass nach einer Aktivität A Aktivität B ausgeführt wird, jedoch darf vor Aktivität B nicht eine weiter Aktivität A ausgeführt werden. \newline
-Beispiel: Korrekt: [B,A,C,B,A,B] ; Inkorrekt: [B,A,C,A,B,A,B] \\
-\hline
 \end{tabular}
 \begin {table}
 
 \begin{tabular}{|p{0.5\textwidth}|p{0.5\textwidth}|}
 
 \hline
+
+ \begin{center}
+
+  \includegraphics[scale=0.5]{AlternateResponse} %pdf, jpg, png...
+    \end{center} &
+\textbf{alternate response} \newline  Verlangt, dass nach einer Aktivität A Aktivität B ausgeführt wird, jedoch darf vor Aktivität B nicht eine weitere Aktivität A ausgeführt werden. \newline
+Beispiel: Korrekt: [B,A,C,B,A,B] ; Inkorrekt: [B,A,C,A,B,A,B] \\
+
+\hline
+
 \begin{center}
 
   \includegraphics[scale=0.5]{AlternatePrecedence} %pdf, jpg, png...
@@ -222,14 +225,14 @@ Beispiel: Korrekt: [A]; [B]; Inkorrekt:[ ];
     \end{center} &
     \textbf{choice 1 of 3}\newline
 Mindestens eine der drei Aktivitäten A,B oder C muss ausgeführt werden.. \newline
-Beispiel: Korrekt: [A; Inkorrekt:[]
+Beispiel: Korrekt: [A]; Inkorrekt:[]
 \\
 \hline
 \begin{center}
 
   \includegraphics[scale=0.5]{ChoiceOneOfTwo} %pdf, jpg, png...
     \end{center}&
-\textbf{1 of 2} \newline Entweder A oder b muss mindestens einmal ausgeführt werden.\newline
+\textbf{1 of 2} \newline Entweder A oder B muss mindestens einmal ausgeführt werden.\newline
 Beispiel: Korrekt: [A,C,A,B,B]; Inkorrekt: [A,C,B,B]\\
 \hline
 
@@ -245,17 +248,16 @@ Beispiel: Korrekt: [A,C,A,B,B]; Inkorrekt: [A,C,B,B]\\
   \includegraphics[scale=0.5]{ExclusiveChoice} %pdf, jpg, png...
     \end{center} &
 \textbf{alternate precedence}\newline
-  Verlangt, dass jeder Instanz von Aktivität B eine Instanz der Aktivität A vorausgeht. Die nächste Instanz einer Aktivität B kann somit nicht vor der nächsten Instanz von Aktivität A ausgeführt werden.
-  \newline
-  Beispiel: Korrekt: [A,C,B,A,B,A]; Inkorrekt: [A,C,B,B,A]\\
+  Entweder A oder B kann ausgeführt werden. \newline
+  Beispiel:  Korrekt: [A]; [B] Inkorrekt: [A,B] \\
 \hline
 \begin{center}
 
   \includegraphics[scale=0.5]{ExclusiveChoiceOneOfThree} %pdf, jpg, png...
     \end{center}&
-\textbf{alternate succession} \newline
- Stellt eine Kombination aus alternate response und alternate precedence dar. \newline
-  Beispiel:  Korrekt: [A,C,B,A,B,A,B]; Inkorrekt: [C,B,A,A,B] \\
+\textbf{exclusive choice} \newline
+ Entweder A oder B oder C kann ausgeführt werden. \newline
+  Beispiel:  Korrekt: [A]; [B]; [C]; Inkorrekt: [A,B]; [A,C]; [B,C] \\
 \hline
  \end{tabular}
  \caption{Choice Constraints ConDec}
