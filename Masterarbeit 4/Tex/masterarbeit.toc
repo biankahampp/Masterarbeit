@@ -59,31 +59,31 @@
 \contentsline {section}{\numberline {6.3}V-Modell XT}{78}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}Analyse V-Modell XT}{78}{subsection.6.3.1}
 \contentsline {subsubsection}{Projekttypen}{79}{section*.23}
-\contentsline {subsubsection}{Projekttypvarianten}{80}{section*.24}
-\contentsline {subsubsection}{Vorgehensbausteine}{81}{section*.25}
+\contentsline {subsubsection}{Projekttypvarianten}{81}{section*.24}
+\contentsline {subsubsection}{Vorgehensbausteine}{82}{section*.25}
 \contentsline {subsubsection}{V-Modell-Kern und Vorgehensbausteinlandkarte}{83}{section*.26}
 \contentsline {subsubsection}{Projektdurchf\IeC {\"u}hrungsstrategie}{85}{section*.27}
-\contentsline {subsubsection}{Entscheidungspunkte}{85}{section*.28}
-\contentsline {subsection}{\numberline {6.3.2}Imperative Modellierung V-Modell}{88}{subsection.6.3.2}
-\contentsline {subsubsection}{Systementwicklungsprojekt AG/AN}{88}{section*.29}
-\contentsline {subsubsection}{Inkrementelle Entwicklung durchf\IeC {\"u}hren}{88}{section*.30}
-\contentsline {subsubsection}{System entwerfen}{90}{section*.31}
-\contentsline {subsubsection}{System spezifizieren}{90}{section*.32}
-\contentsline {subsection}{\numberline {6.3.3}Deklarative Modellierung V-Modell}{92}{subsection.6.3.3}
-\contentsline {subsubsection}{Inkrementelle Entwicklung durchf\IeC {\"u}hren}{92}{section*.33}
-\contentsline {subsubsection}{System entwerfen}{95}{section*.34}
-\contentsline {subsubsection}{System spezifizieren}{95}{section*.35}
-\contentsline {subsection}{\numberline {6.3.4}Vergleich}{97}{subsection.6.3.4}
-\contentsline {chapter}{\numberline {7}Validierung}{99}{chapter.7}
-\contentsline {chapter}{\numberline {8}Related Work}{101}{chapter.8}
-\contentsline {section}{\numberline {8.1}Modellierung von Software-Engineering Prozessmodellen}{101}{section.8.1}
-\contentsline {subsection}{\numberline {8.1.1}Analyse und \IeC {\"U}berf\IeC {\"u}hrung von Softwareentwicklungsprozessen in die standardisierte BPMN Notation}{102}{subsection.8.1.1}
-\contentsline {subsection}{\numberline {8.1.2}Fallstudie zur Modellierung von Software-Entwicklungsprozessen auf Basis des Software Process Engineering Metamodells 2.0, Software Processes with BPMN: An Empirical Analysis, Projektdurchf\IeC {\"u}hrungsstrategie als strategisches Prozessmodell in BPMN}{102}{subsection.8.1.2}
-\contentsline {section}{\numberline {8.2}Verst\IeC {\"a}ndlichkeit von Prozessmodellierungssprachen}{103}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}Investigating expressiveness and understandability of hierarchy in declarative business process models}{103}{subsection.8.2.1}
-\contentsline {section}{\numberline {8.3}Vergleich von Prozessmodellierungssprachen}{104}{section.8.3}
-\contentsline {subsection}{\numberline {8.3.1}Declarative versus Imperative Process Modeling Languages: An Empirical Investigation}{104}{subsection.8.3.1}
-\contentsline {subsection}{\numberline {8.3.2}Imperative versus Declarative Process Modeling Languages: An Empirical Investigation}{105}{subsection.8.3.2}
-\contentsline {chapter}{\numberline {9}Zusammenfassung und Ausblick}{107}{chapter.9}
-\contentsline {chapter}{\numberline {A}BPMN Notation}{109}{appendix.A}
-\contentsline {chapter}{\numberline {B}ConDec Notation}{113}{appendix.B}
+\contentsline {subsubsection}{Entscheidungspunkte}{86}{section*.28}
+\contentsline {subsection}{\numberline {6.3.2}Imperative Modellierung V-Modell}{89}{subsection.6.3.2}
+\contentsline {subsubsection}{Systementwicklungsprojekt AG/AN}{89}{section*.29}
+\contentsline {subsubsection}{Inkrementelle Entwicklung durchf\IeC {\"u}hren}{89}{section*.30}
+\contentsline {subsubsection}{System entwerfen}{91}{section*.31}
+\contentsline {subsubsection}{System spezifizieren}{91}{section*.32}
+\contentsline {subsection}{\numberline {6.3.3}Deklarative Modellierung V-Modell}{93}{subsection.6.3.3}
+\contentsline {subsubsection}{Inkrementelle Entwicklung durchf\IeC {\"u}hren}{93}{section*.33}
+\contentsline {subsubsection}{System entwerfen}{96}{section*.34}
+\contentsline {subsubsection}{System spezifizieren}{96}{section*.35}
+\contentsline {subsection}{\numberline {6.3.4}Vergleich}{98}{subsection.6.3.4}
+\contentsline {chapter}{\numberline {7}Validierung}{101}{chapter.7}
+\contentsline {chapter}{\numberline {8}Related Work}{103}{chapter.8}
+\contentsline {section}{\numberline {8.1}Modellierung von Software-Engineering Prozessmodellen}{103}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Analyse und \IeC {\"U}berf\IeC {\"u}hrung von Softwareentwicklungsprozessen in die standardisierte BPMN Notation}{104}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Fallstudie zur Modellierung von Software-Entwicklungsprozessen auf Basis des Software Process Engineering Metamodells 2.0, Software Processes with BPMN: An Empirical Analysis, Projektdurchf\IeC {\"u}hrungsstrategie als strategisches Prozessmodell in BPMN}{104}{subsection.8.1.2}
+\contentsline {section}{\numberline {8.2}Verst\IeC {\"a}ndlichkeit von Prozessmodellierungssprachen}{105}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Investigating expressiveness and understandability of hierarchy in declarative business process models}{105}{subsection.8.2.1}
+\contentsline {section}{\numberline {8.3}Vergleich von Prozessmodellierungssprachen}{106}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}Declarative versus Imperative Process Modeling Languages: An Empirical Investigation}{106}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.2}Imperative versus Declarative Process Modeling Languages: An Empirical Investigation}{107}{subsection.8.3.2}
+\contentsline {chapter}{\numberline {9}Zusammenfassung und Ausblick}{109}{chapter.9}
+\contentsline {chapter}{\numberline {A}BPMN Notation}{111}{appendix.A}
+\contentsline {chapter}{\numberline {B}ConDec Notation}{115}{appendix.B}
