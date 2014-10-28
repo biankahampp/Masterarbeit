@@ -108,17 +108,17 @@ Wie Abbildung \ref{fig:ScrumExcel} entnommen werden kann, unterscheidet sich die
 \end{figure}
 
 Die Anzahl der Verbindungselemente, welche zur Beschreibung des Ablaufes notwendig sind, unterscheiden sich jedoch, wie Abbildung \ref{fig:ScrumExcel} zeigt.\newline
-So werden in BPMN 6 Gateways und 27 Sequenzflusselmente benötigt, also insgesamt 33 Verbindungselemente um den Ablauf des Metamodells darzustellen. Bei Verwendung von ConDec werden 15 Verbindungselemente benötigt. In BPMN werden jedoch nur 3 verschiedene Verbindungselemente benötigt, während es in ConDec 5 verschiedene Verbindungselemente sind.\newline
+So werden in BPMN sechs Gateways und 27 Sequenzflusselmente benötigt, also insgesamt 33 Verbindungselemente um den Ablauf des Metamodells darzustellen. Bei Verwendung von ConDec werden 15 Verbindungselemente benötigt. In BPMN werden jedoch nur drei verschiedene Verbindungselemente benötigt, während es in ConDec fünf verschiedene Verbindungselemente sind.\newline
 
 
 
 Weiterhin werden in BPMN 4 Artefakte zum Beschreiben des Metamodells benötigt, in ConDec gibt es jedoch keine Modellierungselemente hierfür, weshalb es hier im deklarativen Modell keine Artefakte gibt.\newline
 
 
-Genau wie bei den Artefakten gibt es in ConDec keine Möglichkeite verschiedene Rollen innerhalb eines Prozessmodelles darzustellen. Aus diesem Grund gibt es in BPMN 3 Rollen und in ConDec keine.\newline
+Genau wie bei den Artefakten gibt es in ConDec keine Möglichkeite verschiedene Rollen innerhalb eines Prozessmodelles darzustellen. Aus diesem Grund gibt es in BPMN drei Rollen und in ConDec keine.\newline
 
 
-In Bezug auf die \textit{Klarheit}, welche in Kapitel 5 als Anforderungskriterium festgelegt wurde, haben beide Modellierungssprachen Stärken und Schwächen. Die Anzahl der Aktivitäten unterscheidet sich nicht, jedoch die Anzahl der Flusselemente. Eine größere Anzahl an Verbindungselementen kann sich negativ auf die Verständlichkeit auswirken. Hier ist die Anzahl aber bei BPMN mehr als doppelt so hoch als bei ConDec. Die Anzahl verschiedener Verbindungselmente kann sich ebenfalls negativ auf die Verständlichkeit auswirken. In BPMN werden hier 3 und in ConDec 5 verschiedene Verbindungselemente benötigt. Damit ist die Anzahl hier bei ConDec nur etwas höher als bei BPMN.
+In Bezug auf die \textit{Klarheit}, welche in Kapitel 5 als Anforderungskriterium festgelegt wurde, haben beide Modellierungssprachen Stärken und Schwächen. Die Anzahl der Aktivitäten unterscheidet sich nicht, jedoch die Anzahl der Flusselemente. Eine größere Anzahl an Verbindungselementen kann sich negativ auf die Verständlichkeit auswirken. Hier ist die Anzahl aber bei BPMN mehr als doppelt so hoch als bei ConDec. Die Anzahl verschiedener Verbindungselmente kann sich ebenfalls negativ auf die Verständlichkeit auswirken. In BPMN werden insgesamt sechs Gateways verwendet zur Darstellung von Verzweigungen und somit drei verschiedne Verbindungselemente. Je mehr Verzweigungen sich in einem Prozessmodell befinden, desto schwieriger wird es, das Prozessmodell zu verstehen und desto wahrscheinlicher ist es, dass dem Modellierer Fehler unterlaufen. Ebenfalls ist die Verwendung von fünf verschiedenen Constraints in ConDec ein Problem für das Verständnis. Da das Verständnis der Constraints in ConDec an sich relativ schwierig ist, ist das Verständnis eines Prozessmodelles mit vielen verschiedenen Constraints relativ schwer.
 \newline
 Die \textit{Richtigkeit} lässt sich mit BPMN in Bezug auf Rollen und Artefakte besser einhalten, als mit ConDec. Da es bei ConDec keine Möglichkeit gibt, Rollen und Artefakte im Prozessmodell selbst abzubilden, müssen diese Informationen weggelassen werden. Die Rollen und Artefakte können zwar in Declare abgebildet werden, jedoch ist dies auf Papier/Bild nicht sichtbar. Aus desem Grund müssen diese Informationen beim Modellieren weggelassen werden, was zur Folge hat, dass das im Metamodell beschriebene Verhalten nicht vollständig abgebildet werden kann und somit leidet auch der Nutzen des Modells.\newline
 
@@ -128,7 +128,7 @@ Beide Prozessmodelle können mit minimal relevanten Informationen erstellt werde
 
 Nur BPMN bietet die Möglchkeit bietet, Artefakte im Prozessmodell abzubilden und lässt somit die Integration anderer Sichten in das Modell zu. Somit kann der Modellierungsgrundsatz des \textit{systematischen Aufbaus} nur von BPMN eingehalten werden. Da ConDec dies nicht zulässt, schmälert es die Eignung von ConDec zum Modellieren in Bezug auf Softwareprozessmodelle. Hierdurch können wichtige Informationen aus dem Metamodell nicht abgebildet werden. \newline 
 
-Da bei BPMN mehr Verbindungselemente benötigt werden, weißt das mit BPMN erstellte Modell auch insgesamt mehr Elemente auf. Während bei ConDEc insgesamt 27 Elemente benötigt werden, werden zur Darstellung des gleichen Sachverhaltes bei BPMN 45 Elemente benötigt. Die \textit{Vergleichbarkeit} ist dadurch nicht ganz gewährleistet, da die Anzahl der Elemente bei BPMN fast doppelt so hoch ist wie bei ConDec.
+Da bei BPMN mehr Verbindungselemente benötigt werden, weißt das mit BPMN erstellte Modell auch insgesamt mehr Elemente auf. Während bei ConDec insgesamt 27 Elemente benötigt werden, werden zur Darstellung des gleichen Sachverhaltes bei BPMN 45 Elemente benötigt. Die \textit{Vergleichbarkeit} ist dadurch nicht ganz gewährleistet, da die Anzahl der Elemente bei BPMN fast doppelt so hoch ist wie bei ConDec.
 
 
 
@@ -950,7 +950,7 @@ Abbildung \ref{fig:SystementwicklungsprojektExcel} zeigt die Zahl notwendigen El
 \end{center}
 \end{figure}
 
-Die Anzahl der Elemente zur Darstellung des Prozess Inkrementelle Entwicklung kann Abbildung \ref{fig:InkrementellExcel} entnommen werden.
+Die Anzahl der Elemente zur Darstellung des Prozesses Inkrementelle Entwicklung kann Abbildung \ref{fig:InkrementellExcel} entnommen werden. es werden jeweils sechs Aktivitäten verwendet. Weiterhin werden in BPMN vier Gateways und 13 Sequenzflüsse zur Darstellung des Prozessablaufes benötigt. In ConDec sind hierfür 12 Constraints notwendig. BPMN benötigt zwei verschiedene Verbindungselemente und ConDec sechs. Somit ergeben sich in Summe 23 BPMN Elemente und 18 ConDec Elemente zur Darstellung des Sachverhaltes. \newline
 
 \begin{figure}[!htbp]
 \begin{center}
@@ -960,6 +960,7 @@ Die Anzahl der Elemente zur Darstellung des Prozess Inkrementelle Entwicklung ka
 \end{center}
 \end{figure}
 
+Abbildung \ref{fig:SystementwurfExcel} zeigt die Anzahl der Elemente, welche zur Darstellung des Prozesses System entwerfen notwendig sind. Demnach werden in beiden Prozessmodellierungssprachen jeweils 11 Aktivitäten verwendet. In BPMN werden keine Gateways und 12 Sequenzflusselemente benötigt. ConDec braucht zur Darstellung des Sachverhaltes 21 Constraints, jedoch keine unterschiedlichen Constraints. In Summe sind somit in BPMN 23 Elemente und in ConDec 32 Elemente zur Darstellung notwendig.\newline
 
 \begin{figure}[!htbp]
 \begin{center}
@@ -968,6 +969,8 @@ Die Anzahl der Elemente zur Darstellung des Prozess Inkrementelle Entwicklung ka
   \label{fig:SystementwurfExcel}
 \end{center}
 \end{figure}
+
+In Abbildung \ref{fig:SpezifizierenExcel} ist die Anzahl der Elemente zur Darstellung des Prozesses System spezifizieren abgetragen. Demanch werden neun Aktivitäten verwendet sowohl in BPMN als auch in ConDec. Es werden drei Gateways und 15 Sequenzflüsse in BPMN benötigt. In ConDec werden 15 Constraints zur Darstellung verwendet. Weiterhin gibt es drei unterschiedliche Verbindungselement in BPMN, aber nur ein unterschiedliches Constraint in ConDec. Insgesamt ergeben sich somit 27 unterschiedliche Elemente in BPMN und 24 unterschiedliche Elemente in ConDec. \newline
 
 \begin{figure}[!htbp]
 \begin{center}

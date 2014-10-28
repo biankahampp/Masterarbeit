@@ -19,9 +19,9 @@
 \contentsline {subsection}{\numberline {3.1.2}Grunds\IeC {\"a}tze ordnungsgem\IeC {\"a}\IeC {\ss }er Modellierung}{13}{subsection.3.1.2}
 \contentsline {section}{\numberline {3.2}Prozessmodellierungssprachen}{15}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Imperative Modellierung}{16}{subsection.3.2.1}
-\contentsline {subsubsection}{BPMN}{16}{section*.6}
-\contentsline {subsection}{\numberline {3.2.2}Deklarative Modellierung}{19}{subsection.3.2.2}
-\contentsline {subsubsection}{ConDec}{20}{section*.7}
+\contentsline {subsubsection}{BPMN}{17}{section*.6}
+\contentsline {subsection}{\numberline {3.2.2}Deklarative Modellierung}{20}{subsection.3.2.2}
+\contentsline {subsubsection}{ConDec}{21}{section*.7}
 \contentsline {chapter}{\numberline {4}Modellierungswerkzeuge}{23}{chapter.4}
 \contentsline {section}{\numberline {4.1}Modellierungswerkzeuge}{23}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Signavio}{24}{subsection.4.1.1}
