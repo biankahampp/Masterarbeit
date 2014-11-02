@@ -12,8 +12,8 @@
 \contentsline {figure}{\numberline {\relax 3.4}{\ignorespaces BPMN-Gateways}}{19}{figure.3.4}
 \contentsline {figure}{\numberline {\relax 3.5}{\ignorespaces Deklarativer Beispiel-Prozess}}{21}{figure.3.5}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Siganvio Process Editor}}{25}{figure.4.1}
-\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces Siganvio Simulation}}{26}{figure.4.2}
+\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Siganvio Process Editor (Screenshot Siganvio)}}{25}{figure.4.1}
+\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces Siganvio Simulation (Screenshot Signavio)}}{26}{figure.4.2}
 \contentsline {figure}{\numberline {\relax 4.3}{\ignorespaces Declare Systemarchitektur nach \cite {pesic2007declare}}}{27}{figure.4.3}
 \contentsline {figure}{\numberline {\relax 4.4}{\ignorespaces Declare Designer (Screenshot aus Declare)}}{28}{figure.4.4}
 \contentsline {figure}{\numberline {\relax 4.5}{\ignorespaces Declare Framework (Screenshot aus Declare)}}{29}{figure.4.5}
@@ -35,7 +35,7 @@
 \contentsline {figure}{\numberline {\relax 6.13}{\ignorespaces Phasen Open UP Unterprozess Construction- imperativ}}{56}{figure.6.13}
 \contentsline {figure}{\numberline {\relax 6.14}{\ignorespaces Phasen Open UP Unterprozess Transition- imperativ}}{57}{figure.6.14}
 \contentsline {figure}{\numberline {\relax 6.15}{\ignorespaces L\IeC {\"o}sungsinkrement entwickeln imperativ}}{59}{figure.6.15}
-\contentsline {figure}{\numberline {\relax 6.16}{\ignorespaces Iteration planen und managen imperativ -Inception}}{60}{figure.6.16}
+\contentsline {figure}{\numberline {\relax 6.16}{\ignorespaces Iteration planen und managen imperativ -Inception}}{61}{figure.6.16}
 \contentsline {figure}{\numberline {\relax 6.17}{\ignorespaces Iteration planen und managen imperativ -Inception Unterprozess Umgebung vorbereiten}}{61}{figure.6.17}
 \contentsline {figure}{\numberline {\relax 6.18}{\ignorespaces Anforderungen identifizieren und verfeinern-Elaboration}}{63}{figure.6.18}
 \contentsline {figure}{\numberline {\relax 6.19}{\ignorespaces Produktdokumentation und Training erstellen - Construction}}{64}{figure.6.19}
@@ -65,8 +65,8 @@
 \contentsline {figure}{\numberline {\relax 6.43}{\ignorespaces Zuordnung der Projekttypvarianten zu den Projekttypen des V-Modell XT \cite {2004vmodell}}}{85}{figure.6.43}
 \contentsline {figure}{\numberline {\relax 6.44}{\ignorespaces Vorgehensbausteine V-Modell XT nach \cite {2004vmodell}}}{86}{figure.6.44}
 \contentsline {figure}{\numberline {\relax 6.45}{\ignorespaces V-Modell-Kern und Vorgehensbausteinlandkarte nach \cite {2004vmodell}}}{88}{figure.6.45}
-\contentsline {figure}{\numberline {\relax 6.46}{\ignorespaces Entscheidungspunkte V-Modell XT nach \cite {2004vmodell}}}{90}{figure.6.46}
-\contentsline {figure}{\numberline {\relax 6.47}{\ignorespaces Entscheidungspunkte f\IeC {\"u}r die Projektdurchf\IeC {\"u}hrungsstrategie nach \cite {2004vmodell}}}{91}{figure.6.47}
+\contentsline {figure}{\numberline {\relax 6.46}{\ignorespaces Entscheidungspunkte V-Modell XT nach \cite {2004vmodell}}}{91}{figure.6.46}
+\contentsline {figure}{\numberline {\relax 6.47}{\ignorespaces Entscheidungspunkte f\IeC {\"u}r die Projektdurchf\IeC {\"u}hrungsstrategie nach \cite {2004vmodell}}}{92}{figure.6.47}
 \contentsline {figure}{\numberline {\relax 6.48}{\ignorespaces Systementwicklungsprojekt AG/AN V-Modell - imperativ}}{93}{figure.6.48}
 \contentsline {figure}{\numberline {\relax 6.49}{\ignorespaces Unterprozess Inkrementelle Entwicklung durchf\IeC {\"u}hren V-Modell - imperativ}}{94}{figure.6.49}
 \contentsline {figure}{\numberline {\relax 6.50}{\ignorespaces System entwerfen V-Modell - imperativ}}{95}{figure.6.50}

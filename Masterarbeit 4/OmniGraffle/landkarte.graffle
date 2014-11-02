@@ -20119,8 +20119,8 @@
 							<integer>1309</integer>
 							<key>Points</key>
 							<array>
-								<string>{819.604175624601, 409.99952832344178}</string>
-								<string>{784.7254096207156, 308.39039866147152}</string>
+								<string>{819.58895639647255, 410.00625312611425}</string>
+								<string>{784.64253022327955, 308.39039866147152}</string>
 							</array>
 							<key>Style</key>
 							<dict>
@@ -20152,8 +20152,8 @@
 							<integer>1310</integer>
 							<key>Points</key>
 							<array>
-								<string>{777.49153127552779, 431.88742322658112}</string>
-								<string>{603.72856387748061, 413.74953503479344}</string>
+								<string>{777.4908076003577, 431.88914812870587}</string>
+								<string>{603.72856387748061, 413.75741364125071}</string>
 							</array>
 							<key>Style</key>
 							<dict>
@@ -20185,8 +20185,8 @@
 							<integer>1311</integer>
 							<key>Points</key>
 							<array>
-								<string>{781.59006859178521, 422.32926383461228}</string>
-								<string>{660.1283423468825, 384.04652151006394}</string>
+								<string>{781.58400640564287, 422.33903340516719}</string>
+								<string>{660.1283423468825, 384.08814486833325}</string>
 							</array>
 							<key>Style</key>
 							<dict>
@@ -20218,8 +20218,8 @@
 							<integer>1312</integer>
 							<key>Points</key>
 							<array>
-								<string>{797.87676681166306, 408.63693182756737}</string>
-								<string>{722.00037894434627, 338.76978533741521}</string>
+								<string>{797.8086017354409, 408.61134241122608}</string>
+								<string>{721.86157620560311, 338.76978533741521}</string>
 							</array>
 							<key>Style</key>
 							<dict>
@@ -20910,7 +20910,7 @@ management}</string>
 								</dict>
 								<dict>
 									<key>Bounds</key>
-									<string>{{688.64496727128687, 71.312707519522178}, {152.75518677195561, 91.20599365234375}}</string>
+									<string>{{706.82611961503676, 80.479440307608115}, {116.4978752851685, 91.20599365234375}}</string>
 									<key>Class</key>
 									<string>ShapedGraphic</string>
 									<key>FontInfo</key>
@@ -20952,8 +20952,7 @@ management}</string>
 
 \f0\fs18 \cf0 Weiterentwicklung\
  und \
-Konzeption\
- von  Altsystemen}</string>
+Migration von  Altsystemen}</string>
 									</dict>
 								</dict>
 								<dict>
@@ -23272,7 +23271,7 @@ management}</string>
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2014-05-04 13:44:26 +0000</string>
+	<string>2014-11-02 12:29:40 +0000</string>
 	<key>Modifier</key>
 	<string>Bianka Hampp</string>
 	<key>NotesVisible</key>
@@ -23348,7 +23347,7 @@ management}</string>
 		<key>ExpandedCanvases</key>
 		<array/>
 		<key>Frame</key>
-		<string>{{73, 47}, {1260, 731}}</string>
+		<string>{{20, 47}, {1260, 731}}</string>
 		<key>ListView</key>
 		<true/>
 		<key>OutlineWidth</key>

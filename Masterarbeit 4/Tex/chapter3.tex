@@ -40,7 +40,7 @@ Der \textit{Grundsatz der Relevanz} besagt, dass alle Elemente und Verknüpfunge
 
 Der \textit{Grundsatz der Wirtschaftlichkeit} sagt aus, dass die Modellierung kosteneffektiv durchzuführen ist \cite{leimeister2012}. Es gilt also abzuwägen, ob der Aufwand, der für die Modellierung notwendig ist, auch einen entsprechenden Nutzen bringt \cite{freund2007, journals95}.\newline
 
-Durch den \textit{Grundsatz der Klarheit} soll sichergestellt werden, dass das Modell für den Adressaten verständlich ist. Es muss also bei der Modellierung auf Strukturiertheit, Verständlichkeit und Anschaulichkeit geachtet werden. Insbesondere sollte das Modell ohne besondere methodische Kenntnisse verständlich sein. Somit sollte die Modellierung entweder von links nach rechts oder von oben nach unten verlaufen, wobei darauf zu achten ist, dass sich Flusslinien und Kanten hierbei so wenig wie möglich überkreuzen. Weiterhin sollte die Anzahl der Elemente auf das Nötigste reduziert werden. Vor allem die Anzahl an Verzweigungen innerhalb eines Prozessmodells, hervorgerufen durch parallele Gateways und XOR Gateways, wirkt sich negativ auf die Verständlichkeit von Prozessmodellen aus. Ebenso hat eine hohe Anzahl von Verbindungen zwischen Aktivitäten und speziell im Hinblick auf deklarative Modelle die Anzahl der Constraints und deren Komplexität einen negativen Einfluss auf das Verständnis \cite{leimeister2012,journals95, freund2007,reinshagen2009, becker2012prozessmanagement,koch2011,bpm07,thesis_maja}.\newline
+Durch den \textit{Grundsatz der Klarheit} soll sichergestellt werden, dass das Modell für den Adressaten verständlich ist. Es muss also bei der Modellierung auf Strukturiertheit, Verständlichkeit und Anschaulichkeit geachtet werden. Insbesondere sollte das Modell ohne besondere methodische Kenntnisse verständlich sein. Somit sollte die Modellierung entweder von links nach rechts oder von oben nach unten verlaufen, wobei darauf zu achten ist, dass sich Flusslinien und Kanten hierbei so wenig wie möglich überkreuzen. Weiterhin sollte die Anzahl der Elemente auf das Nötigste reduziert werden \cite{leimeister2012,journals95, freund2007,reinshagen2009, becker2012prozessmanagement,koch2011,bpm07,thesis_maja}.\newline
 
 Wird in unterschiedlichen Modellen der gleiche Sachverhalt abgebildet, so sollten letztendlich auch vergleichbare Modelle entstehen, unabhängig von der verwendeten Modellierungssprache. Dies besagt der \textit{Grundsatz der Vergleichbarkeit}. Insbesondere ist auf einen einheitlichen Abstraktionsgrad der Prozessmodelle zu achten. \cite{leimeister2012, journals95, freund2007,reinshagen2009}.\newline
 
@@ -67,10 +67,10 @@ Die BPMN-Elemente lassen sich anhand der fünf Kategorien \textit{Flussobjekte},
   \label{fig:BPMN}
 \end{center}
 \end{figure}
+
 In der Kategorie \textbf{Swimlanes} befinden sich \textit{Pools} und \textit{Lanes}. \textit{Pools} stellen eine Art Container für den Prozess dar. Ein \textit{Pool} stellt einen Prozessteilnehmer dar. Ein Prozessteilnehmer ist z.B. eine Organisationseinheit oder eine selbstständige Geschäftseinheit. Werden in einem Prozessmodell mehrere \textit{Pools} verwendet, so können hiermit Kollaborationen zwischen verschiedenen Prozessteilnehmern dargestellt werden. Ein \textit{Pool} kann in mehrere \textit{Lanes} unterteilt werden. \textit{Lanes} können untergeordnete Organisationseinheiten, Partnerrollen (z.B. Vertrieb, Projektleitung, Marketing), oder auch verschiedene Bestandteile eines Systems sein \cite{gpfert2012, pitschke2010, allweyer2013}. \newline
 \textit{Aktivitäten}, \textit{Ereignisse} und \textit{Gateways} befinden sich in der Kategorie \textbf{Flussobjekte}.
 Start und Ende von Prozessen werden in BPMN durch \textit{Ereignisse} beschrieben. Diese werden in  \textit{Startereignisse} und \textit{Endereignisse} unterschieden.  Weiterhin gibt es auch noch \textit{Zwischenereignisse}. \newline
-
 \textit{Aktivitäten} stellen Arbeitseinheiten und einen Oberbegriff für Aufgaben, Unterprozesse und Aufruf-Aktivitäten dar. Beschriftet werden sie mit einer Objekt-Verb-Verbindung (z.B. Lieferung überprüfen) \cite{gpfert2012}. \newline
 Mit Hilfe von \textit{Gateways} lässt sich der Prozessablauf kontrollieren und steuern, da durch diese Verzweigungen und Zusammenführungen von Sequenzflüssen dargestellt werden. \cite{gpfert2012, allweyer2013}. Hierbei werden \textit{Exklusive Gateways} zur Modellierung alternativer Pfade, \textit{Parallele Gateways} zur Modellierung parallel ablaufender Pfade, \textit{Inklusive Gateways} zur Modellierung der Auswahl eines oder mehrerer Pfade und \textit{Komplexe Gateways} zur Modellierung komplexer Regeln bei Verzweigungen und Zusammenführungen, unterschieden \cite{allweyer2013}.\newline 
 
@@ -114,7 +114,7 @@ In ConDec gibt es die vier verschiedenen Contraints \textit{Existence}, \textit{
 \hline
 \textbf{Constraint} & \textbf{Erläuterung}\\
 \hline
-Existente Constraints & Ein-stellige Kardinalitäts-Constraints. Sie geben an, wie oft eine Aktivität ausgeführt werden kann, bzw. muss.\\
+Existence Constraints & Ein-stellige Kardinalitäts-Constraints. Sie geben an, wie oft eine Aktivität ausgeführt werden kann, bzw. muss.\\
 \hline
 Choice Constraints & N-stellige Constraints. Sie geben die Notwendigkeit der Ausführung von Aktivitäten an, die zu einer Reihe möglicher Alternativen gehören, unabhängig von anderen Constraints. \\
 \hline
