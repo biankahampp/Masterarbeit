@@ -108,7 +108,7 @@ Wie Abbildung \ref{fig:ScrumExcel} entnommen werden kann, unterscheidet sich die
 \end{figure}
 
 Die Anzahl der Verbindungselemente, welche zur Beschreibung des Ablaufes notwendig sind, unterscheiden sich jedoch, wie Abbildung \ref{fig:ScrumExcel} zeigt.\newline
-So werden in BPMN sechs Gateways und 27 Sequenzflusselmente benötigt, also insgesamt 33 Verbindungselemente um den Ablauf des Metamodells darzustellen. Bei Verwendung von ConDec werden 15 Verbindungselemente benötigt. In BPMN werden jedoch nur drei verschiedene Verbindungselemente benötigt, während es in ConDec fünf verschiedene Verbindungselemente sind.\newline
+So werden in BPMN sechs Gateways und 26 Sequenzflusselmente benötigt, also insgesamt 32 Verbindungselemente um den Ablauf des Metamodells darzustellen. Bei Verwendung von ConDec werden 20 Verbindungselemente benötigt. In BPMN werden jedoch nur drei verschiedene Verbindungselemente benötigt, während es in ConDec sechs verschiedene Verbindungselemente sind.\newline
 
 
 
@@ -118,18 +118,20 @@ Weiterhin werden in BPMN 4 Artefakte zum Beschreiben des Metamodells benötigt, 
 Genau wie bei den Artefakten gibt es in ConDec keine Möglichkeite verschiedene Rollen innerhalb eines Prozessmodelles darzustellen. Aus diesem Grund gibt es in BPMN drei Rollen und in ConDec keine.\newline
 
 
-In Bezug auf die \textit{Klarheit}, welche in Kapitel 5 als Anforderungskriterium festgelegt wurde, haben beide Modellierungssprachen Stärken und Schwächen. Die Anzahl der Aktivitäten unterscheidet sich nicht, jedoch die Anzahl der Flusselemente. Eine größere Anzahl an Verbindungselementen kann sich negativ auf die Verständlichkeit auswirken. Hier ist die Anzahl aber bei BPMN mehr als doppelt so hoch als bei ConDec. Die Anzahl verschiedener Verbindungselmente kann sich ebenfalls negativ auf die Verständlichkeit auswirken. In BPMN werden insgesamt sechs Gateways verwendet zur Darstellung von Verzweigungen und somit drei verschiedne Verbindungselemente. Je mehr Verzweigungen sich in einem Prozessmodell befinden, desto schwieriger wird es, das Prozessmodell zu verstehen und desto wahrscheinlicher ist es, dass dem Modellierer Fehler unterlaufen. Ebenfalls ist die Verwendung von fünf verschiedenen Constraints in ConDec ein Problem für das Verständnis. Da das Verständnis der Constraints in ConDec an sich relativ schwierig ist, ist das Verständnis eines Prozessmodelles mit vielen verschiedenen Constraints relativ schwer.
-\newline
-
 Die \textit{Richtigkeit} lässt sich mit BPMN in Bezug auf Rollen und Artefakte besser einhalten, als mit ConDec. Da es bei ConDec keine Möglichkeit gibt, Rollen und Artefakte im Prozessmodell selbst abzubilden, müssen diese Informationen weggelassen werden. Die Rollen und Artefakte können zwar in Declare abgebildet werden, jedoch ist dies auf Papier/Bild nicht sichtbar. Aus desem Grund müssen diese Informationen beim Modellieren weggelassen werden, was zur Folge hat, dass das im Metamodell beschriebene Verhalten nicht vollständig abgebildet werden kann und somit leidet auch der Nutzen des Modells.\newline
-
-\textit{Wirtschaftlichkeit} lässt sich mit beiden Modellierungssprachen einhalten. Die Aufwände zum Erstellen der Modelle unterscheiden sich in den beiden verwendeten Sprachen nicht voneinander, da sie beide ungefähr die gleiche Größe haben.\newline
-
-Beide Prozessmodelle können mit minimal relevanten Informationen erstellt werden. Bei keiner der beiden Modellierungssprachen war es notwendig, weitere Informationen zum Modell hinzuzufügen, um dessen Qualität zu erhöhen. Somit kann \textit{Relevanz} bei beiden Prozessmodellen eingehalten werden.\newline
 
 Nur BPMN bietet die Möglchkeit, Artefakte im Prozessmodell abzubilden und lässt somit die Integration anderer Sichten in das Modell zu. Somit kann der Modellierungsgrundsatz des \textit{systematischen Aufbaus} nur von BPMN eingehalten werden. Da ConDec dies nicht zulässt, schmälert es die Eignung von ConDec zum Modellieren in Bezug auf Softwareprozessmodelle. Hierdurch können wichtige Informationen aus dem Metamodell nicht abgebildet werden. \newline 
 
-Da bei BPMN mehr Verbindungselemente benötigt werden, weist das mit BPMN erstellte Modell auch insgesamt mehr Elemente auf. Während bei ConDec insgesamt 27 Elemente benötigt werden, werden zur Darstellung des gleichen Sachverhaltes bei BPMN 45 Elemente verwendet. Die \textit{Vergleichbarkeit} ist dadurch nicht ganz gewährleistet, da die Anzahl der Elemente bei BPMN fast doppelt so hoch ist wie bei ConDec.
+Beide Prozessmodelle können mit minimal relevanten Informationen erstellt werden. Bei keiner der beiden Modellierungssprachen war es notwendig, weitere Informationen zum Modell hinzuzufügen, um dessen Qualität zu erhöhen. Somit kann \textit{Relevanz} bei beiden Prozessmodellen eingehalten werden.\newline
+
+
+\textit{Wirtschaftlichkeit} lässt sich mit beiden Modellierungssprachen einhalten. Die Aufwände zum Erstellen der Modelle unterscheiden sich in den beiden verwendeten Sprachen nicht voneinander, da sie beide ungefähr die gleiche Größe haben.\newline
+
+In Bezug auf die \textit{Klarheit}, welche in Kapitel 5 als Anforderungskriterium festgelegt wurde, haben beide Modellierungssprachen Stärken und Schwächen. Die Anzahl der Aktivitäten unterscheidet sich nicht, jedoch die Anzahl der Verbindungselemente. Eine größere Anzahl an Verbindungselementen kann sich negativ auf die Verständlichkeit auswirken. Hier ist die Anzahl bei BPMN höher als bei ConDec. Die Anzahl verschiedener Verbindungselmente kann sich ebenfalls negativ auf die Verständlichkeit auswirken. In BPMN werden insgesamt sechs Gateways verwendet zur Darstellung von Verzweigungen und somit drei verschiedene Verbindungselemente. Je mehr Verzweigungen sich in einem Prozessmodell befinden, desto schwieriger wird es, das Prozessmodell zu verstehen und desto wahrscheinlicher ist es, dass dem Modellierer Fehler unterlaufen. Ebenfalls ist die Verwendung von sechs verschiedenen Constraints in ConDec ein Problem für das Verständnis. Da das Verständnis der Constraints in ConDec an sich relativ schwierig ist, ist das Verständnis eines Prozessmodelles mit vielen verschiedenen Constraints relativ schwer. Da die Anzahl der unterschiedlichen Verbindungselemente hier bei ConDec doppelt so hoch ist wie bei BPMN und es sich bei vier der unterschiedlichen Constraints um sehr komplexe Constraints handelt, ist hier BPMN trotz der höheren Anzahl an Elementen das verständlichere Modell.
+\newline
+
+Die \textit{Vergleichbarkeit} in Betracht des Ausführungsverhaltens der beiden Modelle wurde durch Testausführungen in den Modellierungstools Signavio und Declare gewährleistet.\newline
+Da bei BPMN mehr Verbindungselemente benötigt werden, weist das mit BPMN erstellte Modell auch insgesamt mehr Elemente auf. Während bei ConDec insgesamt 32 Elemente benötigt werden, werden zur Darstellung des gleichen Sachverhaltes bei BPMN 44 Elemente verwendet. Die \textit{Vergleichbarkeit} ist dadurch nicht ganz gewährleistet, da die Anzahl der Elemente bei BPMN fast doppelt so hoch ist wie bei ConDec.
 
 
 
@@ -698,22 +700,20 @@ Wie viele Elemente zur Modellierung des Prozesses Release deployen benötigt wer
 \end{center}
 \end{figure}
 
+Bei dem Grundsatz der \textit{Richtigkeit} tritt bei ConDec wiederum das Problem auf, dass Rollen und Artefakte nicht darstellbar sind. Zwar ist dies bei den Phasen des Open UP kein Problem, da hier noch keine Rollen zugeordnet werden, jedoch bei den anderen Prozessen des Open UP (Iteration planen und managen, Anforderungen identifizieren und verfeinern, Produktdokumentation entwickeln und Release deployen). Da hier keine Rollen darstellbar sind, kann das jeweils im Metamodell enthaltene Verhalten in den ConDec-Modellen nicht vollständig wiedergegeben werden. Hierdurch leidet der Nutzen des Metamodells. \newline
+
+Der Grundsatz des \textit{systematischen Aufbaus} kann wiederum nur von BPMN eingehalten werden, da ConDec keine Möglichkeit bietet, Artefakte ins Prozessmodell einzubinden.\newline
+
+Ebenfalls die \textit{Relevanz} lässt sich bei beiden Prozessmodellierungssprachen gut einhalten, denn es ist weder bei einem in ConDec erstellten Modell, noch bei einem in BPMN erstellten Modell notwendig, weitere Informationen zur Erhöhung der Qualität des Modells hinzuzufügen.\newline
+
+Die \textit{Wirtschaftlichkeit} lässt sich auch beim Open UP bei beiden Prozessmodellierungssprachen einhalten, da der Aufwand zur Erstellung der Modelle bei BPMN und ConDec gleich groß ist.\newline
+
 In Bezug auf die \textit{Klarheit} fällt gerade bei Betrachtung der Modelle der Phasen Inception, Elaboration, Construction und Transition auf, das bei Modellen bei denen mehrere Aktivitäten parallel zueinnader ablaufen in BPMN deutlich mehr Elemente zur Darstellung des gleichen Sachverhaltes notwendig sind, als in ConDec. Bei allen vier Modellen sind doppelt so viele, teilweise auch mehr als doppelt so viele Elemene zur Darstellung in BPMN notwendig, als in ConDec. Dies liegt an der Anzahl der Verbindungselemente. BPMN weißt eine hohe Anzahl an eingehenden und ausgehenden Kanten an den parallelen Gateways auf. Da die Parallelität in ConDec nicht durch Constraints dargestellt werden muss, werden in ConDec nur die Existenz-Constraints benötigt, um die Aktivitäten auf einmalige Ausführung zu beschränken. Da sich die hohe Anzahl an Verbindungselementen in BPMN negativ auf die Verständlichkeit auswirken kann und in ConDec nur die leichter verständlichen Existenz-Constraints verwendet werden, sind die ConDec-Modelle die an dieser Stelle leichter verständlichen Modelle. \newline
 Das Gleiche gilt für die Darstellung der Phasen des Open UP. Hier werden zur Darstellung des Prozesses in BPMN drei-mal so viele Elemente benötigt, wie in ConDec. Dies liegt hier an der hohen Anzahl der XOR-Gateways, die beim Modellieren des Prozesses notwendig sind. Somit ist auch hier das Modell, welches mit ConDec erstellt wurde das leichter verständliche. \newline
 Beim Prozess Release deployen werden gleich viele Elemente in ConDec, wie auch in BPMN zur Darstellung des Prozesses benötigt. In ConDec werden drei verschiedene Verbindungselemente zur Darstellung 
 benötigt, in BPMN zwei. Somit gibt es hier trotz der geringen Abweichung in der Anzahl der Verbindungselemente keine Unterschiede in der Verständlichkeit.\newline
 Bei den Prozessen Anforderungen identifizieren und verfeinern und Produktdokumentation entwickeln weißen die ConDec-Modelle eine leicht höhere Anzahl an Verbindungselementen und Elementen insgesamt auf, jedoch hat dies hier kaum Einfluß auf die Verständlichkeit der ConDec-Modelle, da die Abweichung sehr gering ist.\newline
 Im Prozess Iteartion planen und managen gibt es keine Verzweigungen. Zwar ist die Anzahl der Constraints in ConDec höher, als die Anzahl der Verbindungselemente in BPMN, jedoch liegt das größtenteils an den leicht verständlichen Existenz-Constraints. Aus diesem Grund sind hier beide Prozessmodelle gleich verständlich.\newline
-
-Bei dem Grundsatz der \textit{Richtigkeit} tritt bei ConDec wiederum das Problem auf, dass Rollen und Artefakte nicht darstellbar sind. Zwar ist dies bei den Phasen des Open UP kein Problem, da hier noch keine Rollen zugeordnet werden, jedoch bei den anderen Prozessen des Open UP (Iteration planen und managen, Anforderungen identifizieren und verfeinern, Produktdokumentation entwickeln und Release deployen). Da hier keine Rollen darstellbar sind, kann das jeweils im Metamodell enthaltene Verhalten in den ConDec-Modellen nicht vollständig wiedergegeben werden. Hierdurch leidet der Nutzen des Metamodells. \newline
-
-
-
-Die \textit{Wirtschaftlichkeit} lässt sich auch beim Open UP bei beiden Prozessmodellierungssprachen einhalten, da der Aufwand zur Erstellung der Modelle bei BPMN und ConDec gleich groß ist.\newline
-
-Ebenfalls die \textit{Relevanz} lässt sich bei beiden Prozessmodellierungssprachen gut einhalten, denn es ist weder bei einem in ConDec erstellten Modell, noch bei einem in BPMN erstellten Modell notwendig, weitere Informationen zur Erhöhung der Qualität des Modells hinzuzufügen.\newline
-
-Der Grundsatz des \textit{systematischen Aufbaus} kann wiederum nur von BPMN eingehalten werden, da ConDec keine Möglichkeit bietet, Artefakte ins Prozessmodell einzubinden.\newline
 
 Bei der Darstellung der Phasen des Open UP werden doppelt so viele Elemente in ConDec, wie in BPMN verwendet. Hier ist deshalb die \textit{Vergleichbarkeit} nicht ganz gewährleistet. Bei den anderen Modellen des Open UP unterscheidet sich die Anzahl der Elemente kaum voneinander, wodurch die Vergleichbarkeit hier gewährleistet ist. \newline
 

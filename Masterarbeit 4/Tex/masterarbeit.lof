@@ -9,8 +9,8 @@
 \contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces Ziele der Prozessmodellierung nach \cite {koch2011}}}{12}{figure.3.1}
 \contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces Grundsatz ordnungsgem\IeC {\"a}\IeC {\ss }er Modellierung nach \cite {journals95}}}{14}{figure.3.2}
 \contentsline {figure}{\numberline {\relax 3.3}{\ignorespaces BPMN-Elemente \IeC {\"U}bersicht nach \cite {gpfert2012}}}{17}{figure.3.3}
-\contentsline {figure}{\numberline {\relax 3.4}{\ignorespaces BPMN-Gateways}}{19}{figure.3.4}
-\contentsline {figure}{\numberline {\relax 3.5}{\ignorespaces Deklarativer Beispiel-Prozess}}{21}{figure.3.5}
+\contentsline {figure}{\numberline {\relax 3.4}{\ignorespaces BPMN-Gateways}}{18}{figure.3.4}
+\contentsline {figure}{\numberline {\relax 3.5}{\ignorespaces Deklarativer Beispiel-Prozess \cite {reichert2012}}}{21}{figure.3.5}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Siganvio Process Editor (Screenshot Siganvio)}}{25}{figure.4.1}
 \contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces Siganvio Simulation (Screenshot Signavio)}}{26}{figure.4.2}
@@ -30,56 +30,56 @@
 \contentsline {figure}{\numberline {\relax 6.8}{\ignorespaces Phasen Open UP nach \cite {eclipseopenup}}}{50}{figure.6.8}
 \contentsline {figure}{\numberline {\relax 6.9}{\ignorespaces Rollen in Open UP nach \cite {openup}}}{53}{figure.6.9}
 \contentsline {figure}{\numberline {\relax 6.10}{\ignorespaces Phasen Open UP- imperativ}}{54}{figure.6.10}
-\contentsline {figure}{\numberline {\relax 6.11}{\ignorespaces Phasen Open UP Unterprozess Inception- imperativ}}{54}{figure.6.11}
-\contentsline {figure}{\numberline {\relax 6.12}{\ignorespaces Phasen Open UP Unterprozess Elaboration- imperativ}}{55}{figure.6.12}
-\contentsline {figure}{\numberline {\relax 6.13}{\ignorespaces Phasen Open UP Unterprozess Construction- imperativ}}{56}{figure.6.13}
-\contentsline {figure}{\numberline {\relax 6.14}{\ignorespaces Phasen Open UP Unterprozess Transition- imperativ}}{57}{figure.6.14}
-\contentsline {figure}{\numberline {\relax 6.15}{\ignorespaces L\IeC {\"o}sungsinkrement entwickeln imperativ}}{59}{figure.6.15}
+\contentsline {figure}{\numberline {\relax 6.11}{\ignorespaces Phasen Open UP Unterprozess Inception- imperativ}}{55}{figure.6.11}
+\contentsline {figure}{\numberline {\relax 6.12}{\ignorespaces Phasen Open UP Unterprozess Elaboration- imperativ}}{56}{figure.6.12}
+\contentsline {figure}{\numberline {\relax 6.13}{\ignorespaces Phasen Open UP Unterprozess Construction- imperativ}}{57}{figure.6.13}
+\contentsline {figure}{\numberline {\relax 6.14}{\ignorespaces Phasen Open UP Unterprozess Transition- imperativ}}{58}{figure.6.14}
+\contentsline {figure}{\numberline {\relax 6.15}{\ignorespaces L\IeC {\"o}sungsinkrement entwickeln imperativ}}{60}{figure.6.15}
 \contentsline {figure}{\numberline {\relax 6.16}{\ignorespaces Iteration planen und managen imperativ -Inception}}{61}{figure.6.16}
-\contentsline {figure}{\numberline {\relax 6.17}{\ignorespaces Iteration planen und managen imperativ -Inception Unterprozess Umgebung vorbereiten}}{61}{figure.6.17}
-\contentsline {figure}{\numberline {\relax 6.18}{\ignorespaces Anforderungen identifizieren und verfeinern-Elaboration}}{63}{figure.6.18}
-\contentsline {figure}{\numberline {\relax 6.19}{\ignorespaces Produktdokumentation und Training erstellen - Construction}}{64}{figure.6.19}
-\contentsline {figure}{\numberline {\relax 6.20}{\ignorespaces Release deployen-Transition}}{65}{figure.6.20}
-\contentsline {figure}{\numberline {\relax 6.21}{\ignorespaces Phasen Open UP- deklarativ}}{66}{figure.6.21}
-\contentsline {figure}{\numberline {\relax 6.22}{\ignorespaces Phasen Open UP Unterprozess Inception- deklarativ}}{67}{figure.6.22}
-\contentsline {figure}{\numberline {\relax 6.23}{\ignorespaces Phasen Open UP Unterprozess Elaboration- deklarativ}}{68}{figure.6.23}
-\contentsline {figure}{\numberline {\relax 6.24}{\ignorespaces Phasen Open UP Unterprozess Construction- deklarativ}}{68}{figure.6.24}
-\contentsline {figure}{\numberline {\relax 6.25}{\ignorespaces Phasen Open UP Unterprozess Transition- deklarativ}}{69}{figure.6.25}
-\contentsline {figure}{\numberline {\relax 6.26}{\ignorespaces L\IeC {\"o}sungsinkrement entwickeln- deklarativ}}{70}{figure.6.26}
-\contentsline {figure}{\numberline {\relax 6.27}{\ignorespaces Iteration planen und managen-Inception deklarativ}}{71}{figure.6.27}
-\contentsline {figure}{\numberline {\relax 6.28}{\ignorespaces Iteration planen und managen- Inception Unterprozess Umgebung vorbereiten- deklarativ}}{72}{figure.6.28}
-\contentsline {figure}{\numberline {\relax 6.29}{\ignorespaces Anforderungen identifizieren und verfeinern-Elaboration}}{72}{figure.6.29}
-\contentsline {figure}{\numberline {\relax 6.30}{\ignorespaces Produktdokumentation und Training erstellen-Construction}}{73}{figure.6.30}
-\contentsline {figure}{\numberline {\relax 6.31}{\ignorespaces Release deployen-Transition}}{74}{figure.6.31}
-\contentsline {figure}{\numberline {\relax 6.32}{\ignorespaces Phasen Open UP}}{74}{figure.6.32}
-\contentsline {figure}{\numberline {\relax 6.33}{\ignorespaces Open UP-Inception}}{75}{figure.6.33}
-\contentsline {figure}{\numberline {\relax 6.34}{\ignorespaces Open UP-Elaboration}}{76}{figure.6.34}
+\contentsline {figure}{\numberline {\relax 6.17}{\ignorespaces Iteration planen und managen imperativ -Inception Unterprozess Umgebung vorbereiten}}{62}{figure.6.17}
+\contentsline {figure}{\numberline {\relax 6.18}{\ignorespaces Anforderungen identifizieren und verfeinern-Elaboration}}{64}{figure.6.18}
+\contentsline {figure}{\numberline {\relax 6.19}{\ignorespaces Produktdokumentation und Training erstellen - Construction}}{65}{figure.6.19}
+\contentsline {figure}{\numberline {\relax 6.20}{\ignorespaces Release deployen-Transition}}{66}{figure.6.20}
+\contentsline {figure}{\numberline {\relax 6.21}{\ignorespaces Phasen Open UP- deklarativ}}{67}{figure.6.21}
+\contentsline {figure}{\numberline {\relax 6.22}{\ignorespaces Phasen Open UP Unterprozess Inception- deklarativ}}{68}{figure.6.22}
+\contentsline {figure}{\numberline {\relax 6.23}{\ignorespaces Phasen Open UP Unterprozess Elaboration- deklarativ}}{69}{figure.6.23}
+\contentsline {figure}{\numberline {\relax 6.24}{\ignorespaces Phasen Open UP Unterprozess Construction- deklarativ}}{69}{figure.6.24}
+\contentsline {figure}{\numberline {\relax 6.25}{\ignorespaces Phasen Open UP Unterprozess Transition- deklarativ}}{70}{figure.6.25}
+\contentsline {figure}{\numberline {\relax 6.26}{\ignorespaces L\IeC {\"o}sungsinkrement entwickeln- deklarativ}}{71}{figure.6.26}
+\contentsline {figure}{\numberline {\relax 6.27}{\ignorespaces Iteration planen und managen-Inception deklarativ}}{72}{figure.6.27}
+\contentsline {figure}{\numberline {\relax 6.28}{\ignorespaces Iteration planen und managen- Inception Unterprozess Umgebung vorbereiten- deklarativ}}{73}{figure.6.28}
+\contentsline {figure}{\numberline {\relax 6.29}{\ignorespaces Anforderungen identifizieren und verfeinern-Elaboration}}{73}{figure.6.29}
+\contentsline {figure}{\numberline {\relax 6.30}{\ignorespaces Produktdokumentation und Training erstellen-Construction}}{74}{figure.6.30}
+\contentsline {figure}{\numberline {\relax 6.31}{\ignorespaces Release deployen-Transition}}{75}{figure.6.31}
+\contentsline {figure}{\numberline {\relax 6.32}{\ignorespaces Phasen Open UP}}{75}{figure.6.32}
+\contentsline {figure}{\numberline {\relax 6.33}{\ignorespaces Open UP-Inception}}{76}{figure.6.33}
+\contentsline {figure}{\numberline {\relax 6.34}{\ignorespaces Open UP-Elaboration}}{77}{figure.6.34}
 \contentsline {figure}{\numberline {\relax 6.35}{\ignorespaces Open UP-Construction}}{77}{figure.6.35}
-\contentsline {figure}{\numberline {\relax 6.36}{\ignorespaces Open UP-Transition}}{77}{figure.6.36}
-\contentsline {figure}{\numberline {\relax 6.37}{\ignorespaces Open UP-Iteration planen}}{78}{figure.6.37}
-\contentsline {figure}{\numberline {\relax 6.38}{\ignorespaces Anforderungen identifizieren}}{78}{figure.6.38}
-\contentsline {figure}{\numberline {\relax 6.39}{\ignorespaces Produktdokumentation erstellen}}{79}{figure.6.39}
-\contentsline {figure}{\numberline {\relax 6.40}{\ignorespaces Release deployen}}{80}{figure.6.40}
-\contentsline {figure}{\numberline {\relax 6.41}{\ignorespaces Grundstruktur V-Modell XT nach \cite {2004vmodell}}}{83}{figure.6.41}
-\contentsline {figure}{\numberline {\relax 6.42}{\ignorespaces Projekttypen V-Modell XT nach \cite {2004vmodell}}}{83}{figure.6.42}
-\contentsline {figure}{\numberline {\relax 6.43}{\ignorespaces Zuordnung der Projekttypvarianten zu den Projekttypen des V-Modell XT \cite {2004vmodell}}}{85}{figure.6.43}
-\contentsline {figure}{\numberline {\relax 6.44}{\ignorespaces Vorgehensbausteine V-Modell XT nach \cite {2004vmodell}}}{86}{figure.6.44}
-\contentsline {figure}{\numberline {\relax 6.45}{\ignorespaces V-Modell-Kern und Vorgehensbausteinlandkarte nach \cite {2004vmodell}}}{88}{figure.6.45}
-\contentsline {figure}{\numberline {\relax 6.46}{\ignorespaces Entscheidungspunkte V-Modell XT nach \cite {2004vmodell}}}{91}{figure.6.46}
-\contentsline {figure}{\numberline {\relax 6.47}{\ignorespaces Entscheidungspunkte f\IeC {\"u}r die Projektdurchf\IeC {\"u}hrungsstrategie nach \cite {2004vmodell}}}{92}{figure.6.47}
-\contentsline {figure}{\numberline {\relax 6.48}{\ignorespaces Systementwicklungsprojekt AG/AN V-Modell - imperativ}}{93}{figure.6.48}
-\contentsline {figure}{\numberline {\relax 6.49}{\ignorespaces Unterprozess Inkrementelle Entwicklung durchf\IeC {\"u}hren V-Modell - imperativ}}{94}{figure.6.49}
-\contentsline {figure}{\numberline {\relax 6.50}{\ignorespaces System entwerfen V-Modell - imperativ}}{95}{figure.6.50}
-\contentsline {figure}{\numberline {\relax 6.51}{\ignorespaces System spezifizieren-imperativ}}{96}{figure.6.51}
-\contentsline {figure}{\numberline {\relax 6.52}{\ignorespaces Systementwicklungsprojekt AG/AN V-Modell - deklarativ}}{98}{figure.6.52}
-\contentsline {figure}{\numberline {\relax 6.53}{\ignorespaces Systementwicklungsprojekt AG/AN V-Modell Unterprozess Entwicklung durchf\IeC {\"u}hren - deklarativ}}{98}{figure.6.53}
-\contentsline {figure}{\numberline {\relax 6.54}{\ignorespaces Unterprozess Inkrementelle Entwicklung durchf\IeC {\"u}hren V-Modell - imperativ}}{99}{figure.6.54}
-\contentsline {figure}{\numberline {\relax 6.55}{\ignorespaces System entwerfen - deklarativ}}{100}{figure.6.55}
-\contentsline {figure}{\numberline {\relax 6.56}{\ignorespaces System spezifizieren- deklarativ}}{101}{figure.6.56}
-\contentsline {figure}{\numberline {\relax 6.57}{\ignorespaces Systementwicklungsprojekt AG/AN}}{102}{figure.6.57}
-\contentsline {figure}{\numberline {\relax 6.58}{\ignorespaces Inkrementelle Entwicklung}}{103}{figure.6.58}
-\contentsline {figure}{\numberline {\relax 6.59}{\ignorespaces System entwerfen}}{103}{figure.6.59}
-\contentsline {figure}{\numberline {\relax 6.60}{\ignorespaces System spezifizieren}}{104}{figure.6.60}
+\contentsline {figure}{\numberline {\relax 6.36}{\ignorespaces Open UP-Transition}}{78}{figure.6.36}
+\contentsline {figure}{\numberline {\relax 6.37}{\ignorespaces Open UP-Iteration planen}}{79}{figure.6.37}
+\contentsline {figure}{\numberline {\relax 6.38}{\ignorespaces Anforderungen identifizieren}}{79}{figure.6.38}
+\contentsline {figure}{\numberline {\relax 6.39}{\ignorespaces Produktdokumentation erstellen}}{80}{figure.6.39}
+\contentsline {figure}{\numberline {\relax 6.40}{\ignorespaces Release deployen}}{81}{figure.6.40}
+\contentsline {figure}{\numberline {\relax 6.41}{\ignorespaces Grundstruktur V-Modell XT nach \cite {2004vmodell}}}{84}{figure.6.41}
+\contentsline {figure}{\numberline {\relax 6.42}{\ignorespaces Projekttypen V-Modell XT nach \cite {2004vmodell}}}{84}{figure.6.42}
+\contentsline {figure}{\numberline {\relax 6.43}{\ignorespaces Zuordnung der Projekttypvarianten zu den Projekttypen des V-Modell XT \cite {2004vmodell}}}{86}{figure.6.43}
+\contentsline {figure}{\numberline {\relax 6.44}{\ignorespaces Vorgehensbausteine V-Modell XT nach \cite {2004vmodell}}}{87}{figure.6.44}
+\contentsline {figure}{\numberline {\relax 6.45}{\ignorespaces V-Modell-Kern und Vorgehensbausteinlandkarte nach \cite {2004vmodell}}}{89}{figure.6.45}
+\contentsline {figure}{\numberline {\relax 6.46}{\ignorespaces Entscheidungspunkte V-Modell XT nach \cite {2004vmodell}}}{92}{figure.6.46}
+\contentsline {figure}{\numberline {\relax 6.47}{\ignorespaces Entscheidungspunkte f\IeC {\"u}r die Projektdurchf\IeC {\"u}hrungsstrategie nach \cite {2004vmodell}}}{93}{figure.6.47}
+\contentsline {figure}{\numberline {\relax 6.48}{\ignorespaces Systementwicklungsprojekt AG/AN V-Modell - imperativ}}{94}{figure.6.48}
+\contentsline {figure}{\numberline {\relax 6.49}{\ignorespaces Unterprozess Inkrementelle Entwicklung durchf\IeC {\"u}hren V-Modell - imperativ}}{95}{figure.6.49}
+\contentsline {figure}{\numberline {\relax 6.50}{\ignorespaces System entwerfen V-Modell - imperativ}}{96}{figure.6.50}
+\contentsline {figure}{\numberline {\relax 6.51}{\ignorespaces System spezifizieren-imperativ}}{97}{figure.6.51}
+\contentsline {figure}{\numberline {\relax 6.52}{\ignorespaces Systementwicklungsprojekt AG/AN V-Modell - deklarativ}}{99}{figure.6.52}
+\contentsline {figure}{\numberline {\relax 6.53}{\ignorespaces Systementwicklungsprojekt AG/AN V-Modell Unterprozess Entwicklung durchf\IeC {\"u}hren - deklarativ}}{99}{figure.6.53}
+\contentsline {figure}{\numberline {\relax 6.54}{\ignorespaces Unterprozess Inkrementelle Entwicklung durchf\IeC {\"u}hren V-Modell - imperativ}}{100}{figure.6.54}
+\contentsline {figure}{\numberline {\relax 6.55}{\ignorespaces System entwerfen - deklarativ}}{101}{figure.6.55}
+\contentsline {figure}{\numberline {\relax 6.56}{\ignorespaces System spezifizieren- deklarativ}}{102}{figure.6.56}
+\contentsline {figure}{\numberline {\relax 6.57}{\ignorespaces Systementwicklungsprojekt AG/AN}}{103}{figure.6.57}
+\contentsline {figure}{\numberline {\relax 6.58}{\ignorespaces Inkrementelle Entwicklung}}{104}{figure.6.58}
+\contentsline {figure}{\numberline {\relax 6.59}{\ignorespaces System entwerfen}}{104}{figure.6.59}
+\contentsline {figure}{\numberline {\relax 6.60}{\ignorespaces System spezifizieren}}{105}{figure.6.60}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
