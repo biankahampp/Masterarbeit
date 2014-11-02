@@ -1,12 +1,12 @@
 \chapter{Imperative und deklarative Modellierung für SE-Prozessmodelle}\label{sec:chapter6}
-In diesem Kapitel wird der Vergleich zwischen imperativer und deklarativer Modellierung für SE-Prozessmodelle durchgeführt. Als Erstes wird dieser Vergleich in Kapitel 6.1 für das SE-Prozessmodelle Scrum durchgeführt. Hierfür wird zunächst in Kapitel 6.1 das der Modellierung zugrunde liegende Modell, das SE-Prozessmodell Scrum, vorgestellt und in Kapitel 6.1.1 für die Modellierung analysiert. Danach erfolgt in Kapitel 6.1.2 die imperative Modellierung von in der Prozessmodellierungssprache BPMN und anschließend die deklarative Modellierung in der Prozessmodellierungssprache ConDec in Kapitel 6.1.3. Danach erfolgt  in Kapitel 6.1.4 der Vergleich zwischen den beiden Modellen.\newline
+In diesem Kapitel wird der Vergleich zwischen imperativer und deklarativer Modellierung für SE-Prozessmodelle gezogen. Als Erstes wird dieser Vergleich in Kapitel 6.1 für das SE-Prozessmodell Scrum durchgeführt. Hierfür wird zunächst in Kapitel 6.1 das der Modellierung zugrunde liegende Modell, das SE-Prozessmodell Scrum, vorgestellt und in Kapitel 6.1.1 für die Modellierung analysiert. Danach erfolgt in Kapitel 6.1.2 die imperative Modellierung in der Prozessmodellierungssprache BPMN und anschließend die deklarative Modellierung in der Prozessmodellierungssprache ConDec in Kapitel 6.1.3. Danach erfolgt  in Kapitel 6.1.4 der Vergleich zwischen den beiden Modellen.\newline
 Der zweite SE-Prozess, welcher in diesem Kapitel in imperativer und deklarativer Prozessmodellierungssprache verglichen werden soll, ist der Open Unified Process (Open Up). Auch hier erfolgt zunächst eine kurze Einführung in den Open Up in Kapitel 6.2, bevor dieser in Kapitel 6.2.1 analysiert wird, damit er in den Kapiteln 6.2.2 und 6.2.3 in imperativer, bzw. deklarativer Prozessmodellierungssprache modelliert werden kann. Hiernach erfolgt in Kapitel 6.2.4 der Vergleich zwischen den Prozessmodellen.\newline
-Zuletzt wird noch das V-Modell XT modelliert und verglichen. Eine Einführung in das V-Modell XT erfolgt in Kapitel 6.3. In Kapitel 6.3.1 wird dieses als Vorbereitung für die Modellierung analysiert und in den Kapiteln 6.3.2 und 6.3.3 in imperativer und deklarativer Prozessmodellierungssprache modelliert. Der Vergleich hierzu erfolgt in Kapitel 6.3.4.
+Zuletzt wird noch das V-Modell XT modelliert und verglichen. Eine Einführung in das V-Modell XT erfolgt in Kapitel 6.3. In Kapitel 6.3.1 wird für dieses als Vorbereitung für die Modellierung eine Analyse durchgeführt und in den Kapiteln 6.3.2 und 6.3.3 erfolgt die Modellierung in imperativer und deklarativer Prozessmodellierungssprache. Der Vergleich hierzu erfolgt in Kapitel 6.3.4.
 
 
 \section{Scrum}\label{sec:chapter6:Imperative Modellierung}
 
-Der Begriff Scrum stammt aus dem Artikel "The New New Product Development Game", welchen Hirotaka Takeuchi und Ikujiro Nonaka im Harvard Business Review 1986 veröffentlicht haben. Sie beschrieben einen ganzheitlichen Ansatz bei dem kleine, funktionsübergreifende Teams zusammen an einem gemeinsamen Ziel arbeiten. Dies verglichen sie mit der Scrum-Formation beim Rugby \cite{Pham2012,Takeuchi1986}. \newline
+Der Begriff Scrum stammt aus dem Artikel "The New New Product Development Game", welchen Hirotaka Takeuchi und Ikujiro Nonaka im Harvard Business Review 1986 veröffentlicht haben. Sie beschrieben einen ganzheitlichen Ansatz, bei dem kleine, funktionsübergreifende Teams zusammen an einem gemeinsamen Ziel arbeiten. Dies verglichen sie mit der Scrum-Formation beim Rugby \cite{Pham2012,Takeuchi1986}. \newline
 Bei Scrum handelt es sich um ein agiles Prozessmodell, welches seit Anfang 1990 für komplexe Entwicklungen verwendet wird. Agile Prozessmodelle werden den leichtgewichtigen Prozessmodellen zugeordnet \cite{Hanser2010, Lacey2012}. Einen ersten Überblick über das Scrum-Prozessmodell gibt Abbildung \ref{fig:Scrum}:
 
 \begin{figure}[htp]
@@ -30,8 +30,8 @@ Die \textit{Teams} bestehen bei Scrum für gewöhnlich aus fünf bis neun Mitgli
 
 Der \textit{Scrum-Master} ist für den gesamten Scrum-Prozess verantwortlich. Dies schließt die Vermittlung von Scrum-Inhalten (z.B. Schulungen) und die Implementation von Scrum in die Unternehmenskultur ein \cite{Pichler2010}. Er überwacht die Sprint- Tasks, um sicher zu gehen, dass der Sprint erfolgreich verläuft.\newline
 
-Bei Scrum wird die Entwicklung in mehrere kurze Zyklen, also Iterationen eingeteilt. Eine einzelne Iteration wird bei Scrum \textit{Sprint} genannt \cite{Henning2011}. Die Dauer eines Sprints beträgt zwei bis vier Wochen. Am Ende eines jeden Sprints muss das \textit{Team} ein lauffähiges Produkt abliefern \cite{Wolf2011}. Vor jedem Sprint findet ein \textit{Sprint Planning Meeting} statt, welches sich aus zwei Teilen zusammensetzt \cite{Pichler2010}. Im ersten Teil findet eine Planung des nächsten \textit{Sprints} statt \cite{Lacey2012}. Hierfür präsentiert der \textit{Product Owner} dem \textit{Team} eine Liste der Product-Backlog-Elemente mit der aktuell höchsten Priorität \cite{Schwaber2004, Schwaber2007,Pichler2010}. Diese Liste wird \textit{Sprint-Backlog} genannt \cite{Wolf2011}. Das \textit{Team} hat die Möglichkeit Fragen bezüglich Inhalt, Zweck, Bedeutung und Absichten der \textit{Sprint-Backlog}-Elemente zu stellen. Anschließend werden die einzelnen Elemente aus dem \textit{Sprint-Backlog} in sogenannte \textit{Tasks} aufgeteilt, welche jeweils eine ideale Bearbeitungszeit von zwei bis vier Stunden haben, aber niemals länger als zwei Tage dauern sollten \cite{Wolf2011}. Das \textit{Team} kann sich die Aufgaben eigenverantwortlich aufteilen und muss sich anschließend dem \textit{Product  Owner} verpflichten, die \textit{Tasks} bis zum Abschluss des \textit{Sprints} zu erledigen \cite{Wolf2011, Keith2010,Pichler2010}.
-Das  \textit{Team} trifft sich während des \textit{Sprints} täglich in einem 15-minütigen Meeting, dem \textit{täglichem Scrum-Meeting}. Hier redet das \textit{Team} über seinen Fortschritt und eventuelle Probleme bei ihrer Arbeit \cite{Keith2010}. Hier muss jedes Teammitglied die nachfolgenden drei Fragen beantworten \cite{Wolf2011}:
+Bei Scrum wird die Entwicklung in mehrere kurze Zyklen, also Iterationen eingeteilt. Eine einzelne Iteration wird bei Scrum \textit{Sprint} genannt \cite{Henning2011}. Die Dauer eines Sprints beträgt zwei bis vier Wochen. Am Ende eines jeden Sprints muss das \textit{Team} ein lauffähiges Produkt abliefern \cite{Wolf2011}. Vor jedem Sprint findet ein \textit{Sprint Planning Meeting} statt, welches sich aus zwei Teilen zusammensetzt \cite{Pichler2010}. Im ersten Teil findet eine Planung des nächsten \textit{Sprints} statt \cite{Lacey2012}. Hierfür präsentiert der \textit{Product Owner} dem \textit{Team} eine Liste der Product-Backlog-Elemente mit der aktuell höchsten Priorität \cite{Schwaber2004, Schwaber2007,Pichler2010}. Diese Liste wird \textit{Sprint-Backlog} genannt \cite{Wolf2011}. Das \textit{Team} hat die Möglichkeit, Fragen bezüglich Inhalt, Zweck, Bedeutung und Absichten der \textit{Sprint-Backlog}-Elemente zu stellen. Anschließend werden die einzelnen Elemente aus dem \textit{Sprint-Backlog} in sogenannte \textit{Tasks} aufgeteilt, welche jeweils eine ideale Bearbeitungszeit von zwei bis vier Stunden haben, aber niemals länger als zwei Tage dauern sollten \cite{Wolf2011}. Das \textit{Team} kann sich die Aufgaben eigenverantwortlich aufteilen und muss sich anschließend dem \textit{Product  Owner} verpflichten, die \textit{Tasks} bis zum Abschluss des \textit{Sprints} zu erledigen \cite{Wolf2011, Keith2010,Pichler2010}.
+Das  \textit{Team} trifft sich während des \textit{Sprints} täglich in einem 15-minütigen Meeting, dem \textit{täglichem Scrum-Meeting}. Hier redet das \textit{Team} über seinen Fortschritt und eventuelle Probleme bei seiner Arbeit \cite{Keith2010}. Hier muss jedes Teammitglied die nachfolgenden drei Fragen beantworten \cite{Wolf2011}:
    \begin{enumerate}
       \item Was habe ich seit gestern erreicht?
       \item Was werde ich heute erreichen?
@@ -43,8 +43,8 @@ Das  \textit{Team} trifft sich während des \textit{Sprints} täglich in einem 1
 Abbildung \ref{fig:ScrumImperativ} zeigt die imperative Modellierung von Scrum. Parallel zu allen anderen Aktivitäten des Teams und des Product Owners muss der Scrum-Master stets den Scrum-Prozess managen. \newline
 Der Product Owner schätzt als erste Aktivität den Product Backlog ab. Anschließend priorisiert er den Product Backlog und erstellt parallel dazu die Releasepläne. \newline
 Wenn alle zwei bis vier Wochen ein neuer Sprint beginnt, was hier durch ein Zeitereignis dargestellt ist, so wird zuerst das Sprint Planning Meeting durchgeführt. Dies ist hier als Unterprozess in Abbildung \ref{fig:ScrumImperativUnter} dargestellt. Zunächst priorisiert der Product Owner die Anforderungen, welche während des Sprints erledigt werden müssen und erstellt danach den Sprint Backlog. Anschließend teilt sich dann das Team selbstständig die Sprint Backlog-Elemente in Tasks ein.\newline
-Im Anschluß findet ein Sprint-Rückblick statt (Abbildung \ref{fig:ScrumImperativ}) statt und der Product Owner führt ein Sprint Review Meeting durch.\newline
-Das Team führt während des Sprints täglich ein 15-minütiges Scrum Meeting durch und jedes Teammitglied arbeitet eine Task nach der anderen ab. Dies wird hier als Schleife dargestellt: Solange noch weitere Tasks vorhanden sind, führt das XOR-Gateway immer wieder zurück zu Tasks abarbeiten. Erst wenn keine weiteren Tasks mehr vorhanden sind, führt der Prozess weiter zum nächsten Entscheidungspunkt.\newline
+Im Anschluß findet ein Sprint-Rückblick statt (Abbildung \ref{fig:ScrumImperativ}) und der Product Owner führt ein Sprint Review Meeting durch.\newline
+Das Team führt während des Sprints täglich ein 15-minütiges Scrum Meeting durch und jedes Teammitglied arbeitet eine Task nach der anderen ab. Dies wird hier als Schleife dargestellt: Solange noch weitere Tasks vorhanden sind, führt das XOR-Gateway immer wieder zurück zur Aktivität \textit{Tasks abarbeiten}. Erst wenn keine weiteren Tasks mehr vorhanden sind, führt der Prozess weiter zum nächsten Entscheidungspunkt.\newline
 Sind noch weitere Aufgaben im Product Backlog vorhanden, die noch erledigt werden müssen, so beginnt ein weiterer Sprint, was hier durch eine Rückschleife dargestellt ist. Ist jedoch schon der komplette Product Backlog abgearbeitet, so endet der Prozess hier.
 
 
@@ -127,9 +127,9 @@ Die \textit{Richtigkeit} lässt sich mit BPMN in Bezug auf Rollen und Artefakte 
 
 Beide Prozessmodelle können mit minimal relevanten Informationen erstellt werden. Bei keiner der beiden Modellierungssprachen war es notwendig, weitere Informationen zum Modell hinzuzufügen, um dessen Qualität zu erhöhen. Somit kann \textit{Relevanz} bei beiden Prozessmodellen eingehalten werden.\newline
 
-Nur BPMN bietet die Möglchkeit bietet, Artefakte im Prozessmodell abzubilden und lässt somit die Integration anderer Sichten in das Modell zu. Somit kann der Modellierungsgrundsatz des \textit{systematischen Aufbaus} nur von BPMN eingehalten werden. Da ConDec dies nicht zulässt, schmälert es die Eignung von ConDec zum Modellieren in Bezug auf Softwareprozessmodelle. Hierdurch können wichtige Informationen aus dem Metamodell nicht abgebildet werden. \newline 
+Nur BPMN bietet die Möglchkeit, Artefakte im Prozessmodell abzubilden und lässt somit die Integration anderer Sichten in das Modell zu. Somit kann der Modellierungsgrundsatz des \textit{systematischen Aufbaus} nur von BPMN eingehalten werden. Da ConDec dies nicht zulässt, schmälert es die Eignung von ConDec zum Modellieren in Bezug auf Softwareprozessmodelle. Hierdurch können wichtige Informationen aus dem Metamodell nicht abgebildet werden. \newline 
 
-Da bei BPMN mehr Verbindungselemente benötigt werden, weißt das mit BPMN erstellte Modell auch insgesamt mehr Elemente auf. Während bei ConDec insgesamt 27 Elemente benötigt werden, werden zur Darstellung des gleichen Sachverhaltes bei BPMN 45 Elemente benötigt. Die \textit{Vergleichbarkeit} ist dadurch nicht ganz gewährleistet, da die Anzahl der Elemente bei BPMN fast doppelt so hoch ist wie bei ConDec.
+Da bei BPMN mehr Verbindungselemente benötigt werden, weist das mit BPMN erstellte Modell auch insgesamt mehr Elemente auf. Während bei ConDec insgesamt 27 Elemente benötigt werden, werden zur Darstellung des gleichen Sachverhaltes bei BPMN 45 Elemente verwendet. Die \textit{Vergleichbarkeit} ist dadurch nicht ganz gewährleistet, da die Anzahl der Elemente bei BPMN fast doppelt so hoch ist wie bei ConDec.
 
 
 
@@ -138,7 +138,7 @@ Da bei BPMN mehr Verbindungselemente benötigt werden, weißt das mit BPMN erste
 \section{Open Unified Process (Open UP)}
 
 
-Der Open Unified Process, kurz Open Up ist eine frei zugängliche Variante des Rational Unified Process, welcher ein sehr bekannter Entwicklungsprozess ist \cite{hauber2010}.  Er ist Teil des Eclipse Process Frameworks. Open Up ist ein iterativer, inkrementeller und minimaler Prozess, aber dennoch vollständig und erweiterbar \cite{Gau2006, Basem2010}. Der Prozess ist minimal gehalten, da er nur die wesentlichen Inhalte einbezieht. Trotzdem ist er vollständig, da er als Prozess benutzt werden kann, um ein Softwaresystem zu entwickeln. Er ist außerdem auch erweiterbar, da er als Grundlage herangezogen werden kann und mit weiteren Prozessfragmenten aufgestockt und nach Belieben zugeschnitten werden kann \cite{Wang2007}. Das Konzept des Open Up ist es den Prozess zu vergrößern, sich aber auf das Minimum, welches für das Projekt benötigt wird zu beschränken, anstatt zu versuchen große, überladene Prozesse zu verstehen und diese dann zu verkleinern \cite{ambler2012}.  \newline
+Der Open Unified Process, kurz Open Up ist eine frei zugängliche Variante des Rational Unified Process, welcher ein sehr bekannter Entwicklungsprozess ist \cite{hauber2010}.  Er ist Teil des Eclipse Process Frameworks. Open Up ist ein iterativer, inkrementeller und minimaler Prozess, aber dennoch vollständig und erweiterbar \cite{Gau2006, Basem2010}. Der Prozess ist minimal gehalten, weil er nur die wesentlichen Inhalte einbezieht. Trotzdem ist er vollständig, da er als Prozess benutzt werden kann, um ein Softwaresystem zu entwickeln. Er ist außerdem auch erweiterbar, da er als Grundlage herangezogen werden kann und mit weiteren Prozessfragmenten aufgestockt und nach Belieben zugeschnitten werden kann \cite{Wang2007}. Das Konzept des Open Up ist es, den Prozess zu vergrößern, sich aber auf das Minimum, welches für das Projekt benötigt wird, zu beschränken, anstatt zu versuchen große, überladene Prozesse zu verstehen und diese dann zu verkleinern \cite{ambler2012}.  \newline
 
 
 
@@ -161,7 +161,7 @@ Der Open UP wird im Folgenden analysiert.
 
 Auf der persönlichen Ebene teilen sich die Teammitglieder ihre Arbeit in \textit{Mikro-Inkremente} ein. Diese stellen das Ergebnis von Stunden, bzw. wenigen Tagen Arbeit dar. Die Arbeit entwickelt sich somit ein Mikro-Inkrement weiter und der Fortschritt kann Tag für Tag nachvollzogen werden. Die Teammitglieder teilen ihre Fortschritte täglich miteinander, was die Arbeitstransparenz und das Vertrauen erhöht und die Teamarbeit fördert \cite{eclipseopenup}. \newline
 
-Auf der Team-Ebene wird das Projekt in Iterationen unterteilt, welche einen Zeitraum von mehreren Wochen umfassen, mit dem Ziel am Ende eines Iterationszyklus ein funktionierendes Softwareinkrement zu haben. Dieses Inkrement stellt eine Version des Softwaresystems dar welche zusätzliche oder verbesserte Funktionalitäten besitzt als die vorherige Version \cite{Basem2010}.  In jeder Iteration wird ein Iterationsplan angefertigt,  der vorgibt, was in dieser Iteration geliefert werden muss und auf welchen sich das Team verpflichten muss \cite{freudenreichevaluierung}.
+Auf der Team-Ebene wird das Projekt in Iterationen unterteilt, welche einen Zeitraum von mehreren Wochen umfassen, mit dem Ziel am Ende eines Iterationszyklus ein funktionierendes Softwareinkrement zu haben. Dieses Inkrement stellt eine Version des Softwaresystems dar, welche zusätzliche oder verbesserte Funktionalitäten besitzt als die vorherige Version \cite{Basem2010}.  In jeder Iteration wird ein Iterationsplan angefertigt,  der vorgibt, was in dieser Iteration geliefert werden muss und auf welchen sich das Team verpflichten muss \cite{freudenreichevaluierung}.
 
 Auf Stakeholder-Ebene wird diesen durch den \textit{Projektlebenszyklus} die Möglichkeit gegeben, die Projektfinanzierung, den Umfang, das Risiko und andere Aspekte des Prozesses zu kontrollieren.
 Der Open UP teilt den \textit{Projektlebenszyklus} in vier Phasen ein, über welche Abbildung \ref{fig:Phasen} einen Überblick gibt \cite{eclipseopenup}.
@@ -513,7 +513,7 @@ Die deklarative Modellierung der Phase Construction kann Abbildung \ref{fig:Cons
 \end{figure}
 
 Abbildung \ref{fig:TransitionDecUnter} kann die deklarative Modellierung der Phase Transition entnommen werden.\newline
-Die Phasen \textit{Anforderungen identifizieren und verfeinern, Produkt Training durchführen, Lösungsinkrement entwickeln, Lösung testen, Iteration planen und managen, weitere Aufgaben erledigen, Produktdokumentation und Training abschließen} sowie \textit{Release für die Produktion freigeben} werden parallel zueinander ausgeführt.
+Die Aktivitäten \textit{Anforderungen identifizieren und verfeinern, Produkt Training durchführen, Lösungsinkrement entwickeln, Lösung testen, Iteration planen und managen, weitere Aufgaben erledigen, Produktdokumentation und Training abschließen} sowie \textit{Release für die Produktion freigeben} werden parallel zueinander ausgeführt.
 
 \begin{figure}[htp]
 \begin{center}
@@ -688,7 +688,7 @@ Die Anzahl der Elemente zur Darstellung des Prozesses Produktdokumentation entwi
 \end{center}
 \end{figure}
 
-Wie viele Elemente zur Modellierung des Prozesses Release deployen benötigt werden, ist in Abbildung \ref{fig:ReleaseDeployenExcel} aufgeführt. Jeweils fünf Aktivitäten werden in BPMN und ConDec verwendet. In BPMN sind zwei Gateways und neun Sequenzflusselemente zur Darstellung des Ablaufes notwendig. In ConDec werden hierfür 11 Constraints benötigt. In BPMN werden zwei verschiedene Gateways und drei verschiedene Constraints verwendet. Somit sind insgesamt 16 Elemente in BPMN und 16 Elemente in ConDec zur darstellung notwendig. \newline
+Wie viele Elemente zur Modellierung des Prozesses Release deployen benötigt werden, ist in Abbildung \ref{fig:ReleaseDeployenExcel} aufgeführt. Jeweils fünf Aktivitäten werden in BPMN und ConDec verwendet. In BPMN sind zwei Gateways und neun Sequenzflusselemente zur Darstellung des Ablaufes notwendig. In ConDec werden hierfür 11 Constraints benötigt. In BPMN werden zwei verschiedene Gateways und vier verschiedene Constraints verwendet. Somit sind insgesamt 16 Elemente in BPMN und 16 Elemente in ConDec zur darstellung notwendig. \newline
 \begin{figure}[htp]
 \begin{center}
   \includegraphics[scale=0.6]{ReleaseDeployenExcel} %pdf, jpg, png...
@@ -697,14 +697,24 @@ Wie viele Elemente zur Modellierung des Prozesses Release deployen benötigt wer
 \end{center}
 \end{figure}
 
-In Bezug auf die Klarheit fällt gerade bei Betrachtung der Modelle der Phasen Inception, Elaboration, Construction und Transition auf, das bei Modellen bei denen mehrere Aktivitäten parallel zueinnader ablaufen in BPMN deutlich mehr Elemente zur Darstellung des gleichen Sachverhaltes notwendig sind, als in ConDec. Bei allen vier Modellen sind doppelt so viele, teilweise auch mehr als doppelt so viele Elemene zur Darstellung in BPMN notwendig, als in ConDec, was an der Anzahl der Verbindungselemente liegt. BPMN weißt eine hohe Anzahl an eingehenden und ausgehenden Kanten an den parallelen Gateways auf. Da die Parallelität in ConDec nicht durch Constraints dargestellt werden muss, werden in ConDec nur die Existenz-Constraints zur Darstellung der Parallelität benötigt. Da sich die hohe Anzahl an Verbindungselementen in BPMN negativ auf die Verständlichkeit auswirken kann und in BPMN nur die leichter verständlichen Existenz-Constraints verwendet werden, sind die ConDec-Modelle die an dieser Stelle leichter verständlichen Modelle. \newline
+In Bezug auf die \textit{Klarheit} fällt gerade bei Betrachtung der Modelle der Phasen Inception, Elaboration, Construction und Transition auf, das bei Modellen bei denen mehrere Aktivitäten parallel zueinnader ablaufen in BPMN deutlich mehr Elemente zur Darstellung des gleichen Sachverhaltes notwendig sind, als in ConDec. Bei allen vier Modellen sind doppelt so viele, teilweise auch mehr als doppelt so viele Elemene zur Darstellung in BPMN notwendig, als in ConDec. Dies liegt an der Anzahl der Verbindungselemente. BPMN weißt eine hohe Anzahl an eingehenden und ausgehenden Kanten an den parallelen Gateways auf. Da die Parallelität in ConDec nicht durch Constraints dargestellt werden muss, werden in ConDec nur die Existenz-Constraints benötigt, um die Aktivitäten auf einmalige Ausführung zu beschränken. Da sich die hohe Anzahl an Verbindungselementen in BPMN negativ auf die Verständlichkeit auswirken kann und in ConDec nur die leichter verständlichen Existenz-Constraints verwendet werden, sind die ConDec-Modelle die an dieser Stelle leichter verständlichen Modelle. \newline
 Das Gleiche gilt für die Darstellung der Phasen des Open UP. Hier werden zur Darstellung des Prozesses in BPMN drei-mal so viele Elemente benötigt, wie in ConDec. Dies liegt hier an der hohen Anzahl der XOR-Gateways, die beim Modellieren des Prozesses notwendig sind. Somit ist auch hier das Modell, welches mit ConDec erstellt wurde das leichter verständliche. \newline
 Beim Prozess Release deployen werden gleich viele Elemente in ConDec, wie auch in BPMN zur Darstellung des Prozesses benötigt. In ConDec werden drei verschiedene Verbindungselemente zur Darstellung 
 benötigt, in BPMN zwei. Somit gibt es hier trotz der geringen Abweichung in der Anzahl der Verbindungselemente keine Unterschiede in der Verständlichkeit.\newline
 Bei den Prozessen Anforderungen identifizieren und verfeinern und Produktdokumentation entwickeln weißen die ConDec-Modelle eine leicht höhere Anzahl an Verbindungselementen und Elementen insgesamt auf, jedoch hat dies hier kaum Einfluß auf die Verständlichkeit der ConDec-Modelle, da die Abweichung sehr gering ist.\newline
+Im Prozess Iteartion planen und managen gibt es keine Verzweigungen. Zwar ist die Anzahl der Constraints in ConDec höher, als die Anzahl der Verbindungselemente in BPMN, jedoch liegt das größtenteils an den leicht verständlichen Existenz-Constraints. Aus diesem Grund sind hier beide Prozessmodelle gleich verständlich.\newline
+
+Bei dem Grundsatz der \textit{Richtigkeit} tritt bei ConDec wiederum das Problem auf, dass Rollen und Artefakte nicht darstellbar sind. Zwar ist dies bei den Phasen des Open UP kein Problem, da hier noch keine Rollen zugeordnet werden, jedoch bei den anderen Prozessen des Open UP (Iteration planen und managen, Anforderungen identifizieren und verfeinern, Produktdokumentation entwickeln und Release deployen). Da hier keine Rollen darstellbar sind, kann das jeweils im Metamodell enthaltene Verhalten in den ConDec-Modellen nicht vollständig wiedergegeben werden. Hierdurch leidet der Nutzen des Metamodells. \newline
 
 
 
+Die \textit{Wirtschaftlichkeit} lässt sich auch beim Open UP bei beiden Prozessmodellierungssprachen einhalten, da der Aufwand zur Erstellung der Modelle bei BPMN und ConDec gleich groß ist.\newline
+
+Ebenfalls die \textit{Relevanz} lässt sich bei beiden Prozessmodellierungssprachen gut einhalten, denn es ist weder bei einem in ConDec erstellten Modell, noch bei einem in BPMN erstellten Modell notwendig, weitere Informationen zur Erhöhung der Qualität des Modells hinzuzufügen.\newline
+
+Der Grundsatz des \textit{systematischen Aufbaus} kann wiederum nur von BPMN eingehalten werden, da ConDec keine Möglichkeit bietet, Artefakte ins Prozessmodell einzubinden.\newline
+
+Bei der Darstellung der Phasen des Open UP werden doppelt so viele Elemente in ConDec, wie in BPMN verwendet. Hier ist deshalb die \textit{Vergleichbarkeit} nicht ganz gewährleistet. Bei den anderen Modellen des Open UP unterscheidet sich die Anzahl der Elemente kaum voneinander, wodurch die Vergleichbarkeit hier gewährleistet ist. \newline
 
 
 
@@ -726,6 +736,7 @@ Abbildung \ref{fig:grundstruktur} zeigt die Grundstruktur des V-Modell XT, welch
 
 \subsubsection{Projekttypen}
 Nicht alle V-Modell-Projekttypen laufen nach exakt demselben Schema ab. Auf Grund ihrer charakteristischen Eigenschaften lassen sie sich demnach in unterschiedliche Projekttypen einteilen. Abbildung \ref{fig:Projekttypen} gibt einen ersten Überblick über die verschiedenen Projekttypen im V-Modell XT \cite{2004vmodell}.
+
 \begin{figure}[htp]
 \begin{center}
   \includegraphics[width=\linewidth]{v-modell-rollen} %pdf, jpg, png...
@@ -1014,7 +1025,7 @@ Abbildung \ref{fig:SystementwurfExcel} zeigt die Anzahl der Elemente, welche zur
 \end{center}
 \end{figure}
 
-In Abbildung \ref{fig:SpezifizierenExcel} ist die Anzahl der Elemente zur Darstellung des Prozesses System spezifizieren abgetragen. Demanch werden neun Aktivitäten verwendet sowohl in BPMN als auch in ConDec. Es werden drei Gateways und 15 Sequenzflüsse in BPMN benötigt. In ConDec werden 15 Constraints zur Darstellung verwendet. Weiterhin gibt es drei unterschiedliche Verbindungselement in BPMN, aber nur ein unterschiedliches Constraint in ConDec. Insgesamt ergeben sich somit 27 unterschiedliche Elemente in BPMN und 24 unterschiedliche Elemente in ConDec. \newline
+In Abbildung \ref{fig:SpezifizierenExcel} ist die Anzahl der Elemente zur Darstellung des Prozesses System spezifizieren abgetragen. Demanch werden neun Aktivitäten verwendet sowohl in BPMN als auch in ConDec. Es werden drei Gateways und 15 Sequenzflüsse in BPMN benötigt. In ConDec werden 15 Constraints zur Darstellung verwendet. Weiterhin gibt es drei unterschiedliche Verbindungselement in BPMN und drei unterschiedliche Constraints in ConDec. Insgesamt ergeben sich somit 27 unterschiedliche Elemente in BPMN und 24 unterschiedliche Elemente in ConDec. \newline
 
 \begin{figure}[!htbp]
 \begin{center}
@@ -1024,7 +1035,11 @@ In Abbildung \ref{fig:SpezifizierenExcel} ist die Anzahl der Elemente zur Darste
 \end{center}
 \end{figure}
 
+Beim Grungsatz der \textit{Klarheit} gibt es Unterschiede zwischen den Modellen. Zur Darstellung der beiden Prozesse Systementwicklungsprojekt AG/AN und Inkrementelle Entwicklung werden in ConDec jeweils viele unterschiedliche Constraints benötigt (acht bei Systementwicklungsprojekt AG/AN und sechs bei Inkrementelle Entwicklung). 
 
+Der Grundsatz der \textit{Wirtschaftlichkeit} kann wiederum bei beiden Prozessmodellierungssprachen eingehalten werden, da sich der Aufwand zur Erstellung der Prozessmodelle nicht voneinander unterscheidet. Dies wirkt sich sehr negativ auf die Verständlichkeit aus, da sechs bis acht unterschiedliche, teilweise sehr komplexe Constraints verstanden werden müssen. Auch wenn BPMN bei diesen Modellen eine höhere Anzahl an verbindungselementen und Elementen insgesamt auweist, weisen die beiden ConDec Elemente eine höhere Komplexität auf. \newline
+Beim Prozess Systementwurf hingegen, weist ConDec zwar eine höhere Anzahl an Verbindungselementen und Elementen insgesamt auf, jedoch ist die Komplexität hier nicht so hoch, da es sich nur um 2 unterschiedliche Constraints handelt. Somit unterscheiden sich ConDec und BPMN hier in der Verständlichkeit nicht voneinander.\newline
+Beim Prozess System spezifizieren hingegen ist das in ConDec erstellte Modell das verständlichere. Die Anzahl der Verbindungselemente und der Elemente insgesamt unterscheiden sich zwar kaum voneinander, jedoch werden in ConDec drei unterschiedliche Verbindungselemente verwendet, sich negativ auf die Verständlichkeit auswirkt. In ConDec hingegen wird nur zwei unterschiedliche Verbindungselemente benötigt, jedoch handelt es sich hier um keine komplexen Verbindungselemente.\newline
 
 
 \section{Fazit}
@@ -1034,7 +1049,7 @@ Prozesse viele XOR => BPMN besser, da weniger unterschiedliche Verbindungselemen
 keine Verzweigungen/Parallel=>beide gleich
 
 
-Bei fehlen ConDec wichtige Informationen wie z.B. Rollen/Dokumente die zum Verständnis des gesamten Prozesses wichtig sind.
+Bei fehlen ConDec wichtige Informationen wie z.B. Rollen/Dokumente die zum Verständnis des gesamten Prozesses wichtig sind, wan welche verzweigung genommen wird 
 
 
 
