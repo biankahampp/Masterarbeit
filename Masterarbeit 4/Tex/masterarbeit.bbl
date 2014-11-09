@@ -129,8 +129,8 @@
   Stefan:
 \newblock Declarative versus imperative process modeling languages: the issue
   of maintainability.
-\newblock {In: }\emph{Business Process Management Workshops} Springer, 2010, S.
-  477--488
+\newblock {In: }\emph{Business Process Management Workshops}, Springer, 2010,
+  S. 477--488
 
 \bibitem[Fre]{freudenreichevaluierung}
 \textsc{Freudenreich}, Robert:
@@ -161,6 +161,12 @@
   Roland  ; \textsc{Kappel}, Karin:
 \newblock \emph{Softwaretechnik}.
 \newblock München : Pearson Studium, 2010
+
+\bibitem[GL06]{gruhn2006complexity}
+\textsc{Gruhn}, Volker ; \textsc{Laue}, Ralf:
+\newblock Complexity metrics for business process models.
+\newblock {In: }\emph{9th international conference on business information
+  systems (BIS 2006)} Bd.~85, 2006, S. 1--12
 
 \bibitem[GL12]{gpfert2012}
 \textsc{G{\"o}pfert}, J. ; \textsc{Lindenbach}, H.:
@@ -304,8 +310,8 @@
 \bibitem[PA06]{pesic2006}
 \textsc{Pesic}, Maja ; \textsc{Aalst}, Wil~M.~d.:
 \newblock A declarative approach for flexible business processes management.
-\newblock {In: }\emph{Business Process Management Workshops} Springer, 2006, S.
-  169--180
+\newblock {In: }\emph{Business Process Management Workshops}, Springer, 2006,
+  S. 169--180
 
 \bibitem[Pes08]{thesis_maja}
 \textsc{Pesic}, M.:
@@ -340,7 +346,7 @@
   Wil~M.~d.:
 \newblock Declare: Full support for loosely-structured processes.
 \newblock {In: }\emph{Enterprise Distributed Object Computing Conference, 2007.
-  EDOC 2007. 11th IEEE International} IEEE, 2007, S. 287--287
+  EDOC 2007. 11th IEEE International}, IEEE, 2007, S. 287--287
 
 \bibitem[Pun07]{Puntambekar2007}
 \textsc{Puntambekar}, A.A.:

@@ -40,11 +40,13 @@ Das  \textit{Team} trifft sich während des \textit{Sprints} täglich in einem 1
       
 \subsection{Imperative Modellierung Scrum}
 
-Abbildung \ref{fig:ScrumImperativ} zeigt die imperative Modellierung von Scrum. Parallel zu allen anderen Aktivitäten des Teams und des Product Owners muss der Scrum-Master stets den Scrum-Prozess managen. \newline
+Abbildung \ref{fig:ScrumImperativ} zeigt die imperative Modellierung von Scrum. \newline
+Im Prozess gibt es die drei verschiedenen Rollen \textit{Product Owner}, \textit{Team} und \textit{Scrum Master}, was im Prozessmodell durch drei verschiedene Swimlanes dargestellt ist, welche die jeweilige Rolle repräsentieren.\newline
+Parallel zu allen anderen Aktivitäten des Teams und des Product Owners muss der Scrum-Master stets den Scrum-Prozess managen. Dies wird im Prozessmodell durch das parallele Gateway dargestellt. \newline
 Der Product Owner schätzt als erste Aktivität den Product Backlog ab. Anschließend priorisiert er den Product Backlog und erstellt parallel dazu die Releasepläne. \newline
 Wenn alle zwei bis vier Wochen ein neuer Sprint beginnt, was hier durch ein Zeitereignis dargestellt ist, so wird zuerst das Sprint Planning Meeting durchgeführt. Dies ist hier als Unterprozess in Abbildung \ref{fig:ScrumImperativUnter} dargestellt. Zunächst priorisiert der Product Owner die Anforderungen, welche während des Sprints erledigt werden müssen und erstellt danach den Sprint Backlog. Anschließend teilt sich dann das Team selbstständig die Sprint Backlog-Elemente in Tasks ein.\newline
 Im Anschluß findet ein Sprint-Rückblick statt (Abbildung \ref{fig:ScrumImperativ}) und der Product Owner führt ein Sprint Review Meeting durch.\newline
-Das Team führt während des Sprints täglich ein 15-minütiges Scrum Meeting durch und jedes Teammitglied arbeitet eine Task nach der anderen ab. Dies wird hier als Schleife dargestellt: Solange noch weitere Tasks vorhanden sind, führt das XOR-Gateway immer wieder zurück zur Aktivität \textit{Tasks abarbeiten}. Erst wenn keine weiteren Tasks mehr vorhanden sind, führt der Prozess weiter zum nächsten Entscheidungspunkt.\newline
+Das Team führt während des Sprints täglich ein 15-minütiges Scrum Meeting durch und jedes Teammitglied arbeitet eine Task nach der anderen ab. Dies wird hier als Schleife dargestellt: Solange noch weitere Tasks vorhanden sind, führt das Exklusive Gateway immer wieder zurück zur Aktivität \textit{Tasks abarbeiten}. Erst wenn keine weiteren Tasks mehr vorhanden sind, führt der Prozess weiter zum nächsten Entscheidungspunkt.\newline
 Sind noch weitere Aufgaben im Product Backlog vorhanden, die noch erledigt werden müssen, so beginnt ein weiterer Sprint, was hier durch eine Rückschleife dargestellt ist. Ist jedoch schon der komplette Product Backlog abgearbeitet, so endet der Prozess hier.
 
 
@@ -68,11 +70,11 @@ Sind noch weitere Aufgaben im Product Backlog vorhanden, die noch erledigt werde
 \subsection{Deklarative Modellierung Scrum}
 
 Abbildung \ref{fig:ScrumDecHaupt} zeigt die deklarative Modelliereung von Scrum.\newline
-Der Prozess beginnt mit der Aktivität \textit{Product Backlog} abschätzen. Dies ist hier durch das init-Label gekennzeichnet. Weiterhin wird diese Aktivität im Prozess genau einmal ausgeführt, was durch das Label 1 dargestellt ist. Das Constraint \textit{precedence} gibt an, dass die Aktivität \textit{Product Backlog abschätzen} vor den Aktivitäten \textit{Product Backlog priorisieren} und \textit{Releasepläne erstellen} ausgeführt werden müssen. Durch das Constarint \textit{response} ist gekennzeichnet, dass die Aktivitäten \textit{Product Backlog priorisieren} und \textit{Releasepläne erstellen} auf jeden Fall nach \textit{Product Backlog abschätzen} genau einmal durchgeführt werden müssen. \newline
+Der Prozess beginnt mit der Aktivität \textit{Product Backlog} abschätzen. Dies ist hier durch das init-Constraint gekennzeichnet. Weiterhin wird diese Aktivität im Prozess genau einmal ausgeführt, was durch das exactly (1)- Constraint dargestellt ist. Das Constraint \textit{succession} gibt an, dass die Aktivität \textit{Product Backlog abschätzen} vor den Aktivitäten \textit{Product Backlog priorisieren} und \textit{Releasepläne erstellen} ausgeführt werden müssen und dass die Aktivitäten \textit{Product Backlog priorisieren} und \textit{Releasepläne erstellen} auf jeden Fall nach \textit{Product Backlog abschätzen} durchgeführt werden müssen. \textit{Product Backlog priorisieren} und \textit{Releasepläne erstellen} werden ebenfalls genau einmal ausgeführt, was durch das exactly (1)- Constraint festgelegt wird.  \newline
 
 Nach deren Ausführung muss die Aktivität \textit{alle 2-4 Wochen Sprint Planning Meeting durchfuehren} erfolgen. Der zugehörige Unterprozess ist in Abbildung \ref{fig:ScrumDecUnterprozess} zu finden. Hier sind die Aktivitäten \textit{Anforderungen priorisieren}, \textit{Sprint Backlog erstellen} und \textit{Sprint-Backlog-Elemente in Tasks einteilen} durch das Constraint \textit{precedence} miteinander verbunden, um die Einhaltung deren Reihenfolge nacheinander zu gewährleisten. Außerdem dürfen diese Aktivitäten pro Ausführung des Unterprozesses, also pro Prozessinstanz nur einmal ausgeführt werden.\newline
 Nach der Ausführung der Aktivitäten des Unterprozesses Sprint-Planning-Meeting durchführen, muss im Anschluß die Aktivität \textit{Sprint Rückblick} durchgeführt werden. Dies wird durch das Constraint \textit{chain response} sichergestellt.Eine erneute Ausführung von  \textit{alle 24 Stunden 15-minütiges Scrum-Meeting durchführen} ist erst nach Durchführung von \textit{Sprint Rückblick} möglich (Constraint \textit{alternate precedence}). Hierdurch wird eine Schleife modelliert, welche den immer wiederkehrenden Sprint simuliert.\newline
-Die Aktivitäten \textit{alle 24 Stunden 15-minütiges Scrum-Meeting durchführen} und \textit{Tasks abarbeiten} können während des Sprints so oft wie nötig durchgeführt werden.
+Die Aktivitäten \textit{alle 24 Stunden 15-minütiges Scrum-Meeting durchführen} und \textit{Tasks abarbeiten} können während des Sprints so oft wie nötig durchgeführt werden. Die Aktivitäten  \textit{alle 24 Stunden 15-minütiges Scrum-Meeting durchführen} und \textit{Tasks abarbeiten} müssen jedoch nebeneinander ausgeführt werden, was durch das Constraint \textit{succession} beschrieben ist. \newline
 
 
 \begin{figure}[htp]
@@ -101,22 +103,14 @@ Wie Abbildung \ref{fig:ScrumExcel} entnommen werden kann, unterscheidet sich die
 
 \begin{figure}[htp]
 \begin{center}
-  \includegraphics[scale=0.6]{ScrumExcel} %pdf, jpg, png...
+  \includegraphics[scale=0.8]{ScrumExcel} %pdf, jpg, png...
   \caption{Vergleich der Anzahl der Elemente Scrum}
   \label{fig:ScrumExcel}
 \end{center}
 \end{figure}
 
-Die Anzahl der Verbindungselemente, welche zur Beschreibung des Ablaufes notwendig sind, unterscheiden sich jedoch, wie Abbildung \ref{fig:ScrumExcel} zeigt.\newline
-So werden in BPMN sechs Gateways und 26 Sequenzflusselmente benötigt, also insgesamt 32 Verbindungselemente um den Ablauf des Metamodells darzustellen. Bei Verwendung von ConDec werden 20 Verbindungselemente benötigt. In BPMN werden jedoch nur drei verschiedene Verbindungselemente benötigt, während es in ConDec sechs verschiedene Verbindungselemente sind.\newline
 
-
-
-Weiterhin werden in BPMN 4 Artefakte zum Beschreiben des Metamodells benötigt, in ConDec gibt es jedoch keine Modellierungselemente hierfür, weshalb es hier im deklarativen Modell keine Artefakte gibt.\newline
-
-
-Genau wie bei den Artefakten gibt es in ConDec keine Möglichkeite verschiedene Rollen innerhalb eines Prozessmodelles darzustellen. Aus diesem Grund gibt es in BPMN drei Rollen und in ConDec keine.\newline
-
+Zudem braucht es in BPMN sechs Gateways und 26 Sequenzflusselmente, um den Ablauf des Metamodells darzustellen. Bei Verwendung von ConDec werden 13 Constraints für den Ablauf der Aktivitten und sieben Existenz Constraints benötigt. In BPMN werden jedoch nur zwei verschiedene Verbindungselemente verwendet, während es in ConDec vier verschiedene Verbindungselemente sind.\newline
 
 Die \textit{Richtigkeit} lässt sich mit BPMN in Bezug auf Rollen und Artefakte besser einhalten, als mit ConDec. Da es bei ConDec keine Möglichkeit gibt, Rollen und Artefakte im Prozessmodell selbst abzubilden, müssen diese Informationen weggelassen werden. Die Rollen und Artefakte können zwar in Declare abgebildet werden, jedoch ist dies auf Papier/Bild nicht sichtbar. Aus desem Grund müssen diese Informationen beim Modellieren weggelassen werden, was zur Folge hat, dass das im Metamodell beschriebene Verhalten nicht vollständig abgebildet werden kann und somit leidet auch der Nutzen des Modells.\newline
 
@@ -125,14 +119,25 @@ Nur BPMN bietet die Möglchkeit, Artefakte im Prozessmodell abzubilden und läss
 Beide Prozessmodelle können mit minimal relevanten Informationen erstellt werden. Bei keiner der beiden Modellierungssprachen war es notwendig, weitere Informationen zum Modell hinzuzufügen, um dessen Qualität zu erhöhen. Somit kann \textit{Relevanz} bei beiden Prozessmodellen eingehalten werden.\newline
 
 
-\textit{Wirtschaftlichkeit} lässt sich mit beiden Modellierungssprachen einhalten. Die Aufwände zum Erstellen der Modelle unterscheiden sich in den beiden verwendeten Sprachen nicht voneinander, da sie beide ungefähr die gleiche Größe haben.\newline
+\textit{Wirtschaftlichkeit} lässt sich mit beiden Modellierungssprachen einhalten. Die Aufwände zum Erstellen der Modelle unterscheiden sich in den beiden verwendeten Sprachen nicht voneinander.\newline
 
-In Bezug auf die \textit{Klarheit}, welche in Kapitel 5 als Anforderungskriterium festgelegt wurde, haben beide Modellierungssprachen Stärken und Schwächen. Die Anzahl der Aktivitäten unterscheidet sich nicht, jedoch die Anzahl der Verbindungselemente. Eine größere Anzahl an Verbindungselementen kann sich negativ auf die Verständlichkeit auswirken. Hier ist die Anzahl bei BPMN höher als bei ConDec. Die Anzahl verschiedener Verbindungselmente kann sich ebenfalls negativ auf die Verständlichkeit auswirken. In BPMN werden insgesamt sechs Gateways verwendet zur Darstellung von Verzweigungen und somit drei verschiedene Verbindungselemente. Je mehr Verzweigungen sich in einem Prozessmodell befinden, desto schwieriger wird es, das Prozessmodell zu verstehen und desto wahrscheinlicher ist es, dass dem Modellierer Fehler unterlaufen. Ebenfalls ist die Verwendung von sechs verschiedenen Constraints in ConDec ein Problem für das Verständnis. Da das Verständnis der Constraints in ConDec an sich relativ schwierig ist, ist das Verständnis eines Prozessmodelles mit vielen verschiedenen Constraints relativ schwer. Da die Anzahl der unterschiedlichen Verbindungselemente hier bei ConDec doppelt so hoch ist wie bei BPMN und es sich bei vier der unterschiedlichen Constraints um sehr komplexe Constraints handelt, ist hier BPMN trotz der höheren Anzahl an Elementen das verständlichere Modell.
+Bei Untersuchung der \textit{Klarheit} lässt sich feststellen, dass sich die Anzahl der Aktivitäten nicht unterscheidet, jedoch die Anzahl der Gateways/Constraints und die Anzahl der unterschiedlichen Gateways/Constraints. Wie in Kapitel 5 bereits erwähnt, kann sich eine größere Anzahl an Gateways/Constraints negativ auf die Verständlichkeit auswirken. Hier ist die Anzahl bei ConDec mehr als doppelt so hoch wie bei BPMN. In BPMN werden insgesamt zwei verschiedene Gateways (ein exklusives Gateway und ein paralleles Gateway) verwendet zur Darstellung von Verzweigungen. In ConDec werden vier verschiedene Constraints zur Darstellung verwendet. Da das Verständnis der Constraints in ConDec an sich relativ schwierig ist, ist das Verständnis eines Prozessmodelles mit vielen verschiedenen Constraints relativ schwer. Da die Anzahl der unterschiedlichen Verbindungselemente hier bei ConDec doppelt so hoch ist wie bei BPMN und es sich bei vier der unterschiedlichen Constraints um sehr komplexe Constraints handelt, ist hier BPMN trotz der höheren Anzahl an Elementen das verständlichere Modell.
 \newline
 
 Die \textit{Vergleichbarkeit} in Betracht des Ausführungsverhaltens der beiden Modelle wurde durch Testausführungen in den Modellierungstools Signavio und Declare gewährleistet.\newline
-Da bei BPMN mehr Verbindungselemente benötigt werden, weist das mit BPMN erstellte Modell auch insgesamt mehr Elemente auf. Während bei ConDec insgesamt 32 Elemente benötigt werden, werden zur Darstellung des gleichen Sachverhaltes bei BPMN 44 Elemente verwendet. Die \textit{Vergleichbarkeit} ist dadurch nicht ganz gewährleistet, da die Anzahl der Elemente bei BPMN fast doppelt so hoch ist wie bei ConDec.
+Bei BPMN weist das erstellte Modell insgesamt mehr Elemente auf. Während bei ConDec insgesamt 32 Elemente benötigt werden, werden zur Darstellung des gleichen Sachverhaltes bei BPMN 44 Elemente verwendet. \newline
+Bei ConDec müssen Informationen wie Rollen und Artefakte weggelassen werden, während sie in BPMN dargestellt werden können.\newline
+Die \textit{Vergleichbarkeit} kann zwar in Bezug auf das Ausführungsverhalten von beiden Sprachen eingehalten werden. BPMN weist jedoch insgesamt mehr Elemente auf und ConDec kann die \textit{Vergleichbarkeit} in Bezug auf die Darstellbarkeit von Rollen und Artefakten nicht einhalten. Somit liegt hier keine der beiden Prozessmodellierungssprachen vorne.\newline
 
+Abbildung \ref{fig:TabelleScrum} zeigt die Ergbenisse des Vergleichs von BPMN und ConDec nochmals in der Zusammenfassung. Somit liegt BPMN bei den Grundsätzen \textit{Richtigkeit}, \textit{systematischer Aufbau}, \textit{Klarheit} und \textit{Vergleichbarkeit} vorne, bei den Grundsätzen \textit{Wirtschaftlichkeit} und \textit{Relevanz} liegen BPMN und ConDec gleich auf. \newline
+
+\begin{figure}[htp]
+\begin{center}
+  \includegraphics[scale=0.6]{TabelleScrum} %pdf, jpg, png...
+  \caption{Zusammenfassung Vergleich Scrum}
+  \label{fig:TabelleScrum}
+\end{center}
+\end{figure}
 
 
 
@@ -607,7 +612,7 @@ Nach Ausführung von \textit{Release-Mitteilungen uebermitteln} darf \textit{Bac
 
 \subsection{Vergleich}
 
-Abbildung \ref{fig:PhasenOpenUpExcel} zeigt die Auswertung der Elemente im Modell Phasen des Open UP. Während bei BPMN vier Aktivitäten, acht Gateways und 25 Verbindungselemente, also gesamt 29 Elemente für das Modell benötigt werden, werden in ConDec nur vier Aktivitäten und sechs Constraints, also insgesamt zehn Elemente benötigt.
+Abbildung \ref{fig:PhasenOpenUpExcel} zeigt die Auswertung der Elemente im Modell Phasen des Open UP. Während bei BPMN vier Aktivitäten, acht Gateways (keine unterschiedlichen) und 17 Sequenzflusselemente, also gesamt 29 Elemente für das Modell benötigt werden, werden in ConDec nur vier Aktivitäten und sechs Constraints (zwei verschiedene), also insgesamt zehn Elemente verwendet.
 
 \begin{figure}[htp]
 \begin{center}
@@ -620,7 +625,7 @@ Abbildung \ref{fig:PhasenOpenUpExcel} zeigt die Auswertung der Elemente im Model
 
 \subsubsection {Phasen Open UP-Inception}
 
-Die Anzahl der Elemente zur Darstellung der Phase Inception in ConDec und BPMN können Abbildung \ref{fig:InceptionExcel} entnommen werden. BPMN benötigt somit insgesamt 19 Elemente zur Darstellung dieser Phase (vier Aktivitäten, vier Gateways und 15 Verbindungselemente), ConDec nur zehn (vier Aktivitäten, sechs Constraints). \newline
+Die Anzahl der Elemente zur Darstellung der Phase Inception in ConDec und BPMN können Abbildung \ref{fig:InceptionExcel} entnommen werden. BPMN benötigt somit insgesamt 19 Elemente zur Darstellung dieser Phase (vier Aktivitäten, vier Gateways und 15 Verbindungselemente), ConDec nur zehn (vier Aktivitäten, sechs Constraints). Bei BPMN wird nur eine Sorte an Gateways verwendet und bei ConDec werden zwei unterschiedliche Constraints benötigt.\newline
 \begin{figure}[htp]
 \begin{center}
   \includegraphics[scale=0.6]{InceptionExcel} %pdf, jpg, png...
@@ -629,7 +634,7 @@ Die Anzahl der Elemente zur Darstellung der Phase Inception in ConDec und BPMN k
 \end{center}
 \end{figure}
 
-Zur Darstellung der Phase Elaboration werden in BPMN insgesamt 22 Elemente und in ConDec 12 Elemente benötigt, wie Abbildung \ref{fig:ElaborationExcel} entnommen werden kann. Weiterhin werden jeweils sechs Aktivitäten in beiden Prozessmodellierungssprachen verwendet. In BPMN sind zwei Gateways und 14 Verbindungselemente, also insgesamt 16 Verbindungselemente notwendig. ConDec hingegen benötigt sechs Constraints, aber keine unterschiedlichen. \newline
+Zur Darstellung der Phase Elaboration werden in BPMN insgesamt 22 Elemente und in ConDec 14 Elemente benötigt, wie Abbildung \ref{fig:ElaborationExcel} entnommen werden kann. Weiterhin werden jeweils sechs Aktivitäten in beiden Prozessmodellierungssprachen verwendet. In BPMN sind zwei Gateways (keine unterschiedlichen) und 14 Sequenzflusselemente, also insgesamt 16 Verbindungselemente notwendig. ConDec hingegen benötigt acht Existenz-Constraints. \newline
 
 \begin{figure}[htp]
 \begin{center}
@@ -639,7 +644,7 @@ Zur Darstellung der Phase Elaboration werden in BPMN insgesamt 22 Elemente und i
 \end{center}
 \end{figure}
 
-Abbildung \ref{fig:ConstructionExcel} kann die Anzahl der Elemente zur Darstellung der Phase Construction entnommen werden. Demanch benötigt es in BPMN 24 Elemente und in ConDec 12 Elemente zur Darstellung des Prozesses. Sowohl in BPMN, als auch in ConDec werden jeweils sechs Aktivitäten benötigt. In BPMN sind 4 Gateways und 14 Sequenzflusselemente erforderich. In ConDec werden sechs Constraints benötigt.\newline
+Abbildung \ref{fig:ConstructionExcel} kann die Anzahl der Elemente zur Darstellung der Phase Construction entnommen werden. Demanch benötigt es in BPMN 24 Elemente und in ConDec 12 Elemente zur Darstellung des Prozesses. Sowohl in BPMN, als auch in ConDec werden jeweils sechs Aktivitäten benötigt. In BPMN sind vier Gateways (keine unterschiedlichen) und 14 Sequenzflusselemente erforderich. In ConDec werden sechs Existenz-Constraints zur darstellung des Ablaufes benötigt.\newline
 
 \begin{figure}[htp]
 \begin{center}
@@ -649,7 +654,7 @@ Abbildung \ref{fig:ConstructionExcel} kann die Anzahl der Elemente zur Darstellu
 \end{center}
 \end{figure}
 
-Die Anzahl der notwendigen Elemente zur Darstellung der Phase Transition kann Abbildung \ref{fig:TransitionExcel} entnommen werden. Somit werden jeweils sechs Aktivitäten verwendet. BPMN benötigt zwei Gateways und 20 Sequenzflusselemente zur korrekten Modellierung. In Condec werden insgesamt acht Constraints verwendet.\newline
+Die Anzahl der notwendigen Elemente zur Darstellung der Phase Transition kann Abbildung \ref{fig:TransitionExcel} entnommen werden. Somit werden jeweils acht Aktivitäten verwendet. BPMN benötigt zwei Gateways (keine unterschiedlichen) und 18 Sequenzflusselemente zur korrekten Modellierung. In Condec braucht es insgesamt acht Existenz-Constraints zur Darstellung des Ablaufes.\newline
 
 \begin{figure}[htp]
 \begin{center}
@@ -661,7 +666,7 @@ Die Anzahl der notwendigen Elemente zur Darstellung der Phase Transition kann Ab
 
 
 
-Abbildung \ref{fig:IterationPlanenExcel} kann die Anzahl der Elemente, welche jeweils zur Darstellung des Unterprozesses Iteration planen und managen notwendig sind entnommen werden. Sowohl in BPMN, als auch in ConDec werden somit jeweils 11 Aktivitäten benötigt. In BPMN werden keine Gateways und 15 Sequenzflüsse benötigt. In ConDec sind zur korrekten Darstellung 21 Constraints notwendig. Somit werden in BPMN insgesamt 26 Elemente und in ConDec 32 Elemente verwendet.\newline
+Abbildung \ref{fig:IterationPlanenExcel} kann die Anzahl der Elemente, welche jeweils zur Darstellung des Unterprozesses Iteration planen und managen notwendig sind entnommen werden. Sowohl in BPMN, als auch in ConDec werden somit jeweils 11 Aktivitäten benötigt. In BPMN werden keine Gateways und 15 Sequenzflüsse verwendet. In ConDec sind zur korrekten Darstellung 21 Constraints notwendig. Somit werden in BPMN insgesamt 26 Elemente und in ConDec 32 Elemente verwendet.\newline
 
 \begin{figure}[htp]
 \begin{center}
@@ -671,7 +676,7 @@ Abbildung \ref{fig:IterationPlanenExcel} kann die Anzahl der Elemente, welche je
 \end{center}
 \end{figure}
 
-In Abbildung \ref{fig:AnforderungenIdentifizierenExcel} sind die Anzahl der Elemente zur Darstellung von Anforderungen identifizieren und verfeinern abgebildet. Demanch werden sowohl in BPMN, als auch in ConDec jeweils 11 Akivitäten benötigt. Weiterhin sind keine Gateways und 15 Sequenzflusselemente in BPMN zur Darstellung nötig. In ConDec werden 21 Constraints verwendet, aber nur zwei verschiedene. Insgesamt werden zur korrekten Abbildung des Metamodells in BPMN 26 Elemente und in ConDec 32 Elemente benötigt.\newline
+In Abbildung \ref{fig:AnforderungenIdentifizierenExcel} sind die Anzahl der Elemente zur Darstellung von Anforderungen identifizieren und verfeinern abgebildet. Demanch werden sowohl in BPMN, als auch in ConDec jeweils vier Akivitäten benötigt. Weiterhin sind keine Gateways und 5 Sequenzflusselemente in BPMN zur Darstellung nötig. In ConDec werden drei Constraints verwendet, aber keine unterschiedlichen. Insgesamt werden zur korrekten Abbildung des Metamodells in BPMN neun Elemente und in ConDec 11 Elemente benötigt.\newline
 
 \begin{figure}[htp]
 \begin{center}
@@ -691,7 +696,7 @@ Die Anzahl der Elemente zur Darstellung des Prozesses Produktdokumentation entwi
 \end{center}
 \end{figure}
 
-Wie viele Elemente zur Modellierung des Prozesses Release deployen benötigt werden, ist in Abbildung \ref{fig:ReleaseDeployenExcel} aufgeführt. Jeweils fünf Aktivitäten werden in BPMN und ConDec verwendet. In BPMN sind zwei Gateways und neun Sequenzflusselemente zur Darstellung des Ablaufes notwendig. In ConDec werden hierfür 11 Constraints benötigt. In BPMN werden zwei verschiedene Gateways und vier verschiedene Constraints verwendet. Somit sind insgesamt 16 Elemente in BPMN und 16 Elemente in ConDec zur darstellung notwendig. \newline
+Wie viele Elemente zur Modellierung des Prozesses Release deployen benötigt werden, ist in Abbildung \ref{fig:ReleaseDeployenExcel} aufgeführt. Jeweils fünf Aktivitäten werden in BPMN und ConDec verwendet. In BPMN sind zwei Gateways (keine verschiedene) und neun Sequenzflusselemente zur Darstellung des Ablaufes notwendig. In ConDec werden hierfür fünf Constraints (drei unterschiedliche)  und fünf Existenz-Constraints benötigt. Somit sind insgesamt 16 Elemente in BPMN und 15 Elemente in ConDec zur Darstellung notwendig. \newline
 \begin{figure}[htp]
 \begin{center}
   \includegraphics[scale=0.6]{ReleaseDeployenExcel} %pdf, jpg, png...
@@ -700,24 +705,35 @@ Wie viele Elemente zur Modellierung des Prozesses Release deployen benötigt wer
 \end{center}
 \end{figure}
 
-Bei dem Grundsatz der \textit{Richtigkeit} tritt bei ConDec wiederum das Problem auf, dass Rollen und Artefakte nicht darstellbar sind. Zwar ist dies bei den Phasen des Open UP kein Problem, da hier noch keine Rollen zugeordnet werden, jedoch bei den anderen Prozessen des Open UP (Iteration planen und managen, Anforderungen identifizieren und verfeinern, Produktdokumentation entwickeln und Release deployen). Da hier keine Rollen darstellbar sind, kann das jeweils im Metamodell enthaltene Verhalten in den ConDec-Modellen nicht vollständig wiedergegeben werden. Hierdurch leidet der Nutzen des Metamodells. \newline
+Bei dem Grundsatz der \textit{Richtigkeit} tritt bei ConDec wiederum das Problem auf, dass Rollen und Artefakte nicht darstellbar sind. Zwar ist dies bei den Phasen des Open UP kein Problem, da hier noch keine Rollen und Artefakte zugeordnet werden, jedoch bei den anderen Prozessen des Open UP (Iteration planen und managen, Anforderungen identifizieren und verfeinern, Produktdokumentation entwickeln und Release deployen). Da hier keine Rollen darstellbar sind, kann das jeweils im Metamodell enthaltene Verhalten in den ConDec-Modellen nicht vollständig wiedergegeben werden. Hierdurch leidet der Nutzen des Metamodells. \newline
 
 Der Grundsatz des \textit{systematischen Aufbaus} kann wiederum nur von BPMN eingehalten werden, da ConDec keine Möglichkeit bietet, Artefakte ins Prozessmodell einzubinden.\newline
 
-Ebenfalls die \textit{Relevanz} lässt sich bei beiden Prozessmodellierungssprachen gut einhalten, denn es ist weder bei einem in ConDec erstellten Modell, noch bei einem in BPMN erstellten Modell notwendig, weitere Informationen zur Erhöhung der Qualität des Modells hinzuzufügen.\newline
+Die \textit{Relevanz} lässt sich bei beiden Prozessmodellierungssprachen gut einhalten, denn es ist weder bei einem in ConDec erstellten Modell, noch bei einem in BPMN erstellten Modell notwendig, weitere Informationen zur Erhöhung der Qualität des Modells hinzuzufügen.\newline
 
 Die \textit{Wirtschaftlichkeit} lässt sich auch beim Open UP bei beiden Prozessmodellierungssprachen einhalten, da der Aufwand zur Erstellung der Modelle bei BPMN und ConDec gleich groß ist.\newline
 
-In Bezug auf die \textit{Klarheit} fällt gerade bei Betrachtung der Modelle der Phasen Inception, Elaboration, Construction und Transition auf, das bei Modellen bei denen mehrere Aktivitäten parallel zueinnader ablaufen in BPMN deutlich mehr Elemente zur Darstellung des gleichen Sachverhaltes notwendig sind, als in ConDec. Bei allen vier Modellen sind doppelt so viele, teilweise auch mehr als doppelt so viele Elemene zur Darstellung in BPMN notwendig, als in ConDec. Dies liegt an der Anzahl der Verbindungselemente. BPMN weißt eine hohe Anzahl an eingehenden und ausgehenden Kanten an den parallelen Gateways auf. Da die Parallelität in ConDec nicht durch Constraints dargestellt werden muss, werden in ConDec nur die Existenz-Constraints benötigt, um die Aktivitäten auf einmalige Ausführung zu beschränken. Da sich die hohe Anzahl an Verbindungselementen in BPMN negativ auf die Verständlichkeit auswirken kann und in ConDec nur die leichter verständlichen Existenz-Constraints verwendet werden, sind die ConDec-Modelle die an dieser Stelle leichter verständlichen Modelle. \newline
+In Bezug auf die \textit{Klarheit} fällt gerade bei Betrachtung der Modelle der Phasen Inception, Elaboration, Construction und Transition auf, das bei Modellen bei denen mehrere Aktivitäten parallel zueinnander ablaufen in BPMN deutlich mehr Elemente zur Darstellung des gleichen Sachverhaltes notwendig sind, als in ConDec. Bei allen vier Modellen sind doppelt so viele, teilweise auch mehr als doppelt so viele Elemene zur Darstellung in BPMN notwendig, als in ConDec. Dies liegt an der Anzahl der Verbindungselemente. BPMN weißt eine hohe Anzahl an eingehenden und ausgehenden Kanten an den parallelen Gateways auf. Da die Parallelität in ConDec nicht durch Constraints dargestellt werden muss, werden in ConDec nur die Existenz-Constraints benötigt, um die Aktivitäten auf einmalige Ausführung zu beschränken. Da sich die hohe Anzahl an Verbindungselementen in BPMN negativ auf die Verständlichkeit auswirken kann und in ConDec nur die leicht verständlichen Existenz-Constraints verwendet werden, sind die ConDec-Modelle die leichter verständlichen Modelle. \newline
+
 Das Gleiche gilt für die Darstellung der Phasen des Open UP. Hier werden zur Darstellung des Prozesses in BPMN drei-mal so viele Elemente benötigt, wie in ConDec. Dies liegt hier an der hohen Anzahl der XOR-Gateways, die beim Modellieren des Prozesses notwendig sind. Somit ist auch hier das Modell, welches mit ConDec erstellt wurde das leichter verständliche. \newline
-Beim Prozess Release deployen werden gleich viele Elemente in ConDec, wie auch in BPMN zur Darstellung des Prozesses benötigt. In ConDec werden drei verschiedene Verbindungselemente zur Darstellung 
-benötigt, in BPMN zwei. Somit gibt es hier trotz der geringen Abweichung in der Anzahl der Verbindungselemente keine Unterschiede in der Verständlichkeit.\newline
-Bei den Prozessen Anforderungen identifizieren und verfeinern und Produktdokumentation entwickeln weißen die ConDec-Modelle eine leicht höhere Anzahl an Verbindungselementen und Elementen insgesamt auf, jedoch hat dies hier kaum Einfluß auf die Verständlichkeit der ConDec-Modelle, da die Abweichung sehr gering ist.\newline
-Im Prozess Iteartion planen und managen gibt es keine Verzweigungen. Zwar ist die Anzahl der Constraints in ConDec höher, als die Anzahl der Verbindungselemente in BPMN, jedoch liegt das größtenteils an den leicht verständlichen Existenz-Constraints. Aus diesem Grund sind hier beide Prozessmodelle gleich verständlich.\newline
-
+Im Prozess Iteartion planen und managen gibt es keine Verzweigungen. In ConDec werden sieben Constraints zur Darstellung verwendet. Die Anzahl der Elemente insgesamt ist bei beiden Modellen ungefähr gleich groß (ein Elemente mehr bei BPMN). Auf Grund der geringeren Komplexität des mit BPMN erstellten Modelles, da dort keine Gateways eingesetzt werden müssen, ist dieses das verständlichere.\newline
+Bei den Prozessen Anforderungen identifizieren und verfeinern und Produktdokumentation entwickeln weißen die ConDec-Modelle eine leicht höhere Anzahl an Verbindungselementen und Elementen insgesamt auf. Außerdem werden hier auch in ConDec jeweils drei Constraints verwendet und in BPMN keine Gateways. Dies macht die ConDec-Modelle komplexer als die BPMN-Modelle, weswegen die mit BPMN erstellten Modelle verständlicher sind.\newline
+Beim Prozess Release deployen werden fast gleich viele Elemente in ConDec, wie auch in BPMN zur Darstellung des Prozesses benötigt (ein Element mehr in BPMN). In ConDec werden insgesamt fünf Constraints und drei verschiedene zur Darstellung des Sachverhaltes benötigt, in BPMN nur zwei Gateways. Somit liegt hier das BPMN-Modell in Bezug auf die Komplexität unter dem ConDec-Modell und ist somit das verständlichere.\newline
+Somit liegt ConDec bei der Darstellung der Phasen, in denen viele parallele Abläufe dargestellt werden bei der \textit{Klarheit} vorne, während bei den anderen Modellen es Schleifen oder keine Verzweigungen zum Darstellen gibt BPMN vorne liegt.\newline
+Die Abläufe der Diagramme wurden in Signavio und Declare getestet und somit ist hier ihre \textit{Vergleichbarkeit} gewährleistet.\newline
 Bei der Darstellung der Phasen des Open UP werden doppelt so viele Elemente in ConDec, wie in BPMN verwendet. Hier ist deshalb die \textit{Vergleichbarkeit} nicht ganz gewährleistet. Bei den anderen Modellen des Open UP unterscheidet sich die Anzahl der Elemente kaum voneinander, wodurch die Vergleichbarkeit hier gewährleistet ist. \newline
+Bei ConDec muss wieder auf die Darstellung von Artefakten und Rollen verzichtet werden, wodurch die \textit{Vergleichbarkeit} der Modelle von ConDec behindert wird. Somit weiden hier beide Prozessmodellierungssprachen Stärken und Schwächen auf.\newline
+
+Eine Zusammenfassung, welche Modellierungssprache bei welchem Grundsatz ehr überzeugt hat, kann Abbildung \ref{fig:TabelleOpenUP} entnommen werden. \newline
 
 
+\begin{figure}[htp]
+\begin{center}
+  \includegraphics[scale=0.6]{TabelleOpenUP} %pdf, jpg, png...
+  \caption{Übersicht Vergleich Open UP}
+  \label{fig:TabelleOpenUP}
+\end{center}
+\end{figure}
 
 
 \section{V-Modell XT}
@@ -848,7 +864,7 @@ Im Folgenden werden Teile des V-Modells XT modelliert, da das ganze V-Modell in 
 Die imperative Modellierung von \textit{Systementwicklungsprojekt AG/AN}  zeigt Abbildung \ref{fig:Systementwicklung}. \newline
 Zunächst muss ein Projekt genehmigt und definiert werden. Dies ist durch die einander folgenden Aktivitäten\textit{Projekt genehmigen} und \textit{Projekt definieren} dargestellt.\newline
 In der nachfolgenden Aktivität müssen sodann die \textit{Anforderungen festgelegt werden}, bevor die \textit{Iteration geplant} werden kann. \newline
-Hiernach muss entschieden werden, ob eine \textit{Prototypische Entwicklung durchgeführt}, eine \textit{Komponenten-basierte Entwicklung durchgeführt} oder eine \textit{Inkrementelle Entwicklung durchgeführt} werden soll. dies wird durch das XOR-Gateway beschrieben, welche nur eine Alternative zulässt.\newline
+Hiernach muss entschieden werden, ob eine \textit{Prototypische Entwicklung durchgeführt}, eine \textit{Komponentenbasierte Entwicklung durchgeführt} oder eine \textit{Inkrementelle Entwicklung durchgeführt} werden soll. Dies wird durch das XOR-Gateway beschrieben, welche nur eine Alternative zulässt.\newline
 Anschließend wird das \textit{System abgenommen}.\newline
 An dieser Stelle wird entschieden, ob erneut zu \textit{Anforderungen festlegen} zurückgekehrt wird und der Prozess ab dieser Aktivität erneut startet oder ob zu \textit{Projekt ausschreiben} zurückgekehrt wird und der Prozess ab hier erneut startet. Ansonsten endet der Prozess mit der Aktivität \textit{Projekt abschließen}.
 
@@ -866,7 +882,7 @@ An dieser Stelle wird entschieden, ob erneut zu \textit{Anforderungen festlegen}
 \subsubsection{Inkrementelle Entwicklung durchführen}
 In Abbildung \ref{fig:Inkrementell} ist die imperative Modellierung des Unterprozesses \textit{Inkrementelle Entwicklung durchführen} abgebildet. \newline
 Zu Beginn muss das \textit{System spezifiziert} werden und anschließend wird das \textit{System entworfen}. \newline
-Hiernach wird der \textit{Feinentwurf entworfen} und \textit{Systemelemente realisiert}. Diese beiden Aktivitäten können so oft wie nötig durchgeführt werden, was durch das XOR-Gateway beschrieben ist.  \newline
+Hiernach wird der \textit{Feinentwurf entworfen} und es werden die \textit{Systemelemente realisiert}. Diese beiden Aktivitäten können so oft wie nötig durchgeführt werden, was durch das XOR-Gateway beschrieben ist.  \newline
 Im nächsten Schritt wird das \textit{System integriert} und es beginnt eine neue Iteration bei der Aktivität System entwerfen.\newline
 Falls keine weitere Iteration mehr notwedig ist, wird die \textit{Lieferung durchgeführt} und der Unterprozess endet hier. \newline
 
@@ -911,8 +927,7 @@ Die Aktivität \textit{QS-Bericht erstellen} bringt dann das Artefakt \textit{QS
 \begin{center}
   \includegraphics[width=\linewidth]{BerichtswesenimpKlein} %pdf, jpg, png...
   \caption{System spezifizieren-imperativ}
-  \label{fig:BerichtswesenimpKlein}
-\end{center}
+  \label{fig:BerichtswesenimpKlein}Anzahl unterschiedliche Gateways/Constraints\end{center}
 \end{figure}
 
 \clearpage
@@ -998,7 +1013,7 @@ Danach werden noch die Aktivitäten \textit{QS-Bericht erstellen}und \textit{Pro
 \subsection{Vergleich}
 
 
-Abbildung \ref{fig:SystementwicklungsprojektExcel} zeigt die Zahl notwendigen Elemente zur Darstellung des Prozesses Systementwicklungsprojekt AG/AN. In ConDec (11 Aktivitäten)  ist somit einer Aktivität mehr zur Darstellung nötig als in BPMN (10 Aktivitäten). In BPMN werden vier Gateways und 20 Sequenzflusselemente verwendet. In ConDec hingegen werden 15 Constraints benötigt. Somit ergeben sich in BPMN insgesamt 24 Verbindungselemente und in ConDec 15. In ConDec werden acht unterschiedliche Constraints im Modell verwendet, in BPMN zwei. Somit sind zur Darstellung des Sachverhaltes insgesamt 34 BPMN Elemente 26 ConDec Elemente notwendig.\newline
+Abbildung \ref{fig:SystementwicklungsprojektExcel} zeigt die Zahl notwendigen Elemente zur Darstellung des Prozesses Systementwicklungsprojekt AG/AN. In ConDec (11 Aktivitäten)  ist somit einer Aktivität mehr zur Darstellung nötig als in BPMN (10 Aktivitäten). In BPMN werden vier Gateways und 20 Sequenzflusselemente verwendet. In ConDec hingegen braucht es 11 Constraints. In ConDec werden sieben unterschiedliche Constraints im Modell verwendet, in BPMN eines. Somit sind zur Darstellung des Sachverhaltes insgesamt 34 BPMN Elemente 25 ConDec Elemente notwendig.\newline
 
 \begin{figure}[!htbp]
 \begin{center}
@@ -1008,7 +1023,7 @@ Abbildung \ref{fig:SystementwicklungsprojektExcel} zeigt die Zahl notwendigen El
 \end{center}
 \end{figure}
 
-Die Anzahl der Elemente zur Darstellung des Prozesses Inkrementelle Entwicklung kann Abbildung \ref{fig:InkrementellExcel} entnommen werden. es werden jeweils sechs Aktivitäten verwendet. Weiterhin werden in BPMN vier Gateways und 13 Sequenzflüsse zur Darstellung des Prozessablaufes benötigt. In ConDec sind hierfür 12 Constraints notwendig. BPMN benötigt zwei verschiedene Verbindungselemente und ConDec sechs. Somit ergeben sich in Summe 23 BPMN Elemente und 18 ConDec Elemente zur Darstellung des Sachverhaltes. \newline
+Die Anzahl der Elemente zur Darstellung des Prozesses Inkrementelle Entwicklung kann Abbildung \ref{fig:InkrementellExcel} entnommen werden. Es werden jeweils sechs Aktivitäten verwendet. Weiterhin werden in BPMN vier Gateways und 13 Sequenzflüsse zur Darstellung des Prozessablaufes benötigt. In ConDec sind hierfür neun Constraints und zwei Existenz-Constraints notwendig. BPMN benötigt ein Gateway, also keine verschiedenen Gateways und ConDec braucht sechs unterschiedliche Constraints. Somit ergeben sich in Summe 23 BPMN Elemente und 17 ConDec Elemente zur Darstellung des Sachverhaltes. \newline
 
 \begin{figure}[!htbp]
 \begin{center}
@@ -1018,7 +1033,7 @@ Die Anzahl der Elemente zur Darstellung des Prozesses Inkrementelle Entwicklung 
 \end{center}
 \end{figure}
 
-Abbildung \ref{fig:SystementwurfExcel} zeigt die Anzahl der Elemente, welche zur Darstellung des Prozesses System entwerfen notwendig sind. Demnach werden in beiden Prozessmodellierungssprachen jeweils 11 Aktivitäten verwendet. In BPMN werden keine Gateways und 12 Sequenzflusselemente benötigt. ConDec braucht zur Darstellung des Sachverhaltes 21 Constraints, jedoch keine unterschiedlichen Constraints. In Summe sind somit in BPMN 23 Elemente und in ConDec 32 Elemente zur Darstellung notwendig.\newline
+Abbildung \ref{fig:SystementwurfExcel} zeigt die Anzahl der Elemente, welche zur Darstellung des Prozesses System entwerfen notwendig sind. Demnach werden in beiden Prozessmodellierungssprachen jeweils 11 Aktivitäten verwendet. In BPMN werden keine Gateways und 12 Sequenzflusselemente benötigt. ConDec braucht zur Darstellung des Sachverhaltes 10 Constraints und 11 Existenz-Constraints, jedoch keine unterschiedlichen Constraints. In Summe sind somit in BPMN 23 Elemente und in ConDec 32 Elemente zur Darstellung notwendig.\newline
 
 \begin{figure}[!htbp]
 \begin{center}
@@ -1028,7 +1043,7 @@ Abbildung \ref{fig:SystementwurfExcel} zeigt die Anzahl der Elemente, welche zur
 \end{center}
 \end{figure}
 
-In Abbildung \ref{fig:SpezifizierenExcel} ist die Anzahl der Elemente zur Darstellung des Prozesses System spezifizieren abgetragen. Demanch werden neun Aktivitäten verwendet sowohl in BPMN als auch in ConDec. Es werden drei Gateways und 15 Sequenzflüsse in BPMN benötigt. In ConDec werden 15 Constraints zur Darstellung verwendet. Weiterhin gibt es drei unterschiedliche Verbindungselement in BPMN und drei unterschiedliche Constraints in ConDec. Insgesamt ergeben sich somit 27 unterschiedliche Elemente in BPMN und 24 unterschiedliche Elemente in ConDec. \newline
+In Abbildung \ref{fig:SpezifizierenExcel} ist die Anzahl der Elemente zur Darstellung des Prozesses System spezifizieren abgetragen. Demnach werden neun Aktivitäten verwendet sowohl in BPMN als auch in ConDec. Es werden drei Gateways und 15 Sequenzflüsse in BPMN benötigt. In ConDec werden acht Constraints und neun Existenz-Constraints zur Darstellung verwendet. Weiterhin gibt es zwei unterschiedliche Gateways in BPMN und zwei unterschiedliche Constraints in ConDec. Insgesamt ergeben sich somit 27 unterschiedliche Elemente in BPMN und 26 unterschiedliche Elemente in ConDec. \newline
 
 \begin{figure}[!htbp]
 \begin{center}
@@ -1038,10 +1053,38 @@ In Abbildung \ref{fig:SpezifizierenExcel} ist die Anzahl der Elemente zur Darste
 \end{center}
 \end{figure}
 
-Beim Grungsatz der \textit{Klarheit} gibt es Unterschiede zwischen den Modellen. Zur Darstellung der beiden Prozesse Systementwicklungsprojekt AG/AN und Inkrementelle Entwicklung werden in ConDec jeweils viele unterschiedliche Constraints benötigt (acht bei Systementwicklungsprojekt AG/AN und sechs bei Inkrementelle Entwicklung). Dies wirkt sich sehr negativ auf die Verständlichkeit aus, da sechs bis acht unterschiedliche, teilweise sehr komplexe Constraints verstanden werden müssen. Auch wenn BPMN bei diesen Modellen eine höhere Anzahl an verbindungselementen und Elementen insgesamt auweist, weisen die beiden ConDec Elemente eine höhere Komplexität auf. \newline
-Beim Prozess Systementwurf hingegen, weist ConDec zwar eine höhere Anzahl an Verbindungselementen und Elementen insgesamt auf, jedoch ist die Komplexität hier nicht so hoch, da es sich nur um zwei unterschiedliche Constraints handelt. Somit unterscheiden sich ConDec und BPMN hier in der Verständlichkeit nicht voneinander.\newline
-Beim Prozess System spezifizieren hingegen ist das in ConDec erstellte Modell das verständlichere. Die Anzahl der Verbindungselemente und der Elemente insgesamt unterscheiden sich zwar kaum voneinander, jedoch werden in ConDec drei unterschiedliche Verbindungselemente verwendet, sich negativ auf die Verständlichkeit auswirkt. In ConDec hingegen wird nur zwei unterschiedliche Verbindungselemente benötigt, jedoch handelt es sich hier um keine komplexen Verbindungselemente.\newline
+Die semantische \textit{Richtigkeit} kann von ConDec in Bezug auf die Darstellung von Rollen und Artefakten nicht eingehalten werden. Hier werden Grenzen der Darstellbarkeit in ConDec erreicht.\newline
+Sowohl BPMN, als auch ConDec können die syntaktische \textit{Richtigkeit} jedoch einhalten, da in beiden Modellierungssprachen die Notationsregeln bei der Modellierung der Prozessmodelle eingehalten werden können.\newline
+ 
+Der  Grundsatz des \textit{systematischen Aufbaus} kann bei ConDec wiederum nicht eingehalten werden, da keine Artefakte modelliert werden können.\newline
+
+Der Grundsatz der \textit{Relevanz} kann wieder von beiden Prozessmodellierungssprachen eingehalten werden, da sich sowohl die ConDec-Modelle, als auch die BPMN-Modelle mit den minimal relevanten Informationen erstellen lassen.\newline
+
 Der Grundsatz der \textit{Wirtschaftlichkeit} kann wiederum bei beiden Prozessmodellierungssprachen eingehalten werden, da sich der Aufwand zur Erstellung der Prozessmodelle nicht voneinander unterscheidet. 
+
+
+Beim Grungsatz der \textit{Klarheit} gibt es Unterschiede zwischen den Modellen. Zur Darstellung der beiden Prozesse Systementwicklungsprojekt AG/AN und Inkrementelle Entwicklung werden in ConDec jeweils viele unterschiedliche Constraints benötigt (acht bei Systementwicklungsprojekt AG/AN und sechs bei Inkrementelle Entwicklung). Dies wirkt sich sehr negativ auf die Verständlichkeit aus, da sechs bis acht unterschiedliche, teilweise sehr komplexe Constraints verstanden werden müssen. Auch wenn BPMN bei diesen Modellen eine höhere Anzahl an Elementen insgesamt aufweist, weisen die beiden ConDec-Modelle eine höhere Komplexität auf, weswegen die BPMN-Modelle verständlicher sind. \newline
+Beim Prozess Systementwurf hingegen, weist ConDec  insgesamt eine höhere Anzahl an Elementen auf. Weiterhin werden hier bei ConDec 10 Constraints verwendet, in BPMN hingegen keine Gateways. Aus diesem Grund ist hier das mit BPMN erstellete Modell das weniger komplexe und somit auch das verständlichere.\newline
+Beim Prozess System spezifizieren werden in BPMN drei Gateways verwendet und in ConDec acht Constraints. Bei beiden handelt es sich hierbei um zwei unterschiedliche Gateways/Constraints. Da ConDec hier eine höhere Anzahl an Constraints aufweist, als BPMN Gateways, ist das mit BPMN erstellte Modell hier das verständlichere. \newline
+Somit lässt sich insgesamt hier festhalten, das beim Grundsatz der \textit{Klarheit} BPMN hier die geeignetere Modellierungssprache ist, da sie hier weniger komplexe Modelle erzeugt.\newline
+
+Bei Ausführung der Prozesse in den Modellierungstools Signavio und Declare weiden beide das gleiche Ausführungsverhalten auf, wodurch hier die \textit{Vergleichbarkeit} gewährleistet ist. \newline
+Die Anzahl der Elemente in den Prozessmodellen unterscheidet sich teilweise. Bei BPMN werden bei den Prozessen Systementwicklungsprojekt AG/AN deutlich mehr Elemente zur Darstellung des gleichen Sachverhaltes verwendet wie bei ConDec. Beim Prozess Systementwurf werden bei ConDec mehr Elemente benötigt, wie bei BPMN und bei System spezifizieren werden in etwa gleich viele Elemente verwendet.\newline
+Die \textit{Vergleichbarkeit} kann jedoch in Bezug auf Artefakte und Rollen, außer bei den Phasen des Open UP (hier werden noch keine Artefkate und Rollen verwendet) nicht eingehalten werden.\newline
+Somit weisen bei der \textit{Vergleichbarkeit} beide Prozessmodellierungssprachen Stärken und Schwächen auf. \newline
+Abbildung \ref{fig:TabelleVModell} gibt nochmal eine zusammenfassende Übersicht über die Ergebniss des Vergleichs. 
+
+
+\begin{figure}[!htbp]
+\begin{center}
+  \includegraphics[scale=0.6]{TabelleVModell} %pdf, jpg, png...
+  \caption{Übersicht Vergleich V-Modell}
+  \label{fig:TabelleVModell}
+\end{center}
+\end{figure}
+
+
+
 
 \section{Fazit}
 

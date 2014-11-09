@@ -42,7 +42,7 @@
 \contentsline {subsection}{\numberline {6.1.3}Deklarative Modellierung Scrum}{43}{subsection.6.1.3}
 \contentsline {subsection}{\numberline {6.1.4}Vergleich}{45}{subsection.6.1.4}
 \contentsline {section}{\numberline {6.2}Open Unified Process (Open UP)}{48}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Analyse Open UP}{48}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.1}Analyse Open UP}{49}{subsection.6.2.1}
 \contentsline {subsection}{\numberline {6.2.2}Imperative Modellierung Open UP}{54}{subsection.6.2.2}
 \contentsline {subsubsection}{Phasen Open UP}{54}{section*.14}
 \contentsline {subsubsection}{L\IeC {\"o}sungsinkrement entwickeln}{59}{section*.15}
@@ -55,8 +55,8 @@
 \contentsline {subsection}{\numberline {6.2.4}Vergleich}{74}{subsection.6.2.4}
 \contentsline {subsubsection}{Phasen Open UP-Inception}{75}{section*.21}
 \contentsline {section}{\numberline {6.3}V-Modell XT}{83}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Analyse V-Modell XT}{83}{subsection.6.3.1}
-\contentsline {subsubsection}{Projekttypen}{83}{section*.22}
+\contentsline {subsection}{\numberline {6.3.1}Analyse V-Modell XT}{84}{subsection.6.3.1}
+\contentsline {subsubsection}{Projekttypen}{84}{section*.22}
 \contentsline {subsubsection}{Projekttypvarianten}{86}{section*.23}
 \contentsline {subsubsection}{Vorgehensbausteine}{87}{section*.24}
 \contentsline {subsubsection}{V-Modell-Kern und Vorgehensbausteinlandkarte}{88}{section*.25}
@@ -72,17 +72,15 @@
 \contentsline {subsubsection}{System entwerfen}{101}{section*.33}
 \contentsline {subsubsection}{System spezifizieren}{101}{section*.34}
 \contentsline {subsection}{\numberline {6.3.4}Vergleich}{103}{subsection.6.3.4}
-\contentsline {section}{\numberline {6.4}Fazit}{106}{section.6.4}
-\contentsline {chapter}{\numberline {7}Validierung}{107}{chapter.7}
-\contentsline {chapter}{\numberline {8}Related Work}{109}{chapter.8}
-\contentsline {section}{\numberline {8.1}Modellierung von Software-Engineering Prozessmodellen}{109}{section.8.1}
-\contentsline {subsection}{\numberline {8.1.1}Analyse und \IeC {\"U}berf\IeC {\"u}hrung von Softwareentwicklungsprozessen in die standardisierte BPMN Notation}{110}{subsection.8.1.1}
-\contentsline {subsection}{\numberline {8.1.2}Fallstudie zur Modellierung von Software-Entwicklungsprozessen auf Basis des Software Process Engineering Metamodells 2.0, Software Processes with BPMN: An Empirical Analysis, Projektdurchf\IeC {\"u}hrungsstrategie als strategisches Prozessmodell in BPMN}{110}{subsection.8.1.2}
-\contentsline {section}{\numberline {8.2}Verst\IeC {\"a}ndlichkeit von Prozessmodellierungssprachen}{111}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}Investigating expressiveness and understandability of hierarchy in declarative business process models}{111}{subsection.8.2.1}
-\contentsline {section}{\numberline {8.3}Vergleich von Prozessmodellierungssprachen}{112}{section.8.3}
-\contentsline {subsection}{\numberline {8.3.1}Declarative versus Imperative Process Modeling Languages: An Empirical Investigation}{112}{subsection.8.3.1}
-\contentsline {subsection}{\numberline {8.3.2}Imperative versus Declarative Process Modeling Languages: An Empirical Investigation}{113}{subsection.8.3.2}
+\contentsline {section}{\numberline {6.4}Fazit}{108}{section.6.4}
+\contentsline {chapter}{\numberline {7}Validierung}{109}{chapter.7}
+\contentsline {section}{\numberline {7.1}Studie}{109}{section.7.1}
+\contentsline {subsubsection}{Teilnehmer}{109}{section*.35}
+\contentsline {subsubsection}{Design der Studie}{109}{section*.36}
+\contentsline {chapter}{\numberline {8}Related Work}{111}{chapter.8}
+\contentsline {section}{\numberline {8.1}Modellierung von Software-Engineering Prozessmodellen}{111}{section.8.1}
+\contentsline {section}{\numberline {8.2}Verst\IeC {\"a}ndlichkeit von Prozessmodellierungssprachen}{112}{section.8.2}
+\contentsline {section}{\numberline {8.3}Vergleich von Prozessmodellierungssprachen}{113}{section.8.3}
 \contentsline {chapter}{\numberline {9}Zusammenfassung und Ausblick}{115}{chapter.9}
 \contentsline {chapter}{\numberline {A}BPMN Notation}{117}{appendix.A}
 \contentsline {chapter}{\numberline {B}ConDec Notation}{121}{appendix.B}

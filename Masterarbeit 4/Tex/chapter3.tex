@@ -94,20 +94,20 @@ Die Kategorie \textbf{Artefakte} beinhaltet \textit{Gruppierung}, \textit{Anmerk
 
 \subsection{Deklarative Modellierung}
 
- Die deklarative Modellierung folgt im Gegensatz zur imperativen Modellierung einem \grqq Outside-In-Ansatz\grqq \ \cite{lichtenegger2012}. Deklarative Sprachen legen den Ablauf nicht im Vorhinein fest \cite{pichler2012}. Sie sind somit sehr flexibel \cite{reichert2012}. Zu Beginn befinden sich nur die Aktivitäten im Prozessmodell und erlauben jegliches Ausführungsverhalten. Erst wenn Constraints zum Modell hinzugefügt werden, werden schrittweise Ausführungsalternativen verworfen \cite{pichler2012}. Constraints lassen sich hierbei in die beiden verschiedenen Kategorien \textbf{Ausführungsconstraints} und \textbf{Terminierungsconstraints} einteilen. Die Ausführungsconstraints geben Einschränkungen für die Ausführung von Aktivitäten an. Hierbei kann es sich z.B. um die Anzahl möglicher Ausführungen für eine Aktivität oder eine Mindestzeitverzögerung zwischen zwei Aktivitäten handeln. Terminierungsconstraints hingegen geben an, wann eine korrekte Terminierung (Beendigung) des Prozesses möglich ist. Z.B. kann hier vorgeschrieben werden, dass eine Aktivität mindestens einmal ausgeführt werden muss oder dass der Aktivität A Aktivität B folgen muss. Bevor dies nicht geschehen ist, ist kein korrektes Enden des Prozesses möglich \cite{reichert2012}.  Abbildung \ref{fig:Dec} zeigt ein Beispiel für ein deklaratives Prozessmodell. Es besteht aus den drei Aktivitäten A,B und C sowie aus zwei Constraints:  Das Constraint zwischen A und B legt fest, dass Aktivität B Aktivität A vorausgehen muss und das Constraint bei Aktivität C legt fest, dass diese mindestens einmal ausgeführt werden muss, aber beliebig oft ausgeführt werden kann. Abgesehen von diesen Bedingungen, können die Aktivitäten sowohl beliebig oft, als auch in beliebiger Reihenfolge ausgeführt werden. Z.B. wäre [A,B,C,C,A,B,C] eine korrekte Ausführungsreihenfolge. Die Ausführungsreihenfolgen [C,B,C,A] oder [A,B,A,B] wären jedoch inkorrekt, da bei der ersten Ausführungsreihenfolge B vor A ausgeführt wird und somit das Constraint zwischen diesen beiden Aktivitäten verletzt würde. Bei der zweiten Ausführungsreihenfolge wird Aktivität C nicht ausgeführt, wodurch das Constraint verletzt wird, dass diese mindestens einmal auszuführen ist \cite{reichert2012}. \newline
+ Die deklarative Modellierung folgt im Gegensatz zur imperativen Modellierung einem \grqq Outside-In-Ansatz\grqq \ \cite{lichtenegger2012}. Deklarative Sprachen legen den Ablauf nicht im Vorhinein fest \cite{pichler2012}. Sie sind somit sehr flexibel \cite{reichert2012}. Zu Beginn befinden sich nur die Aktivitäten im Prozessmodell und erlauben jegliches Ausführungsverhalten. Erst wenn Constraints zum Modell hinzugefügt werden, werden schrittweise Ausführungsalternativen verworfen \cite{pichler2012}. Constraints lassen sich hierbei in die beiden verschiedenen Kategorien \textbf{Ausführungsconstraints} und \textbf{Terminierungsconstraints} einteilen. Die Ausführungsconstraints geben Einschränkungen für die Ausführung von Aktivitäten an. Hierbei kann es sich z.B. um die Anzahl möglicher Ausführungen für eine Aktivität oder eine Mindestzeitverzögerung zwischen zwei Aktivitäten handeln. Terminierungsconstraints hingegen führen auf, wann eine korrekte Terminierung (Beendigung) des Prozesses möglich ist. Es kann hier z.B. vorgeschrieben werden, dass eine Aktivität mindestens einmal ausgeführt werden muss oder dass der Aktivität A Aktivität B folgen muss. Bevor dies nicht geschehen ist, ist kein korrektes Ende des Prozesses möglich \cite{reichert2012}.  Abbildung \ref{fig:Dec} zeigt ein Beispiel für ein deklaratives Prozessmodell. Es besteht aus den drei Aktivitäten A,B und C sowie aus zwei Constraints:  Das Constraint zwischen A und B legt fest, dass Aktivität B Aktivität A vorausgehen muss und das Constraint bei Aktivität C legt fest, dass diese mindestens einmal ausgeführt werden muss, aber beliebig oft ausgeführt werden kann. Abgesehen von diesen Bedingungen, können die Aktivitäten sowohl beliebig oft, als auch in beliebiger Reihenfolge ausgeführt werden. Es wäre z.B. [A,B,C,C,A,B,C] eine korrekte Ausführungsreihenfolge. Die Ausführungsreihenfolgen [C,B,C,A] oder [A,B,A,B] wären jedoch inkorrekt, da bei der ersten Ausführungsreihenfolge B vor A ausgeführt wird und somit das Constraint zwischen diesen beiden Aktivitäten verletzt würde. Bei der zweiten Ausführungsreihenfolge wird Aktivität C nicht ausgeführt, wodurch das Constraint verletzt wird, so dass diese mindestens einmal auszuführen ist \cite{reichert2012}. \newline
 
 \begin{figure}[H]
 \begin{center}
   \includegraphics[scale=0.6]{DecProcessModel} %pdf, jpg, png...
-  \caption{Deklarativer Beispiel-Prozess \cite{reichert2012}}
+  \caption{Deklarativer Beispiel-Prozess \cite{pesic2006}}
   \label{fig:Dec}
 \end{center}
 \end{figure} 
 
 \subsubsection{ConDec}
 
-Die deklarative Modellierungssprache ConDec wurde erstmals unter dem Namen DecSerFlow veröffentlicht \cite{fahland2010}. Mit ConDec lassen sich einerseits sehr strenge Modelle erstellen, welche den gesamten Prozess im Detail vorgeben und andererseits sehr leichte Modelle, welche zwar vorgeben, welche Arbeit getan werden muss, aber nicht wie sie ausgeführt werden muss \cite{pesic2006}. \newline
-In ConDec gibt es die vier verschiedenen Contraints \textit{Existence}, \textit{Choice}, \textit{Relation} und \textit{Negation}. Tabelle \ref{tab:tab3} zeigt die Bedeutung der verschiedenen Constraints. \newline
+Die deklarative Modellierungssprache ConDec wurde erstmals unter dem Namen DecSerFlow veröffentlicht \cite{fahland2010}. Mit ConDec lassen sich einerseits sehr strenge Modelle erstellen, welche den gesamten Prozess im Detail vorgeben und andererseits sehr leichte Modelle, welche zwar angegeben, welche Arbeit getan werden muss, aber nicht wie sie ausgeführt werden muss \cite{pesic2006}. \newline
+In ConDec gibt es die vier verschiedenen Contraints: \textit{Existence}, \textit{Choice}, \textit{Relation} und \textit{Negation}. Tabelle \ref{tab:tab3} zeigt die Bedeutung der verschiedenen Constraints. \newline
 
 \begin{table}
 \begin{tabular}{|p{0.5\textwidth}|p{0.5\textwidth}|}
@@ -123,7 +123,7 @@ Relation Constraints & Zwei-stellige Constraints. Sie geben vor, dass eine gewis
 Negation Constraints & Stellt die negative Version der Relation Constraints dar. Sie verbieten explizit die Ausführung einer gewissen Aktivität, wenn eine andere Aktivität ausgeführt wird.\\
 \hline
  \end{tabular}
-  \caption{Constraints ConDec}
+  \caption{Constraints ConDec \cite{pesic2006}}
 \label{tab:tab3}
  \end{table}
  
