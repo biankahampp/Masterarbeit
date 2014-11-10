@@ -179,6 +179,14 @@
 \newblock \emph{Agile Prozesse}.
 \newblock Heidelberg : Springer, 2010
 
+\bibitem[HBZ{\etalchar{+}}14]{haisjackl2014understanding}
+\textsc{Haisjackl}, Cornelia ; \textsc{Barba}, Irene ; \textsc{Zugal}, Stefan ;
+  \textsc{Soffer}, Pnina ; \textsc{Hadar}, Irit ; \textsc{Reichert}, Manfred ;
+  \textsc{Pinggera}, Jakob  ; \textsc{Weber}, Barbara:
+\newblock Understanding Declare models: strategies, pitfalls, empirical
+  results.
+\newblock {In: }\emph{Software \& Systems Modeling}  (2014), S. 1--28
+
 \bibitem[Hei07]{heinrich2007}
 \textsc{Heinrich}, G.:
 \newblock \emph{Allgemeine Systemanalyse}.
@@ -362,6 +370,13 @@
 \newblock {In: }\emph{Business Process Management Workshops} Springer, 2012, S.
   383--394
 
+\bibitem[RD07]{recker2007does}
+\textsc{Recker}, Jan~C. ; \textsc{Dreiling}, Alexander:
+\newblock Does it matter which process modelling language we teach or use? an
+  experimental study on understanding process modelling languages without
+  formal education.
+\newblock   (2007)
+
 \bibitem[Rei09]{reinshagen2009}
 \textsc{Reinshagen}, F.:
 \newblock \emph{Konzepte einer komprimierten Informationsversorgung f{\"u}r die
@@ -386,6 +401,13 @@
 \newblock \emph{Introduction to OpenUP (Open Unified Process)}.
 \newblock \url{http://www.eclipse.org/epf/general/OpenUP.pdf}.
 \newblock \,Version:\,August 2007
+
+\bibitem[RM11]{reijers2011study}
+\textsc{Reijers}, Hajo~A. ; \textsc{Mendling}, Jan:
+\newblock A study into the factors that influence the understandability of
+  business process models.
+\newblock {In: }\emph{Systems, Man and Cybernetics, Part A: Systems and Humans,
+  IEEE Transactions on} 41 (2011), Nr. 3, S. 449--462
 
 \bibitem[RW12]{reichert2012}
 \textsc{Reichert}, Manfred ; \textsc{Weber}, Barbara:
