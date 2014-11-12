@@ -162,7 +162,14 @@
 \newblock \emph{Softwaretechnik}.
 \newblock München : Pearson Studium, 2010
 
-\bibitem[GL06]{gruhn2006complexity}
+\bibitem[GL06a]{gruhn2006adopting}
+\textsc{Gruhn}, Volker ; \textsc{Laue}, Ralf:
+\newblock Adopting the cognitive complexity measure for business process
+  models.
+\newblock {In: }\emph{Cognitive Informatics, 2006. ICCI 2006. 5th IEEE
+  International Conference on} Bd.~1 IEEE, 2006, S. 236--241
+
+\bibitem[GL06b]{gruhn2006complexity}
 \textsc{Gruhn}, Volker ; \textsc{Laue}, Ralf:
 \newblock Complexity metrics for business process models.
 \newblock {In: }\emph{9th international conference on business information
