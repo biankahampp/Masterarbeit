@@ -74,13 +74,14 @@
 \contentsline {subsection}{\numberline {6.3.4}Vergleich}{105}{subsection.6.3.4}
 \contentsline {section}{\numberline {6.4}Fazit}{110}{section.6.4}
 \contentsline {chapter}{\numberline {7}Validierung}{111}{chapter.7}
-\contentsline {section}{\numberline {7.1}Studie}{111}{section.7.1}
-\contentsline {subsubsection}{Teilnehmer}{111}{section*.35}
-\contentsline {subsubsection}{Design der Studie}{111}{section*.36}
-\contentsline {chapter}{\numberline {8}Verwandte Arbeiten}{113}{chapter.8}
-\contentsline {section}{\numberline {8.1}Modellierung von Software-Engineering Prozessmodellen}{113}{section.8.1}
-\contentsline {section}{\numberline {8.2}Verst\IeC {\"a}ndlichkeit von Prozessmodellierungssprachen}{114}{section.8.2}
-\contentsline {section}{\numberline {8.3}Vergleich von Prozessmodellierungssprachen}{115}{section.8.3}
-\contentsline {chapter}{\numberline {9}Zusammenfassung und Ausblick}{117}{chapter.9}
-\contentsline {chapter}{\numberline {A}BPMN Notation}{119}{appendix.A}
-\contentsline {chapter}{\numberline {B}ConDec Notation}{123}{appendix.B}
+\contentsline {section}{\numberline {7.1}Forschungsfragen}{111}{section.7.1}
+\contentsline {section}{\numberline {7.2}Studie}{113}{section.7.2}
+\contentsline {subsubsection}{Teilnehmer}{113}{section*.35}
+\contentsline {subsubsection}{Design der Studie}{113}{section*.36}
+\contentsline {chapter}{\numberline {8}Verwandte Arbeiten}{115}{chapter.8}
+\contentsline {section}{\numberline {8.1}Modellierung von Software-Engineering Prozessmodellen}{115}{section.8.1}
+\contentsline {section}{\numberline {8.2}Verst\IeC {\"a}ndlichkeit von Prozessmodellierungssprachen}{116}{section.8.2}
+\contentsline {section}{\numberline {8.3}Vergleich von Prozessmodellierungssprachen}{117}{section.8.3}
+\contentsline {chapter}{\numberline {9}Zusammenfassung und Ausblick}{119}{chapter.9}
+\contentsline {chapter}{\numberline {A}BPMN Notation}{121}{appendix.A}
+\contentsline {chapter}{\numberline {B}ConDec Notation}{125}{appendix.B}
