@@ -32,8 +32,8 @@
 \contentsline {subsubsection}{Richtigkeit}{33}{section*.8}
 \contentsline {subsubsection}{Systematischer Aufbau}{33}{section*.9}
 \contentsline {subsubsection}{Relevanz}{34}{section*.10}
-\contentsline {subsubsection}{Wirtschaftlichkeit der Prozessmodelle}{34}{section*.11}
-\contentsline {subsubsection}{Klarheit}{35}{section*.12}
+\contentsline {subsubsection}{Klarheit}{34}{section*.11}
+\contentsline {subsubsection}{Wirtschaftlichkeit der Prozessmodelle}{36}{section*.12}
 \contentsline {subsubsection}{Vergleichbarkeit}{36}{section*.13}
 \contentsline {chapter}{\numberline {6}Imperative und deklarative Modellierung f\IeC {\"u}r SE-Prozessmodelle}{39}{chapter.6}
 \contentsline {section}{\numberline {6.1}Scrum}{40}{section.6.1}
