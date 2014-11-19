@@ -1,22 +1,22 @@
 
 \chapter{Modellierung}\label{sec:chapter3}
-Kapitel 3 liefert einen Überblick über die Grundlagen der Modellierung. Zunächst werden in Kapitel 3.1 die Grundlagen der Prozessmodellierung erläutert. Hierbei wird auf die Grundsätze ordnungsgemäßer Modellierung eingegangen. Anschließend werden in Kapitel 3.2 Prozessmodellierugssprachen eingeführt. Einerseits werden in Kapitel 3.2.1 imperative Modellierungssprachen erklärt und es wird ein kurzer Einblick in die Prozessmodellierungssprache BPMN gegeben. Andererseits werden in Kapitel 3.2.2 deklarative Prozessmodellierungssprachen vorgestellt und es erfolgt ein Einblick in die deklarative Prozessmodellierungssprache ConDec.
+Kapitel 3 liefert einen Überblick über die Grundlagen der Modellierung. Zunächst werden in Kapitel 3.1 die Grundlagen der Prozessmodellierung erläutert. Hierbei wird auf die Grundsätze ordnungsgemäßer Modellierung eingegangen. Anschließend werden in Kapitel 3.2 Prozessmodellierugssprachen diskutiert. Einerseits werden imperative Modellierungssprachen erklärt und es wird ein kurzer Einblick in die Prozessmodellierungssprache BPMN gegeben. Andererseits werden deklarative Prozessmodellierungssprachen vorgestellt und es erfolgt ein Einblick in die deklarative Prozessmodellierungssprache ConDec.
 
 \section{Prozessmodellierung}\label{sec:chapter3:Prozessmodellierung}
 
 Prozessmodellierung hat den Zweck, Prozesse zu beschreiben \cite{fahland2009}. Ein Prozessmodell ist eine vereinfachte Darstellung eines Prozesses und besteht aus einer Abfolge von Tätigkeiten, welche chronologisch-sachlogisch angeordnet sind. Der Umfang und Detaillierungsgrad der Prozessmodelle kann sich je nach Zweck und Zielsetzung unterscheiden \cite{koch2011}.
 
 \subsection{Ziele der Prozessmodellierung}
-Mit der Modellierung von Prozessen werden verschiedene Ziele verfolgt. Eine erste Übersicht über die Ziele der Prozessmodellierung gibt Abbildung \ref{fig:ZieleProzess}.
+Mit der Modellierung von Prozessen werden verschiedene Ziele verfolgt. Eine erste Übersicht über die Ziele der Prozessmodellierung gibt Abbildung \ref{fig:ZieleProzess} \cite{koch2011}.
 \begin{figure}[htp]
 \begin{center}
-  \includegraphics[scale=0.5]{ZieleProzess} %pdf, jpg, png...
+  \includegraphics[width=\textwidth]{ZieleProzess} %pdf, jpg, png...
   \caption{Ziele der Prozessmodellierung nach \cite{koch2011}}
   \label{fig:ZieleProzess}
 \end{center}
 \end{figure}
 
-Bei der \textit{Transparenz} geht es darum, dass alle Beteiligten am Prozess diesen einsehen können, von wem welche Aufgaben durchgeführt werden. Weiterhin verfolgt die Prozessmodellierung das Ziel, durch \textit{Fehlervermeidung} die Qualität, Termintreue und Kundenzufriedenheit zu erhöhen. Durch die Modellierung eines Prozesses kann dieser genau analysiert werden und hierdurch können Einsparungspotenziale von \textit{Kosten} aufgedeckt werden. Indem die Abläufe in einem Unternehmen als Prozesse dargestellt werden, ist es möglich, eine \textit{personenunabhängige Verfügbarkeit des Wissens} zu erreichen, da das Wissen hierdurch allen Personen zugänglich gemacht wird, unabhängig davon, ob sie am Prozess beteiligt sind oder nicht. Die Prozessmodellierung führt zu einer \textit{erleichterten Einarbeitung neuer Mitarbeiter}. Durch die Darstellung der Tätigkeiten der einzelnen Mitarbeiter in Prozessmodellen, wird ihnen ihr Beitrag zum Erfolg des Unternehmens vor Augen geführt, was eine \textit{erhöhte Mitarbeitermotivation} zur Folge hat. Nach deren Erstellung gibt es verschiedene \textit{Auswertungsmöglichkeiten} für die Prozessmodelle. Durch die Modellierung von Prozessen werden etwaige Schwachstellen, wie z.B. Doppelarbeiten und Prozessverzögerungen offengelegt, wodurch eine \textit{Prozessoptimierung} möglich ist. Mit Hilfe von \textit{Simulationen} der Prozessmodelle lassen sich eventuelle Engpässe rechtzeitig erkennen. Die Voraussetzung für die \textit{Zertifizierung} nach DIN EN ISO 9000:1000 sind Prozessmodelle als Dokumentation. Basis für die Entwicklung von Softwaresystemen bilden Prozessmodelle, weshalb sie als \textit{Basis für die informationstechnische Unterstützung} dienen \cite{koch2011}.
+Bei der \textit{Transparenz} geht es darum, dass alle Beteiligten am Prozess einsehen können, von wem welche Aufgaben durchgeführt werden. Weiterhin verfolgt die Prozessmodellierung das Ziel, durch \textit{Fehlervermeidung} die Qualität, Termintreue und Kundenzufriedenheit zu erhöhen. Durch die Modellierung eines Prozesses kann dieser genau analysiert werden und hierdurch können Einsparungspotenziale von \textit{Kosten} aufgedeckt werden. Indem die Abläufe in einem Unternehmen als Prozesse dargestellt werden, ist es möglich, eine \textit{personenunabhängige Verfügbarkeit des Wissens} zu erreichen, da das Wissen hierdurch allen Personen zugänglich gemacht wird, unabhängig davon, ob sie am Prozess beteiligt sind oder nicht. Die Prozessmodellierung führt zu einer \textit{erleichterten Einarbeitung neuer Mitarbeiter}. Durch die Darstellung der Tätigkeiten der einzelnen Mitarbeiter in Prozessmodellen wird ihnen ihr Beitrag zum Erfolg des Unternehmens vor Augen geführt, was eine \textit{erhöhte Mitarbeitermotivation} zur Folge hat. Nach deren Erstellung gibt es verschiedene \textit{Auswertungsmöglichkeiten} für die Prozessmodelle. Durch die Modellierung von Prozessen werden etwaige Schwachstellen, wie z.B. Doppelarbeiten und Prozessverzögerungen offengelegt, wodurch eine \textit{Prozessoptimierung} möglich ist. Mit Hilfe von \textit{Simulationen} der Prozessmodelle lassen sich eventuelle Engpässe rechtzeitig erkennen. Die Voraussetzung für die \textit{Zertifizierung} nach DIN EN ISO 9000:1000 sind Prozessmodelle als Dokumentation. Basis für die Entwicklung von Softwaresystemen bilden Prozessmodelle, weshalb sie als \textit{Basis für die informationstechnische Unterstützung} dienen \cite{koch2011}.
 
 \subsection{Grundsätze ordnungsgemäßer Modellierung}
 
@@ -24,7 +24,7 @@ Bei der Gestaltung eines Modells sollten grundlegende Prinzipien beachtet werden
 
 \begin{figure}[htp]
 \begin{center}
-  \includegraphics[scale=0.5]{Prinzipien} %pdf, jpg, png...
+  \includegraphics[width=\textwidth]{Prinzipien} %pdf, jpg, png...
   \caption{Grundsatz ordnungsgemäßer Modellierung nach \cite{journals95}}
   \label{fig:Prinzipien}
 \end{center}
