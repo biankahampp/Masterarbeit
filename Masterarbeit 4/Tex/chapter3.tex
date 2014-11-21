@@ -1,6 +1,6 @@
 
 \chapter{Modellierung}\label{sec:chapter3}
-Kapitel 3 liefert einen Überblick über die Grundlagen der Modellierung. Zunächst werden in Kapitel 3.1 die Grundlagen der Prozessmodellierung erläutert. Hierbei wird auf die Grundsätze ordnungsgemäßer Modellierung eingegangen. Anschließend werden in Kapitel 3.2 Prozessmodellierugssprachen diskutiert. Einerseits werden imperative Modellierungssprachen erklärt und es wird ein kurzer Einblick in die Prozessmodellierungssprache BPMN gegeben. Andererseits werden deklarative Prozessmodellierungssprachen vorgestellt und es erfolgt ein Einblick in die deklarative Prozessmodellierungssprache ConDec.
+Kapitel 3 liefert einen Überblick über die Grundlagen der Modellierung. Zunächst werden in Kapitel 3.1 die Grundlagen der Prozessmodellierung erläutert. Hierbei wird auf die Grundsätze ordnungsgemäßer Modellierung eingegangen. Anschließend werden in Kapitel 3.2 Prozessmodellierugssprachen diskutiert. Einerseits werden imperative Modellierungssprachen erklärt und es wird ein kurzer Einblick in die Prozessmodellierungssprache BPMN gegeben. Andererseits werden deklarative Prozessmodellierungssprachen vorgestellt und es erfolgt ein Einblick in die deklarative Prozessmodellierungssprache ConDec. In Kapitel 3.3 werden die in dieser Arbeit für die imperative und deklarative Modellierung verwendeten Modellierungswerkzeuge vorgestellt.
 
 \section{Prozessmodellierung}\label{sec:chapter3:Prozessmodellierung}
 
@@ -24,17 +24,18 @@ Bei der Gestaltung eines Modells sollten grundlegende Prinzipien beachtet werden
 
 \begin{figure}[htp]
 \begin{center}
-  \includegraphics[width=\textwidth]{Prinzipien} %pdf, jpg, png...
+  \includegraphics[scale=0.6]{Prinzipien} %pdf, jpg, png...
   \caption{Grundsatz ordnungsgemäßer Modellierung nach \cite{journals95}}
   \label{fig:Prinzipien}
 \end{center}
 \end{figure}
 
-Der \textit{Grundsatz der Richtigkeit} besitzt zwei verschiedene Ausprägungen: Eine semantische und eine syntaktische. Ein Modell wird als semantisch korrekt, oder auch formal korrekt bezeichnet, wenn es dem ihm zugrunde liegenden Metamodell gegenüber vollständig und konsistent ist, d.h. es gibt den abzubildenden Sachverhalt korrekt wieder. Hierbei muss einerseits auf die korrekte Abbildung der Struktur des Metamodells, als auch des dort beschriebenen Verhaltens geachtet werden \cite{journals95, becker2012prozessmanagement}. \newline
+Der \textit{Grundsatz der Richtigkeit} besitzt zwei verschiedene Ausprägungen: Eine syntaktische und eine semantische. Die syntaktische \textit{Richtigkeit} eines Modells wird durch die Einhaltung der Notationsregeln der dem Modell zugrunde liegenden Prozessmodellierungssprache erreicht \cite{journals95, becker2012prozessmanagement}. \newline
 
-Die syntaktische \textit{Richtigkeit} eines Modells wird durch die Einhaltung der Notationsregeln der dem Modell zugrunde liegenden Prozessmodellierungssprache erreicht \cite{journals95, becker2012prozessmanagement}. \newline
+Ein Modell wird als semantisch korrekt, oder auch formal korrekt bezeichnet, wenn es dem ihm zugrunde liegenden Metamodell gegenüber vollständig und konsistent ist, d.h. es gibt den abzubildenden Sachverhalt korrekt wieder. Hierbei muss einerseits auf die korrekte Abbildung der Struktur des Metamodells, als auch des dort beschriebenen Verhaltens geachtet werden \cite{journals95, becker2012prozessmanagement}. \newline
 
-Modelle werden üblicherweise in getrennten Sichten modelliert, um die Komplexität so gering wie möglich zu halten, z.B. werden die Prozesse in einem Prozessmodell, die Daten aber in einem Datenmodell modelliert. Werden bei einer Modellierung mehrere Sichten (z.B. Organisationssicht, Datensicht, Funktionssicht) modelliert, müssen diese auch ineinander integriert werden. Beim  \textit{Grundsatz des systematischen Aufbau} geht es darum, bei der Modellierung auch auf die anderen Sichten zu achten, um eine spätere konsistente Integration der verschiedenen Sichten zu gewährleisten. Insbesondere ist zu vermeiden, dass die gleichen Informationsobjekte mehrmals mit jeweils verschiedenen Begriffen verwendet werden. Weiterhin sollten die Inputdaten eines Prozessmodells einen Verweis auf bestehende Datenmodelle enthalten \cite{journals95, freund2007, becker2012prozessmanagement,koch2011}.\newline
+
+Modelle werden üblicherweise in getrennten Sichten modelliert, um die Komplexität so gering wie möglich zu halten. Besipielsweise werden Prozesse in einem Prozessmodell, die Daten aber in einem Datenmodell modelliert. Werden bei einer Modellierung mehrere Sichten (z.B. Organisationssicht, Datensicht, Funktionssicht) modelliert, müssen diese auch ineinander integriert werden. Beim  \textit{Grundsatz des systematischen Aufbau} geht es darum, bei der Modellierung auch auf die anderen Sichten zu achten, um eine spätere konsistente Integration der verschiedenen Sichten zu gewährleisten. Insbesondere ist zu vermeiden, dass die gleichen Informationsobjekte mehrmals mit jeweils verschiedenen Begriffen verwendet werden. Weiterhin sollten die Eingabedaten eines Prozessmodells einen Verweis auf bestehende Datenmodelle enthalten \cite{journals95, freund2007, becker2012prozessmanagement,koch2011}.\newline
 
 Der \textit{Grundsatz der Relevanz} besagt, dass alle Elemente und Verknüpfungen eines Modells, ohne die der Nutzen des Modells sinken würde, für die Modellierung relevant sind \cite{journals95, reinshagen2009}. Auf der anderen Seite sollten aber auch nur diejenigen Teile der Realität in das Modell aufgenommen werden, die wirklich notwendig sind. Es sollte somit darauf geachtet werden, nur so viele Informationen ins Modell zu bringen wie minimal benötigt werden \cite{journals95, freund2007,reinshagen2009}.\newline
 
@@ -48,13 +49,13 @@ Wird in unterschiedlichen Modellen der gleiche Sachverhalt abgebildet, so sollte
 
 \section{Prozessmodellierungssprachen}\label{sec:chapter3:Prozessmodellierungssprachen}
 
-Die Modellierung eines Prozesses mit natürlicher Sprache bringt einige Nachteile mit sich, wie z.B. fehlende Eindeutigkeit, schwer zu überprüfende Vollständigkeit und teilweise Widersprüche. Mögliche Folgen davon können unterschiedliche Interpretationen, Missverständnisse und falsche Schlussfolgerungen sein. Eine reine Beschreibung der Prozessmodelle mit mathematischen Modellen und Formalismen führt oftmals zu einer Verminderung der intuitiven Verständlichkeit der Prozessmodelle. Aus diesem Grund ist es sinnvoll den Prozess graphisch als Diagramm mit einer Prozessmodellierungssprache darzustellen, da diese eine Schnittstelle zwischen formaler Exaktheit und intuitiver Verständlichkeit darstellen \cite{thomas2009,kircher2006}.  \newline
-Hierfür existierten eine Reihe verschiedener Prozessmodellierungssprachen, deren Vor- und Nachteile stark diskutiert werden. Der derzeit am meisten diskutierte Unterschied ist der zwischen imperativen und deklarativen Prozessmodellierungssprachen \cite{fahland2009}. \newline
+Die Modellierung eines Prozesses mit natürlicher Sprache bringt einige Nachteile mit sich, wie z.B. fehlende Eindeutigkeit, schwer zu überprüfende Vollständigkeit und teilweise Widersprüche. Mögliche Folgen davon können unterschiedliche Interpretationen, Missverständnisse und falsche Schlussfolgerungen sein. Eine reine Beschreibung der Prozessmodelle mit mathematischen Modellen und Formalismen führt jedoch oftmals zu einer Verminderung der intuitiven Verständlichkeit der Prozessmodelle. Aus diesem Grund ist es sinnvoll den Prozess graphisch als Diagramm mit einer Prozessmodellierungssprache darzustellen, da diese eine Schnittstelle zwischen formaler Exaktheit und intuitiver Verständlichkeit darstellen \cite{thomas2009,kircher2006}.  \newline
+Hierfür existierten eine Reihe verschiedener Prozessmodellierungssprachen, deren Vor- und Nachteile intensiv diskutiert werden. Ein viel diskutierter Unterschied ist der zwischen imperativen und deklarativen Prozessmodellierungssprachen \cite{fahland2009}. \newline
 Die ursprüngliche Unterscheidung zwischen imperativen und deklarativen Sprachen stammt aus der Programmierung. Während imperative Programmierung angibt, "Wie etwas zu tun ist", folgt deklarative Programmierung dem Ansatz \grqq sag was benötigt wird und lass das System herausfinden, wie es erreicht werden kann\grqq \ \cite{pichler2012}.
 
 \subsection{Imperative Modellierung}
 Imperative Programmierung wird als zustandsbehaftete Programmierung bezeichnet, da das  Ergebnis einer Komponente nicht nur von ihren Argumenten abhängt, sondern auch von internen Parametern, was auch als ihr \grqq Zustand\grqq \  bezeichnet wird \cite{fahland2009}.  \newline
-Ähnlich wie die imperative Programmierung, folgt auch die imperative Modellierung einem \grqq Inside-Out-Ansatz \grqq. Alle Ausführungsalternativen eines Prozesses sind somit im Prozess spezifiziert und alle weiteren Ausführungsalternativen müssen explizit hinzugefügt werden. Bei der imperativen Modellierung werden Prozesse mit Operatoren und elementaren Aktivitäten modelliert. Hierbei können Sequenz, Parallelität und Synchronisation beschrieben werden \cite{kaschek1998}. Bei einer imperativen Modellierungssprache liegt der Fokus auf den ständigen Veränderungen der Prozess-Objekte.
+Ähnlich wie die imperative Programmierung, folgt auch die imperative Modellierung einem \grqq Inside-Out-Ansatz \grqq. Alle Ausführungsalternativen eines Prozesses sind somit in diesem spezifiziert und alle weiteren Ausführungsalternativen müssen explizit hinzugefügt werden. Bei der imperativen Modellierung werden Prozesse mit Operatoren und elementaren Aktivitäten modelliert. Hierbei können Sequenz, Parallelität und Synchronisation beschrieben werden \cite{kaschek1998}. Bei einer imperativen Modellierungssprache liegt der Fokus auf den ständigen Veränderungen der Prozess-Objekte.
 
 \subsubsection {BPMN}
 
@@ -69,24 +70,24 @@ Die BPMN-Elemente lassen sich anhand der fünf Kategorien \textit{Swimlanes}, \t
 \end{center}
 \end{figure}
 
-In der Kategorie \textbf{Swimlanes} befinden sich \textit{Pools} und \textit{Lanes}. \textit{Pools} stellen eine Art Container für den Prozess dar. Ein \textit{Pool} ist ein Prozessteilnehmer dar. Ein Prozessteilnehmer ist z.B. eine Organisationseinheit oder eine selbstständige Geschäftseinheit. Werden in einem Prozessmodell mehrere \textit{Pools} verwendet, so können hiermit Kollaborationen zwischen verschiedenen Prozessteilnehmern dargestellt werden. Ein \textit{Pool} kann in mehrere \textit{Lanes} unterteilt werden. \textit{Lanes} können untergeordnete Organisationseinheiten, Partnerrollen (z.B. Vertrieb, Projektleitung, Marketing) oder auch verschiedene Bestandteile eines Systems sein \cite{gpfert2012, pitschke2010, allweyer2013}. \newline
- \textit{Ereignisse}, \textit{Aktivitäten}und \textit{Gateways} befinden sich in der Kategorie \textbf{Flussobjekte}.
-Start und Ende von Prozessen werden in BPMN durch \textit{Ereignisse} beschrieben. Diese werden in  \textit{Startereignisse} und \textit{Endereignisse} unterschieden.  Weiterhin gibt es auch noch \textit{Zwischenereignisse}. \newline
-\textit{Aktivitäten} stellen Arbeitseinheiten und einen Oberbegriff für Aufgaben, Unterprozesse und Aufruf-Aktivitäten dar. Beschriftet werden sie mit einer Objekt-Verb-Verbindung (z.B. Lieferung überprüfen) \cite{gpfert2012}. \newline
+In der Kategorie \textbf{Swimlanes} befinden sich \textit{Pools} und \textit{Lanes}. \textit{Pools} stellen eine Art Container für den Prozess dar. Ein \textit{Pool} ist ein Prozessteilnehmer. Ein Prozessteilnehmer ist z.B. eine Organisationseinheit oder eine selbstständige Geschäftseinheit. Werden in einem Prozessmodell mehrere \textit{Pools} verwendet, so können hiermit Kollaborationen zwischen verschiedenen Prozessteilnehmern dargestellt werden. Ein \textit{Pool} kann in mehrere \textit{Lanes} unterteilt werden. \textit{Lanes} können untergeordnete Organisationseinheiten, Partnerrollen (z.B. Vertrieb, Projektleitung, Marketing) oder auch verschiedene Bestandteile eines Systems sein \cite{gpfert2012, pitschke2010, allweyer2013}. \newline
+ \textit{Ereignisse}, \textit{Aktivitäten} und \textit{Gateways} befinden sich in der Kategorie \textbf{Flussobjekte}.
+Start und Ende von Prozessen werden in BPMN durch \textit{Ereignisse} beschrieben. Diese werden in  \textit{Startereignisse} und \textit{Endereignisse} unterschieden und geben somit den Beginn und das Ende eines Prozesses an. Weiterhin gibt es auch noch \textit{Zwischenereignisse}. Hierdurch können beispielsweise Pausen im Prozess modelliert werden. Der Prozess stoppt in diesem Fall solange, bis ein bestimmtes Ereignis eintritt \cite{allweyer2013}. \newline
+\textit{Aktivitäten} stellen Arbeitseinheiten dar und sind ein Oberbegriff für Aufgaben, Unterprozesse und Aufruf-Aktivitäten. Aufgaben sind Tätigkeiten, welche nicht weiter unterteilt werden können, während ein Unterprozess eine Aufgabe darstellt, welche in weitere Tätigkeiten unterteilt werden kann. Beschriftet werden sie mit einer Objekt-Verb-Verbindung (z.B. Lieferung überprüfen) \cite{gpfert2012}. \newline
 Mit Hilfe von \textit{Gateways} lässt sich der Prozessablauf kontrollieren und steuern, da durch diese Verzweigungen und Zusammenführungen von Sequenzflüssen dargestellt werden. \cite{gpfert2012, allweyer2013}. Hierbei werden \textit{Exklusive Gateways} zur Modellierung alternativer Pfade, \textit{Parallele Gateways} zur Modellierung parallel ablaufender Pfade, \textit{Inklusive Gateways} zur Modellierung der Auswahl eines oder mehrerer Pfade und \textit{Komplexe Gateways} zur Modellierung komplexer Regeln bei Verzweigungen und Zusammenführungen, unterschieden \cite{allweyer2013}.\newline 
 
 \begin{figure}[H]
 \begin{center}
-  \includegraphics[scale=0.3]{gates} %pdf, jpg, png...
+  \includegraphics[scale=0.5]{gates} %pdf, jpg, png...
   \caption{BPMN-Gateways}
   \label{fig:gates}
 \end{center}
 \end{figure} 
 
 
-\textit{Nachrichtenfluss}, \textit{Assoziation}, \textit{Datenassoziation} und \textit{Sequenzfluss} bilden zusammen die Kategorie \textbf{Verbindende Objekte}. Ein \textit{Nachrichtenfluss} wird dazu verwendet, den Nachrichtenfluss zwischen zwei getrennten Prozessteilnehmern, z.B. aus zwei verschiedenen Unternehmen, darzustellen. Mit Hilfe einer \textit{Assoziation} können Daten-, Text und andere Artefakte mit Flussobjekten verknüpft werden. Hiermit werden die In- und Outputs von Aktivitäten aufgezeigt. Ein \textit{Sequenzfluss} dient dazu die Reihenfolge der Aktivitäten im Prozess festzulegen \cite{white2004}. \newline
-In der Kategorie \textbf{Daten} befinden sich \textit{Datenobjekte}, \textit{Dateninput}, \textit{Datenoutput} und \textit{Datenspeicher}. \textit{Datenobjekte} geben hierbei an, welche Daten von den Aktivitäten benötigt werden, bzw. von diesen erzeugt werden \cite{white2004}. Sie stellen somit Informationen dar, welche durch den Prozess fließen. Bei einem  \textit{Dateninput} handelt es sich um einen externen Input für den ganzen Prozess, der von einer Aktivität gelesen wird. Ein \textit{Datenoutput} hingegen wird als Ergebnis eines ganzen Prozesses erzeugt. Somit handelt es sich bei \textit{Dateninput}, bzw. \textit{Datenoutput} um Eingangs-, bzw. Ausgangsprozessschnittstellen \cite{bpmnposter}. Ein \textit{Datenspeicher} kann für den indirekten Austausch von Daten zwischen zwei verschiedenen Prozessteilnehmern verwendet werden. Hierfür ist es notwendig, dass beide Prozessteilnehmer Zugriff auf den \textit{Datenspeicher} haben \cite{allweyer2013}.\newline
-Die Kategorie \textbf{Artefakte} beinhaltet \textit{Gruppierung}, \textit{Anmerkung} und \textit{Assoziation}.  Diese ergänzen den Prozess um zusätzliche Informationen, haben jedoch keinerlei Einfluss auf diesen \cite{gpfert2012}. Eine \textit{Gruppierung} kann hierbei zur Dokumentation oder für Analysezwecke benutzt werden. Durch eine \textit{Anmerkungen} können dem Leser zusätzliche Informationen in Textform bereit gestellt werden \cite{white2004}. Mit Hilfe einer \textit{Assoziation} lassen sich Datenobjekte mit Aktivitäten und Prozessen verknüpfen \cite{bpmnposter}. \newline
+\textit{Nachrichtenfluss}, \textit{Assoziation}, \textit{Datenassoziation} und \textit{Sequenzfluss} bilden zusammen die Kategorie \textbf{Verbindende Objekte}. Ein \textit{Nachrichtenfluss} wird dazu verwendet, den Nachrichtenfluss zwischen zwei getrennten Prozessteilnehmern, z.B. aus zwei verschiedenen Unternehmen, darzustellen. Mit Hilfe einer \textit{Assoziation} können Daten, Text und andere Artefakte mit Flussobjekten verknüpft werden. Hiermit werden die In- und Ausgabes von Aktivitäten aufgezeigt. Ein \textit{Sequenzfluss} dient dazu die Reihenfolge der Aktivitäten im Prozess festzulegen \cite{white2004}. \newline
+In der Kategorie \textbf{Daten} gibt es sich \textit{Datenobjekte}, \textit{DatenInput}, \textit{DatenOutput} und \textit{Datenspeicher}. \textit{Datenobjekte} geben hierbei an, welche Daten von den Aktivitäten benötigt werden, bzw. von diesen erzeugt werden \cite{white2004}. Sie stellen somit Informationen dar, welche durch den Prozess fließen. Bei einem  \textit{Dateninput} handelt es sich um einen externen Eingabe für den ganzen Prozess, der von einer Aktivität gelesen wird. Ein \textit{Datenoutput} hingegen wird als Ergebnis eines ganzen Prozesses erzeugt. Somit handelt es sich bei \textit{Dateninput}, bzw. \textit{Datenoutput} um Eingangs-, bzw. Ausgangsprozessschnittstellen \cite{bpmnposter}. Ein \textit{Datenspeicher} kann für den indirekten Austausch von Daten zwischen zwei verschiedenen Prozessteilnehmern verwendet werden. Hierfür ist es notwendig, dass beide Prozessteilnehmer Zugriff auf den \textit{Datenspeicher} haben \cite{allweyer2013}.\newline
+Die Kategorie \textbf{Artefakte} beinhaltet \textit{Gruppierung}, \textit{Anmerkung} und \textit{Assoziation}. Diese ergänzen den Prozess um zusätzliche Informationen, haben jedoch keinerlei Einfluss auf diesen \cite{gpfert2012}. Eine \textit{Gruppierung} kann hierbei zur Dokumentation oder für Analysezwecke benutzt werden. Durch eine \textit{Anmerkungen} können dem Leser zusätzliche Informationen in Textform bereit gestellt werden \cite{white2004}. Mit Hilfe einer \textit{Assoziation} lassen sich Datenobjekte mit Aktivitäten und Prozessen verknüpfen \cite{bpmnposter}. \newline
  Eine Übersicht über alle Elemente der BPMN Notation kann Anhang A entnommen werden.\newline
 
 
@@ -95,7 +96,7 @@ Die Kategorie \textbf{Artefakte} beinhaltet \textit{Gruppierung}, \textit{Anmerk
 
 \subsection{Deklarative Modellierung}
 
- Die deklarative Modellierung folgt im Gegensatz zur imperativen Modellierung einem \grqq Outside-In-Ansatz\grqq \ \cite{lichtenegger2012}. Deklarative Sprachen legen den Ablauf nicht im Vorhinein fest \cite{pichler2012}. Sie sind somit sehr flexibel \cite{reichert2012}. Zu Beginn befinden sich nur die Aktivitäten im Prozessmodell und erlauben jegliches Ausführungsverhalten. Erst wenn Constraints zum Modell hinzugefügt werden, werden schrittweise Ausführungsalternativen verworfen \cite{pichler2012}. Constraints lassen sich hierbei in die beiden verschiedenen Kategorien \textbf{Ausführungsconstraints} und \textbf{Terminierungsconstraints} einteilen. Die Ausführungsconstraints geben Einschränkungen für die Ausführung von Aktivitäten an. Hierbei kann es sich z.B. um die Anzahl möglicher Ausführungen für eine Aktivität oder eine Mindestzeitverzögerung zwischen zwei Aktivitäten handeln. Terminierungsconstraints hingegen führen auf, wann eine korrekte Terminierung (Beendigung) des Prozesses möglich ist. Es kann hier z.B. vorgeschrieben werden, dass eine Aktivität mindestens einmal ausgeführt werden muss oder dass der Aktivität A Aktivität B folgen muss. Bevor dies nicht geschehen ist, ist kein korrektes Ende des Prozesses möglich \cite{reichert2012}.  Abbildung \ref{fig:Dec} zeigt ein Beispiel für ein deklaratives Prozessmodell. Es besteht aus den drei Aktivitäten A,B und C sowie aus zwei Constraints:  Das Constraint zwischen A und B legt fest, dass Aktivität B Aktivität A vorausgehen muss und das Constraint bei Aktivität C legt fest, dass diese mindestens einmal ausgeführt werden muss, aber beliebig oft ausgeführt werden kann. Abgesehen von diesen Bedingungen, können die Aktivitäten sowohl beliebig oft, als auch in beliebiger Reihenfolge ausgeführt werden. Es wäre z.B. [A,B,C,C,A,B,C] eine korrekte Ausführungsreihenfolge. Die Ausführungsreihenfolgen [C,B,C,A] oder [A,B,A,B] wären jedoch inkorrekt, da bei der ersten Ausführungsreihenfolge B vor A ausgeführt wird und somit das Constraint zwischen diesen beiden Aktivitäten verletzt würde. Bei der zweiten Ausführungsreihenfolge wird Aktivität C nicht ausgeführt, wodurch das Constraint verletzt wird, so dass diese mindestens einmal auszuführen ist \cite{reichert2012}. \newline
+ Die deklarative Modellierung folgt im Gegensatz zur imperativen Modellierung einem \grqq Outside-In-Ansatz\grqq \ \cite{lichtenegger2012}. Das heißt, deklarative Sprachen legen den Ablauf nicht im Vorhinein fest \cite{pichler2012} und sie sind somit sehr flexibel \cite{reichert2012}. Zu Beginn befinden sich nur die Aktivitäten im Prozessmodell und erlauben jegliches Ausführungsverhalten. Erst wenn Constraints zum Modell hinzugefügt werden, werden schrittweise Ausführungsalternativen verworfen \cite{pichler2012}. Constraints lassen sich hierbei in die beiden verschiedenen Kategorien \textbf{Ausführungsconstraints} und \textbf{Terminierungsconstraints} einteilen. Die Ausführungsconstraints geben Einschränkungen für die Ausführung von Aktivitäten an. Hierbei kann es sich z.B. um die Anzahl möglicher Ausführungen für eine Aktivität oder eine Mindestzeitverzögerung zwischen zwei Aktivitäten handeln. Terminierungsconstraints hingegen führen auf, wann eine korrekte Terminierung (Beendigung) des Prozesses möglich ist. Es kann hier z.B. vorgeschrieben werden, dass eine Aktivität mindestens einmal ausgeführt werden muss oder dass der Aktivität A Aktivität B folgen muss. Bevor dies nicht geschehen ist, ist kein korrektes Ende des Prozesses möglich \cite{reichert2012}.  Abbildung \ref{fig:Dec} zeigt ein Beispiel für ein deklaratives Prozessmodell. Es besteht aus den drei Aktivitäten A,B und C sowie aus zwei Constraints:  Das Constraint zwischen A und B legt fest, dass Aktivität B Aktivität A vorausgehen muss und das Constraint bei Aktivität C legt fest, dass diese mindestens einmal ausgeführt werden muss, aber beliebig oft ausgeführt werden kann. Abgesehen von diesen Bedingungen, können die Aktivitäten sowohl beliebig oft, als auch in beliebiger Reihenfolge ausgeführt werden. Es wäre z.B. [A,B,C,C,A,B,C] eine korrekte Ausführungsreihenfolge. Die Ausführungsreihenfolgen [C,B,C,A] oder [A,B,A,B] wären jedoch inkorrekt, da bei der ersten Ausführungsreihenfolge B vor A ausgeführt wird und somit das Constraint zwischen diesen beiden Aktivitäten verletzt würde. Bei der zweiten Ausführungsreihenfolge wird Aktivität C nicht ausgeführt, wodurch das Constraint verletzt wird, so dass diese mindestens einmal auszuführen ist \cite{reichert2012}. \newline
 
 \begin{figure}[H]
 \begin{center}
@@ -107,8 +108,8 @@ Die Kategorie \textbf{Artefakte} beinhaltet \textit{Gruppierung}, \textit{Anmerk
 
 \subsubsection{ConDec}
 
-Die deklarative Modellierungssprache ConDec wurde erstmals unter dem Namen DecSerFlow veröffentlicht \cite{fahland2010}. Mit ConDec lassen sich einerseits sehr strenge Modelle erstellen, welche den gesamten Prozess im Detail vorgeben und andererseits sehr leichte Modelle, welche zwar angegeben, welche Arbeit getan werden muss, aber nicht wie sie ausgeführt werden muss \cite{pesic2006}. \newline
-In ConDec gibt es die vier verschiedenen Contraints: \textit{Existence}, \textit{Choice}, \textit{Relation} und \textit{Negation}. Tabelle \ref{tab:tab3} zeigt die Bedeutung der verschiedenen Constraints. \newline
+Die deklarative Modellierungssprache ConDec wurde erstmals unter dem Namen DecSerFlow veröffentlicht \cite{fahland2010}. Mit ConDec lassen sich einerseits sehr strenge Modelle erstellen, welche den gesamten Prozess im Detail vorgeben und andererseits sehr leichtgewichtige Modelle, welche zwar angegeben, welche Arbeit getan werden muss, aber nicht wie sie ausgeführt werden muss \cite{pesic2006}. \newline
+In ConDec gibt es die vier verschiedenen Arten von Contraints: \textit{Existence}, \textit{Choice}, \textit{Relation} und \textit{Negation}. Tabelle \ref{tab:tab3} zeigt die Bedeutung der verschiedenen Constraints. \newline
 
 \begin{table}
 \begin{tabular}{|p{0.5\textwidth}|p{0.5\textwidth}|}
@@ -129,6 +130,91 @@ Negation Constraints & Stellt die negative Version der Relation Constraints dar.
  \end{table}
  
  Eine Übersicht über die genaue Notation von ConDec ist in Anhang B verfügbar.
+
+
+\section{Modellierungswerkzeuge}\label{sec:chapter3:Modellierungswerkzeuge}
+Ein Modellierungswerkzeug ist ein Softwaresystem, mit dessen Hilfe sich Prozessmodelle erstellen  lassen. Teilweise bietet ein Modellierungswerkzeug noch weitere Funktionen wie z.B. das Ausführen und Monitoring der Prozesse, Simulationen und die Analyse von Prozessmodellen an. Die Ausführung der Prozessschritte kann hierbei durch die jeweilige Person, welche für die Aktivität zuständig ist, ausgeführt werden. Für die Prozessmodellierung in der vorliegenden Arbeit kommt das Modellierungswerkzeug Signavio für die imperative Modellierung mit BPMN und Declare für die deklarative Modellierung mit ConDec zum Einsatz. Diese beiden Modellierungswerkzeuge werden nachfolgend vorgestellt \cite{gadatsch2012}.
+
+\subsection{Signavio}
+
+Bei Signavio handelt es sich um ein webbasiertes Prozessmodellierungstool, welches auch das kollaborative Modellieren von Prozessen mit den Modellierungsstandards BPMN und EPC zulässt. Ein grosser Vorteil von Signavio besteht darin, dass es nicht auf dem Rechner installiert werden muss, sondern direkt im Web-Browser ausgeführt werden kann. Die Prozessmodelle werden in einem zentralen Repository gespeichert und sind für die Benutzer entsprechend ihren Zugriffsrechten aufrufbar. Prozessmodelle besitzen alle eine eigene eindeutige URL und können über diese im Web-Browser aufgerufen werden. Hierbei wird auch gleich die Modellierungsumgebung mitgeladen und kann somit im Web-Browser ausgeführt werden \cite{quteprints}. Abbildung \ref{fig:Signavio} zeigt den \textit{Signavio Process Editor}.
+
+\begin{figure}[H]
+\begin{center}
+  \includegraphics[scale=0.6]{Signavio} %pdf, jpg, png...
+  \caption{Siganvio Process Editor (Screenshot Siganvio)}
+  \label{fig:Signavio}
+\end{center}
+\end{figure} 
+
+Links in Abbildung \ref{fig:Signavio} ist die BPMN Palette zu sehen. Die einzelnen Elemente können per \textit{Drag and Drop} in das Arbeitsdokument gezogen werden. Signavio verfügt über Modellierungskonventionen. Mit diesen ist es  möglich, das Modell auf die Einhaltung von Modellierungsrichtlinien, wie z.B. Notationsumfang, Benennung, Prozessstruktur und Diagrammlayout zu überprüfen. Die Modelle können alle als PDF exportiert werden. \newline
+In Abbildung \ref{fig:Simulation} ist die Simulations-Sicht von Signavio zu sehen. Hier kann der Benutzer den Prozessablauf simulieren. Dies kann einerseits mit Benutzerinteraktion Schritt für Schritt erfolgen oder auch im Ganzen durch den Simulator gesteuert werden, wobei XOR-Verzweigungen nach wie vor vom Benutzer ausgewählt werden müssen.
+\begin{figure}[H]
+\begin{center}
+  \includegraphics[scale=0.6]{Simulation} %pdf, jpg, png...
+  \caption{Siganvio Simulation (Screenshot Signavio)}
+  \label{fig:Simulation}
+\end{center}
+\end{figure} 
+
+
+
+\subsection{Declare}
+
+Declare wurde als Constraint-basiertes Workflow-Management-System entwickelt. Es wird für die Entwicklung von Prozessmodellen, welche auf deklarativen Sprachen basieren, benutzt. Declare bietet die folgenden Funktionen an \cite{pesic2007declare}:
+\begin {itemize}
+\item Modellentwicklung
+\item Modellüberprüfung (Suche nach Fehlern in Modellen)
+\item automatisierte Modellausführung
+\item Modelle können zur Laufzeit geändert werden
+\item Analyse der bereits ausgeführten Prozesse
+\item Prozess Dekomposition
+\end {itemize}
+
+Abbildung \ref{fig:Declare} zeigt die Systemarchitektur von Declare.
+
+\begin{figure}[H]
+\begin{center}
+  \includegraphics[scale=0.8]{Declare} %pdf, jpg, png...
+  \caption{Declare Systemarchitektur nach \cite{pesic2007declare}}
+  \label{fig:Declare}
+\end{center}
+\end{figure} 
+
+Hieraus wird ersichtlich, dass \textit{Declare} mit den beiden Systemen \textit{YAWL} und \textit{ProM} kooperiert. Bei \textit{YAWL} handelt es sich um ein Workflow-Management System, welches auf strukturierte Workflows spezialisiert ist. Dies wirkt sich auf die Zusammenarbeit mit \textit{Declare} in der Art aus, dass die strukturierten Teile des Prozesses von \textit{YAWL} abgehandelt werden, während die unstrukturierten Teile von \textit{Declare} übernommen werden. Bei \textit{ProM} handelt es sich um ein Prozess-Mining-Tool. Hier werden bereits ausgeführte Prozesse von \textit{Declare} analysiert und darauf aufbauend werden dem Nutzer während der Prozessausführung Empfehlungen gegeben \cite{pesic2007declare}. \newline
+Weiterhin besteht \textit{Declare} selbst aus drei Komponenten \textit{Framework}, \textit{Designer} und \textit{Worklist}.  Beim \textit{Designer} handelt es sich um ein Modellierungstool, welches für Systemeinstellungen und die Prozessmodell-Entwicklung verwendet wird (Abbildung \ref{fig:Designer}). Das \textit{Framework} ist für das Prozess-Enactment (Prozessausführung) zuständig. Außerdem übernimmt es die Kommunikation mit \textit{YAWL} und \textit{ProM} und das Ändern der Prozessmodelle zur Laufzeit (Abbildung \ref{fig:Framework}). Die Prozessausführung wird von \textit{Worklist} durchgeführt. Hier können die Nutzer ihre zuvor erstellten Prozesse ausführen und können die von \textit{ProM} erstellten Empfehlungen sehen (Abbildung \ref{fig:Worklist}). Alle Modelle können als Bilddateien exportiert werden \cite{pesic2007declare}.
+
+
+
+\begin{figure}[H]
+\begin{center}
+  \includegraphics[scale=0.4]{Designer} %pdf, jpg, png...
+  \caption{Declare Designer (Screenshot aus Declare)}
+  \label{fig:Designer}
+\end{center}
+\end{figure} 
+
+
+\begin{figure}[H]
+\begin{center}
+  \includegraphics[scale=0.4]{Framework} %pdf, jpg, png...
+  \caption{Declare Framework (Screenshot aus Declare)}
+  \label{fig:Framework}
+\end{center}
+\end{figure} 
+
+\begin{figure}[H]
+\begin{center}
+  \includegraphics[scale=0.4]{Worklist} %pdf, jpg, png...
+  \caption{Declare Worklist (Screenshot aus Declare)}
+  \label{fig:Worklist}
+\end{center}
+\end{figure} 
+
+
+
+
+
  
 
 
