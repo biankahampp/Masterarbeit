@@ -12,7 +12,7 @@
 \textsc{Ambler}, S.W. ; \textsc{Lines}, M.:
 \newblock \emph{Disciplined Agile Delivery: A Practitioner's Guide to Agile
   Software Delivery in the Enterprise}.
-\newblock Pearson Education, 2012 (IBM Press)
+\newblock Pearson Education, 2012
 
 \bibitem[All13]{allweyer2013}
 \textsc{Allweyer}, T.:
@@ -29,13 +29,17 @@
 \newblock Springer Berlin Heidelberg, 2006 (Lecture Notes in Computer Science),
   S. 1--23
 
+\bibitem[{Bal}07]{eclipseopenup}
+\textsc{{Balduino, Ricardo }}:
+\newblock \emph{Introduction to OpenUP (Open Unified Process)}.
+\newblock \url{http://www.eclipse.org/epf/general/OpenUP.pdf}.
+\newblock \,Version:\,August 2007
+
 \bibitem[Bec12]{becker2012prozessmanagement}
 \textsc{Becker}, J.:
 \newblock \emph{Prozessmanagement: Ein Leitfaden Zur Prozessorientierten
   Organisationsgestaltung}.
 \newblock Springer Berlin Heidelberg, 2012
-  \url{http://books.google.de/books?id=nnVDSYneBeQC}. --
-\newblock ISBN 9783642338441
 
 \bibitem[Boe81]{Boehm81}
 \textsc{Boehm}, Barry~W.:
@@ -111,7 +115,7 @@
 \textsc{Friedrich}, Jan ; \textsc{Hammerschall}, Ulrike ; \textsc{Kuhrmann},
   Marco  ; \textsc{Sihling}, Marc:
 \newblock \emph{Das V-Modell XT}.
-\newblock Heidelberg : Springer, 2008 (Informatik im Fokus)
+\newblock Heidelberg : Springer, 2008
 
 \bibitem[FLM{\etalchar{+}}09]{fahland2009}
 \textsc{Fahland}, Dirk ; \textsc{L{\"u}bke}, Daniel ; \textsc{Mendling}, Jan ;
@@ -146,9 +150,7 @@
 \bibitem[Gad12]{gadatsch2012}
 \textsc{Gadatsch}, A.:
 \newblock \emph{Grundkurs Gesch{\"a}ftsprozess-Management}.
-\newblock Vieweg+Teubner Verlag, 2012 (Online Plus).
-\newblock \url{http://books.google.de/books?id=PwDuJYFNCAMC}. --
-\newblock ISBN 9783834824288
+\newblock Vieweg+Teubner Verlag, 2012
 
 \bibitem[Gau06]{Gau2006}
 \textsc{Gau}, Thosten:
@@ -215,7 +217,7 @@
   \textsc{H{\"o}ppner}, Stephan ; \textsc{Bergner}, K. ; \textsc{Petrasch}, R.
   ; \textsc{Biffl}, S. ; \textsc{Wagner}, R.  ; \textsc{Hesse}, W.:
 \newblock \emph{Das V-Modell XT: Grundlagen, Methodik und Anwendungen}.
-\newblock Springer, 2008
+\newblock Heidelberg : Springer, 2008
 
 \bibitem[Kas98]{kaschek1998}
 \textsc{Kaschek}, Roland:
@@ -281,7 +283,7 @@
   computing} ACM, 2006, S. 1532--1539
 
 \bibitem[Men14]{Menhorn2014}
-\textsc{Menhhorn}, Nicole:
+\textsc{Menhorn}, Nicole:
 \newblock \emph{Analyse und Überführung von Softwareentwicklungsprozessen in
   die standardisierte BPMN Notation}.
 \newblock 2014
@@ -403,12 +405,6 @@
 \newblock Software engineering: process, principles, and goals.
 \newblock {In: }\emph{Computer} 8 (1975), Nr. 5, S. 17--27
 
-\bibitem[{Ric}07]{eclipseopenup}
-\textsc{{Ricardo Balduino}}:
-\newblock \emph{Introduction to OpenUP (Open Unified Process)}.
-\newblock \url{http://www.eclipse.org/epf/general/OpenUP.pdf}.
-\newblock \,Version:\,August 2007
-
 \bibitem[RM11]{reijers2011study}
 \textsc{Reijers}, Hajo~A. ; \textsc{Mendling}, Jan:
 \newblock A study into the factors that influence the understandability of
@@ -497,7 +493,7 @@
   Barbara:
 \newblock Investigating expressiveness and understandability of hierarchy in
   declarative business process models.
-\newblock {In: }\emph{Software \& Systems Modeling}  (2013), June
+\newblock {In: }\emph{Software \& Systems Modeling}  (2013)
 
 \bibitem[Zö12]{Zoerner2012}
 \textsc{Zörner}, Stefan:
