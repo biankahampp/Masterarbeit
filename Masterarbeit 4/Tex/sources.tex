@@ -138,8 +138,8 @@ Beispiel: Korrekt: [A,C,B,B,A]; Inkorrekt:[C,B,B,A]
 
   \includegraphics[scale=0.5]{Succession} %pdf, jpg, png...
     \end{center}&
-\textbf{succession} \newline Verlangt, dass die beiden Constraints precedence und response zwischen den Aktivitäten A und B eingehalten werden. Somit muss jede Aktivirtät A von Aktivität B gefolgt werden und für jede Aktivität B muss eine Aktivität A vorhanden sein. \newline
-Beispiel: Korrekt: [A,C,A,B,B]; Inkorrekt: [A,C,B,B]\\
+\textbf{succession} \newline Verlangt, dass die beiden Constraints precedence und response zwischen den Aktivitäten A und B eingehalten werden. Somit muss jede Aktivität A von Aktivität B gefolgt werden und für jede Aktivität B muss eine Aktivität A vorhanden sein. \newline
+Beispiel: Korrekt: [A,C,A,B,B]; Inkorrekt: [A,C]\\
 \hline
 \end{tabular}
 \begin {table}
@@ -179,7 +179,7 @@ Beispiel: Korrekt: [B,A,C,B,A,B] ; Inkorrekt: [B,A,C,A,B,A,B] \\
   \includegraphics[scale=0.5]{ChainResponse} %pdf, jpg, png...
     \end{center}&
  \textbf{chain response}\newline
-  Verlangt, dass die nächste Aktivität, welche nach Aktivität A ausgeführt wird, Aktivität B ist. \newline
+  Verlangt, dass die nächste Aktivität, welche nach Aktivität A ausgeführt wird, immer Aktivität B ist. \newline
   Beispiel: Korrekt: [B,A,B,C,A,B]; Inkorrekt: [B,A,C,A,B]\\
 \hline
 \begin{center}
@@ -187,7 +187,7 @@ Beispiel: Korrekt: [B,A,C,B,A,B] ; Inkorrekt: [B,A,C,A,B,A,B] \\
   \includegraphics[scale=0.5]{ChainPrecedence} %pdf, jpg, png...
     \end{center}&
 \textbf{chain precedence} \newline
- Verlangt, dass Aktivität A unmittelbar bevor Aktivität B ausgeführt wird.\newline
+ Verlangt, dass Aktivität A immer unmittelbar bevor Aktivität B ausgeführt wird.\newline
  Beispiel: Korrekt: [A,B,C,A,B,A]; Inkorrekt: [A,B,C,B,A] \\
 \hline
 \begin{center}
@@ -233,7 +233,7 @@ Beispiel: Korrekt: [A]; Inkorrekt:[]
   \includegraphics[scale=0.5]{ChoiceOneOfTwo} %pdf, jpg, png...
     \end{center}&
 \textbf{1 of 2} \newline Entweder A oder B muss mindestens einmal ausgeführt werden.\newline
-Beispiel: Korrekt: [A,C,A,B,B]; Inkorrekt: [A,C,B,B]\\
+Beispiel: Korrekt: [A,C,A,B,B]; Inkorrekt: [C]\\
 \hline
 
 \end{tabular}
@@ -255,7 +255,7 @@ Beispiel: Korrekt: [A,C,A,B,B]; Inkorrekt: [A,C,B,B]\\
 
   \includegraphics[scale=0.5]{ExclusiveChoiceOneOfThree} %pdf, jpg, png...
     \end{center}&
-\textbf{exclusive choice} \newline
+\textbf{exclusive choice 1 of 3} \newline
  Entweder A oder B oder C kann ausgeführt werden. \newline
   Beispiel:  Korrekt: [A]; [B]; [C]; Inkorrekt: [A,B]; [A,C]; [B,C] \\
 \hline
@@ -300,7 +300,7 @@ Beispiel: Korrekt: [A,C,A,B,B]; Inkorrekt: [A,C,B,B]\\
 \textbf{negation chain succession}\newline
   Verlangt, dass die Aktivitäten A und B nicht nebeneinander ausgeführt werden.
   \newline
-  Beispiel: Korrekt: [B,A,C,B,A] ; Inkorrekt: [B,A,B,A] \\
+  Beispiel: Korrekt: [A,C,B,C] ; Inkorrekt: [B,A,B,A] \\
 \hline
 
  \end{tabular}
