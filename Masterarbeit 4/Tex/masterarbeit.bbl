@@ -311,6 +311,13 @@
 \newblock \url{http://epf.eclipse.org/wikis/scrum/}.
 \newblock \,Version:\,April 2014
 
+\bibitem[MRA10]{mendling2010seven}
+\textsc{Mendling}, Jan ; \textsc{Reijers}, Hajo~A.  ; \textsc{Aalst},
+  Wil~M.~d.:
+\newblock Seven process modeling guidelines (7PMG).
+\newblock {In: }\emph{Information and Software Technology} 52 (2010), Nr. 2, S.
+  127--136
+
 \bibitem[MRC]{bpm07}
 \textsc{Mendling}, J. ; \textsc{Reijers}, H.A.  ; \textsc{Cardoso}, J.:
 \newblock What Makes Process Models Understandable?
