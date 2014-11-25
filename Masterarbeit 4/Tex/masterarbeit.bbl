@@ -117,16 +117,6 @@
 \newblock \emph{Das V-Modell XT}.
 \newblock Heidelberg : Springer, 2008
 
-\bibitem[FLM{\etalchar{+}}09]{fahland2009}
-\textsc{Fahland}, Dirk ; \textsc{L{\"u}bke}, Daniel ; \textsc{Mendling}, Jan ;
-  \textsc{Reijers}, Hajo ; \textsc{Weber}, Barbara ; \textsc{Weidlich},
-  Matthias  ; \textsc{Zugal}, Stefan:
-\newblock Declarative versus imperative process modeling languages: The issue
-  of understandability.
-\newblock {In: }\emph{Enterprise, Business-Process and Information Systems
-  Modeling}.
-\newblock Springer, 2009, S. 353--366
-
 \bibitem[FMR{\etalchar{+}}10]{fahland2010}
 \textsc{Fahland}, Dirk ; \textsc{Mendling}, Jan ; \textsc{Reijers}, Hajo~A. ;
   \textsc{Weber}, Barbara ; \textsc{Weidlich}, Matthias  ; \textsc{Zugal},
@@ -424,6 +414,12 @@
 \newblock \emph{Enabling Flexibility in Process-Aware Information Systems:
   Challenges, Methods, Technologies}.
 \newblock Springer, 2012
+
+\bibitem[RWJ{\etalchar{+}}11]{richling2011autonomie}
+\textsc{Richling}, J. ; \textsc{Werner}, M. ; \textsc{Jaeger}, M.C. ;
+  \textsc{M{\"u}hl}, G.  ; \textsc{Hei{\ss}}, H.U.:
+\newblock \emph{Autonomie in verteilten IT-Architekturen}.
+\newblock De Gruyter, 2011
 
 \bibitem[Sch04]{Schwaber2004}
 \textsc{Schwaber}, Ken:
