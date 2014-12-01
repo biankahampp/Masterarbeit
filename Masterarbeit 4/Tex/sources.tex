@@ -29,8 +29,7 @@
 
  
  
- \begin{table}[H]
- \begin{tabular}{|p{0.5\textwidth}|p{0.5\textwidth}|}
+ \begin{longtable}{|p{0.45\textwidth}|p{0.55\textwidth}|}
 \hline
 \textbf{Constraint} & \textbf{Erläuterung}\\
 \hline
@@ -38,9 +37,7 @@
   \includegraphics[scale=0.5]{absence} %pdf, jpg, png...
   \end{center}
 & \textbf{absence (A)} \newline
-Aktivität A darf nicht ausgeführt werden
-
-\\
+Aktivität A darf nicht ausgeführt werden\\
 
 
 
@@ -51,9 +48,7 @@ Aktivität A darf nicht ausgeführt werden
     \end{center}
 
 & \textbf{absence (n+1, A)} \newline
-Aktivität A kann höchstens n-mal ausgeführt werden, aber nicht n+1-mal
-
-\\
+Aktivität A kann höchstens n-mal ausgeführt werden, aber nicht n+1-mal\\
 \hline
 \begin{center}
 
@@ -61,9 +56,7 @@ Aktivität A kann höchstens n-mal ausgeführt werden, aber nicht n+1-mal
     \end{center}
 
 & \textbf{existence (n, A)}\newline
-Aktivität A muss mindestens n-mal ausgeführt werden
-
-\\
+Aktivität A muss mindestens n-mal ausgeführt werden\\
 \hline
 \begin{center}
 
@@ -71,9 +64,7 @@ Aktivität A muss mindestens n-mal ausgeführt werden
     \end{center}
 
 & \textbf{exactly (n, A)}\newline
-Aktivität A muss genau n-mal ausgeführt werden ausgeführt werden
-
-\\
+Aktivität A muss genau n-mal ausgeführt werden\\
 \hline
 
 \begin{center}
@@ -82,22 +73,9 @@ Aktivität A muss genau n-mal ausgeführt werden ausgeführt werden
     \end{center}
 
 & \textbf{init (A)}\newline
-Aktivität A muss als erste Aktivität ausgeführt werden
-
-\\
+Aktivität A muss als erste Aktivität ausgeführt werden\\
 \hline
 
-\end{tabular}
- \caption{ExistenceConstraints ConDec}
-\label{tab:existence}
-\end{table}
-
-%Tabelle Neu
-
-\begin{tabular}{|p{0.5\textwidth}|p{0.5\textwidth}|}
-\hline
-\textbf{Constraint} & \textbf{Erläuterung}\\
-\hline
 
 \begin{center}
 
@@ -105,8 +83,7 @@ Aktivität A muss als erste Aktivität ausgeführt werden
     \end{center}&
 
 \textbf{responded existence} \newline  Falls A ausgeführt wird, muss B entweder davor oder danach ebenfalls ausgeführt werden. \newline
-Beispiel: Korrekt: [A,B]; [B,A]; Inkorrekt:[A];
-\\
+Beispiel: Korrekt: [A,B]; [B,A]; Inkorrekt:[A];\\
 \hline
 \begin{center}
 
@@ -140,11 +117,6 @@ Beispiel: Korrekt: [A,C,B,B,A]; Inkorrekt:[C,B,B,A]
     \end{center}&
 \textbf{succession} \newline Verlangt, dass die beiden Constraints precedence und response zwischen den Aktivitäten A und B eingehalten werden. Somit muss jede Aktivität A von Aktivität B gefolgt werden und für jede Aktivität B muss eine Aktivität A vorhanden sein. \newline
 Beispiel: Korrekt: [A,C,A,B,B]; Inkorrekt: [A,C]\\
-\hline
-\end{tabular}
-\begin {table}
-
-\begin{tabular}{|p{0.5\textwidth}|p{0.5\textwidth}|}
 
 \hline
 
@@ -197,19 +169,7 @@ Beispiel: Korrekt: [B,A,C,B,A,B] ; Inkorrekt: [B,A,C,A,B,A,B] \\
 \textbf{chain succession} \newline  Stellt eine Kombination aus chain response und chain precedence dar und verlangt, dass Aktivität A und Aktivität B jeweils nebeneinander ausgeführt werden. \newline
 Beispiel: Korrekt: [A,B,C,A,B,A,B]; Inkorrekt: [A,B,C,A,B,A,B,A,C]\\
 \hline
- \end{tabular}
- \caption{Relation Constraints ConDec}
-\label{tab:relation}
- \end{table}
-
  
-%Tabelle Neu
-
-\begin{tabular}{|p{0.5\textwidth}|p{0.5\textwidth}|}
-\hline
-\textbf{Constraint} & \textbf{Erläuterung}\\
-\hline
-
 \begin{center}
 
   \includegraphics[scale=0.5]{Choice} %pdf, jpg, png...
@@ -225,7 +185,7 @@ Beispiel: Korrekt: [A]; [B]; Inkorrekt:[ ];
     \end{center} &
     \textbf{choice 1 of 3}\newline
 Mindestens eine der drei Aktivitäten A,B oder C muss ausgeführt werden.. \newline
-Beispiel: Korrekt: [A]; Inkorrekt:[]
+Beispiel: Korrekt: [A]; [B];[C]; Inkorrekt:[]
 \\
 \hline
 \begin{center}
@@ -236,13 +196,6 @@ Beispiel: Korrekt: [A]; Inkorrekt:[]
 Beispiel: Korrekt: [A,C,A,B,B]; Inkorrekt: [C]\\
 \hline
 
-\end{tabular}
-
-\begin {table}
-
-\begin{tabular}{|p{0.5\textwidth}|p{0.5\textwidth}|}
-
-\hline
 \begin{center}
 
   \includegraphics[scale=0.5]{ExclusiveChoice} %pdf, jpg, png...
@@ -258,18 +211,6 @@ Beispiel: Korrekt: [A,C,A,B,B]; Inkorrekt: [C]\\
 \textbf{exclusive choice 1 of 3} \newline
  Entweder A oder B oder C kann ausgeführt werden. \newline
   Beispiel:  Korrekt: [A]; [B]; [C]; Inkorrekt: [A,B]; [A,C]; [B,C] \\
-\hline
- \end{tabular}
- \caption{Choice Constraints ConDec}
-\label{tab:relation}
- \end{table}
- 
- %Neue Tabelle
- 
- 
- \begin {table}[H]
-
-\begin{tabular}{|p{0.5\textwidth}|p{0.5\textwidth}|}
 \hline
 \begin{center}
 
@@ -289,7 +230,7 @@ Beispiel: Korrekt: [A,C,A,B,B]; Inkorrekt: [C]\\
 \textbf{not succession}\newline
   Verlangt, dass falls Aktivität A ausgeführt wird, darf Aktivität B nicht danach ausgeführt werden.
   \newline
-  Beispiel: Korrekt: [B,B,C,A,C,A,A] ; Inkorrekt: [A,C,B]\\
+  Beispiel: Korrekt: [B,C,A,C,A] ; Inkorrekt: [A,C,B]\\
 \hline
 
 \hline
@@ -303,9 +244,7 @@ Beispiel: Korrekt: [A,C,A,B,B]; Inkorrekt: [C]\\
   Beispiel: Korrekt: [A,C,B,C] ; Inkorrekt: [B,A,B,A] \\
 \hline
 
- \end{tabular}
- \caption{Negotation Constraints ConDec}
-\label{tab:relation}
- \end{table}
+ \caption{Constraints ConDec \cite{Montali2010, Pesic200}}
+ \end{longtable}
 
-\cite{Montali2010, Pesic200}
+
