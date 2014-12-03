@@ -1,15 +1,14 @@
-\chapter{Imperative und deklarative Modellierung für Softwareentwicklungsprozesse}\label{sec:chapter6}
-In diesem Kapitel wird ein Vergleich der Anwendbarkeit zwischen imperativer und deklarativer Modellierung für Softwareentwicklungsprozesse gezogen. Als Erstes wird dieser Vergleich in Kapitel 5.1 für das Softwareentwicklungsprozess Scrum durchgeführt. Hierfür wird zunächst in Kapitel 5.1 das der Modellierung zugrunde liegende Modell, das Softwareentwicklungsprozess Scrum, vorgestellt und in Kapitel 5.1.1 für die Modellierung analysiert. Danach erfolgt in Kapitel 5.1.2 die imperative Modellierung in der imperativen Prozessmodellierungssprache BPMN und anschließend die deklarative Modellierung in der deklarativen Prozessmodellierungssprache ConDec in Kapitel 5.1.3. Danach erfolgt  in Kapitel 5.1.4 der Vergleich zwischen den beiden Modellen.\newline
-Der zweite Softwareentwicklungsprozess, welcher in diesem Kapitel in imperativer und deklarativer Prozessmodellierungssprache verglichen werden soll, ist der Open Unified Process (Open UP). Auch hier erfolgt zunächst eine kurze Einführung in den Open UP in Kapitel 5.2, bevor dieser in Kapitel 5.2.1 analysiert wird, damit er in den Kapiteln 5.2.2 und 5.2.3 in imperativer, bzw. deklarativer Prozessmodellierungssprache modelliert werden kann. Hiernach erfolgt in Kapitel 5.2.4 der Vergleich zwischen den imperativen und deklarativen Prozessmodellen.\newline
-Zuletzt werden noch für das V-Modell XT die Prozessmodelle erstellt und verglichen. Eine Einführung in das V-Modell XT erfolgt in Kapitel 5.3. In Kapitel 5.3.1 wird für dieses als Vorbereitung für die Modellierung eine Analyse durchgeführt und in den Kapiteln 5.3.2 und 5.3.3 erfolgt die Modellierung in imperativer und deklarativer Prozessmodellierungssprache. Der Vergleich hierzu erfolgt in Kapitel 5.3.4.\newline
+\chapter{Modellierung für SE-Prozessmodelle}\label{sec:chapter6}
+In diesem Kapitel wird ein Vergleich der Anwendbarkeit zwischen imperativer und deklarativer Modellierung für SE-Prozessmodelle gezogen. Als Erstes wird dieser Vergleich in Kapitel 5.1 für das SE-Prozessmodell Scrum durchgeführt. Hierfür wird zunächst in Kapitel 5.1 das der Modellierung zugrunde liegende Modell, das SE-Prozessmodell Scrum, vorgestellt und für die Modellierung analysiert. Danach erfolgt die imperative Modellierung in der imperativen Prozessmodellierungssprache BPMN und anschließend die deklarative Modellierung in der deklarativen Prozessmodellierungssprache ConDec. Danach erfolgt der Vergleich zwischen den beiden Modellen.\newline
+Der zweite SE-Prozessmodell, welcher in diesem Kapitel in imperativer und deklarativer Prozessmodellierungssprache verglichen werden soll, ist der Open Unified Process (Open UP). Auch hier erfolgt zunächst eine kurze Einführung in den Open UP in Kapitel 5.2, bevor dieser in Kapitel 5.2.1 analysiert wird, damit er in imperativer, bzw. deklarativer Prozessmodellierungssprache modelliert werden kann. Hiernach erfolgt der Vergleich zwischen den imperativen und deklarativen Prozessmodellen.\newline
+Zuletzt werden noch für das V-Modell XT die Prozessmodelle erstellt und verglichen. Eine Einführung in das V-Modell XT erfolgt in Kapitel 5.3. In Kapitel 5.3.1 wird für dieses als Vorbereitung für die Modellierung eine Analyse durchgeführt und es erfolgt die Modellierung in imperativer und deklarativer Prozessmodellierungssprache. Anschließend erfolgt der Vergleich erfolgt hierzu.\newline
 Kapitel 5.4 widmet sich dem Vergleich zwischen allen Modellen insgesamt. Hier werden die Ergebnisse der Vergleiche aus den vorigen drei Kapiteln zusammengefasst und es werden allgemeine Schlüsse gezogen.\newline
 
 
 \section{Scrum}\label{sec:chapter6:Imperative Modellierung}
 
 Der Begriff Scrum stammt aus dem Artikel "The New New Product Development Game", welchen Hirotaka Takeuchi und Ikujiro Nonaka im Harvard Business Review 1986 veröffentlicht haben. Sie beschrieben einen ganzheitlichen Ansatz, bei dem kleine, funktionsübergreifende Teams zusammen an einem gemeinsamen Ziel arbeiten. Dies verglichen sie mit der Scrum-Formation beim Rugby \cite{Pham2012,Takeuchi1986}. \newline
-Bei Scrum handelt es sich um ein agiles Prozessmodell, welches seit Anfang 1990 für komplexe Entwicklungen verwendet wird. Agile Prozessmodelle werden den leichtgewichtigen Prozessmodellen zugeordnet \cite{Hanser2010, Lacey2012}. Einen ersten Überblick über das Scrum-Prozessmodell gibt Abbildung \ref{fig:Scrum}:
-
+Bei Scrum handelt es sich um ein agiles Prozessmodell, welches seit Anfang 1990 für komplexe Entwicklungen verwendet wird. Agile Prozessmodelle werden den leichtgewichtigen Prozessmodellen zugeordnet \cite{Hanser2010, Lacey2012}. Einen ersten Überblick über das Scrum-Prozessmodell gibt Abbildung \ref{fig:Scrum}.
 \begin{figure}[htp]
 \begin{center}
   \includegraphics[scale=0.6]{Scrum} %pdf, jpg, png...
@@ -17,22 +16,21 @@ Bei Scrum handelt es sich um ein agiles Prozessmodell, welches seit Anfang 1990 
   \label{fig:Scrum}
 \end{center}
 \end{figure}
-
-Der genaue Ablauf im Scrum-Prozessmodell wird nachfolgend genau analysiert.
+Der genaue Ablauf im Scrum-Prozessmodell wird nachfolgend analysiert.
 
 \subsection{Analyse Scrum}
 
 
 Im Scrum-Prozessmodell gibt es nur drei verschiedene Rollen: Den \textit{Product Owner}, das \textit{Team} und den \textit{Scrum Master}. Sämtliche Verantwortlichkeiten innerhalb eines Projektes werden hierbei auf diese drei Rollen aufgeteilt \cite{Schwaber2004}. \newline
 
-Der \textit{Procuct Owner} ist verantwortlich, die Interessen aller am Projekt beteiligten Personen zu vertreten. Neben der Budgetierung des Projektes erstellt er  Releasepläne und fertigt den \textit{Produkt-Backlog} an, welcher eine Liste mit funktionalen und nicht-funktionalen Anforderungen darstellt \cite{Schwaber2004, Pichler2010,Schwaber2007}. Weiterhin priorisiert er die Aufgaben, welche von den Entwicklern im \textit{Sprint} erledigt werden sollen, so dass die aktuell nützlichsten Elemente die höchste Priorität haben. Er erstellt eine Liste dieser Elemente, welche \textit{Sprint-Backlog} genannt wird \cite{Henning2011, Schwaber2007,Pichler2010}. Der \textit{Procuct Owner} ist ebenfalls zuständig für das Annehmen, bzw. Ablehnen der Arbeitsergebnisse \cite{eclipseScrum}. \newline
+Der Procuct Owner ist verantwortlich, die Interessen aller am Projekt beteiligten Personen zu vertreten. Neben der Budgetierung des Projektes erstellt er  Releasepläne und fertigt den \textit{Produkt-Backlog} an, welcher eine Liste mit funktionalen und nicht-funktionalen Anforderungen darstellt \cite{Schwaber2004, Pichler2010,Schwaber2007}. Weiterhin priorisiert er die Aufgaben, welche von den Entwicklern im \textit{Sprint} erledigt werden sollen, so dass die aktuell nützlichsten Elemente die höchste Priorität haben. Er erstellt eine Liste dieser Elemente, welche \textit{Sprint-Backlog} genannt wird \cite{Henning2011, Schwaber2007,Pichler2010}. Der Procuct Owner ist ebenfalls zuständig für das Annehmen, bzw. Ablehnen der Arbeitsergebnisse \cite{eclipseScrum}. \newline
 
-Die \textit{Teams} bestehen bei Scrum für gewöhnlich aus fünf bis neun Mitgliedern und verwalten sich selbst. Ihre Tätigkeiten müssen erfolgreich sein, liegen aber in ihrer eigenen Verantwortung \cite{Pries2011, Wolf2011}. Alle Teammitglieder sind gemeinsam für den Erfolg eines jeden \textit{Sprints} und des gesamten Projektes zuständig \cite{Pichler2010}. \newline
+Die Teams bestehen bei Scrum für gewöhnlich aus fünf bis neun Mitgliedern und verwalten sich selbst. Ihre Tätigkeiten müssen erfolgreich sein, liegen aber in ihrer eigenen Verantwortung \cite{Pries2011, Wolf2011}. Alle Teammitglieder sind gemeinsam für den Erfolg eines jeden \textit{Sprints} und des gesamten Projektes zuständig \cite{Pichler2010}. \newline
 
-Der \textit{Scrum-Master} ist für den gesamten Scrum-Prozess verantwortlich. Dies schließt die Vermittlung von Scrum-Inhalten (z.B. Schulungen) und die Implementation von Scrum in die Unternehmenskultur ein \cite{Pichler2010}. Er überwacht die Sprint- Tasks, um sicher zu gehen, dass der Sprint erfolgreich verläuft.\newline
+Der Scrum-Master ist für den gesamten Scrum-Prozess verantwortlich. Dies schließt die Vermittlung von Scrum-Inhalten (z.B. Schulungen) und die Implementation von Scrum in die Unternehmenskultur ein \cite{Pichler2010}. Er überwacht die Sprint- Tasks, um sicher zu gehen, dass der Sprint erfolgreich verläuft.\newline
 
-Bei Scrum wird die Entwicklung in mehrere kurze Zyklen, also Iterationen eingeteilt. Eine einzelne Iteration wird bei Scrum \textit{Sprint} genannt \cite{Henning2011}. Die Dauer eines \textit{Sprints} beträgt zwei bis vier Wochen. Am Ende eines jeden Sprints muss das \textit{Team} ein lauffähiges Produkt abliefern \cite{Wolf2011}. Vor jedem \textit{Sprint} findet ein \textit{Sprint Planning Meeting} statt, welches sich aus zwei Teilen zusammensetzt \cite{Pichler2010}. Im ersten Teil findet eine Planung des nächsten \textit{Sprints} statt \cite{Lacey2012}. Hierfür präsentiert der \textit{Product Owner} dem \textit{Team} eine Liste der Product-Backlog-Elemente mit der aktuell höchsten Priorität \cite{Schwaber2004, Schwaber2007,Pichler2010}. Diese Liste wird \textit{Sprint-Backlog} genannt \cite{Wolf2011}. Das \textit{Team} hat die Möglichkeit, Fragen bezüglich Inhalt, Zweck, Bedeutung und Absichten der \textit{Sprint-Backlog}-Elemente zu stellen. Anschließend werden die einzelnen Elemente aus dem \textit{Sprint-Backlog} in sogenannte \textit{Tasks} aufgeteilt, welche jeweils eine ideale Bearbeitungszeit von zwei bis vier Stunden haben, aber niemals länger als zwei Tage dauern sollten \cite{Wolf2011}. Das \textit{Team} kann sich die Aufgaben eigenverantwortlich aufteilen und muss sich anschließend dem \textit{Product  Owner} verpflichten, die \textit{Tasks} bis zum Abschluss des \textit{Sprints} zu erledigen \cite{Wolf2011, Keith2010,Pichler2010}.
-Das  \textit{Team} trifft sich während des \textit{Sprints} täglich in einem 15-minütigen Meeting, dem \textit{täglichem Scrum-Meeting}. Dabei redet das \textit{Team} über seinen Fortschritt und eventuelle Probleme bei seiner Arbeit \cite{Keith2010}. Hier muss jedes Teammitglied die nachfolgenden drei Fragen beantworten \cite{Wolf2011}:
+Bei Scrum wird die Entwicklung in mehrere kurze Zyklen, also Iterationen eingeteilt. Eine einzelne Iteration wird bei Scrum \textit{Sprint} genannt \cite{Henning2011}. Die Dauer eines Sprints beträgt zwei bis vier Wochen. Am Ende eines jeden Sprints muss das Team ein lauffähiges Produkt abliefern \cite{Wolf2011}. Vor jedem Sprint findet ein \textit{Sprint Planning Meeting} statt, welches sich aus zwei Teilen zusammensetzt \cite{Pichler2010}. Im ersten Teil findet eine Planung des nächsten Sprints statt \cite{Lacey2012}. Hierfür präsentiert der Product Owner dem Team eine Liste der Product-Backlog-Elemente mit der aktuell höchsten Priorität \cite{Schwaber2004, Schwaber2007,Pichler2010}. Diese Liste wird \textit{Sprint-Backlog} genannt \cite{Wolf2011}. Das Team hat die Möglichkeit, Fragen bezüglich Inhalt, Zweck, Bedeutung und Absichten der Sprint-Backlog-Elemente zu stellen. Anschließend werden die einzelnen Elemente aus dem Sprint-Backlog in sogenannte \textit{Tasks} aufgeteilt, welche jeweils eine ideale Bearbeitungszeit von zwei bis vier Stunden haben, aber niemals länger als zwei Tage dauern sollten \cite{Wolf2011}. Das Team kann sich die Aufgaben eigenverantwortlich aufteilen und muss sich anschließend dem Product  Owner verpflichten, die Tasks bis zum Abschluss des Sprints zu erledigen \cite{Wolf2011, Keith2010,Pichler2010}.
+Das Team trifft sich während des Sprints täglich in einem 15-minütigen Meeting, dem \textit{täglichem Scrum-Meeting}. Dabei redet das Team über seinen Fortschritt und eventuelle Probleme bei seiner Arbeit \cite{Keith2010}. Hier muss jedes Teammitglied die nachfolgenden drei Fragen beantworten \cite{Wolf2011}:
    \begin{enumerate}
       \item Was habe ich seit gestern erreicht?
       \item Was werde ich heute erreichen?
@@ -41,23 +39,22 @@ Das  \textit{Team} trifft sich während des \textit{Sprints} täglich in einem 1
       
 \subsection{Imperative Modellierung Scrum}
 
-Abbildung \ref{fig:ScrumImperativ} zeigt die imperative Modellierung von Scrum. \newline
-Im Prozess gibt es die drei verschiedenen Rollen \textit{Product Owner}, \textit{Team} und \textit{Scrum Master}, was im Prozessmodell durch drei verschiedene Swimlanes dargestellt ist, welche die jeweilige Rolle repräsentieren.\newline
+Abbildung \ref{fig:ScrumImperativ} zeigt die imperative Modellierung von Scrum. Im Prozess gibt es die drei verschiedenen Rollen \textit{Product Owner}, \textit{Team} und \textit{Scrum Master}, was im Prozessmodell durch drei verschiedene Swimlanes dargestellt ist. Manche Aktivitäten werden auch von mehreren Rollen ausgeführt. Da dies jedoch in BPMN nicht darstellbar ist, werden die entsprechenden Aktivitäten nachfolgend immer dem Hauptakteur zugeteilt.\newline
 Parallel zu allen anderen Aktivitäten des Teams und des Product Owners muss der Scrum-Master stets den Scrum-Prozess managen. Dies wird im Prozessmodell durch das parallele Gateway dargestellt. \newline
 Der Product Owner schätzt als erste Aktivität den Product Backlog ab. Anschließend priorisiert er den Product Backlog und erstellt parallel dazu die Releasepläne. \newline
-Wenn alle zwei bis vier Wochen ein neuer Sprint beginnt, was hier durch ein Zeitereignis dargestellt ist, so wird zuerst das Sprint Planning Meeting durchgeführt. Dies ist hier als Unterprozess in Abbildung \ref{fig:ScrumImperativUnter} dargestellt. Zunächst priorisiert der Product Owner die Anforderungen, welche während des Sprints erledigt werden müssen und erstellt danach den Sprint Backlog. Anschließend teilt sich dann das Team selbstständig die Sprint Backlog-Elemente in Tasks ein.\newline
+Wenn alle zwei bis vier Wochen ein neuer Sprint beginnt, was hier durch ein Zeitereignis dargestellt ist, so wird zuerst das Sprint Planning Meeting durchgeführt. Dies ist hier als Unterprozess in Abbildung \ref{fig:ScrumImperativUnter} dargestellt. Zunächst priorisiert der Product Owner die Anforderungen, welche während des Sprints erledigt werden müssen, und erstellt danach den Sprint Backlog. Anschließend teilt sich das Team selbstständig die Sprint Backlog-Elemente in Tasks ein.\newline
 Im Anschluss findet ein Sprint-Rückblick statt (Abbildung \ref{fig:ScrumImperativ}) und der Product Owner veranstaltet ein Sprint Review Meeting.\newline
 Das Team führt während des Sprints täglich ein 15-minütiges Scrum Meeting durch und jedes Teammitglied arbeitet eine Task nach der anderen ab. Dies wird hier als Schleife dargestellt: Solange noch weitere Tasks vorhanden sind, führt das Exklusive Gateway immer wieder zurück zur Aktivität \textit{Tasks abarbeiten}. Erst wenn keine weiteren Tasks mehr vorhanden sind, führt der Prozess weiter zum nächsten Entscheidungspunkt.\newline
 Sind noch weitere Aufgaben im Product Backlog vorhanden, die noch erledigt werden müssen, so beginnt ein weiterer Sprint, was hier durch eine Rückschleife dargestellt ist. Ist jedoch schon der komplette Product Backlog abgearbeitet, so endet der Prozess hier.
 
 
-\begin{figure}[htp]
+\begin{sidewaysfigure}[htp]
 \begin{center}
   \includegraphics[width=\textwidth]{ScrumImperativ} %pdf, jpg, png...
   \caption{Imperative Modellierung Scrum}
   \label{fig:ScrumImperativ}
 \end{center}
-\end{figure}
+\end{sidewaysfigure}
 
 \begin{figure}[htp]
 \begin{center}
@@ -70,12 +67,11 @@ Sind noch weitere Aufgaben im Product Backlog vorhanden, die noch erledigt werde
 
 \subsection{Deklarative Modellierung Scrum}
 
-Abbildung \ref{fig:ScrumDecHaupt} zeigt die deklarative Modelliereung von Scrum.\newline
-Der Prozess beginnt mit der Aktivität \textit{Product Backlog} abschätzen. Dies ist hier durch das init-Constraint gekennzeichnet. Weiterhin wird diese Aktivität im Prozess genau einmal ausgeführt was durch das Exactly (1)- Constraint dargestellt ist. Das Constraint \textit{succession} gibt an, dass die Aktivität \textit{Product Backlog abschätzen} vor den Aktivitäten \textit{Product Backlog priorisieren} und \textit{Releasepläne erstellen} ausgeführt werden müssen und dass die Aktivitäten \textit{Product Backlog priorisieren} und \textit{Releasepläne erstellen} auf jeden Fall nach \textit{Product Backlog abschätzen} durchgeführt werden müssen. \textit{Product Backlog priorisieren} und \textit{Releasepläne erstellen} werden ebenfalls genau einmal ausgeführt, was durch das Exactly (1)- Constraint festgelegt wird.  \newline
+Abbildung \ref{fig:ScrumDecHaupt} zeigt die deklarative Modelliereung von Scrum. Der Prozess beginnt mit der Aktivität "Product Backlog abschätzen". Dies ist hier durch das Init-Constraint gekennzeichnet. Weiterhin wird diese Aktivität im Prozess genau einmal ausgeführt was durch das Exactly (1)- Constraint dargestellt ist. Das Constraint \textit{succession} gibt an, dass die Aktivität \grqq Product Backlog abschätzen\grqq \ vor den Aktivitäten \grqq Product Backlog priorisieren\grqq \ und \grqq Releasepläne erstellen\grqq \ ausgeführt werden müssen und dass die Aktivitäten \grqq Product Backlog priorisieren\grqq \ und \grqq Releasepläne erstellen\grqq \ auf jeden Fall nach \grqq Product Backlog abschätzen\grqq \ durchgeführt werden müssen. \grqq Product Backlog priorisieren\grqq \ und \grqq Releasepläne erstellen\grqq \ werden ebenfalls genau einmal ausgeführt, was durch das Exactly (1)- Constraint festgelegt wird.  \newline
 
-Nach deren Ausführung muss die Aktivität \textit{alle 2-4 Wochen Sprint Planning Meeting durchfuehren} erfolgen. Der zugehörige Unterprozess ist in Abbildung \ref{fig:ScrumDecUnterprozess} zu finden. Hier sind die Aktivitäten \textit{Anforderungen priorisieren}, \textit{Sprint Backlog erstellen} und \textit{Sprint-Backlog-Elemente in Tasks einteilen} durch das Constraint \textit{precedence} miteinander verbunden, um die Einhaltung deren Reihenfolge nacheinander zu gewährleisten. Außerdem dürfen diese Aktivitäten pro Ausführung des Unterprozesses, also pro Prozessinstanz nur einmal ausgeführt werden.\newline
-Nach der Ausführung der Aktivitäten des Unterprozesses Sprint-Planning-Meeting durchführen, muss im Anschluß die Aktivität \textit{Sprint Rückblick} durchgeführt werden. Dies wird durch das Constraint \textit{chain response} sichergestellt.Eine erneute Ausführung von  \textit{alle 24 Stunden 15-minütiges Scrum-Meeting durchführen} ist erst nach Durchführung von \textit{Sprint Rückblick} möglich (Constraint \textit{alternate precedence}). Hierdurch wird eine Schleife modelliert, welche den immer wiederkehrenden Sprint simuliert.\newline
-Die Aktivitäten \textit{alle 24 Stunden 15-minütiges Scrum-Meeting durchführen} und \textit{Tasks abarbeiten} können während des Sprints so oft wie nötig durchgeführt werden. Die Aktivitäten  \textit{alle 24 Stunden 15-minütiges Scrum-Meeting durchführen} und \textit{Tasks abarbeiten} müssen jedoch nebeneinander ausgeführt werden, was durch das Constraint \textit{succession} beschrieben ist. \newline
+Nach deren Ausführung muss die Aktivität \textit{alle 2-4 Wochen Sprint Planning Meeting durchfuehren} erfolgen. Der zugehörige Unterprozess ist in Abbildung \ref{fig:ScrumDecUnterprozess} zu finden. Hier sind die Aktivitäten \grqq Anforderungen priorisieren\grqq, \grqq Sprint Backlog erstellen\grqq \ und \grqq Sprint-Backlog-Elemente in Tasks einteilen\grqq \ durch das Constraint \textit{precedence} miteinander verbunden, um die Einhaltung deren Reihenfolge nacheinander zu gewährleisten. Außerdem dürfen diese Aktivitäten pro Ausführung des Unterprozesses, also pro Prozessinstanz nur einmal ausgeführt werden.\newline
+Nach der Ausführung der Aktivitäten des Unterprozesses Sprint-Planning-Meeting durchführen, muss im Anschluß die Aktivität \grqq Sprint Rückblick\grqq \ durchgeführt werden. Dies wird durch das Constraint \textit{chain response} sichergestellt.Eine erneute Ausführung von \grqq alle 24 Stunden 15-minütiges Scrum-Meeting durchführen\grqq \ ist erst nach Durchführung von \grqq Sprint Rückblick\grqq \ möglich (Constraint \textit{alternate precedence}). Hierdurch wird eine Schleife modelliert, welche den immer wiederkehrenden Sprint simuliert.\newline
+Die Aktivitäten \grqq alle 24 Stunden 15-minütiges Scrum-Meeting durchführen\grqq \ und \grqq Tasks abarbeiten\grqq \ können während des Sprints so oft wie nötig durchgeführt werden. Die Aktivitäten \grqq alle 24 Stunden 15-minütiges Scrum-Meeting durchführen\grqq \ und \grqq Tasks abarbeiten\grqq \ müssen jedoch nebeneinander ausgeführt werden, was durch das Constraint \textit{succession} beschrieben ist. \newline
 
 
 \begin{figure}[htp]
@@ -99,7 +95,7 @@ Die Aktivitäten \textit{alle 24 Stunden 15-minütiges Scrum-Meeting durchführe
 
 \subsection{Vergleich}
 
-Der Vergleich zwischen den in der deklarativen Prozessmodellierungssprache ConDec und dem in der imperativen Prozessmodellierungssprache BPMN erstellten Scrum Prozessmodell wird im Folgenden anhand der in Kapitel 5 definierten Anforderungen durchgeführt. \newline
+Der Vergleich zwischen den in der deklarativen Prozessmodellierungssprache ConDec und in der imperativen Prozessmodellierungssprache BPMN erstellten Scrum Prozessmodell wird im Folgenden anhand der in Kapitel 5 definierten Anforderungen durchgeführt. \newline
 Wie Abbildung \ref{fig:ScrumExcel} entnommen werden kann, unterscheidet sich die Anzahl der Aktivitäten zwischen den in BPMN und ConDec modellierten Prozessmodellen nicht voneinander. In jedem Prozessmodell gibt es 12 Aktivitäten. Damit handelt es sich hier um ein großes Modell (großes Modell hier definiert als Modell mit > 5 Aktivitäten).\newline
 
 \begin{figure}[htp]
@@ -156,18 +152,18 @@ Abbildung \ref{fig:TabelleScrum} zeigt die Ergbenisse des Vergleichs von BPMN un
 \section{Open Unified Process (Open UP)}
 
 
-Der Open Unified Process, kurz Open UP ist eine frei zugängliche Variante des Rational Unified Process, welcher ein sehr bekannter Entwicklungsprozess ist \cite{hauber2010}.  Er ist Teil des Eclipse Process Frameworks. Open UP ist ein iterativer, inkrementeller und minimaler Prozess, aber dennoch vollständig und erweiterbar \cite{Gau2006, Basem2010}. Der Prozess ist minimal gehalten, weil er nur die wesentlichen Inhalte einbezieht. Trotzdem ist er vollständig, da er als Prozess benutzt werden kann, um ein Softwaresystem zu entwickeln. Er ist außerdem auch erweiterbar, da er als Grundlage herangezogen werden kann und mit weiteren Prozessfragmenten aufgestockt und nach Belieben zugeschnitten werden kann \cite{Wang2007}. Das Konzept des Open UP ist es, den Prozess zu vergrößern, sich aber auf das Minimum, welches für das Projekt benötigt wird, zu beschränken, anstatt zu versuchen große, überladene Prozesse zu verstehen und diese dann zu verkleinern \cite{ambler2012}.  \newline
+Der Open Unified Process, kurz Open UP ist eine frei zugängliche Variante des Rational Unified Process, welcher ein sehr bekannter Entwicklungsprozess ist \cite{hauber2010}.  Er ist Teil des Eclipse Process Frameworks. Open UP ist ein iterativer, inkrementeller und minimaler Prozess, aber dennoch vollständig und erweiterbar \cite{Gau2006, Basem2010}. Der Prozess ist minimal gehalten, weil er nur die wesentlichen Inhalte einbezieht. Er ist außerdem auch erweiterbar, da er als Grundlage herangezogen werden kann und mit weiteren Prozessfragmenten aufgestockt und nach Belieben zugeschnitten werden kann \cite{Wang2007}. Das Konzept des Open UP ist, den Prozess zu vergrößern, sich aber auf das Minimum, welches für das Projekt benötigt wird, zu beschränken, anstatt zu versuchen große, überladene Prozesse zu verstehen und diese dann zu verkleinern \cite{ambler2012}.  \newline
 
 
 
-Open UP ist auf kleine Teams ausgerichtet, bei welchen bei der Zusammenarbeit räumliche Nähe besteht. Die Teammitglieder haben hierbei die Freiheit, ihre eigenen Entscheidungen bezüglich ihren aktuellen Aufgaben und Prioritäten zu treffen, um die Anforderungen der Stakeholder zu erfüllen. Das Team trifft sich täglich, um über den aktuellen Status zu reden \cite{OpenUPProcess}.\newline
+Open UP ist auf kleine Teams ausgerichtet, bei denen bei der Zusammenarbeit räumliche Nähe besteht. Die Teammitglieder haben hierbei die Freiheit, ihre eigenen Entscheidungen bezüglich ihren aktuellen Aufgaben und Prioritäten zu treffen, um die Anforderungen der Stakeholder zu erfüllen. Das Team trifft sich täglich, um über den aktuellen Status zu reden \cite{OpenUPProcess}.\newline
 Es werden Rollen, Aufgaben, Artefakte und Ebenen in Open UP definiert. Dies soll ermöglichen, dass verschiedene Sichten, die sich in ihrem Detaillierungsgrad unterscheiden, auf das Projekt möglich sind \cite{freudenreichevaluierung}. Einen ersten Überblick über Open UP gibt Abbildung \ref{fig:openup}.
 
 
 \begin{figure}[htp]
 \begin{center}
   \includegraphics[width=\linewidth]{openup} %pdf, jpg, png...
-  \caption{Open Up Überblick nach \cite{eclipseopenup}}
+  \caption{Open UP Überblick nach \cite{eclipseopenup}}
   \label{fig:openup}
 \end{center}
 \end{figure}
@@ -179,7 +175,7 @@ Der Open UP wird im Folgenden analysiert.
 
 Auf der persönlichen Ebene teilen sich die Teammitglieder ihre Arbeit in \textit{Mikro-Inkremente} ein. Diese stellen das Ergebnis von Stunden, bzw. wenigen Tagen Arbeit dar. Die Arbeit entwickelt sich somit ein Mikro-Inkrement weiter und der Fortschritt kann Tag für Tag nachvollzogen werden. Die Teammitglieder teilen ihre Fortschritte täglich miteinander, was die Arbeitstransparenz und das Vertrauen erhöht und die Teamarbeit fördert \cite{eclipseopenup}. \newline
 
-Auf der Team-Ebene wird das Projekt in Iterationen unterteilt, welche einen Zeitraum von mehreren Wochen umfassen, mit dem Ziel am Ende eines Iterationszyklus ein funktionierendes Softwareinkrement zu haben. Dieses Inkrement stellt eine Version des Softwaresystems dar welche zusätzliche oder verbesserte Funktionalitäten besitzt als die vorherige Version \cite{Basem2010}.  In jeder Iteration wird ein Iterationsplan angefertigt,  der vorgibt, was in dieser Iteration geliefert werden muss und auf welchen sich das Team verpflichten muss \cite{freudenreichevaluierung}.
+Auf der Team-Ebene wird das Projekt in Iterationen unterteilt, welche einen Zeitraum von mehreren Wochen umfassen. Das Ziel ist es, am Ende eines Iterationszyklus ein funktionierendes Softwareinkrement zu haben. Dieses Inkrement stellt eine Version des Softwaresystems dar welche zusätzliche oder verbesserte Funktionalitäten besitzt als die vorherige Version \cite{Basem2010}.  In jeder Iteration wird ein Iterationsplan angefertigt,  der vorgibt, was in dieser Iteration geliefert werden muss und auf welchen sich das Team verpflichten muss \cite{freudenreichevaluierung}.
 
 Auf Stakeholder-Ebene wird diesen durch den \textit{Projektlebenszyklus} die Möglichkeit gegeben, die Projektfinanzierung, den Umfang, das Risiko und andere Aspekte des Prozesses zu kontrollieren.
 Der Open UP teilt den \textit{Projektlebenszyklus} in die vier Phasen \textit{Inception}, \textit{Elaboration}, \textit{Construction} und \textit{Transition} ein, über welche Abbildung \ref{fig:Phasen} einen Überblick gibt \cite{eclipseopenup}.
@@ -193,7 +189,7 @@ Der Open UP teilt den \textit{Projektlebenszyklus} in die vier Phasen \textit{In
 \end{figure}
 
 
-In jeder Phase finden eine oder mehrere Iterationen statt und werden mit einem Meilenstein abgeschlossen \cite{Basem2010}. In der Phase \textit{Inception} ist dies der Zielsetzung- Meilenstein, in der Phase \textit{Elaboration} der Architektur- Meilenstein, in der Phase \textit{Construction} der Einsatzfähigkeit- Meilenstein und in der Phase \textit{Transition} der Produkt- Release- Meilenstein. Tabelle \ref{tab:tab1} zeigt die Abläufe in den Iterationen in den einzelnen Phasen und die zugehörigen Zielstellungen.
+In jeder Phase finden eine oder mehrere Iterationen statt und werden mit einem Meilenstein abgeschlossen \cite{Basem2010}. In der Phase Inception ist dies der Zielsetzungmeilenstein, in der Phase Elaboration der Architekturmeilenstein, in der Phase Construction der Einsatzfähigkeitmeilenstein und in der Phase Transition der Produktreleasemeilenstein. Tabelle \ref{tab:tab1} zeigt die Abläufe den Iterationen in den einzelnen Phasen und die zugehörigen Zielstellungen.
 \begin{longtable}{|p{7cm}|p{8cm}|}
 \hline
 Vorlagenmodell Iterationen & Zielsetzung der Phase \\
@@ -300,27 +296,29 @@ Die Rolle des \textit{Stakeholders} schließt alle Interessengruppen ein, deren 
 \end{center}
 \end{figure}
 
-Eine Task bezeichnet in Open UP die Arbeitseinheit einer Rolle, welche von dieser durchgeführt werden soll. Insgesamt gibt es 18 Tasks, die von den verschiedenen Rollen entweder als Primär-Darsteller (der Verantwortliche für die Durchführung der Aufgabe) oder als zusätzlicher Darsteller (Unterstützung und Bereitstellung von Informationen, die in der Task- Ausführung verwendet werden), durchgeführt werden. Hierdurch wird der kollaborative Charakter von Open UP gefestigt \cite{eclipseopenup}.
+Eine Task bezeichnet in Open UP die Arbeitseinheit einer Rolle, welche von dieser durchgeführt werden soll. Insgesamt gibt es 18 Tasks, die von den verschiedenen Rollen entweder als Hauptakteur (der Verantwortliche für die Durchführung der Aufgabe) oder als zusätzlicher Akteur (Unterstützung und Bereitstellung von Informationen, die in der Task- Ausführung verwendet werden), durchgeführt werden. Hierdurch wird der kollaborative Charakter von Open UP gefestigt \cite{eclipseopenup}.
 
 Ein Artefakt ist etwas, das hergestellt, modifiziert oder durch eine Task verwendet wird. Rollen sind 
 für die Erstellung und Aktualisierung von Artefakten verantwortlich. Artefakte stellen eine Versionskontrolle während des gesamten Projektlebenszyklus dar. Die 17 Artefakte in Open UP gelten als die wesentlichen Artefakte, welche ein Projekt verwenden sollte, um produkt- und projektbezogene Informationen zu erfassen. Die Informationen müssen hierbei nicht mit formalen Artefakten festgehalten werden. Dies kann auch informell, z.B. durch White-Boards oder Meeting-Notizen geschehen. Es können die Open UP Artefakte oder eigene Artefakte verwendet werden \cite{eclipseopenup}.
 
 \subsection{Imperative Modellierung Open UP}
 
+Nachfolgend werden einzelne Abschnitte des Open UP in der imperativen Prozessmodellierungssprache BPMN modelliert.
+
  \subsubsection{Phasen Open UP}
 
 In Abbildung \ref{fig:OpenUpPhasen} sind die vier Phasen des Open UP modelliert. Da jede Phase in Iterationen mehrmals durchlaufen werden kann, gibt es nach jeder Phase ein XOR-Gateway, welches im Falle einer weiteren notwendigen Iteration zum Anfang der Phase zurückführt. Diese kann sodann erneut durchlaufen werden.
 
-\begin{figure}[htp]
+\begin{sidewaysfigure}[htp]
 \begin{center}
   \includegraphics[width=\linewidth]{OpenUpPhasen} %pdf, jpg, png...
   \caption{Phasen Open UP- imperativ}
   \label{fig:OpenUpPhasen}
 \end{center}
-\end{figure}
+\end{sidewaysfigure}
 
-Abbildung \ref{fig:OpenUpInception} zeigt die imperative Modellierung der Phase Inception. Die Aktivität \textit{Projekt planen und managen} kann parallel zu allen anderen Aktivitäten des Modells ausgeführt werden.\newline
-Nach Ausführung der Aktivität \textit{Iteration planen} werden die Aktivitäten \textit{Anforderungen identifizieren und aufbereiten} und \textit{auf technisches Vorgehen einigen} parallel zueinander ausgeführt.
+Abbildung \ref{fig:OpenUpInception} zeigt die imperative Modellierung der Iteration Inception. Die Aktivität \grqq Projekt planen und managen \grqq \ kann parallel zu allen anderen Aktivitäten des Modells ausgeführt werden.\newline
+Nach Ausführung der Aktivität \grqq Iteration planen\grqq \ werden die Aktivitäten \grqq Anforderungen identifizieren und aufbereiten\grqq \ und \grqq auf technisches Vorgehen einigen\grqq \ parallel zueinander ausgeführt.
 
 \begin{figure}[htp]
 \begin{center}
@@ -330,7 +328,7 @@ Nach Ausführung der Aktivität \textit{Iteration planen} werden die Aktivitäte
 \end{center}
 \end{figure}
 
-In Abbildung \ref{fig:OpenUpElaboration} ist die imperative Modellierung der Phase Elaboration abgebildet. Die sechs Aktivtäten \textit{Anforderungen identifizieren und verfeinern, Architektur entwickeln, Lösungsinkrement entwickeln, Lösung testen, Iteration planen und managen} sowie \textit{weitere Aufgaben erledigen} werden parallel zueinander ausgeführt.
+In Abbildung \ref{fig:OpenUpElaboration} ist die imperative Modellierung der Iteration Elaboration abgebildet. Die sechs Aktivtäten \grqq Anforderungen identifizieren und verfeinern, Architektur entwickeln, Lösungsinkrement entwickeln, Lösung testen, Iteration planen und managen\grqq \ sowie \grqq weitere Aufgaben erledigen\grqq \ werden parallel zueinander ausgeführt.
 
 \begin{figure}[htp]
 \begin{center}
@@ -340,7 +338,7 @@ In Abbildung \ref{fig:OpenUpElaboration} ist die imperative Modellierung der Pha
 \end{center}
 \end{figure}
 
-Die imperative Modellierung der Phase Construction kann Abbildung \ref{fig:OpenUpConstruction} entnommen werden. Hier werden die sechs Aktivitäten \textit{Anforderungen identifizieren und verfeinern, Lösungsinkrement entwickeln, Lösung testen, Iteration planen und managen, weitere Aufgaben erledigen} und \textit{Produktdokumentation und Training erstellen} nebeneinander parallel ausgeführt.
+Die imperative Modellierung der Iteration Construction kann Abbildung \ref{fig:OpenUpConstruction} entnommen werden. Hier werden die sechs Aktivitäten \grqq Anforderungen identifizieren und verfeinern, Lösungsinkrement entwickeln, Lösung testen, Iteration planen und managen, weitere Aufgaben erledigen und \grqq Produktdokumentation und Training erstellen\grqq \ nebeneinander parallel ausgeführt.
 \begin{figure}[htp]
 \begin{center}
   \includegraphics[scale=0.8]{OpenUpConstruction} %pdf, jpg, png...
@@ -349,8 +347,7 @@ Die imperative Modellierung der Phase Construction kann Abbildung \ref{fig:OpenU
 \end{center}
 \end{figure}
 
-Abbildung \ref{fig:OpenUpTransition} kann die imperative Modellierung der Phase Transition entnommen werden.\newline
-Die Phasen \textit{Anforderungen identifizieren und verfeinern, Produkt Training durchführen, Lösungsinkrement entwickeln, Lösung testen, Iteration planen und managen, weitere Aufgaben erledigen, Produktdokumentation und Training abschließen} sowie \textit{Release deployen} werden parallel zueinander ausgeführt.
+Abbildung \ref{fig:OpenUpTransition} kann die imperative Modellierung der Iteration Transition entnommen werden. Die Phasen \grqq Anforderungen identifizieren und verfeinern, Produkt Training durchführen, Lösungsinkrement entwickeln, Lösung testen, Iteration planen und managen, weitere Aufgaben erledigen, Produktdokumentation und Training abschließen\grqq \ sowie \grqq Release deployen\grqq \ werden parallel zueinander ausgeführt.
 
 \begin{figure}[htp]
 \begin{center}
@@ -362,20 +359,20 @@ Die Phasen \textit{Anforderungen identifizieren und verfeinern, Produkt Training
 
 
 
-Im weiteren Verlauf wird aus jeder der vier Phasen Inception, Elaboration, Construction und Transition des Open UP jeweils ein Unterprozess modelliert, da die Abbildung aller Unterprozesse aus jeder Phase den Rahmen der Arbeit sprengen würde. \newline
-Somit wird für die Phase Inception der Unterprozess \textit{Iteration planen und managen}, für die Phase Elaboration der Unterprozess \textit{Anforderungen identifizieren und verfeinern}, für die Phase Construction der Unterprozess \textit{Release deployen} und für die Phase Transition der Unterprozess \textit{Produktdokumentation und Training erstellen} modelliert. Außerdem wird der in den drei Phasen Elaboration, Construction und Transition wiederkehrende Unterprozess \textit{Lösungsinkrement entwickeln} modelliert.
+Im weiteren Verlauf wird aus jeder der vier Iterationen Inception, Elaboration, Construction und Transition des Open UP jeweils ein repräsentativer Unterprozess modelliert, da die Abbildung aller Unterprozesse aus jeder Itaeration den Rahmen der Arbeit sprengen würde. \newline
+Somit wird für die Iteration Inception der Unterprozess \grqq Iteration planen und managen\grqq, für die Iteration Elaboration der Unterprozess \grqq Anforderungen identifizieren und verfeinern, für die Iteration Construction der Unterprozess \grqq Release deployen\grqq \ und für die Iteration Transition der Unterprozess \grqq Produktdokumentation und Training erstellen\grqq \ modelliert. Außerdem wird der in den drei Phasen Elaboration, Construction und Transition wiederkehrende Unterprozess \grqq Lösungsinkrement entwickeln\grqq \ modelliert.
 
 \subsubsection{Lösungsinkrement entwickeln}
 
 Im Unterprozess \textit{Lösungsinkrement entwickeln} geht es um das Design, die Implementierung, das Testen und die Integration der Lösung für eine Anforderung in einem bestimmten Kontext. Sie tritt genauso viele Male auf, wie es Arbeitsaufgaben gibt, die in einer Iteration entwickelt werden müssen.
- Handelt es sich um eine typische Veränderung, wird zunächst eine Lösung designt und anschließend ein Entwickeltest implementiert. Bei einer trivialen Änderung an der bestehenden Implementierung kann diese auch direkt in der bestehenden Architektur vorgenommen werden. \newline
+ Handelt es sich um eine nicht-triviale Veränderung, wird zunächst eine Lösung designt und anschließend ein Entwickeltest implementiert. Bei einer trivialen Änderung an der bestehenden Implementierung kann diese auch direkt in der bestehenden Architektur vorgenommen werden. \newline
  Sobald die Fragen der technischen Umsetzung geklärt sind, werden Entwicklertests implementiert, um die Implementierung zu verifizieren. Anschließend werden diese Entwicklertests ausgeführt.\newline
  Falls bei der Ausführung der Tests Fehler ersichtlich werden, muss eine Lösung für diesen Fehler implementiert werden und die Entwicklertests müssen erneut ausgeführt werden. Dies wird solange wiederholt, bis alle Tests bestanden sind.\newline
- Auch wenn alle Tests bestanden werden, sollte der Entwurf an dieser Stelle nochmals überdacht werden. Falls hier beschlossen wird, dass der Code überarbeitet werden muss, muss im Prozess zurückgegangen werden und erneut eine Lösung designt werden, da eine Änderung des Codes die Implementation und die Entwicklertests beeinflussen könnte.\newline
+An dieser Stelle kann der Entwurf nochmals überdacht werden. Falls hier beschlossen wird, dass der Code überarbeitet werden muss, muss im Prozess zurückgegangen werden und erneut eine Lösung designt werden, da eine Änderung des Codes die Implementation und die Entwicklertests beeinflussen könnte.\newline
  Da es am Besten ist, die Implementierungsteile so klein wie möglich zu halten, sollte zunächst eine kleine Design-Lösung für einen Teil der Arbeitsaufgabe entwickelt werden. Anschließend sollte dies für weitere kleine Teile solange wiederholt werden, bis die gesamte Arbeitsaufgabe implementiert ist. \newline
- In Abbildung \ref{fig:Dev} ist die imperative Modellierung von \textit{Lösungsinkrement entwickeln} abgebildet.\newline
- Die XOR-Verknüpfung am Anfang führt im Falle einer trivialen Änderung zur sofortigen Ausführung der Aktivität \textit{Entwicklertest implementieren}. Falls es sich jedoch um eine typische Änderung handelt, muss zuvor die Aktivität \textit{Lösung designen} ausgeführt werden. Im Anschluss an \textit{Entwicklertest implementieren} muss die Aktivität \textit{Entwicklertest ausführen} durchgeführt werden.\newline
- Hiernach wird im Falle eines fehlgeschlagenen Tests zunächst eine \textit{Lösung implementiert} und anschließend erneut der \textit{Entwicklertest ausgeführt}. \newline
+ In Abbildung \ref{fig:Dev} ist die imperative Modellierung von \grqq Lösungsinkrement entwickeln\grqq \ abgebildet.\newline
+ Die XOR-Verknüpfung am Anfang führt im Falle einer trivialen Änderung zur sofortigen Ausführung der Aktivität \textit{Entwicklertest implementieren}. Falls es sich jedoch um eine typische Änderung handelt, muss zuvor die Aktivität \grqq Lösung designen\grqq \ ausgeführt werden. Im Anschluss an \grqq Entwicklertest implementieren\grqq \ muss die Aktivität \grqq Entwicklertest ausführen\grqq \ durchgeführt werden.\newline
+ Hiernach wird im Falle eines fehlgeschlagenen Tests zunächst eine \grqq Lösung implementiert\grqq \ und anschließend erneut der \grqq Entwicklertest ausgeführt\grqq. \newline
  Wenn der Test bestanden ist, muss am XOR-Gateway entschieden werden, ob der Code gut designt ist. Falls nein, muss erneut eine Lösung designt werden. Falls doch, kann der Code integriert werden. Ist die Arbeit vollständig erledigt, so ist der Prozess beendet. Wenn jedoch noch weitere Arbeit vorhanden ist, beginnt er von vorne.
  
  
@@ -389,13 +386,13 @@ Im Unterprozess \textit{Lösungsinkrement entwickeln} geht es um das Design, die
 
 \subsubsection{Iteration planen und managen- Inception}
 
-Die Aktivität \textit{Iteration planen und managen} wird während des gesamten Projektlebenszyklus ausgeführt. Ihr Ziel ist es, Risiken und Probleme früh genug zu identifizieren, damit diese entschärft werden können, um die Ziele für die Iteration festzulegen und das Team dabei zu unterstützen, diese zu erreichen.\newline
+Die Aktivität \grqq Iteration planen und managen\grqq \ wird während des gesamten Projektlebenszyklus ausgeführt. Ihr Ziel ist es, Risiken und Probleme früh genug zu identifizieren, damit diese entschärft werden können, um die Ziele für die Iteration festzulegen und das Team dabei zu unterstützen, diese zu erreichen.\newline
 Die Iteration wird durch den Projektmanager und das Team gestartet. Hier findet die Priorisierung der Arbeit für eine gegebene Iteration statt. Der Projektmanager, die Stakeholder und die Teammitglieder einigen sich darauf, was während der Iteration zu entwickeln ist.\newline
 Die Teammitglieder melden sich für die Arbeitsaufgaben, die während der Iteration entwickelt werden müssen. Anschließend teilt sich jedes Teammitglied seine Arbeitsaufgaben selbstständig in Arbeitseinheiten ein und schätzt den Aufwand hierfür ab.\newline
 Während der Iteration trifft sich das Team regelmäßig, um den aktuellen Stand der Arbeit und eventuelle Probleme zu besprechen. \newline
-Abbildung \ref{fig:PlanAndManageIterationInception-2} zeigt die imperative Modellierung von \textit{Iteration planen und managen}. \newline
-Vom Projektmanager sind hierbei nacheinander die Aktivitäten \textit{Iteration planen, Umgebung vorbereiten, Iteration managen} und \textit{Ergebnisse festlegen} durchzuführen und das Team muss nacheinander die Aktivitäten \textit{Arbeitsaufgaben aussuchen, Arbeitsaufgaben in Entwicklungsaufgaben einteilen} sowie \textit{Aufwand abschätzen} ausführen. Hierbei gehen jeweils die Artefakte \textit{Arbeitseinheiten-Liste, Iterationsplan} und \textit{Risiko-Liste} in verschieden Aktivitäten als Input ein und kommen eventuell verändert als Output wieder heraus. \newline
-Die Aktivität \textit{Umgebung vorbereiten} ist als Unterprozess in Abbildung \ref{fig:Umgebungvorbereiten} dargestellt. Hier müssen vom Projektmanager die Aktivitäten \textit{Prozess Maßschneidern} und \textit{Prozess deployen} sequentiell erledigt werden, während der Tool Spezialist die Aufgaben \textit{Tools aufsetzen} und \textit{Tool-Konfiguration und Implementation verifizieren} zu erledigen hat.
+Abbildung \ref{fig:PlanAndManageIterationInception-2} zeigt die imperative Modellierung von \grqq Iteration planen und managen\grqq. \newline
+Vom Projektmanager sind hierbei nacheinander die Aktivitäten \grqq Iteration planen, Umgebung vorbereiten, Iteration managen\grqq \ und \grqq Ergebnisse festlegen\grqq \ durchzuführen und das Team muss nacheinander die Aktivitäten \grqq Arbeitsaufgaben aussuchen, Arbeitsaufgaben in Entwicklungsaufgaben einteilen\grqq \ sowie \grqq Aufwand abschätzen\grqq \ ausführen. Hierbei gehen jeweils die Artefakte \grqq Arbeitseinheiten-Liste, Iterationsplan\grqq \ und \grqq Risiko-Liste\grqq \ in verschieden Aktivitäten als Input ein und kommen eventuell verändert als Output wieder heraus. \newline
+Die Aktivität \grqq Umgebung vorbereiten\grqq \ ist als Unterprozess in Abbildung \ref{fig:Umgebungvorbereiten} dargestellt. Hier müssen vom Projektmanager die Aktivitäten \grqq Prozess Maßschneidern\grqq \ und \grqq Prozess deployen\grqq \ sequentiell erledigt werden, während der Tool Spezialist die Aufgaben \grqq Tools aufsetzen\grqq \ und \grqq Tool-Konfiguration und Implementation verifizieren\grqq \ zu erledigen hat.
 
 
 \begin{figure}[!htbp]
@@ -419,13 +416,13 @@ Die Aktivität \textit{Umgebung vorbereiten} ist als Unterprozess in Abbildung \
 
 \subsubsection{Anforderungen identifizieren und verfeinern}
  Der Unterprozess \textit{Anforderungen identifizieren und verfeinern} beschreibt die Aufgaben, welche durchzuführen sind, um die Anforderungen eines Systems zu sammeln, zu analysieren und zu validieren bevor die Implementierung und die Validierung stattfinden. Sie wird in Zusammenarbeit mit Stakeholdern und dem gesamten Entwicklungsteam ausgeführt, um sicher zu gehen, dass klare, konsistente, korrekte und nachprüfbare Anforderungen vorhanden sind.\newline
- In der Phase Elaboration liegt der Fokus hierbei auf der Definition der Lösung. Hierfür müssen diejenigen Anforderungen gefunden werden, welche für die Stakeholder am wichtigsten sind die besonders herausfordernd oder sogar riskant sind oder eine große Bedeutung für die Architektur haben.\newline
+ In der Phase Elaboration liegt der Fokus auf der Definition der Lösung. Hierfür müssen diejenigen Anforderungen gefunden werden, welche für die Stakeholder am wichtigsten sind die besonders herausfordernd oder sogar riskant sind oder eine große Bedeutung für die Architektur haben.\newline
  Dafür ist es notwendig, zunächst die funktionalen und nicht-funktionalen Anforderungen an das System zu erheben. Genau diese Anforderungen stellen dann die Basis für die Kommunikation und die Übereinstimmung zwischen den Stakeholdern und dem Entwicklungsteam dar, in Bezug auf was das System können muss, um die Wünsche der Stakeholder zu erfüllen.\newline
  Weiterhin müssen die Use-Case-Szenarien und die systemweiten Anforderungen ausführlich genug beschrieben werden, um sicher zu gehen, dass die Anforderungen richtig verstanden wurden und dass diese mit den Erwartungen der Stakeholder übereinstimmen.\newline
  Zudem müssen Testfälle und Testdaten für die Anforderungen entwickelt werden, um ein gemeinsames Verständnis für die spezifischen Bedingungen, die die Lösung erfüllen muss, zu erreichen.
- In Abbildung \ref{fig:IdentifyAndOutlineKlein} ist die imperative Modellierung von \textit{Anforderungen identifizieren und verfeinern} abgebildet. \newline
- Zunächst muss der Analyst die \textit{Anforderungen identifizieren und abgrenzen}, bevor er anschließend die \textit{Use-Case-Szenarien detaillieren} kann. Daraufhin muss er die \textit{Systemweiten Anforderungen detaillieren}, damit der Tester anschließend die \textit{Testfälle erstellen} kann.\newline
- Hier gehen bei den verschiedenen Aktivitäten die Artefakte \textit{Arbeitseinheitenliste}, \textit{Use Case}, \textit{Glossar}, \textit{Systemweite Anforderungen}, \textit{Use case Modell}, \textit{Technische Spezifikation} und \textit{Testfall} als Input hinein, bzw. als Output heraus.
+ In Abbildung \ref{fig:IdentifyAndOutlineKlein} ist die imperative Modellierung von \grqq Anforderungen identifizieren und verfeinern\grqq \ abgebildet. \newline
+ Zunächst muss der Analyst die \grqq Anforderungen identifizieren und abgrenzen\grqq, bevor er anschließend die \grqq Use-Case-Szenarien detaillieren\grqq kann. Daraufhin muss er die \grqq Systemweiten Anforderungen detaillieren\grqq, damit der Tester anschließend die \grqq Testfälle erstellen\grqq kann.\newline
+ Hier gehen bei den verschiedenen Aktivitäten die Artefakte \grqq Arbeitseinheitenliste\grqq, \grqq Use Case\grqq, \grqq Glossar\grqq, \grqq Systemweite Anforderungen\grqq, \grqq Use case Modell\grqq, \grqq Technische Spezifikation\grqq \ und \grqq Testfall\grqq \ als Input hinein, bzw. als Output heraus.
  
 \begin{figure}[[!htbp]
 \begin{center}
@@ -439,9 +436,8 @@ Die Aktivität \textit{Umgebung vorbereiten} ist als Unterprozess in Abbildung \
 \subsubsection{Produktdokumentation und Training erstellen-Construction}
  Das Ziel des Unterprozesses \textit{Produktdokumentation und Training erstellen} ist es, die Produktdokumentation und Trainingsmaterial vorzubereiten. Da die Produktdokumentation oftmals erst nach Abschluss der Entwicklungstätigkeiten erstellt wird, muss sichergestellt werden, dass die Funktionen die während einer Release entwickelt werden klar dokumentiert werden, solange die Funktionalität noch frisch in den Köpfen der Teammitglieder vorhanden ist.\newline
  Hierfür ist es notwendig, dass genug Informationen über die Funktionen, die in einer bestimmten Release entwickelt wurden, dokumentiert werden, um dem Kunden während der gesamten Lebenszeit des Produkts nützlich zu sein.\newline
- Weiterhin müssen den Endnutzern nützliche Informationen bereit gestellt werden in Form von Benutzerhandbüchern, Tutorials, häufig gestellte Fragen (FAQs), Online-Hilfedateien, Installationsanweisungen und Betriebsabläufe. \newline
- Zudem muss sichergestellt werden, dass diejenigen, die mit der Unterstützung des Systems beauftragt sind, genug Informationen über das Produkt haben, um ihre Arbeit effektiv durchzuführen, nachdem das Produkt produktiv gegangen ist. \newline
- Außerdem muss die Einführung des Produkts zu ermöglicht werden und dessen ordnungsgemäße Verwendung gewährleistet werden.\newline
+ Weiterhin müssen den Endnutzern hilfreiche Informationen bereit gestellt werden in Form von Benutzerhandbüchern, Tutorials, häufig gestellte Fragen (FAQs), Online-Hilfedateien, Installationsanweisungen und Betriebsabläufe. \newline
+ Zudem muss sichergestellt werden, dass diejenigen, die mit der Unterstützung des Systems beauftragt sind, genug Informationen über das Produkt haben, um ihre Arbeit effektiv durchzuführen, nachdem das Produkt produktiv gegangen ist. Außerdem muss die Einführung des Produkts ermöglicht werden und dessen ordnungsgemäße Verwendung gewährleistet werden.\newline
  
  Die imperative Modellierung von \textit{Produktdokumentation und Training erstellen} kann Abbildung \ref{fig:DevelopProductDocumentationKlein} entnommen werden.\newline
  Hier sind vom technischen Schreiber nacheinander die Aktivitäten \textit{Produktdokumentation erstellen}, \textit{Benutzerdokumentation erstellen}, \textit{Unterstützungsdokumentation erstellen} und \textit{Trainingsmaterial erstellen} auszuführen. Aus den jeweiligen Aktivitäten entstehen sodann die Artefakte \textit{Produktdokumentation, Benutzerdokumentation, Unterstützungsdokumentation} und \textit{Trainingsmaterial}.
@@ -458,14 +454,11 @@ Die Aktivität \textit{Umgebung vorbereiten} ist als Unterprozess in Abbildung \
 \subsubsection{Release deployen-Transition}
 
 
-Das Ergebnis dieses Unterprozesses ist die Release eines Sets von integrierten Komponenten in der Integrationsumgebung. \newline
-Hierfür ist es notwendig, ein komplettes, bereitstellungsfähiges Paket zu erstellen, welches vom Deployment Engineer in die Bereitstellungsumgebung releast werden kann.\newline
+Das Ergebnis dieses Unterprozesses ist die Release eines Sets von integrierten Komponenten in der Integrationsumgebung. Hierfür ist es notwendig, ein komplettes, bereitstellungsfähiges Paket zu erstellen, welches vom Deployment Engineer in die Bereitstellungsumgebung releast werden kann.\newline
  Außerdem muss sichergestellt werden, dass der Roll-Out aus klaren, geprüften und wiederholbaren Anweisungen besteht und das Risiko eines Bereitstellungsfehlers muss minimiert werden. \newline
- Zudem muss sichergestellt werden, dass eine Release zu keinen ungewollten Unterbrechungen im Ablauf in der Produktionsumgebung führt. \newline
- Falls eine Release Probleme verursacht oder sie von den Stakeholdern als untauglich empfunden wird, muss diese Release von der Produktionsumgebung so schnell wie möglich entfernt werden. \newline
- Zusätzlich muss dafür gesorgt werden, dass Informationen über eine anstehende Release weitest möglich verteilt werden.\newline
+ Zudem muss sichergestellt werden, dass eine Release zu keinen ungewollten Unterbrechungen im Ablauf in der Produktionsumgebung führt. Falls eine Release Probleme verursacht oder sie von den Stakeholdern als untauglich empfunden wird, muss diese Release von der Produktionsumgebung so schnell wie möglich entfernt werden. Zusätzlich muss dafür gesorgt werden, dass Informationen über eine anstehende Release weitest möglich verteilt werden.\newline
  
-  Abbildung \ref{fig:DeployReleaseTransitionKlein} zeigt die imperative Modellierung von \textit{Release deployen}.\newline
+  Abbildung \ref{fig:DeployReleaseTransitionKlein} zeigt die imperative Modellierung von \textit{Release deployen}.
   Somit muss der Entwickler zunächst die \textit{Release zusammenstellen}, bevor der Deployment Engineer nacheinander die Aktivitäten \textit{Deploymentplan ausführen} und \textit{erfolgreiches Deployment sicherstellen} ausführt. Falls das Deployment erfolgreich ist, wird gleich anschließend die Aktivität \textit{Releasemitteilungen übermitteln} ausgeführt. Ist das Deployment nicht erfolgreich, muss zunächst die Aktivität \textit{Backoutplan ausführen} erledigt werden und erst danach die Aktivität \textit{Releasemitteilungen übermitteln} ausgeführt werden.
 
 
@@ -501,8 +494,8 @@ In Abbildung \ref{fig:OpenUpPhasenDec} sind die vier Phasen des Open UP deklarat
 
 
 
-Abbildung \ref{fig:InceptionDecUnter} zeigt die deklarative Modellierung der Phase Inception. Die Aktivität \textit{Projekt planen und managen} kann parallel zu allen anderen Aktivitäten des Modells ausgeführt werden.\newline
-Nach Ausführung der Aktivität \textit{Iteration planen} werden die Aktivitäten \textit{Anforderungen identifizieren und aufbereiten} und \textit{auf technisches Vorgehen einigen} parallel zueinander ausgeführt. Aus diesem Grund sind die Aktivitäten \textit{Anforderungen identifizieren und aufbereiten} und \textit{auf technisches Vorgehen einigen} mit der Aktivität  \textit{Projekt planen und managen} durch das Constraint succession verbunden, da sie erst nach deren Ausführung ausgeführt werden dürfen und auch ausgeführt werden müssen. \newline
+Abbildung \ref{fig:InceptionDecUnter} zeigt die deklarative Modellierung der Iteration Inception. Die Aktivität \textit{Projekt planen und managen} kann parallel zu allen anderen Aktivitäten des Modells ausgeführt werden.\newline
+Nach Ausführung der Aktivität \grqq Iteration planen\grqq \ werden die Aktivitäten \grqq Anforderungen identifizieren und aufbereiten\grqq \ und \grqq auf technisches Vorgehen einigen\grqq \ parallel zueinander ausgeführt. Aus diesem Grund sind die Aktivitäten \grqq Anforderungen identifizieren und aufbereiten\grqq \ und \grqq auf technisches Vorgehen einigen\grqq \ mit der Aktivität \grqq Projekt planen und managen\grqq \ durch das Constraint succession verbunden, da sie erst nach deren Ausführung ausgeführt werden dürfen und auch ausgeführt werden müssen. \newline
 
 \begin{figure}[htp]
 \begin{center}
@@ -512,7 +505,7 @@ Nach Ausführung der Aktivität \textit{Iteration planen} werden die Aktivitäte
 \end{center}
 \end{figure}
 
-In Abbildung \ref{fig:ElaborationDecUnter} ist die deklarative Modellierung der Phase Elaboration abgebildet. Die sechs Aktivtäten \textit{Anforderungen identifizieren und verfeinern, Architektur entwickeln, Lösungsinkrement entwickeln, Lösung testen, Iteration planen und managen} sowie \textit{weitere Aufgaben erledigen} werden parallel zueinander ausgeführt. Aus diesem Grund befindet sich lediglich das Constraint \textit{Ecactly 1} an jeder Aktivität, da sie innerhalb einer Prozessinstanz nur einmal ausgeführt werden dürfen, dies aber in beliebiger Reihenfolge. Im Falle einer weiteren Iteration der Phase Elaboration wird eine neue Prozessinstanz aufgerufen. \newline
+In Abbildung \ref{fig:ElaborationDecUnter} ist die deklarative Modellierung der Iteration Elaboration abgebildet. Die sechs Aktivtäten\grqq Anforderungen identifizieren und verfeinern, Architektur entwickeln, Lösungsinkrement entwickeln, Lösung testen, Iteration planen und managen\grqq \ sowie \grqq weitere Aufgaben erledigen\grqq \ werden parallel zueinander ausgeführt. Aus diesem Grund befindet sich lediglich das Constraint \textit{Ecactly 1} an jeder Aktivität, da sie innerhalb einer Prozessinstanz nur einmal ausgeführt werden dürfen, dies aber in beliebiger Reihenfolge. Im Falle einer weiteren Iteration der Phase Elaboration wird eine neue Prozessinstanz aufgerufen. \newline
 
 \begin{figure}[htp]
 \begin{center}
@@ -522,7 +515,7 @@ In Abbildung \ref{fig:ElaborationDecUnter} ist die deklarative Modellierung der 
 \end{center}
 \end{figure}
 
-Die deklarative Modellierung der Phase Construction kann Abbildung \ref{fig:ConstructionDecUnter} entnommen werden. Hier werden die sechs Aktivitäten \textit{Anforderungen identifizieren und verfeinern, Lösungsinkrement entwickeln, Lösung testen, Iteration planen und managen, weitere Aufgaben erledigen} und \textit{Produktdokumentation und Training erstellen} nebeneinander parallel ausgeführt.
+Die deklarative Modellierung der Iteration Construction kann Abbildung \ref{fig:ConstructionDecUnter} entnommen werden. Hier werden die sechs Aktivitäten \textit{Anforderungen identifizieren und verfeinern, Lösungsinkrement entwickeln, Lösung testen, Iteration planen und managen, weitere Aufgaben erledigen} und \textit{Produktdokumentation und Training erstellen} nebeneinander parallel ausgeführt.
 \begin{figure}[htp]
 \begin{center}
   \includegraphics[width=\linewidth]{ConstructionDecUnter} %pdf, jpg, png...
@@ -531,8 +524,8 @@ Die deklarative Modellierung der Phase Construction kann Abbildung \ref{fig:Cons
 \end{center}
 \end{figure}
 
-In \ref{fig:TransitionDecUnter} ist die deklarative Modellierung der Phase Transition abgebildet.\newline
-Die Aktivitäten \textit{Anforderungen identifizieren und verfeinern, Produkt Training durchführen, Lösungsinkrement entwickeln, Lösung testen, Iteration planen und managen, weitere Aufgaben erledigen, Produktdokumentation und Training abschließen} sowie \textit{Release für die Produktion freigeben} werden parallel zueinander bearbeitet.
+In \ref{fig:TransitionDecUnter} ist die deklarative Modellierung der Iteration Transition abgebildet.\newline
+Die Aktivitäten \grqq Anforderungen identifizieren und verfeinern, Produkt Training durchführen, Lösungsinkrement entwickeln, Lösung testen, Iteration planen und managen, weitere Aufgaben erledigen, Produktdokumentation und Training abschließen\grqq \ sowie \grqq Release für die Produktion freigeben\grqq \ werden parallel zueinander bearbeitet.
 
 \begin{figure}[htp]
 \begin{center}
@@ -544,14 +537,14 @@ Die Aktivitäten \textit{Anforderungen identifizieren und verfeinern, Produkt Tr
 
 
 
-Im weiteren Verlauf wird aus jeder der vier Phasen Inception, Elaboration, Construction und Transition des Open UP jeweils ein Unterprozess modelliert, da die Abbildung aller Unterprozesse aus jeder Phase den Rahmen der Arbeit sprengen würde. \newline
-Somit wird für die Phase Inception der Unterprozess \textit{Iteration planen und managen}, für die Phase Elaboration der Unterprozess \textit{Anforderungen identifizieren und verfeinern}, für die Phase Construction der Unterprozess \textit{Release deployen} und für die Phase Transition der Unterprozess \textit{Produktdokumentation und Training erstellen} modelliert. Außerdem wird der in den drei Phasen Elaboration, Construction und Transition wiederkehrende Unterprozess \textit{Lösungsinkrement entwickeln} modelliert.
+Im weiteren Verlauf wird aus jeder der vier Iterationen Inception, Elaboration, Construction und Transition des Open UP jeweils ein Unterprozess modelliert, da die Abbildung aller Unterprozesse aus jeder Phase den Rahmen der Arbeit sprengen würde. \newline
+Somit wird für die Iteration Inception der Unterprozess \textit{Iteration planen und managen}, für die Itertion Elaboration der Unterprozess \textit{Anforderungen identifizieren und verfeinern}, für die Iteration Construction der Unterprozess \textit{Release deployen} und für die Iteration Transition der Unterprozess \textit{Produktdokumentation und Training erstellen} modelliert. Außerdem wird der in den drei Iterationen Elaboration, Construction und Transition wiederkehrende Unterprozess \textit{Lösungsinkrement entwickeln} modelliert.
 
 
-Die deklarative Modellierung von Develop Solution Increment kann Abbildung \ref{fig:Develop} entnommen werden.\newline
-Falls eine \textit{Lösung designt} wird, muss danach der \textit{Entwicklertest implementiert} werden. Dies ist durch das Constraint \textit{chain response} zwischen diesen beiden Aktivitäten verlangt. Wenn der Entwicklertest implementiert wird, muss er danach auch ausgeführt werden und er kann nur ausgeführt werden, falls er vorher implementiert wurde (Constraints \textit{chain response} und \textit{precedence}).\newline
+Die deklarative Modellierung von Lösungsinkrement entwickeln kann Abbildung \ref{fig:Develop} entnommen werden.\newline
+Falls eine \grqq Lösung designt\grqq \ wird, muss danach der \grqq Entwicklertest implementiert\grqq \ werden. Dies ist durch das Constraint \textit{chain response} zwischen diesen beiden Aktivitäten verlangt. Wenn der Entwicklertest implementiert wird, muss er danach auch ausgeführt werden und er kann nur ausgeführt werden, falls er vorher implementiert wurde (Constraints \textit{chain response} und \textit{precedence}).\newline
 Bevor die Lösung implementiert werden kann, muss vorher der Entwicklertest ausgeführt werden (Constraint \textit{precedence}) und nach der Implementierung der Lösung muss nochmals der Entwicklertest ausgeführt werden (Constraint chain response).\newline
-Vor dem \textit{Integrieren} muss der Entwicklertest ausgeführt worden sein, was durch das Constraint \textit{precedence} vorgegeben wird.
+Vor dem \grqq Integrieren\grqq \ muss der Entwicklertest ausgeführt worden sein, was durch das Constraint \textit{precedence} vorgegeben wird.
 \begin{figure}[htp]
 \begin{center}
   \includegraphics[width=\linewidth]{DevelopSolutionIncrement} %pdf, jpg, png...
@@ -560,8 +553,8 @@ Vor dem \textit{Integrieren} muss der Entwicklertest ausgeführt worden sein, wa
 \end{center}
 \end{figure}
 
-Die deklarative Modellierung von Plan and manage iteration findet sich in den Abbildungen \ref{fig:IterationPlanenDec} und \ref{fig:UmgebungVorbereitenDec}. Gestartet werden kann mit den Aktivitäten {Iteration planen} oder {Arbeitsaufgaben aussuchen}, da diese unabhängig voneinander und von zwei verschiedenen Personen ausgeführt werden können.\newline
-Danach können entweder die Aktivitäten \textit{Umgebung vorbereiten} oder \textit{Arbeitsaufgaben in Entwicklungsaufgaben einteilen} ausgeführt werden. Diese sind jeweils mit ihrer Vorgängeraktivität durch das Constraint \textit{succession} verbunden und müssen deshalb auf die Ausführung ihres Vorgängers warten und nach dessen Ausführung bearbeitet werden.\newline
+Die deklarative Modellierung von Iteration planen und managen findet sich in den Abbildungen \ref{fig:IterationPlanenDec} und \ref{fig:UmgebungVorbereitenDec}. Gestartet werden kann mit den Aktivitäten \grqq Iteration planen\grqq \ oder \grqq Arbeitsaufgaben aussuchen\grqq, da diese unabhängig voneinander und von zwei verschiedenen Personen ausgeführt werden können.\newline
+Danach können entweder die Aktivitäten \grqq Umgebung vorbereiten\grqq \ oder \grqq Arbeitsaufgaben in Entwicklungsaufgaben einteilen\grqq \ ausgeführt werden. Diese sind jeweils mit ihrer Vorgängeraktivität durch das Constraint \textit{succession} verbunden und müssen deshalb auf die Ausführung ihres Vorgängers warten und nach dessen Ausführung bearbeitet werden.\newline
 Das gleiche Ausführungsverhalten gilt auch für die anderen Aktivitäten im Prozess. 
 
 
@@ -583,8 +576,8 @@ Das gleiche Ausführungsverhalten gilt auch für die anderen Aktivitäten im Pro
 \end{figure}
 
 
-In Abbildung \ref{fig:IdentifyAndRefineDecKlein} ist die deklarative Modellierung von Identify and Refine Requirements dargestellt.\newline
-Zu Beginn muss die Aktivität \textit{Anforderungen identifizieren und abgrenzen} ausgeführt werden, was durch das init-Label dargestellt ist. Im Anschluss muss die Aktivität \textit{Use-Case-Szenarien detaillieren} ausgeführt werden. Dies ist durch das Constraint \textit{chain response} festgelegt. Das Constraint \textit{precedence} legt hingegen fest, dass bevor \textit{Use-Case-Szenarien detaillieren} ausgeführt werden kann, zunächst \textit{Anforderungen identifizieren und abgrenzen}  bearbeitet werden muss. Die gleichen Constraints gelten zwischen \textit{Use-Case-Szenarien detaillieren} und \textit{Systemweite Anforderungen detaillieren} sowie zwischen \textit{Systemweite Anforderungen detaillieren} und \textit{Testfaelle erstellen}. Alle Aktivitäten werden genau einmal ausgeführt, was jeweils durch das 1-Label dargestellt ist. 
+In Abbildung \ref{fig:IdentifyAndRefineDecKlein} ist die deklarative Modellierung von Anforderungen identifizieren und verfeinern dargestellt.\newline
+Zu Beginn muss die Aktivität \grqq Anforderungen identifizieren und abgrenzen\grqq \ ausgeführt werden, was durch das init-Label dargestellt ist. Im Anschluss muss die Aktivität \grqq Use-Case-Szenarien detaillieren\grqq \ ausgeführt werden. Dies ist durch das Constraint \textit{chain response} festgelegt. Das Constraint \textit{precedence} legt hingegen fest, dass bevor \grqq Use-Case-Szenarien detaillieren\grqq \ ausgeführt werden kann, zunächst \grqq Anforderungen identifizieren und abgrenzen\grqq \ bearbeitet werden muss. Die gleichen Constraints gelten zwischen \grqq Use-Case-Szenarien detaillieren\grqq \ und \grqq Systemweite Anforderungen detaillieren\grqq \ sowie zwischen \grqq Systemweite Anforderungen detaillieren\grqq \ und \grqq Testfaelle erstellen\grqq. Alle Aktivitäten werden genau einmal ausgeführt, was jeweils durch das 1-Label dargestellt ist. 
 
 \begin{figure}[h]
 \begin{center}
@@ -596,8 +589,8 @@ Zu Beginn muss die Aktivität \textit{Anforderungen identifizieren und abgrenzen
 
 
 
-Abbildung \ref{fig:DevelopProductDecKlein} zeigt die deklarative Modellierung von Develop Product Documentation.\newline
-Zu Beginn muss die Aktivität \textit{Produktdokumentation entwickeln} ausgeführt werden, was durch das init-Label dargestellt ist. Im Anschluss muss die Aktivität \textit{Benutzerdokumentation entwickeln} bearbeitet werden. Dies ist durch das Constraint \textit{chain response} festgelegt ist. Das Constraint \textit{precedence} legt hingegen fest, dass bevor \textit{Benutzerdokumentation entwickeln} ausgeführt werden kann, zunächst \textit{Produktdokumentation entwickeln} bearbeitet werden muss. Die gleichen Constraints gelten zwischen \textit{Benutzerdokumentation entwickeln} und \textit{Unterstützungsdokumentation entwickeln} sowie zwischen \textit{Unterstützungsdokumentation entwickeln} und \textit{Trainingsmaterial entwickeln}. Alle Aktivitäten werden genau einmal ausgeführt, was jeweils durch das 1-Label beschriebenist. 
+Abbildung \ref{fig:DevelopProductDecKlein} zeigt die deklarative Modellierung von Produktdokumentation und Training erstellen.
+Zu Beginn muss die Aktivität \grqq Produktdokumentation entwickeln\grqq \ ausgeführt werden, was durch das init-Label dargestellt ist. Im Anschluss muss die Aktivität \grqq Benutzerdokumentation entwickeln\grqq \ bearbeitet werden. Dies ist durch das Constraint \textit{chain response} festgelegt. Das Constraint \textit{precedence} legt hingegen fest, dass bevor \grqq Benutzerdokumentation entwickeln\grqq \ ausgeführt werden kann, zunächst \grqq Produktdokumentation entwickeln\grqq \ bearbeitet werden muss. Die gleichen Constraints gelten zwischen \grqq Benutzerdokumentation entwickeln\grqq \ und \grqq Unterstützungsdokumentation entwickeln\grqq \ sowie zwischen \grqq Unterstützungsdokumentation entwickeln\grqq \ und \grqq Trainingsmaterial entwickeln\grqq. Alle Aktivitäten werden genau einmal ausgeführt, was jeweils durch das 1-Label beschriebenist. 
 
 \begin{figure}[htp]
 \begin{center}
@@ -768,7 +761,8 @@ Eine Zusammenfassung, welche Modellierungssprache bei welchem Grundsatz eher üb
 \section{V-Modell XT}
 
 
-Das V-Modell XT zählt zu den schwergewichtigen Prozessmodellen \cite{Hanser2010}. Es wird als Entwicklungsstandard für die Durchführung von IT-Vorhaben in der öffentlichen Verwaltung in Deutschland herangezogen \cite{Kuhrmann2011}. Beschrieben werden im V-Modell XT die Abläufe im Verlauf eines Entwicklungsprojektes über Produkte, Rollen und Aktivitäten \cite{Friedrich2008}. Es wird somit ganz genau geregelt, \textit{Wer}, \textit{Wann}, \textit{Was} in einem Projekt zu tun hat \cite{2004vmodell}. Die Vorgehensbausteine ermöglichen neben einer Modularisierung der Abläufe auch eine flexible Zusammenstellung, wodurch das V-Modell XT auf die jeweils eigene Situation angepasst werden kann. \cite{Friedrich2008,Zoerner2012}. \newline
+Das V-Modell XT zählt zu den schwergewichtigen Prozessmodellen \cite{Hanser2010}. Es wird als Entwicklungsstandard für die Durchführung von IT-Vorhaben in der öffentlichen Verwaltung in Deutschland herangezogen \cite{Kuhrmann2011}. Beschrieben werden im V-Modell XT die Abläufe im Verlauf eines Entwicklungsprojektes über Produkte, Rollen und Aktivitäten \cite{Friedrich2008}. Es wird somit ganz genau geregelt, \textit{Wer}, \textit{Wann}, \textit{Was} in einem Projekt zu tun hat \cite{2004vmodell}. Vorgehensbausteine ermöglichen neben einer Modularisierung der Abläufe auch eine flexible Zusammenstellung, wodurch das V-Modell XT auf die jeweils eigene Situation angepasst werden kann. \cite{Friedrich2008,Zoerner2012}. \newline
+
 \subsection{Analyse V-Modell XT}
 
 Abbildung \ref{fig:grundstruktur} zeigt die Grundstruktur des V-Modell XT, welche im Folgenden detailliert erläutert wird.
@@ -791,14 +785,14 @@ Nicht alle V-Modell-Projekttypen laufen nach exakt demselben Schema ab. Auf Grun
 \end{center}
 \end{figure}
 
-Es existieren somit vier verschiedene Projekttypen: \textit{Systementwicklungsprojekt eines Auftraggebers}, \textit{Systementwicklungsprojekt eines Auftragnehmers},  \textit{Systementwicklungsprojekt eines Auftraggebers/Auftragnehmers}  und \textit{Einführung und Pflege eines organisationsspezifischen Vorgehensmodells} \cite{reinhard2008}. \newline
+Es existieren somit vier verschiedene Projekttypen: \grqq Systementwicklungsprojekt eines Auftraggebers\grqq, \grqq Systementwicklungsprojekt eines Auftragnehmers\grqq, \grqq Systementwicklungsprojekt eines Auftraggebers/Auftragnehmers\grqq \ und \grqq Einführung und Pflege eines organisationsspezifischen Vorgehensmodells\grqq \ \cite{reinhard2008}. \newline
 
-Es werden drei verschiedene Projektrollen unterschieden, welche dem jeweiligen Projekttyp entsprechen: In der Rolle \textit{Auftragnehmer} wird ein vom \textit{Auftraggeber} spezifiziertes System entwickelt. Die Systementwicklung wird an einen oder mehrere \textit{Arbeitnehmer} weiter gegeben, wenn man sich in der Rolle \textit{Arbeitgeber} befindet. Das System  wird selbst entwickelt in der Rolle \textit{Auftraggeber/Auftragnehmer} \cite{brack2010,2004vmodell}.\newline
+Es werden drei verschiedene Projektrollen unterschieden, welche dem jeweiligen Projekttyp entsprechen: In der Rolle \textit{Auftragnehmer} wird ein vom \textit{Auftraggeber} spezifiziertes System entwickelt. Die Systementwicklung wird an einen oder mehrere \textit{Arbeitnehmer} weiter gegeben, wenn man sich in der Rolle \textit{Arbeitgeber} befindet. Das System  wird selbst entwickelt in der Rolle \grqq Auftraggeber/Auftragnehmer\grqq \ \cite{brack2010,2004vmodell}.\newline
 
 
-Beim \textit{Systementwicklungsprojekt eines Auftraggebers} wird die Entwicklung des Projektgegenstandes im Projektverlauf  ausgeschrieben und der Auftragnehmer trifft eine Auswahl anhand der eingehenden Angebote. Der Auftragnehmer, welcher für die Entwicklung des Projektgegenstandes ausgewählt wurde, entwickelt den Projektgegenstand, welcher dann vom Auftragnehmer abgenommen wird \cite{reinhard2008,2004vmodell}.\newline
-Umgekehrt wird beim \textit{Systementwicklungsprojekt eines Auftragnehmers} im Laufe des Projektes ein Angebot erstellt und bei Auswahl durch den Auftraggeber ein Projektgegenstand entwickelt, welcher abschließend an den Auftraggeber ausgeliefert und von diesem abgenommen wird \cite{reinhard2008,2004vmodell}.\newline
-Bei \textit{Einführung und Pflege eines organisationsspezifischen Vorgehensmodells} geht es um Projekte, welche Prozessmodelle z.B. das V-Modell einführen und verbessern wollen. Für diesen Zweck ist eine Analyse des vorherigen Prozessmodelles notwendig und etwaige Verbesserungsmöglichkeiten sind zu erfassen und durchzuführen \cite{reinhard2008,2004vmodell}.\newline
+Beim \grqq Systementwicklungsprojekt eines Auftraggebers\grqq \ wird die Entwicklung des Projektgegenstandes im Projektverlauf  ausgeschrieben und der Auftragnehmer trifft eine Auswahl anhand der eingehenden Angebote. Der Auftragnehmer, welcher für die Entwicklung des Projektgegenstandes ausgewählt wurde, entwickelt den Projektgegenstand, welcher dann vom Auftragnehmer abgenommen wird \cite{reinhard2008,2004vmodell}.\newline
+Umgekehrt wird beim \grqq Systementwicklungsprojekt eines Auftragnehmers\grqq \ im Laufe des Projektes ein Angebot erstellt und bei Auswahl durch den Auftraggeber ein Projektgegenstand entwickelt, welcher abschließend an den Auftraggeber ausgeliefert und von diesem abgenommen wird \cite{reinhard2008,2004vmodell}.\newline
+Bei \grqq Einführung und Pflege eines organisationsspezifischen Vorgehensmodells\grqq \ geht es um Projekte, welche Prozessmodelle z.B. das V-Modell einführen und verbessern wollen. Für diesen Zweck ist eine Analyse des vorherigen Prozessmodelles notwendig und etwaige Verbesserungsmöglichkeiten sind zu erfassen und durchzuführen \cite{reinhard2008,2004vmodell}.\newline
 Wie aus Abbildung \ref{fig:Projekttypen} ersichtlich ist, kann es sich im V-Modell XT beim Projektgegenstand um ein Hardware (HW)-System, ein Software (SW)-System, ein eingebettetes System oder eine Systemintegration handeln \cite{brack2010,2004vmodell}. \newline
 
 \subsubsection{Projekttypvarianten}
@@ -811,9 +805,9 @@ Für jeden der Projekttypen, gibt es im V-Modell XT mindestens eine passende Pro
 \end{center}
 \end{figure}
 
-Für den Projekttyp \textit{Systementwicklungsprojekt (AG)} existieren zwei verschiedene Projekttypvarianten, welche je nach \textit{Auftragsstruktur} ausgewählt werden. Falls der Auftraggeber mit nur einem Auftragnehmer zusammen arbeitet, ergibt sich die Projekttypvariante \textit{Systementwicklungsprojekt (AG)- Projekt mit einem Auftragnehmer}. Arbeitet der Auftraggeber mit mehreren Auftragnehmern zusammen, ergibt sich die Projekttypvariante \textit{Systementwicklungsprojekt (AG)- Projekt mit mehreren Auftragnehmern} \cite{2004vmodell}.\newline
-Bei den Projekttypen \textit{Systementwicklungsprojekt (AN)} und \textit{Systementwicklungsprojekt (AG/AN)} wird die Unterscheidung anhand des Systemlebenszyklusausschnitt des Projektes durchgeführt. Somit wird in den Systemlebenszyklusausschnitten Entwicklung, Weiterentwicklung und Migration eine andere Projekttypvariante gewählt als in Wartung und Pflege \cite{2004vmodell}.\newline 
-Für den Projekttyp \textit{Einführung und Pflege eines organisationsspezifischen Vorgehensmodells} existiert nur eine einzige Projekttypvariante, weshalb hier keine weiteren Merkmale zur Bestimmung der Projekttypvariante notwendig sind \cite{2004vmodell}.\newline
+Für den Projekttyp \grqq Systementwicklungsprojekt (AG)\grqq \ existieren zwei verschiedene Projekttypvarianten, welche je nach \grqq Auftragsstruktur\grqq \ ausgewählt werden. Falls der Auftraggeber mit nur einem Auftragnehmer zusammen arbeitet, ergibt sich die Projekttypvariante \grqq Systementwicklungsprojekt (AG)- Projekt mit einem Auftragnehmer\grqq. Arbeitet der Auftraggeber mit mehreren Auftragnehmern zusammen, ergibt sich die Projekttypvariante \grqq Systementwicklungsprojekt (AG)- Projekt mit mehreren Auftragnehmern\grqq \ \cite{2004vmodell}.\newline
+Bei den Projekttypen \grqq Systementwicklungsprojekt (AN)\grqq \ und \grqq Systementwicklungsprojekt (AG/AN)\grqq \ wird die Unterscheidung anhand des Systemlebenszyklusausschnitt des Projektes durchgeführt. Somit wird in den Systemlebenszyklusausschnitten Entwicklung, Weiterentwicklung und Migration eine andere Projekttypvariante gewählt als in Wartung und Pflege \cite{2004vmodell}.\newline 
+Für den Projekttyp \grqq Einführung und Pflege eines organisationsspezifischen Vorgehensmodells\grqq \ existiert nur eine einzige Projekttypvariante, weshalb hier keine weiteren Merkmale zur Bestimmung der Projekttypvariante notwendig sind \cite{2004vmodell}.\newline
 
   
  \subsubsection{Vorgehensbausteine}
@@ -829,13 +823,13 @@ Modulare, aufeinander aufbauende Vorgehensbausteine, bilden den Kern des V-Model
 
 Ergebnisse und Zwischenergebnisse werden Produkte genannt. Komplexe Produkte können in ein oder mehrere Themen gegliedert werden und inhaltlich zusammengehörende Produkte können zu einer Disziplin zusammengefasst werden. Produkte können hierbei auch voneinander abhängig sein, sowohl innerhalb eines Vorgehensbausteins, als auch zwischen verschiedenen Vorgehensbausteinen \cite{2004vmodell}.\newline
 Jedes Produkt wird von genau einer Aktivität fertig gestellt. Aktivitäten legen auch fest, wie die einzelnen Produkte zu bearbeiten sind. Sie bestehen aus einer oder mehreren Teilaktivitäten, sogenannten Arbeitsschritten. Diese stellen eine Art Arbeitsanleitung dar und bearbeiten eine oder mehrere Themen \cite{2004vmodell}.\newline
-Durch Rollen werden eine Menge von Aufgaben und Verantwortlichkeiten gekapselt, wodurch das V-Modell XT unabhängig von organisatorischen Rahmenbedingungen bleibt. Eine Zuordnung von Personen bzw. Organisationseinheiten zu einer Rolle erfolgt erst zu Beginn eines Projektes. Es wird jedem Produkt genau eine Rolle als Verantwortlicher zugewiesen, weitere Rollen können am Produkt als Mitwirkende mitarbeiten \cite{2004vmodell}. \newline
+Durch Rollen werden eine Menge von Aufgaben und Verantwortlichkeiten gekapselt, wodurch das V-Modell XT unabhängig von organisatorischen Rahmenbedingungen bleibt. Eine Zuordnung von Personen bzw. Organisationseinheiten zu einer Rolle erfolgt erst zu Beginn eines Projektes. Es wird jedem Produkt genau eine Rolle als Verantwortlicher zugewiesen. Weitere Rollen können am Produkt als Mitwirkende mitarbeiten \cite{2004vmodell}. \newline
 
 
 
-\subsubsection{V-Modell-Kern und Vorgehensbausteinlandkarte}
+\subsubsection{V-Modell XT-Kern und Vorgehensbausteinlandkarte}
 
-Um ein spezifisches Projekt an ein V-Modell-Projekt anzupassen, ist für jeden Projekttyp und jede Projekttypvariante genau vorgegeben, welche Vorgehensbausteine jeweils anzuwenden sind \cite{2004vmodell}. Hierdurch kann also ein individuelles V-Modell für ein Projekt erstellt werden \cite{heinrich2007}. Hierfür ist es notwendig, die Vorgehensbausteine für ein V-Modell-Projekt nach den Vorgaben des Projekttyps auszuwählen und festzulegen \cite{2004vmodell}. \newline
+Um ein spezifisches Projekt an ein V-Modell XT-Projekt anzupassen, ist für jeden Projekttyp und jede Projekttypvariante genau vorgegeben, welche Vorgehensbausteine jeweils anzuwenden sind \cite{2004vmodell}. Hierdurch kann also ein individuelles V-Modell für ein Projekt erstellt werden \cite{heinrich2007}. Hierfür ist es notwendig, die Vorgehensbausteine für ein V-Modell-Projekt nach den Vorgaben des Projekttyps auszuwählen und festzulegen \cite{2004vmodell}. \newline
 
 \begin{figure}[htp]
 \begin{center}
@@ -845,21 +839,21 @@ Um ein spezifisches Projekt an ein V-Modell-Projekt anzupassen, ist für jeden P
 \end{center}
 \end{figure}
 
- Wie Abbildung \ref{fig:landkarte} zeigt, können die Vorgehensbausteine in die vier Bereiche \textit{Alle V-Modell-Projekte}, \textit{Organisationsspezifisches Vorgehensmodell}, \textit{AG/AN-Schnittstelle} und \textit{Systementwicklung} eingeteilt werden \cite{2004vmodell}.\newline
- Im Bereich \textit{Alle V-Modell-Projekte} finden sich diejenigen Vorgehensbausteine, welche in jedem V-Modell-Projekt herangezogen werden können. Zudem gibt es den V-Modell-Kern, in welchem sich die Vorgehensmodelle finden, die in jedem V-Modell-Projekt unerlässlich sind: \textit{Projektmanagement}, \textit{Konfigurationsmanagement}, \textit{Problem- und Änderungsmanagement} und \textit{Qualitätssicherung}. Zusätzlich zu diesen verpflichtenden Vorgehensbausteinen können in jedem Projekt noch \textit{Kaufmännisches Projektmanagement}, welches bei der Integration des Projektmanagements in das kaufmännische Management hilft und \textit{Messung und Analyse}, welches Verfahren für die organisationsweite und projektübergreifende Erfassung und Auswertung von Kennzahlen bereitstellt, verwendet werden \cite{2004vmodell}.\newline
- Ist der Zweck eines Projektes die Entwicklung eines \textit{Organisationsspezifischen Vorgehensmodells}, so muss der Vorgehensbaustein \textit{Einführung und Pflege eines organisationsspezifischen Vorgehensmodells} hinzugenommen werden. In diesem finden sich Verfahren und Richtlinien für die Einführung eines Vorgehensmodells innerhalb einer Organisation sowie die damit einhergehende Etablierung eines stetigen Verbesserungsprozesses \cite{2004vmodell}.\newline
- Wenn ein Projekt die Entwicklung eines Systems zum Ziel hat, so wird der Bereich \textit{Systementwicklung} herangezogen. In diesem befinden sich die Vorgehensbausteine \textit{Anforderungsfestlegung}, \textit{Systemerstellung}, \textit{HW-Entwicklung}, \textit{SW-Entwicklung}, \textit{Logistikkonzeption}, \textit{Weiterentwicklung und Migration von Altsystemen}, \textit{Evaluierung von Fertigprodukten}, \textit{Benutzbarkeit und Ergonomie}, \textit{Sicherheit} sowie \textit{Sicherheit (AN)} und \textit{Multi-Projektmanagement} \cite{2004vmodell}. \newline
- Im Bereich \textit{AG/AN-Schnittstelle} befinden sich die Vorgehensbausteine für die Kommunikation zwischen Arbeitgeber und Arbeitnehmer: \textit{Lieferung und Abnahme (AG)}, \textit{Lieferung und Abnahme (AN)}, \textit{Vertragsschluss (AG)} und \textit{Vertragsschluss (AN)}. Hier finden sich Regelungen über den Vertrag zwischen Arbeitgeber und Arbeitnehmer sowie über Lieferung und Abnahme des Entwicklungsgegenstandes \cite{2004vmodell}. \newline
+ Wie Abbildung \ref{fig:landkarte} zeigt, können die Vorgehensbausteine in die vier Bereiche \grqq Alle V-Modell XT-Projekte\grqq, \grqq Organisationsspezifisches Vorgehensmodell, \grqq AG/AN-Schnittstelle und \grqq Systementwicklung\grqq \  eingeteilt werden \cite{2004vmodell}.\newline
+ Im Bereich \grqq Alle V-Modell XT-Projekte\grqq \ finden sich diejenigen Vorgehensbausteine, welche in jedem V-Modell-Projekt herangezogen werden können. Zudem gibt es den V-Modell XT-Kern, in welchem sich die Vorgehensmodelle finden, die in jedem V-Modell-Projekt unerlässlich sind: \grqq Projektmanagement\grqq, \grqq Konfigurationsmanagement\grqq, \grqq Problem- und Änderungsmanagement\grqq \ und \grqq Qualitätssicherung\grqq. Zusätzlich zu diesen verpflichtenden Vorgehensbausteinen können in jedem Projekt noch \grqq Kaufmännisches Projektmanagement\grqq, welches bei der Integration des Projektmanagements in das kaufmännische Management hilft und \grqq Messung und Analyse\grqq, welches Verfahren für die organisationsweite und projektübergreifende Erfassung und Auswertung von Kennzahlen bereitstellt, verwendet werden \cite{2004vmodell}.\newline
+ Ist der Zweck eines Projektes die Entwicklung eines \grqq Organisationsspezifischen Vorgehensmodells\grqq, so muss der Vorgehensbaustein \grqq Einführung und Pflege eines organisationsspezifischen Vorgehensmodells\grqq \ hinzugenommen werden. In diesem finden sich Verfahren und Richtlinien für die Einführung eines Vorgehensmodells innerhalb einer Organisation sowie die damit einhergehende Etablierung eines stetigen Verbesserungsprozesses \cite{2004vmodell}.\newline
+ Wenn ein Projekt die Entwicklung eines Systems zum Ziel hat, so wird der Bereich \textit{Systementwicklung} herangezogen. In diesem befinden sich die Vorgehensbausteine \grqq Anforderungsfestlegung\grqq, \grqq Systemerstellung\grqq, \grqq HW-Entwicklung\grqq, \grqq SW-Entwicklung\grqq, \grqq Logistikkonzeption\grqq, \grqq Weiterentwicklung und Migration von Altsystemen\grqq, \grqq Evaluierung von Fertigprodukten\grqq, \grqq Benutzbarkeit und Ergonomie\grqq, \grqq Sicherheit\grqq \ sowie \grqq Sicherheit (AN)\grqq \ und \grqq Multi-Projektmanagement\grqq \ \cite{2004vmodell}. \newline
+ Im Bereich \grqq AG/AN-Schnittstelle\grqq \ befinden sich die Vorgehensbausteine für die Kommunikation zwischen Arbeitgeber und Arbeitnehmer: \grqq Lieferung und Abnahme (AG)\grqq, \grqq Lieferung und Abnahme (AN)\grqq, \grqq Vertragsschluss (AG)\grqq \ und \grqq Vertragsschluss (AN)\grqq. Hier finden sich Regelungen über den Vertrag zwischen Arbeitgeber und Arbeitnehmer sowie über Lieferung und Abnahme des Entwicklungsgegenstandes \cite{2004vmodell}. \newline
  
  \subsubsection{Projektdurchführungsstrategie}
  Die Vorgehensbausteine im V-Modell XT geben zwar an, welche Produkte jeweils zu erstellen und welche Aktivitäten durchzuführen sind, sie geben jedoch hierbei nicht vor, in welcher Reihenfolge dies geschehen soll. Damit das Projekt trotzdem geplant und gesteuert werden kann, gibt es im V-Modell eine Projektdurchführungsstrategie welche auf den jeweiligen Projekttyp und die Projekttypvariante abgestimmt ist. Hier wird somit die Reihenfolge der Produkte und Aktivitäten festgelegt, also das  \grqq Wann\grqq {} festgelegt. Außerdem werden hier zu erreichende Projektfortschrittsstufen vorgegeben \cite{2004vmodell}. \newline
  
  \subsubsection{Entscheidungspunkte}
-Abbildung \ref{fig:entscheidungspunkte} zeigt, dass die in der Projektdurchführungsstrategie vorgegebenen Projektfortschrittsstufen bei Erreichen durch Entscheidungspunkte markiert werden, welche einen Meilenstein im Projektablauf darstellen. Um den Entscheidungspunkt zu erreichen, muss eine vorgegebene Menge an Produkten fertig gestellt werden. Hier entscheidet das Projektmanagement über das Erreichen der Projektfortschrittsstufe und das Freigeben des nächsten Projektabschnitts. Die Entscheidungspunkte, welche im V-Modell XT erreicht werden müssen können Abbildung \ref{fig:v-modell} entnommen werden. Diese werden wie im V-Modell-Kern in die vier Bereiche \textit{Alle V-Modell-Projekte}, \textit{Organisationsspezifisches Vorgehensmodell}, \textit{AG/AN-Schnittstelle} und \textit{Systementwicklung} unterschieden \cite{2004vmodell}. \newline
-Demnach gelten die Entscheidungspunkte \textit{Projekt genehmigt}, \textit{Projekt definiert}, \textit{Iteration geplant} und \textit{Projekt abgeschlossen} für alle Projekttypen und Projektdurchführungsstrategien \cite{2004vmodell}. \newline
-Bei der Systementwicklung werden die Entscheidungspunkte \textit{Anforderungen festgelegt}, \textit{System spezifiziert}, \textit{System entworfen}, \textit{Feinentwurf abgeschlossen}, \textit{Systemelemente realisiert} und \textit{System integriert} verwendet. Falls das Projekt vor der Anforderungserhebung in mehrere Teilmodelle aufgeteilt werden soll, werden zusätzlich die Entscheidungspunkte \textit{Gesamtprojekt aufgeteilt} und \textit{Gesamtprojektfortschritt überprüft} hinzugenommen \cite{2004vmodell}. \newline
-Die Entscheidungspunkte für die Arbeitgeber/Arbeitnehmer Schnittstelle setzen sich aus \textit{Projekt ausgeschrieben}, \textit{Angebot abgegeben}, \textit{Projekt beauftragt}, \textit{Lieferung durchgeführt}, \textit{Abnahme erfolgt} und \textit{Projektfortschritt überprüft} zusammen \cite{2004vmodell}. \newline
- Bei der Entwicklung eines organisationsspezifischen Vorgehensmodells kommen die Entscheidungspunkte \textit{Vorgehensmodell analysiert}, \textit{Verbesserung Vorgehensmodell konzipiert} und \textit{Verbesserung Vorgehensmodell realisiert} zum Einsatz \cite{2004vmodell}. \newline
+Abbildung \ref{fig:entscheidungspunkte} zeigt, dass die in der Projektdurchführungsstrategie vorgegebenen Projektfortschrittsstufen bei Erreichen durch Entscheidungspunkte markiert werden. Diese stellen einen Meilenstein im Projektablauf dar. Um den Entscheidungspunkt zu erreichen, muss eine vorgegebene Menge an Produkten fertig gestellt werden. Hier entscheidet das Projektmanagement über das Erreichen der Projektfortschrittsstufe und das Freigeben des nächsten Projektabschnitts. Die Entscheidungspunkte, welche im V-Modell XT erreicht werden müssen können Abbildung \ref{fig:v-modell} entnommen werden. Diese werden wie im V-Modell XT-Kern in die vier Bereiche \grqq Alle V-Modell-Projekte\grqq, \grqq Organisationsspezifisches Vorgehensmodell\grqq, \grqq AG/AN-Schnittstelle\grqq \ und \grqq Systementwicklung\grqq \ unterschieden \cite{2004vmodell}. \newline
+Demnach gelten die Entscheidungspunkte \grqq Projekt genehmigt\grqq, \grqq Projekt definiert, \grqq Iteration geplant\grqq \ und \grqq Projekt abgeschlossen\grqq \ für alle Projekttypen und Projektdurchführungsstrategien \cite{2004vmodell}. \newline
+Bei der Systementwicklung werden die Entscheidungspunkte \grqq Anforderungen festgelegt\grqq, \grqq System spezifiziert\grqq, \grqq System entworfen\grqq, \grqq Feinentwurf abgeschlossen\grqq, \grqq Systemelemente realisiert\grqq \ und \grqq System integriert\grqq \ verwendet. Falls das Projekt vor der Anforderungserhebung in mehrere Teilmodelle aufgeteilt werden soll, werden zusätzlich die Entscheidungspunkte \grqq Gesamtprojekt aufgeteilt\grqq \ und \grqq Gesamtprojektfortschritt überprüft\grqq \ hinzugenommen \cite{2004vmodell}. \newline
+Die Entscheidungspunkte für die Arbeitgeber/Arbeitnehmer Schnittstelle setzen sich aus \grqq Projekt ausgeschrieben\grqq, \grqq Angebot abgegeben\grqq, \grqq Projekt beauftragt\grqq, \grqq Lieferung durchgeführt\grqq, \grqq Abnahme erfolgt\grqq \ und \grqq Projektfortschritt überprüft\grqq \ zusammen \cite{2004vmodell}. \newline
+ Bei der Entwicklung eines organisationsspezifischen Vorgehensmodells kommen die Entscheidungspunkte \grqq Vorgehensmodell analysiert\grqq, \grqq Verbesserung Vorgehensmodell konzipiert\grqq \ und \grqq Verbesserung Vorgehensmodell realisiert\grqq \ zum Einsatz \cite{2004vmodell}. \newline
  Die Entscheidungspunkte legen das \grqq Wann\grqq {} und \grqq Was\grqq {} fest, d.h. wann welche Produkte fertig gestellt sein müssen.
 
  
@@ -880,22 +874,22 @@ Die Entscheidungspunkte für die Arbeitgeber/Arbeitnehmer Schnittstelle setzen s
 \end{center}
 \end{sidewaysfigure}
 
-Im Folgenden werden Teile des V-Modells XT modelliert da das ganze V-Modell in dieser Arbeit nicht  modelliert werden kann. Aus diesem Grund wird zum Einen das \textit{Systementwicklungsprojekt AG/AN} modelliert. Weiterhin wird ein hierzu gehöriger Unterprozess \textit{Inkrementelle Entwicklung} und die hierzu gehörenden Unterprozesse \textit{System entwerfen} und \textit{System spezifizieren} modelliert.
+
 \clearpage
 
-\subsection{Imperative Modellierung V-Modell}
+\subsection{Imperative Modellierung V-Modell XT}
 
-
+Im Folgenden werden Teile des V-Modells XT modelliert da das ganze V-Modell XT den Rahmen dieser Arbeit sprengen würde. Aus diesem Grund wird zum Einen das \grqq Systementwicklungsprojekt AG/AN\grqq \ ausgewählt. Weiterhin wird ein hierzu gehöriger Unterprozess \grqq Inkrementelle Entwicklung\grqq \ und die hierzu gehörenden Unterprozesse \grqq System entwerfen\grqq \ und \grqq System spezifizieren\grqq \ modelliert.
 
 \subsubsection{Systementwicklungsprojekt AG/AN}
 
 
-Die imperative Modellierung von \textit{Systementwicklungsprojekt AG/AN}  zeigt Abbildung \ref{fig:Systementwicklungimp}. \newline
-Zunächst muss ein Projekt genehmigt und definiert werden. Dies ist durch die einander folgenden Aktivitäten\textit{Projekt genehmigen} und \textit{Projekt definieren} dargestellt.\newline
-In der nachfolgenden Aktivität müssen sodann die \textit{Anforderungen festgelegt werden}, bevor die \textit{Iteration geplant} werden kann. \newline
-Hiernach muss entschieden werden, ob eine \textit{Prototypische Entwicklung durchgeführt}, eine \textit{Komponentenbasierte Entwicklung durchgeführt} oder eine \textit{Inkrementelle Entwicklung durchgeführt} werden soll. Dies wird durch das XOR-Gateway beschrieben, welches nur eine Alternative zulässt.\newline
-Anschließend wird das \textit{System abgenommen}.\newline
-An dieser Stelle wird entschieden, ob erneut zu \textit{Anforderungen festlegen} zurückgekehrt wird und der Prozess ab dieser Aktivität erneut startet oder ob zu \textit{Projekt ausschreiben} zurückgekehrt wird und der Prozess ab hier erneut startet. Ansonsten endet der Prozess mit der Aktivität \textit{Projekt abschließen}.
+Die imperative Modellierung des Prozesses \grqq Systementwicklungsprojekt AG/AN\grqq \ zeigt Abbildung \ref{fig:Systementwicklungimp}. \newline
+Zunächst muss ein Projekt genehmigt und definiert werden. Dies ist durch die einander folgenden Aktivitäten \grqq Projekt genehmigen\grqq \ und \textit{Projekt definieren} dargestellt.\newline
+In der nachfolgenden Aktivität müssen sodann die \grqq Anforderungen festgelegt werden\grqq, bevor die \grqq Iteration geplant\grqq \ werden kann. \newline
+Hiernach muss entschieden werden, ob eine \grqq Prototypische Entwicklung durchgeführt\grqq, eine \grqq Komponentenbasierte Entwicklung durchgeführt\grqq \ oder eine \grqq Inkrementelle Entwicklung durchgeführt\grqq \ werden soll. Dies wird durch das XOR-Gateway beschrieben, welches nur eine Alternative zulässt.\newline
+Anschließend wird das \grqq System abgenommen\grqq.\newline
+An dieser Stelle wird entschieden, ob erneut zu \grqq Anforderungen festlegen\grqq \ zurückgekehrt wird und der Prozess ab dieser Aktivität erneut startet oder ob zu \grqq Projekt ausschreiben\grqq \ zurückgekehrt wird und der Prozess ab hier erneut startet. Ansonsten endet der Prozess mit der Aktivität \grqq Projekt abschließen\grqq.
 
 \begin{figure}[!htbp]
 \begin{center}
@@ -909,11 +903,11 @@ An dieser Stelle wird entschieden, ob erneut zu \textit{Anforderungen festlegen}
 
 
 \subsubsection{Inkrementelle Entwicklung durchführen}
-In Abbildung \ref{fig:Inkrementell} ist die imperative Modellierung des Unterprozesses \textit{Inkrementelle Entwicklung durchführen} abgebildet. \newline
-Zu Beginn muss das \textit{System spezifiziert} werden und anschließend wird das \textit{System entworfen}. \newline
-Hiernach wird der \textit{Feinentwurf entworfen} und es werden die \textit{Systemelemente realisiert}. Diese beiden Aktivitäten können so oft wie nötig durchgeführt werden, was durch das XOR-Gateway beschrieben ist.  \newline
-Im nächsten Schritt wird das \textit{System integriert} und es beginnt eine neue Iteration bei der Aktivität System entwerfen.\newline
-Falls keine weitere Iteration mehr notwedig ist, wird die \textit{Lieferung durchgeführt} und der Unterprozess endet hier. \newline
+In Abbildung \ref{fig:Inkrementell} ist die imperative Modellierung des Unterprozesses \grqq Inkrementelle Entwicklung durchführen\grqq \ abgebildet. \newline
+Zu Beginn muss das \grqq System spezifiziert\grqq 7 werden und anschließend wird das \textit{System entworfen}. \newline
+Hiernach wird der \grqq Feinentwurf entworfen\grqq \ und es werden die \grqq Systemelemente realisiert\grqq. Diese beiden Aktivitäten können so oft wie nötig durchgeführt werden, was durch das XOR-Gateway beschrieben ist.  \newline
+Im nächsten Schritt wird das \grqq System integriert\grqq \ und es beginnt eine neue Iteration bei der Aktivität System entwerfen.\newline
+Falls keine weitere Iteration mehr notwedig ist, wird die \grqq Lieferung durchgeführt\grqq \ und der Unterprozess endet hier. \newline
 
 \begin{figure}[!htbp]
 \begin{center}
@@ -930,27 +924,27 @@ Falls keine weitere Iteration mehr notwedig ist, wird die \textit{Lieferung durc
 
 \subsubsection{System entwerfen}
 
-Abbildung \ref{fig:SystementwurfKlein} zeigt die imperative Modellierung des Unterprozesses \textit{System entwerfen}.\newline
-Die Aktivitäten \textit{Systemarchitektur erstellen, Unterstütungssystemarchitektur erstellen, Styleguide für die Mensch-Maschine-Schnittstelle erstellen, HW-Architektur erstellen, SW-Architektur erstellen, Datenbankentwurf erstellen, Implementierungs-, Integrations- und Prüfkonzept Unterstützungssystem erstellen, Integrations- und Prüfkonzept Hardware (HW) erstellen, Integrations- und Prüfkonzept Software (SW) erstellen} und \textit{Migrationskonzept erstellen} werden hier nacheinander ausgeführt.
-\begin{figure}[!htbp]
+Abbildung \ref{fig:SystementwurfKlein} zeigt die imperative Modellierung des Unterprozesses \grqq System entwerfen\grqq.\newline
+Die Aktivitäten \grqq Systemarchitektur erstellen, Unterstütungssystemarchitektur erstellen, Styleguide für die Mensch-Maschine-Schnittstelle erstellen, HW-Architektur erstellen, SW-Architektur erstellen, Datenbankentwurf erstellen, Implementierungs-, Integrations- und Prüfkonzept Unterstützungssystem erstellen, Integrations- und Prüfkonzept Hardware (HW) erstellen, Integrations- und Prüfkonzept Software (SW) erstellen\grqq \ und \grqq Migrationskonzept erstellen\grqq \ werden hier nacheinander ausgeführt.
+\begin{sidewaysfigure}[!htbp]
 \begin{center}
   \includegraphics[width=\linewidth]{SystementwurfKlein} %pdf, jpg, png...
   \caption{System entwerfen V-Modell - imperativ}
   \label{fig:SystementwurfKlein}
 \end{center}
-\end{figure}
+\end{sidewaysfigure}
 
 
 \subsubsection{System spezifizieren}
 
 SystemV
-Am Anfang des Unterprozesses \textit{System spezifizieren} (Abbildung \ref{fig:BerichtswesenimpKlein}) muss eine \textit{Besprechung durchgeführt} werden. Hieraus entsteht das Artefakt \textit{Besprechungsdokument}.\newline
-Parallel zu allen anderen Aktivitäten ist bei Bedarf bei jeder Änderung das \textit{Projekttagebuch zu führen}. Dies wird durch das Parallel-Gateway sichergstellt und die XOR-Schleife stellt sicher, dass die Akrtivität so oft durchgeführt wird, wie Anpassungen notwendig sind. \newline
-Im nächsten Schritt werden die \textit{Messdaten erfasst}.\newline
-In der nachfolgenden Aktivität wird die \textit{Metrik berechnet und ausgewertet}, woraus das Artefakt \textit{Metrikauswertung} entsteht.\newline
-Anschließend erfolgt die Durchführung der Aktivität \textit{Kaufmännischen Projektstausbericht erstellen}, wobei das Artefakt \textit{Kaufmännischer Projektstausbericht} als Artefakt herauskommt.\newline
-Bei der nächsten Aktivität wird der \textit{Projektstatusbericht erstellt} und danach wird der \textit{Gesamtprojektfortschritt ermittelt}\newline
-Die Aktivität \textit{QS-Bericht erstellen} bringt dann das Artefakt \textit{QS-Bericht hervor} und die nachfolgende Aktivität \textit{Projekt abschließen} den \textit{Projektabschlußbericht}.
+Am Anfang des Unterprozesses \grqq System spezifizieren\grqq \  (Abbildung \ref{fig:BerichtswesenimpKlein}) muss eine \grqq Besprechung durchgeführt\grqq \  werden. Hieraus entsteht das Artefakt \grqq Besprechungsdokument\grqq.\newline
+Parallel zu allen anderen Aktivitäten ist bei Bedarf bei jeder Änderung das \grqq Projekttagebuch zu führen\grqq. Dies wird durch das Parallel-Gateway sichergstellt und die XOR-Schleife stellt sicher, dass die Akrtivität so oft durchgeführt wird, wie Anpassungen notwendig sind. \newline
+Im nächsten Schritt werden die \grqq Messdaten erfasst\grqq.\newline
+In der nachfolgenden Aktivität wird die \grqq Metrik berechnet und ausgewertet\grqq, woraus das Artefakt \grqq Metrikauswertung\grqq \  entsteht.\newline
+Anschließend erfolgt die Durchführung der Aktivität \grqq Kaufmännischen Projektstausbericht erstellen\grqq, wobei das Artefakt \grqq {Kaufmännischer Projektstausbericht\grqq \  als Artefakt herauskommt.\newline
+Bei der nächsten Aktivität wird der \grqq Projektstatusbericht erstellt\grqq \  und danach wird der \grqq Gesamtprojektfortschritt ermittelt\grqq.\newline
+Die Aktivität \grqq QS-Bericht erstellen\grqq \  bringt dann das Artefakt \grqq QS-Bericht hervor\grqq \  und die nachfolgende Aktivität \grqq Projekt abschließen\grqq \  den \grqq Projektabschlußbericht\grqq.
 
 \begin{figure}[!htbp]
 \begin{center}
@@ -990,7 +984,7 @@ An dieser Stelle wird enschieden, ob erneut zu \textit{Anforderungen festlegen} 
 
 \subsubsection{Inkrementelle Entwicklung durchführen}
 In Abbildung \ref{fig:Systementwicklung} ist die deklarative Modellierung des Unterprozesses \textit{Inkrementelle Entwicklung durchführen} abgebildet. \newline
-Zu Beginn muss das \textit{System spezifiziert} werden, weshalb diese Aktivität mit dem Constraint \textit{init} beschrieben ist und anschließend wird das \textit{System entworfen}, was durch das Constraint \textit{succession} zwischen diesen beiden Aktivitäten sichergestellt wird.\newline
+Zu Beginn muss das \textit{System spezifiziert} werden, weshalb diese Aktivität mit dem Constraint \textit{Init} beschrieben ist und anschließend wird das \textit{System entworfen}, was durch das Constraint \textit{succession} zwischen diesen beiden Aktivitäten sichergestellt wird.\newline
 Hiernach wird der Feinentwurf entworfen und Systemelemente realisiert. Diese beiden Aktivitäten können so oft wie nötig durchgeführt werden. Es kommt nur darauf an, dass zuerst die Aktivität  \textit{Feinentwurf entwerfen} und anschließend die Aktivität \textit{Systemelemente realisieren} durchgeführt wird, weshalb das Constraint \textit{chain succession} sich zwischen diesen beiden Aktivitäten befindet. \newline
 Im nächsten Schritt wird das System integriert und es beginnt eine neue Iteration bei der Aktivität System entwerfen. Aus diesem Grund befindet sich hier das Constraint \textit{alternate succession} zwischen den Aktivitäten \textit{System integrieren} und \textit{System entwerfen}, da eine erneute Ausführung von \textit{System entwerfen} erst nach Ausführung der Aktivität \textit{System integrieren} möglich ist. \newline
 Falls keine weitere Iteration mehr notwendig ist, wird die \textit{Lieferung durchgeführt} und der Unterprozess endet hier, da durch die Constraints zu \textit{System entwerfen} und \textit{Feinentwurf entwerfen} keine weitere Aktivität mehr ausgeführt werden kann. \newline
