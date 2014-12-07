@@ -111,3 +111,4 @@
 \contentsline {chapter}{\numberline {A}BPMN Notation}{159}{appendix.A}
 \contentsline {chapter}{\numberline {B}ConDec Notation}{163}{appendix.B}
 \contentsline {chapter}{\numberline {C}Frageb\IeC {\"o}gen}{169}{appendix.C}
+\contentsline {chapter}{\numberline {D}Rohdaten}{193}{appendix.D}
