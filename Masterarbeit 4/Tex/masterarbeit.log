@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  7 DEC 2014 11:13
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  7 DEC 2014 14:22
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2471,7 +2471,7 @@ File: img/Frage2.pdf Graphic file (type pdf)
 Package pdftex.def Info: img/Frage2.pdf used on input line 125.
 (pdftex.def)             Requested size: 344.48746pt x 229.65831pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--136
+Underfull \hbox (badness 10000) in paragraph at lines 131--137
 
  []
 
@@ -2479,27 +2479,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 131--136
 Underfull \vbox (badness 7631) has occurred while \output is active []
 
  [135]
-<img/Frage3.pdf, id=4273, 429.605pt x 287.0725pt>
-File: img/Frage3.pdf Graphic file (type pdf)
- <use img/Frage3.pdf>
-Package pdftex.def Info: img/Frage3.pdf used on input line 140.
-(pdftex.def)             Requested size: 343.68446pt x 229.65831pt.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--149
+ [136 <./img/Frage2.pdf>] <img/Frage3.pdf, id=4324, 432.61626pt x 287.0725pt>
+File: img/Frage3.pdf Graphic file (type pdf)
+
+<use img/Frage3.pdf>
+Package pdftex.def Info: img/Frage3.pdf used on input line 141.
+(pdftex.def)             Requested size: 346.09348pt x 229.65831pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--150
 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [136 <./img/Frage2.pdf>] <img/Frage4.pdf, id=4326, 426.59375pt x 287.0725pt>
+<img/Frage4.pdf, id=4326, 428.60126pt x 287.0725pt>
 File: img/Frage4.pdf Graphic file (type pdf)
+ <use img/Frage4.pdf>
+Package pdftex.def Info: img/Frage4.pdf used on input line 154.
+(pdftex.def)             Requested size: 342.88147pt x 229.65831pt.
 
-<use img/Frage4.pdf>
-Package pdftex.def Info: img/Frage4.pdf used on input line 153.
-(pdftex.def)             Requested size: 341.27545pt x 229.65831pt.
- [137 <./img/Frage3.pdf>] [138 <./img/Frage4.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 164--166
+[137 <./img/Frage3.pdf>] [138 <./img/Frage4.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 165--167
 
  []
 
@@ -2507,10 +2507,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 164--166
 File: img/Meinungsfrage1.pdf Graphic file (type pdf)
 
 <use img/Meinungsfrage1.pdf>
-Package pdftex.def Info: img/Meinungsfrage1.pdf used on input line 169.
+Package pdftex.def Info: img/Meinungsfrage1.pdf used on input line 170.
 (pdftex.def)             Requested size: 336.45746pt x 229.65831pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--178
+Underfull \hbox (badness 10000) in paragraph at lines 176--179
 
  []
 
@@ -2521,10 +2521,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 175--178
 File: img/Meinungsfrage2.pdf Graphic file (type pdf)
 
 <use img/Meinungsfrage2.pdf>
-Package pdftex.def Info: img/Meinungsfrage2.pdf used on input line 182.
+Package pdftex.def Info: img/Meinungsfrage2.pdf used on input line 183.
 (pdftex.def)             Requested size: 339.66945pt x 228.0523pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--191
+Underfull \hbox (badness 10000) in paragraph at lines 189--192
 
  []
 
@@ -2533,10 +2533,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 188--191
 File: img/Meinungsfrage3.pdf Graphic file (type pdf)
 
 <use img/Meinungsfrage3.pdf>
-Package pdftex.def Info: img/Meinungsfrage3.pdf used on input line 194.
+Package pdftex.def Info: img/Meinungsfrage3.pdf used on input line 195.
 (pdftex.def)             Requested size: 336.45746pt x 228.85532pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--203
+Underfull \hbox (badness 10000) in paragraph at lines 201--204
 
  []
 
@@ -2545,53 +2545,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 200--203
 File: img/Meinungsfrage4.pdf Graphic file (type pdf)
 
 <use img/Meinungsfrage4.pdf>
-Package pdftex.def Info: img/Meinungsfrage4.pdf used on input line 208.
+Package pdftex.def Info: img/Meinungsfrage4.pdf used on input line 209.
 (pdftex.def)             Requested size: 339.66945pt x 228.85532pt.
  [142 <./img/Meinungsfrage4.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 219--220
+Underfull \hbox (badness 10000) in paragraph at lines 220--221
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--226
+Underfull \hbox (badness 10000) in paragraph at lines 225--227
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--239
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
 
  []
 
 [143
 
 ]
-Overfull \hbox (1.94261pt too wide) in paragraph at lines 240--241
+Overfull \hbox (1.94261pt too wide) in paragraph at lines 241--242
 \T1/phv/m/n/10.95 (-20) BPMN ver-ständ-li-cher. Dies zeig-te sich beim klei-nen
  Pro-zess \T1/phv/m/sl/10.95 Open UP:Lösungsinkrement
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--241
+Underfull \hbox (badness 10000) in paragraph at lines 241--242
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--243
+Underfull \hbox (badness 10000) in paragraph at lines 243--244
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--246
+Underfull \hbox (badness 10000) in paragraph at lines 245--247
 
  []
 
 [144]
-Underfull \hbox (badness 10000) in paragraph at lines 247--249
+Underfull \hbox (badness 10000) in paragraph at lines 248--250
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--255
+Underfull \hbox (badness 10000) in paragraph at lines 253--256
 
  []
 
@@ -2599,10 +2599,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 252--255
 File: img/TabelleStudie.pdf Graphic file (type pdf)
 
 <use img/TabelleStudie.pdf>
-Package pdftex.def Info: img/TabelleStudie.pdf used on input line 261.
+Package pdftex.def Info: img/TabelleStudie.pdf used on input line 262.
 (pdftex.def)             Requested size: 418.25555pt x 234.6312pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--274
+Underfull \hbox (badness 10000) in paragraph at lines 272--275
 
  []
 
@@ -2956,375 +2956,375 @@ y)> <./img/ExclusiveChoiceOneOfThree.png (PNG copy)> <./img/NotCoExistence.png
 
 ]
 Anhang C.
-[169] <img/Fragebogen1.pdf, id=4860, page=1, 597.52231pt x 845.0471pt>
+[169] <img/Fragebogen1.pdf, id=4860, page=1, 1120.185pt x 1568.86125pt>
 File: img/Fragebogen1.pdf Graphic file (type pdf)
 
 <use img/Fragebogen1.pdf, page 1>
 Package pdftex.def Info: img/Fragebogen1.pdf, page1 used on input line 252.
-(pdftex.def)             Requested size: 597.52086pt x 845.04504pt.
+(pdftex.def)             Requested size: 1120.18227pt x 1568.85742pt.
 File: img/Fragebogen1.pdf Graphic file (type pdf)
  <use img/Fragebogen1.pdf, page 1>
 Package pdftex.def Info: img/Fragebogen1.pdf, page1 used on input line 252.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen1.pdf Graphic file (type pdf)
 
 <use img/Fragebogen1.pdf, page 1>
 Package pdftex.def Info: img/Fragebogen1.pdf, page1 used on input line 252.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen1.pdf Graphic file (type pdf)
  <use img/Fragebogen1.pdf, page 1>
 Package pdftex.def Info: img/Fragebogen1.pdf, page1 used on input line 252.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen1.pdf Graphic file (type pdf)
 
 <use img/Fragebogen1.pdf, page 1>
 Package pdftex.def Info: img/Fragebogen1.pdf, page1 used on input line 252.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
  [170 <./img/Fragebogen1.pdf>]
-<img/Fragebogen1.pdf, id=4891, page=2, 597.52231pt x 845.0471pt>
+<img/Fragebogen1.pdf, id=4884, page=2, 1120.185pt x 1568.86125pt>
 File: img/Fragebogen1.pdf Graphic file (type pdf)
 
 <use img/Fragebogen1.pdf, page 2>
 Package pdftex.def Info: img/Fragebogen1.pdf, page2 used on input line 252.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen1.pdf Graphic file (type pdf)
  <use img/Fragebogen1.pdf, page 2>
 Package pdftex.def Info: img/Fragebogen1.pdf, page2 used on input line 252.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen1.pdf Graphic file (type pdf)
 
 <use img/Fragebogen1.pdf, page 2>
 Package pdftex.def Info: img/Fragebogen1.pdf, page2 used on input line 252.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
  [171 <./img/Fragebogen1.pdf>]
-<img/Fragebogen1.pdf, id=4896, page=3, 597.52231pt x 845.0471pt>
+<img/Fragebogen1.pdf, id=4889, page=3, 1120.185pt x 1568.86125pt>
 File: img/Fragebogen1.pdf Graphic file (type pdf)
 
 <use img/Fragebogen1.pdf, page 3>
 Package pdftex.def Info: img/Fragebogen1.pdf, page3 used on input line 252.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen1.pdf Graphic file (type pdf)
  <use img/Fragebogen1.pdf, page 3>
 Package pdftex.def Info: img/Fragebogen1.pdf, page3 used on input line 252.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen1.pdf Graphic file (type pdf)
 
 <use img/Fragebogen1.pdf, page 3>
 Package pdftex.def Info: img/Fragebogen1.pdf, page3 used on input line 252.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
  [172 <./img/Fragebogen1.pdf>]
-<img/Fragebogen1.pdf, id=4901, page=4, 597.52231pt x 845.0471pt>
+<img/Fragebogen1.pdf, id=4894, page=4, 1120.185pt x 1568.86125pt>
 File: img/Fragebogen1.pdf Graphic file (type pdf)
 
 <use img/Fragebogen1.pdf, page 4>
 Package pdftex.def Info: img/Fragebogen1.pdf, page4 used on input line 252.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen1.pdf Graphic file (type pdf)
  <use img/Fragebogen1.pdf, page 4>
 Package pdftex.def Info: img/Fragebogen1.pdf, page4 used on input line 252.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen1.pdf Graphic file (type pdf)
 
 <use img/Fragebogen1.pdf, page 4>
 Package pdftex.def Info: img/Fragebogen1.pdf, page4 used on input line 252.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
  [173 <./img/Fragebogen1.pdf>]
-<img/Fragebogen1.pdf, id=4912, page=5, 597.52231pt x 845.0471pt>
+<img/Fragebogen1.pdf, id=4902, page=5, 1120.185pt x 1568.86125pt>
 File: img/Fragebogen1.pdf Graphic file (type pdf)
 
 <use img/Fragebogen1.pdf, page 5>
 Package pdftex.def Info: img/Fragebogen1.pdf, page5 used on input line 252.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen1.pdf Graphic file (type pdf)
  <use img/Fragebogen1.pdf, page 5>
 Package pdftex.def Info: img/Fragebogen1.pdf, page5 used on input line 252.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen1.pdf Graphic file (type pdf)
 
 <use img/Fragebogen1.pdf, page 5>
 Package pdftex.def Info: img/Fragebogen1.pdf, page5 used on input line 252.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
  [174 <./img/Fragebogen1.pdf>]
-<img/Fragebogen1.pdf, id=4931, page=6, 597.52231pt x 845.0471pt>
+<img/Fragebogen1.pdf, id=4921, page=6, 1120.185pt x 1568.86125pt>
 File: img/Fragebogen1.pdf Graphic file (type pdf)
 
 <use img/Fragebogen1.pdf, page 6>
 Package pdftex.def Info: img/Fragebogen1.pdf, page6 used on input line 252.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen1.pdf Graphic file (type pdf)
  <use img/Fragebogen1.pdf, page 6>
 Package pdftex.def Info: img/Fragebogen1.pdf, page6 used on input line 252.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen1.pdf Graphic file (type pdf)
 
 <use img/Fragebogen1.pdf, page 6>
 Package pdftex.def Info: img/Fragebogen1.pdf, page6 used on input line 252.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
  [175 <./img/Fragebogen1.pdf>]
-<img/Fragebogen1.pdf, id=4950, page=7, 597.52231pt x 845.0471pt>
+<img/Fragebogen1.pdf, id=4940, page=7, 1120.185pt x 1568.86125pt>
 File: img/Fragebogen1.pdf Graphic file (type pdf)
 
 <use img/Fragebogen1.pdf, page 7>
 Package pdftex.def Info: img/Fragebogen1.pdf, page7 used on input line 252.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen1.pdf Graphic file (type pdf)
  <use img/Fragebogen1.pdf, page 7>
 Package pdftex.def Info: img/Fragebogen1.pdf, page7 used on input line 252.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen1.pdf Graphic file (type pdf)
 
 <use img/Fragebogen1.pdf, page 7>
 Package pdftex.def Info: img/Fragebogen1.pdf, page7 used on input line 252.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
  [176 <./img/Fragebogen1.pdf>]
-<img/Fragebogen1.pdf, id=4962, page=9, 597.52231pt x 845.0471pt>
+<img/Fragebogen1.pdf, id=4952, page=9, 1120.185pt x 1568.86125pt>
 File: img/Fragebogen1.pdf Graphic file (type pdf)
 
 <use img/Fragebogen1.pdf, page 9>
 Package pdftex.def Info: img/Fragebogen1.pdf, page9 used on input line 252.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen1.pdf Graphic file (type pdf)
  <use img/Fragebogen1.pdf, page 9>
 Package pdftex.def Info: img/Fragebogen1.pdf, page9 used on input line 252.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen1.pdf Graphic file (type pdf)
 
 <use img/Fragebogen1.pdf, page 9>
 Package pdftex.def Info: img/Fragebogen1.pdf, page9 used on input line 252.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
  [177 <./img/Fragebogen1.pdf>]
-<img/Fragebogen1.pdf, id=4976, page=10, 597.52231pt x 845.0471pt>
+<img/Fragebogen1.pdf, id=4966, page=10, 1120.185pt x 1568.86125pt>
 File: img/Fragebogen1.pdf Graphic file (type pdf)
 
 <use img/Fragebogen1.pdf, page 10>
 Package pdftex.def Info: img/Fragebogen1.pdf, page10 used on input line 252.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen1.pdf Graphic file (type pdf)
  <use img/Fragebogen1.pdf, page 10>
 Package pdftex.def Info: img/Fragebogen1.pdf, page10 used on input line 252.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen1.pdf Graphic file (type pdf)
 
 <use img/Fragebogen1.pdf, page 10>
 Package pdftex.def Info: img/Fragebogen1.pdf, page10 used on input line 252.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
  [178 <./img/Fragebogen1.pdf>]
-<img/Fragebogen1.pdf, id=4990, page=11, 597.52231pt x 845.0471pt>
+<img/Fragebogen1.pdf, id=4980, page=11, 1120.185pt x 1568.86125pt>
 File: img/Fragebogen1.pdf Graphic file (type pdf)
 
 <use img/Fragebogen1.pdf, page 11>
 Package pdftex.def Info: img/Fragebogen1.pdf, page11 used on input line 252.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen1.pdf Graphic file (type pdf)
  <use img/Fragebogen1.pdf, page 11>
 Package pdftex.def Info: img/Fragebogen1.pdf, page11 used on input line 252.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen1.pdf Graphic file (type pdf)
 
 <use img/Fragebogen1.pdf, page 11>
 Package pdftex.def Info: img/Fragebogen1.pdf, page11 used on input line 252.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
  [179 <./img/Fragebogen1.pdf>]
-<img/Fragebogen1.pdf, id=5015, page=12, 597.52231pt x 845.0471pt>
+<img/Fragebogen1.pdf, id=5005, page=12, 1120.185pt x 1568.86125pt>
 File: img/Fragebogen1.pdf Graphic file (type pdf)
 
 <use img/Fragebogen1.pdf, page 12>
 Package pdftex.def Info: img/Fragebogen1.pdf, page12 used on input line 252.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen1.pdf Graphic file (type pdf)
  <use img/Fragebogen1.pdf, page 12>
 Package pdftex.def Info: img/Fragebogen1.pdf, page12 used on input line 252.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen1.pdf Graphic file (type pdf)
 
 <use img/Fragebogen1.pdf, page 12>
 Package pdftex.def Info: img/Fragebogen1.pdf, page12 used on input line 252.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
  [180 <./img/Fragebogen1.pdf>]
-<img/Fragebogen2.pdf, id=5031, page=1, 597.52231pt x 845.0471pt>
+<img/Fragebogen2.pdf, id=5021, page=1, 1120.185pt x 1568.86125pt>
 File: img/Fragebogen2.pdf Graphic file (type pdf)
 
 <use img/Fragebogen2.pdf, page 1>
 Package pdftex.def Info: img/Fragebogen2.pdf, page1 used on input line 253.
-(pdftex.def)             Requested size: 597.52086pt x 845.04504pt.
+(pdftex.def)             Requested size: 1120.18227pt x 1568.85742pt.
 File: img/Fragebogen2.pdf Graphic file (type pdf)
  <use img/Fragebogen2.pdf, page 1>
 Package pdftex.def Info: img/Fragebogen2.pdf, page1 used on input line 253.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen2.pdf Graphic file (type pdf)
 
 <use img/Fragebogen2.pdf, page 1>
 Package pdftex.def Info: img/Fragebogen2.pdf, page1 used on input line 253.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen2.pdf Graphic file (type pdf)
  <use img/Fragebogen2.pdf, page 1>
 Package pdftex.def Info: img/Fragebogen2.pdf, page1 used on input line 253.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen2.pdf Graphic file (type pdf)
 
 <use img/Fragebogen2.pdf, page 1>
 Package pdftex.def Info: img/Fragebogen2.pdf, page1 used on input line 253.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
  [181 <./img/Fragebogen2.pdf>]
-<img/Fragebogen2.pdf, id=5064, page=2, 597.52231pt x 845.0471pt>
+<img/Fragebogen2.pdf, id=5045, page=2, 1120.185pt x 1568.86125pt>
 File: img/Fragebogen2.pdf Graphic file (type pdf)
 
 <use img/Fragebogen2.pdf, page 2>
 Package pdftex.def Info: img/Fragebogen2.pdf, page2 used on input line 253.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen2.pdf Graphic file (type pdf)
  <use img/Fragebogen2.pdf, page 2>
 Package pdftex.def Info: img/Fragebogen2.pdf, page2 used on input line 253.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen2.pdf Graphic file (type pdf)
 
 <use img/Fragebogen2.pdf, page 2>
 Package pdftex.def Info: img/Fragebogen2.pdf, page2 used on input line 253.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
  [182 <./img/Fragebogen2.pdf>]
-<img/Fragebogen2.pdf, id=5069, page=3, 597.52231pt x 845.0471pt>
+<img/Fragebogen2.pdf, id=5050, page=3, 1120.185pt x 1568.86125pt>
 File: img/Fragebogen2.pdf Graphic file (type pdf)
 
 <use img/Fragebogen2.pdf, page 3>
 Package pdftex.def Info: img/Fragebogen2.pdf, page3 used on input line 253.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen2.pdf Graphic file (type pdf)
  <use img/Fragebogen2.pdf, page 3>
 Package pdftex.def Info: img/Fragebogen2.pdf, page3 used on input line 253.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen2.pdf Graphic file (type pdf)
 
 <use img/Fragebogen2.pdf, page 3>
 Package pdftex.def Info: img/Fragebogen2.pdf, page3 used on input line 253.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
  [183 <./img/Fragebogen2.pdf>]
-<img/Fragebogen2.pdf, id=5074, page=4, 597.52231pt x 845.0471pt>
+<img/Fragebogen2.pdf, id=5055, page=4, 1120.185pt x 1568.86125pt>
 File: img/Fragebogen2.pdf Graphic file (type pdf)
 
 <use img/Fragebogen2.pdf, page 4>
 Package pdftex.def Info: img/Fragebogen2.pdf, page4 used on input line 253.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen2.pdf Graphic file (type pdf)
  <use img/Fragebogen2.pdf, page 4>
 Package pdftex.def Info: img/Fragebogen2.pdf, page4 used on input line 253.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen2.pdf Graphic file (type pdf)
 
 <use img/Fragebogen2.pdf, page 4>
 Package pdftex.def Info: img/Fragebogen2.pdf, page4 used on input line 253.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
  [184 <./img/Fragebogen2.pdf>]
-<img/Fragebogen2.pdf, id=5086, page=5, 597.52231pt x 845.0471pt>
+<img/Fragebogen2.pdf, id=5067, page=5, 1120.185pt x 1568.86125pt>
 File: img/Fragebogen2.pdf Graphic file (type pdf)
 
 <use img/Fragebogen2.pdf, page 5>
 Package pdftex.def Info: img/Fragebogen2.pdf, page5 used on input line 253.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen2.pdf Graphic file (type pdf)
  <use img/Fragebogen2.pdf, page 5>
 Package pdftex.def Info: img/Fragebogen2.pdf, page5 used on input line 253.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen2.pdf Graphic file (type pdf)
 
 <use img/Fragebogen2.pdf, page 5>
 Package pdftex.def Info: img/Fragebogen2.pdf, page5 used on input line 253.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
  [185 <./img/Fragebogen2.pdf>]
-<img/Fragebogen2.pdf, id=5101, page=6, 597.52231pt x 845.0471pt>
+<img/Fragebogen2.pdf, id=5082, page=6, 1120.185pt x 1568.86125pt>
 File: img/Fragebogen2.pdf Graphic file (type pdf)
 
 <use img/Fragebogen2.pdf, page 6>
 Package pdftex.def Info: img/Fragebogen2.pdf, page6 used on input line 253.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen2.pdf Graphic file (type pdf)
  <use img/Fragebogen2.pdf, page 6>
 Package pdftex.def Info: img/Fragebogen2.pdf, page6 used on input line 253.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen2.pdf Graphic file (type pdf)
 
 <use img/Fragebogen2.pdf, page 6>
 Package pdftex.def Info: img/Fragebogen2.pdf, page6 used on input line 253.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
  [186 <./img/Fragebogen2.pdf>]
-<img/Fragebogen2.pdf, id=5113, page=7, 597.52231pt x 845.0471pt>
+<img/Fragebogen2.pdf, id=5094, page=7, 1120.185pt x 1568.86125pt>
 File: img/Fragebogen2.pdf Graphic file (type pdf)
 
 <use img/Fragebogen2.pdf, page 7>
 Package pdftex.def Info: img/Fragebogen2.pdf, page7 used on input line 253.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen2.pdf Graphic file (type pdf)
  <use img/Fragebogen2.pdf, page 7>
 Package pdftex.def Info: img/Fragebogen2.pdf, page7 used on input line 253.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen2.pdf Graphic file (type pdf)
 
 <use img/Fragebogen2.pdf, page 7>
 Package pdftex.def Info: img/Fragebogen2.pdf, page7 used on input line 253.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
  [187 <./img/Fragebogen2.pdf>]
-<img/Fragebogen2.pdf, id=5125, page=8, 597.52231pt x 845.0471pt>
+<img/Fragebogen2.pdf, id=5106, page=8, 1120.185pt x 1568.86125pt>
 File: img/Fragebogen2.pdf Graphic file (type pdf)
 
 <use img/Fragebogen2.pdf, page 8>
 Package pdftex.def Info: img/Fragebogen2.pdf, page8 used on input line 253.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen2.pdf Graphic file (type pdf)
  <use img/Fragebogen2.pdf, page 8>
 Package pdftex.def Info: img/Fragebogen2.pdf, page8 used on input line 253.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen2.pdf Graphic file (type pdf)
 
 <use img/Fragebogen2.pdf, page 8>
 Package pdftex.def Info: img/Fragebogen2.pdf, page8 used on input line 253.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
  [188 <./img/Fragebogen2.pdf>]
-<img/Fragebogen2.pdf, id=5139, page=9, 597.52231pt x 845.0471pt>
+<img/Fragebogen2.pdf, id=5120, page=9, 1120.185pt x 1568.86125pt>
 File: img/Fragebogen2.pdf Graphic file (type pdf)
 
 <use img/Fragebogen2.pdf, page 9>
 Package pdftex.def Info: img/Fragebogen2.pdf, page9 used on input line 253.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen2.pdf Graphic file (type pdf)
  <use img/Fragebogen2.pdf, page 9>
 Package pdftex.def Info: img/Fragebogen2.pdf, page9 used on input line 253.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen2.pdf Graphic file (type pdf)
 
 <use img/Fragebogen2.pdf, page 9>
 Package pdftex.def Info: img/Fragebogen2.pdf, page9 used on input line 253.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
  [189 <./img/Fragebogen2.pdf>]
-<img/Fragebogen2.pdf, id=5153, page=10, 597.52231pt x 845.0471pt>
+<img/Fragebogen2.pdf, id=5134, page=10, 1120.185pt x 1568.86125pt>
 File: img/Fragebogen2.pdf Graphic file (type pdf)
 
 <use img/Fragebogen2.pdf, page 10>
 Package pdftex.def Info: img/Fragebogen2.pdf, page10 used on input line 253.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen2.pdf Graphic file (type pdf)
  <use img/Fragebogen2.pdf, page 10>
 Package pdftex.def Info: img/Fragebogen2.pdf, page10 used on input line 253.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen2.pdf Graphic file (type pdf)
 
 <use img/Fragebogen2.pdf, page 10>
 Package pdftex.def Info: img/Fragebogen2.pdf, page10 used on input line 253.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
  [190 <./img/Fragebogen2.pdf>]
-<img/Fragebogen2.pdf, id=5177, page=11, 597.52231pt x 845.0471pt>
+<img/Fragebogen2.pdf, id=5157, page=11, 1120.185pt x 1568.86125pt>
 File: img/Fragebogen2.pdf Graphic file (type pdf)
 
 <use img/Fragebogen2.pdf, page 11>
 Package pdftex.def Info: img/Fragebogen2.pdf, page11 used on input line 253.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen2.pdf Graphic file (type pdf)
  <use img/Fragebogen2.pdf, page 11>
 Package pdftex.def Info: img/Fragebogen2.pdf, page11 used on input line 253.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
 File: img/Fragebogen2.pdf Graphic file (type pdf)
 
 <use img/Fragebogen2.pdf, page 11>
 Package pdftex.def Info: img/Fragebogen2.pdf, page11 used on input line 253.
-(pdftex.def)             Requested size: 597.5482pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.59235pt x 836.95058pt.
  [191 <./img/Fragebogen2.pdf>]) [192
 
 
@@ -3634,10 +3634,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 95.
 ### simple group (level 1) entered at line 904 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 14617 strings out of 493633
- 225087 string characters out of 3143378
- 366049 words of memory out of 3000000
- 16712 multiletter control sequences out of 15000+200000
+ 14618 strings out of 493633
+ 225102 string characters out of 3143378
+ 366075 words of memory out of 3000000
+ 16713 multiletter control sequences out of 15000+200000
  84826 words of font info for 247 fonts, out of 3000000 for 9000
  832 hyphenation exceptions out of 8191
  44i,18n,47p,2379b,671s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3651,10 +3651,10 @@ t/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2011/texmf-dist/fonts/type
 lvetic/uhvb8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/helvetic/
 uhvr8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/helvetic/uhvro8a
 .pfb>
-Output written on masterarbeit.pdf (215 pages, 6913008 bytes).
+Output written on masterarbeit.pdf (215 pages, 6902978 bytes).
 PDF statistics:
- 5548 PDF objects out of 6186 (max. 8388607)
- 4133 compressed objects within 42 object streams
+ 5529 PDF objects out of 6186 (max. 8388607)
+ 4117 compressed objects within 42 object streams
  513 named destinations out of 1000 (max. 500000)
  29942 words of extra memory for PDF output out of 35830 (max. 10000000)
 
