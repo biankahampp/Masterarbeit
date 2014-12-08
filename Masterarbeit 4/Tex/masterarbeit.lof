@@ -3,103 +3,111 @@
 \contentsline {figure}{\numberline {\relax 1.1}{\ignorespaces Aufbau der Arbeit}}{6}{figure.1.1}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces Schichten des Software Engineering \cite {Puntambekar2007}}}{8}{figure.2.1}
-\contentsline {figure}{\numberline {\relax 2.2}{\ignorespaces Ziele, Prozess und Prinzipien des Software Engineering \cite {ross1975software}}}{9}{figure.2.2}
-\contentsline {figure}{\numberline {\relax 2.3}{\ignorespaces Phasen Softwareprozess nach \cite {Hanser2010}}}{12}{figure.2.3}
-\contentsline {figure}{\numberline {\relax 2.4}{\ignorespaces Software-Projekttypen nach \cite {Boehm81}}}{13}{figure.2.4}
+\contentsline {figure}{\numberline {\relax 2.2}{\ignorespaces Phasen Softwareprozess nach \cite {Hanser2010}}}{10}{figure.2.2}
+\contentsline {figure}{\numberline {\relax 2.3}{\ignorespaces Software-Projekttypen nach \cite {Boehm81}}}{10}{figure.2.3}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces Ziele der Prozessmodellierung nach \cite {koch2011}}}{16}{figure.3.1}
-\contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces Grundsatz ordnungsgem\IeC {\"a}\IeC {\ss }er Modellierung nach \cite {journals95}}}{18}{figure.3.2}
-\contentsline {figure}{\numberline {\relax 3.3}{\ignorespaces BPMN-Elemente \IeC {\"U}bersicht nach \cite {gpfert2012}}}{22}{figure.3.3}
-\contentsline {figure}{\numberline {\relax 3.4}{\ignorespaces BPMN-Gateways}}{24}{figure.3.4}
-\contentsline {figure}{\numberline {\relax 3.5}{\ignorespaces Deklarativer Beispiel-Prozess \cite {pesic2006}}}{26}{figure.3.5}
-\contentsline {figure}{\numberline {\relax 3.6}{\ignorespaces Siganvio Process Editor (Screenshot Siganvio)}}{28}{figure.3.6}
-\contentsline {figure}{\numberline {\relax 3.7}{\ignorespaces Siganvio Simulation (Screenshot Signavio)}}{29}{figure.3.7}
-\contentsline {figure}{\numberline {\relax 3.8}{\ignorespaces Declare Systemarchitektur nach \cite {pesic2007declare}}}{30}{figure.3.8}
-\contentsline {figure}{\numberline {\relax 3.9}{\ignorespaces Declare Designer (Screenshot aus Declare)}}{31}{figure.3.9}
-\contentsline {figure}{\numberline {\relax 3.10}{\ignorespaces Declare Framework (Screenshot aus Declare)}}{32}{figure.3.10}
-\contentsline {figure}{\numberline {\relax 3.11}{\ignorespaces Declare Worklist (Screenshot aus Declare)}}{32}{figure.3.11}
+\contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces Ziele der Prozessmodellierung nach \cite {koch2011}}}{14}{figure.3.1}
+\contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces Grundsatz ordnungsgem\IeC {\"a}\IeC {\ss }er Modellierung nach \cite {journals95}}}{16}{figure.3.2}
+\contentsline {figure}{\numberline {\relax 3.3}{\ignorespaces BPMN-Elemente \IeC {\"U}bersicht nach \cite {gpfert2012}}}{20}{figure.3.3}
+\contentsline {figure}{\numberline {\relax 3.4}{\ignorespaces BPMN-Gateways}}{22}{figure.3.4}
+\contentsline {figure}{\numberline {\relax 3.5}{\ignorespaces Deklarativer Beispiel-Prozess \cite {pesic2006}}}{24}{figure.3.5}
+\contentsline {figure}{\numberline {\relax 3.6}{\ignorespaces Siganvio Process Editor (Screenshot Siganvio)}}{26}{figure.3.6}
+\contentsline {figure}{\numberline {\relax 3.7}{\ignorespaces Siganvio Simulation (Screenshot Signavio)}}{27}{figure.3.7}
+\contentsline {figure}{\numberline {\relax 3.8}{\ignorespaces Declare Systemarchitektur nach \cite {pesic2007declare}}}{28}{figure.3.8}
+\contentsline {figure}{\numberline {\relax 3.9}{\ignorespaces Declare Designer (Screenshot aus Declare)}}{29}{figure.3.9}
+\contentsline {figure}{\numberline {\relax 3.10}{\ignorespaces Declare Framework (Screenshot aus Declare)}}{30}{figure.3.10}
+\contentsline {figure}{\numberline {\relax 3.11}{\ignorespaces Declare Worklist (Screenshot aus Declare)}}{30}{figure.3.11}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces \IeC {\"U}bersicht Vergleichskriterien}}{42}{figure.4.1}
+\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces \IeC {\"U}bersicht Vergleichskriterien}}{40}{figure.4.1}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces Scrum \IeC {\"U}berblick nach \cite {scrum2008}}}{45}{figure.5.1}
-\contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces Imperative Modellierung Scrum}}{49}{figure.5.2}
-\contentsline {figure}{\numberline {\relax 5.3}{\ignorespaces Imperative Modellierung Scrum Unterprozess}}{50}{figure.5.3}
-\contentsline {figure}{\numberline {\relax 5.4}{\ignorespaces Deklarative Modellierung Scrum}}{52}{figure.5.4}
-\contentsline {figure}{\numberline {\relax 5.5}{\ignorespaces Deklarative Modellierung Scrum-Unterprozess Sprint-Planning-Meeting durchf\IeC {\"u}hren}}{52}{figure.5.5}
-\contentsline {figure}{\numberline {\relax 5.6}{\ignorespaces Vergleich der Anzahl der Elemente Scrum}}{53}{figure.5.6}
-\contentsline {figure}{\numberline {\relax 5.7}{\ignorespaces Zusammenfassung Vergleich Scrum}}{57}{figure.5.7}
-\contentsline {figure}{\numberline {\relax 5.8}{\ignorespaces Open UP \IeC {\"U}berblick nach \cite {eclipseopenup}}}{59}{figure.5.8}
-\contentsline {figure}{\numberline {\relax 5.9}{\ignorespaces Phasen Open UP nach \cite {eclipseopenup}}}{62}{figure.5.9}
-\contentsline {figure}{\numberline {\relax 5.10}{\ignorespaces Rollen in Open UP nach \cite {openup}}}{63}{figure.5.10}
-\contentsline {figure}{\numberline {\relax 5.11}{\ignorespaces Phasen Open UP- imperativ}}{65}{figure.5.11}
-\contentsline {figure}{\numberline {\relax 5.12}{\ignorespaces Phasen Open UP Unterprozess Inception- imperativ}}{66}{figure.5.12}
-\contentsline {figure}{\numberline {\relax 5.13}{\ignorespaces Phasen Open UP Unterprozess Elaboration- imperativ}}{66}{figure.5.13}
-\contentsline {figure}{\numberline {\relax 5.14}{\ignorespaces Phasen Open UP Unterprozess Construction- imperativ}}{67}{figure.5.14}
-\contentsline {figure}{\numberline {\relax 5.15}{\ignorespaces Phasen Open UP Unterprozess Transition- imperativ}}{68}{figure.5.15}
-\contentsline {figure}{\numberline {\relax 5.16}{\ignorespaces L\IeC {\"o}sungsinkrement entwickeln imperativ}}{70}{figure.5.16}
-\contentsline {figure}{\numberline {\relax 5.17}{\ignorespaces Iteration planen und managen imperativ -Inception}}{71}{figure.5.17}
-\contentsline {figure}{\numberline {\relax 5.18}{\ignorespaces Iteration planen und managen imperativ -Inception Unterprozess Umgebung vorbereiten}}{72}{figure.5.18}
-\contentsline {figure}{\numberline {\relax 5.19}{\ignorespaces Anforderungen identifizieren und verfeinern-Elaboration}}{74}{figure.5.19}
-\contentsline {figure}{\numberline {\relax 5.20}{\ignorespaces Produktdokumentation und Training erstellen - Construction}}{75}{figure.5.20}
-\contentsline {figure}{\numberline {\relax 5.21}{\ignorespaces Release deployen-Transition}}{76}{figure.5.21}
-\contentsline {figure}{\numberline {\relax 5.22}{\ignorespaces Phasen Open UP- deklarativ}}{77}{figure.5.22}
-\contentsline {figure}{\numberline {\relax 5.23}{\ignorespaces Phasen Open UP Unterprozess Inception- deklarativ}}{78}{figure.5.23}
-\contentsline {figure}{\numberline {\relax 5.24}{\ignorespaces Phasen Open UP Unterprozess Elaboration- deklarativ}}{79}{figure.5.24}
-\contentsline {figure}{\numberline {\relax 5.25}{\ignorespaces Phasen Open UP Unterprozess Construction- deklarativ}}{79}{figure.5.25}
-\contentsline {figure}{\numberline {\relax 5.26}{\ignorespaces Phasen Open UP Unterprozess Transition- deklarativ}}{80}{figure.5.26}
-\contentsline {figure}{\numberline {\relax 5.27}{\ignorespaces L\IeC {\"o}sungsinkrement entwickeln- deklarativ}}{81}{figure.5.27}
-\contentsline {figure}{\numberline {\relax 5.28}{\ignorespaces Iteration planen und managen-Inception deklarativ}}{82}{figure.5.28}
-\contentsline {figure}{\numberline {\relax 5.29}{\ignorespaces Iteration planen und managen- Inception Unterprozess Umgebung vorbereiten- deklarativ}}{82}{figure.5.29}
-\contentsline {figure}{\numberline {\relax 5.30}{\ignorespaces Anforderungen identifizieren und verfeinern-Elaboration}}{83}{figure.5.30}
-\contentsline {figure}{\numberline {\relax 5.31}{\ignorespaces Produktdokumentation und Training erstellen-Construction}}{84}{figure.5.31}
-\contentsline {figure}{\numberline {\relax 5.32}{\ignorespaces Release deployen-Transition}}{85}{figure.5.32}
-\contentsline {figure}{\numberline {\relax 5.33}{\ignorespaces Phasen Open UP}}{86}{figure.5.33}
-\contentsline {figure}{\numberline {\relax 5.34}{\ignorespaces Open UP-Inception}}{87}{figure.5.34}
-\contentsline {figure}{\numberline {\relax 5.35}{\ignorespaces L\IeC {\"o}sungsinkrement entwickeln}}{88}{figure.5.35}
-\contentsline {figure}{\numberline {\relax 5.36}{\ignorespaces Open UP-Iteration planen}}{89}{figure.5.36}
-\contentsline {figure}{\numberline {\relax 5.37}{\ignorespaces \IeC {\"U}bersicht Vergleich Open UP}}{94}{figure.5.37}
-\contentsline {figure}{\numberline {\relax 5.38}{\ignorespaces Grundstruktur V-Modell XT nach \cite {2004vmodell}}}{95}{figure.5.38}
-\contentsline {figure}{\numberline {\relax 5.39}{\ignorespaces Projekttypen V-Modell XT nach \cite {2004vmodell}}}{96}{figure.5.39}
-\contentsline {figure}{\numberline {\relax 5.40}{\ignorespaces Zuordnung der Projekttypvarianten zu den Projekttypen des V-Modell XT \cite {2004vmodell}}}{98}{figure.5.40}
-\contentsline {figure}{\numberline {\relax 5.41}{\ignorespaces Vorgehensbausteine V-Modell XT nach \cite {2004vmodell}}}{99}{figure.5.41}
-\contentsline {figure}{\numberline {\relax 5.42}{\ignorespaces V-Modell XT-Kern und Vorgehensbausteinlandkarte nach \cite {2004vmodell}}}{100}{figure.5.42}
-\contentsline {figure}{\numberline {\relax 5.43}{\ignorespaces Entscheidungspunkte V-Modell XT nach \cite {2004vmodell}}}{103}{figure.5.43}
-\contentsline {figure}{\numberline {\relax 5.44}{\ignorespaces Entscheidungspunkte f\IeC {\"u}r die Projektdurchf\IeC {\"u}hrungsstrategie nach \cite {2004vmodell}}}{104}{figure.5.44}
-\contentsline {figure}{\numberline {\relax 5.45}{\ignorespaces Systementwicklungsprojekt AG/AN V-Modell XT - imperativ}}{106}{figure.5.45}
-\contentsline {figure}{\numberline {\relax 5.46}{\ignorespaces Unterprozess Inkrementelle Entwicklung durchf\IeC {\"u}hren V-Modell XT - imperativ}}{107}{figure.5.46}
-\contentsline {figure}{\numberline {\relax 5.47}{\ignorespaces System entwerfen V-Modell XT - imperativ}}{109}{figure.5.47}
-\contentsline {figure}{\numberline {\relax 5.48}{\ignorespaces System spezifizieren-imperativ}}{110}{figure.5.48}
-\contentsline {figure}{\numberline {\relax 5.49}{\ignorespaces Systementwicklungsprojekt AG/AN V-Modell XT - deklarativ}}{112}{figure.5.49}
-\contentsline {figure}{\numberline {\relax 5.50}{\ignorespaces Systementwicklungsprojekt AG/AN V-Modell XT Unterprozess Entwicklung durchf\IeC {\"u}hren - deklarativ}}{112}{figure.5.50}
-\contentsline {figure}{\numberline {\relax 5.51}{\ignorespaces Unterprozess Inkrementelle Entwicklung durchf\IeC {\"u}hren V-Modell XT - imperativ}}{114}{figure.5.51}
-\contentsline {figure}{\numberline {\relax 5.52}{\ignorespaces System entwerfen - deklarativ}}{115}{figure.5.52}
-\contentsline {figure}{\numberline {\relax 5.53}{\ignorespaces System spezifizieren- deklarativ}}{116}{figure.5.53}
-\contentsline {figure}{\numberline {\relax 5.54}{\ignorespaces Systementwicklungsprojekt AG/AN}}{117}{figure.5.54}
-\contentsline {figure}{\numberline {\relax 5.55}{\ignorespaces Inkrementelle Entwicklung}}{118}{figure.5.55}
-\contentsline {figure}{\numberline {\relax 5.56}{\ignorespaces System entwerfen}}{118}{figure.5.56}
-\contentsline {figure}{\numberline {\relax 5.57}{\ignorespaces System spezifizieren}}{119}{figure.5.57}
-\contentsline {figure}{\numberline {\relax 5.58}{\ignorespaces \IeC {\"U}bersicht Vergleich V-Modell XT}}{122}{figure.5.58}
-\contentsline {figure}{\numberline {\relax 5.59}{\ignorespaces \IeC {\"U}bersicht Vergleich Allgemein}}{126}{figure.5.59}
+\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces Scrum \IeC {\"U}berblick nach \cite {scrum2008}}}{43}{figure.5.1}
+\contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces Imperative Modellierung Scrum}}{47}{figure.5.2}
+\contentsline {figure}{\numberline {\relax 5.3}{\ignorespaces Imperative Modellierung Scrum Unterprozess}}{48}{figure.5.3}
+\contentsline {figure}{\numberline {\relax 5.4}{\ignorespaces Deklarative Modellierung Scrum}}{50}{figure.5.4}
+\contentsline {figure}{\numberline {\relax 5.5}{\ignorespaces Deklarative Modellierung Scrum-Unterprozess Sprint-Planning-Meeting durchf\IeC {\"u}hren}}{50}{figure.5.5}
+\contentsline {figure}{\numberline {\relax 5.6}{\ignorespaces Vergleich der Anzahl der Elemente Scrum}}{51}{figure.5.6}
+\contentsline {figure}{\numberline {\relax 5.7}{\ignorespaces Zusammenfassung Vergleich Scrum}}{55}{figure.5.7}
+\contentsline {figure}{\numberline {\relax 5.8}{\ignorespaces Open UP \IeC {\"U}berblick nach \cite {eclipseopenup}}}{57}{figure.5.8}
+\contentsline {figure}{\numberline {\relax 5.9}{\ignorespaces Phasen Open UP nach \cite {eclipseopenup}}}{60}{figure.5.9}
+\contentsline {figure}{\numberline {\relax 5.10}{\ignorespaces Rollen in Open UP nach \cite {openup}}}{61}{figure.5.10}
+\contentsline {figure}{\numberline {\relax 5.11}{\ignorespaces Phasen Open UP- imperativ}}{63}{figure.5.11}
+\contentsline {figure}{\numberline {\relax 5.12}{\ignorespaces Phasen Open UP Unterprozess Inception- imperativ}}{64}{figure.5.12}
+\contentsline {figure}{\numberline {\relax 5.13}{\ignorespaces Phasen Open UP Unterprozess Elaboration- imperativ}}{64}{figure.5.13}
+\contentsline {figure}{\numberline {\relax 5.14}{\ignorespaces Phasen Open UP Unterprozess Construction- imperativ}}{65}{figure.5.14}
+\contentsline {figure}{\numberline {\relax 5.15}{\ignorespaces Phasen Open UP Unterprozess Transition- imperativ}}{66}{figure.5.15}
+\contentsline {figure}{\numberline {\relax 5.16}{\ignorespaces L\IeC {\"o}sungsinkrement entwickeln imperativ}}{68}{figure.5.16}
+\contentsline {figure}{\numberline {\relax 5.17}{\ignorespaces Iteration planen und managen imperativ -Inception}}{69}{figure.5.17}
+\contentsline {figure}{\numberline {\relax 5.18}{\ignorespaces Iteration planen und managen imperativ -Inception Unterprozess Umgebung vorbereiten}}{70}{figure.5.18}
+\contentsline {figure}{\numberline {\relax 5.19}{\ignorespaces Anforderungen identifizieren und verfeinern-Elaboration}}{72}{figure.5.19}
+\contentsline {figure}{\numberline {\relax 5.20}{\ignorespaces Produktdokumentation und Training erstellen - Construction}}{73}{figure.5.20}
+\contentsline {figure}{\numberline {\relax 5.21}{\ignorespaces Release deployen-Transition}}{74}{figure.5.21}
+\contentsline {figure}{\numberline {\relax 5.22}{\ignorespaces Phasen Open UP- deklarativ}}{75}{figure.5.22}
+\contentsline {figure}{\numberline {\relax 5.23}{\ignorespaces Phasen Open UP Unterprozess Inception- deklarativ}}{76}{figure.5.23}
+\contentsline {figure}{\numberline {\relax 5.24}{\ignorespaces Phasen Open UP Unterprozess Elaboration- deklarativ}}{77}{figure.5.24}
+\contentsline {figure}{\numberline {\relax 5.25}{\ignorespaces Phasen Open UP Unterprozess Construction- deklarativ}}{77}{figure.5.25}
+\contentsline {figure}{\numberline {\relax 5.26}{\ignorespaces Phasen Open UP Unterprozess Transition- deklarativ}}{78}{figure.5.26}
+\contentsline {figure}{\numberline {\relax 5.27}{\ignorespaces L\IeC {\"o}sungsinkrement entwickeln- deklarativ}}{79}{figure.5.27}
+\contentsline {figure}{\numberline {\relax 5.28}{\ignorespaces Iteration planen und managen-Inception deklarativ}}{80}{figure.5.28}
+\contentsline {figure}{\numberline {\relax 5.29}{\ignorespaces Iteration planen und managen- Inception Unterprozess Umgebung vorbereiten- deklarativ}}{80}{figure.5.29}
+\contentsline {figure}{\numberline {\relax 5.30}{\ignorespaces Anforderungen identifizieren und verfeinern-Elaboration}}{81}{figure.5.30}
+\contentsline {figure}{\numberline {\relax 5.31}{\ignorespaces Produktdokumentation und Training erstellen-Construction}}{82}{figure.5.31}
+\contentsline {figure}{\numberline {\relax 5.32}{\ignorespaces Release deployen-Transition}}{83}{figure.5.32}
+\contentsline {figure}{\numberline {\relax 5.33}{\ignorespaces Phasen Open UP}}{84}{figure.5.33}
+\contentsline {figure}{\numberline {\relax 5.34}{\ignorespaces Open UP-Inception}}{85}{figure.5.34}
+\contentsline {figure}{\numberline {\relax 5.35}{\ignorespaces L\IeC {\"o}sungsinkrement entwickeln}}{86}{figure.5.35}
+\contentsline {figure}{\numberline {\relax 5.36}{\ignorespaces Open UP-Iteration planen}}{87}{figure.5.36}
+\contentsline {figure}{\numberline {\relax 5.37}{\ignorespaces \IeC {\"U}bersicht Vergleich Open UP}}{92}{figure.5.37}
+\contentsline {figure}{\numberline {\relax 5.38}{\ignorespaces Grundstruktur V-Modell XT nach \cite {2004vmodell}}}{93}{figure.5.38}
+\contentsline {figure}{\numberline {\relax 5.39}{\ignorespaces Projekttypen V-Modell XT nach \cite {2004vmodell}}}{94}{figure.5.39}
+\contentsline {figure}{\numberline {\relax 5.40}{\ignorespaces Zuordnung der Projekttypvarianten zu den Projekttypen des V-Modell XT \cite {2004vmodell}}}{96}{figure.5.40}
+\contentsline {figure}{\numberline {\relax 5.41}{\ignorespaces Vorgehensbausteine V-Modell XT nach \cite {2004vmodell}}}{97}{figure.5.41}
+\contentsline {figure}{\numberline {\relax 5.42}{\ignorespaces V-Modell XT-Kern und Vorgehensbausteinlandkarte nach \cite {2004vmodell}}}{98}{figure.5.42}
+\contentsline {figure}{\numberline {\relax 5.43}{\ignorespaces Entscheidungspunkte V-Modell XT nach \cite {2004vmodell}}}{101}{figure.5.43}
+\contentsline {figure}{\numberline {\relax 5.44}{\ignorespaces Entscheidungspunkte f\IeC {\"u}r die Projektdurchf\IeC {\"u}hrungsstrategie nach \cite {2004vmodell}}}{102}{figure.5.44}
+\contentsline {figure}{\numberline {\relax 5.45}{\ignorespaces Systementwicklungsprojekt AG/AN V-Modell XT - imperativ}}{104}{figure.5.45}
+\contentsline {figure}{\numberline {\relax 5.46}{\ignorespaces Unterprozess Inkrementelle Entwicklung durchf\IeC {\"u}hren V-Modell XT - imperativ}}{105}{figure.5.46}
+\contentsline {figure}{\numberline {\relax 5.47}{\ignorespaces System entwerfen V-Modell XT - imperativ}}{107}{figure.5.47}
+\contentsline {figure}{\numberline {\relax 5.48}{\ignorespaces System spezifizieren-imperativ}}{108}{figure.5.48}
+\contentsline {figure}{\numberline {\relax 5.49}{\ignorespaces Systementwicklungsprojekt AG/AN V-Modell XT - deklarativ}}{110}{figure.5.49}
+\contentsline {figure}{\numberline {\relax 5.50}{\ignorespaces Systementwicklungsprojekt AG/AN V-Modell XT Unterprozess Entwicklung durchf\IeC {\"u}hren - deklarativ}}{110}{figure.5.50}
+\contentsline {figure}{\numberline {\relax 5.51}{\ignorespaces Unterprozess Inkrementelle Entwicklung durchf\IeC {\"u}hren V-Modell XT - imperativ}}{112}{figure.5.51}
+\contentsline {figure}{\numberline {\relax 5.52}{\ignorespaces System entwerfen - deklarativ}}{113}{figure.5.52}
+\contentsline {figure}{\numberline {\relax 5.53}{\ignorespaces System spezifizieren- deklarativ}}{114}{figure.5.53}
+\contentsline {figure}{\numberline {\relax 5.54}{\ignorespaces Systementwicklungsprojekt AG/AN}}{115}{figure.5.54}
+\contentsline {figure}{\numberline {\relax 5.55}{\ignorespaces Inkrementelle Entwicklung}}{116}{figure.5.55}
+\contentsline {figure}{\numberline {\relax 5.56}{\ignorespaces System entwerfen}}{116}{figure.5.56}
+\contentsline {figure}{\numberline {\relax 5.57}{\ignorespaces System spezifizieren}}{117}{figure.5.57}
+\contentsline {figure}{\numberline {\relax 5.58}{\ignorespaces \IeC {\"U}bersicht Vergleich V-Modell XT}}{120}{figure.5.58}
+\contentsline {figure}{\numberline {\relax 5.59}{\ignorespaces \IeC {\"U}bersicht Vergleich Allgemein}}{124}{figure.5.59}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 6.1}{\ignorespaces Struktur der Umfrage}}{130}{figure.6.1}
-\contentsline {figure}{\numberline {\relax 6.2}{\ignorespaces Geschlechterverteilung}}{132}{figure.6.2}
-\contentsline {figure}{\numberline {\relax 6.3}{\ignorespaces Verteilung Erfahrung imperative und deklarative Modellierung}}{132}{figure.6.3}
-\contentsline {figure}{\numberline {\relax 6.4}{\ignorespaces Allgemeine demographische Daten}}{133}{figure.6.4}
-\contentsline {figure}{\numberline {\relax 6.5}{\ignorespaces Ergebnisse Verst\IeC {\"a}ndnisfrage 1 aller Teilnehmer}}{134}{figure.6.5}
-\contentsline {figure}{\numberline {\relax 6.6}{\ignorespaces Ergebnisse Verst\IeC {\"a}ndnisfrage 2 aller Teilnehmer}}{136}{figure.6.6}
-\contentsline {figure}{\numberline {\relax 6.7}{\ignorespaces Ergebnisse Verst\IeC {\"a}ndnisfrage 3 aller Teilnehmer}}{137}{figure.6.7}
-\contentsline {figure}{\numberline {\relax 6.8}{\ignorespaces Ergebnisse Verst\IeC {\"a}ndnisfrage 4 aller Teilnehmer}}{138}{figure.6.8}
-\contentsline {figure}{\numberline {\relax 6.9}{\ignorespaces Ergebnisse Meinungsfrage 1 aller Teilnehmer}}{139}{figure.6.9}
-\contentsline {figure}{\numberline {\relax 6.10}{\ignorespaces Ergebnisse Meinungsfrage 2 aller Teilnehmer}}{140}{figure.6.10}
-\contentsline {figure}{\numberline {\relax 6.11}{\ignorespaces Ergebnisse Meinungsfrage 3 aller Teilnehmer}}{141}{figure.6.11}
-\contentsline {figure}{\numberline {\relax 6.12}{\ignorespaces Ergebnisse Meinungsfrage 4 aller Teilnehmer}}{142}{figure.6.12}
-\contentsline {figure}{\numberline {\relax 6.13}{\ignorespaces Zusammenfassung Ergebnisse Studie}}{146}{figure.6.13}
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax A.1}{\ignorespaces BPMN Ereignisse}}{160}{figure.A.1}
-\contentsline {figure}{\numberline {\relax A.2}{\ignorespaces BPMN \IeC {\"U}bersicht}}{161}{figure.A.2}
-\contentsline {figure}{\numberline {\relax A.3}{\ignorespaces BPMN Gateways}}{162}{figure.A.3}
+\contentsline {figure}{\numberline {\relax 6.1}{\ignorespaces Struktur der Umfrage}}{128}{figure.6.1}
+\contentsline {figure}{\numberline {\relax 6.2}{\ignorespaces Geschlechterverteilung}}{130}{figure.6.2}
+\contentsline {figure}{\numberline {\relax 6.3}{\ignorespaces Verteilung Erfahrung imperative und deklarative Modellierung}}{130}{figure.6.3}
+\contentsline {figure}{\numberline {\relax 6.4}{\ignorespaces Allgemeine demographische Daten}}{131}{figure.6.4}
+\contentsline {figure}{\numberline {\relax 6.5}{\ignorespaces Ergebnisse Verst\IeC {\"a}ndnisfrage 1 aller Teilnehmer}}{132}{figure.6.5}
+\contentsline {figure}{\numberline {\relax 6.6}{\ignorespaces Ergebnisse Verst\IeC {\"a}ndnisfrage 2 aller Teilnehmer}}{134}{figure.6.6}
+\contentsline {figure}{\numberline {\relax 6.7}{\ignorespaces Ergebnisse Verst\IeC {\"a}ndnisfrage 3 aller Teilnehmer}}{135}{figure.6.7}
+\contentsline {figure}{\numberline {\relax 6.8}{\ignorespaces Ergebnisse Verst\IeC {\"a}ndnisfrage 4 aller Teilnehmer}}{136}{figure.6.8}
+\contentsline {figure}{\numberline {\relax 6.9}{\ignorespaces Ergebnisse Meinungsfrage 1 aller Teilnehmer}}{137}{figure.6.9}
+\contentsline {figure}{\numberline {\relax 6.10}{\ignorespaces Ergebnisse Meinungsfrage 2 aller Teilnehmer}}{138}{figure.6.10}
+\contentsline {figure}{\numberline {\relax 6.11}{\ignorespaces Ergebnisse Meinungsfrage 3 aller Teilnehmer}}{139}{figure.6.11}
+\contentsline {figure}{\numberline {\relax 6.12}{\ignorespaces Ergebnisse Meinungsfrage 4 aller Teilnehmer}}{140}{figure.6.12}
+\contentsline {figure}{\numberline {\relax 6.13}{\ignorespaces Zusammenfassung Ergebnisse Studie}}{144}{figure.6.13}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {\relax A.1}{\ignorespaces BPMN Gateways}}{158}{figure.A.1}
+\contentsline {figure}{\numberline {\relax A.2}{\ignorespaces BPMN Ereignisse}}{159}{figure.A.2}
+\contentsline {figure}{\numberline {\relax A.3}{\ignorespaces BPMN \IeC {\"U}bersicht}}{160}{figure.A.3}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {\relax D.1}{\ignorespaces Rohdaten Allgemeine Fragen}}{192}{figure.D.1}
+\contentsline {figure}{\numberline {\relax D.2}{\ignorespaces Rohdaten Frage 12}}{193}{figure.D.2}
+\contentsline {figure}{\numberline {\relax D.3}{\ignorespaces Rohdaten Frage 13}}{194}{figure.D.3}
+\contentsline {figure}{\numberline {\relax D.4}{\ignorespaces Rohdaten Frage 14}}{195}{figure.D.4}
+\contentsline {figure}{\numberline {\relax D.5}{\ignorespaces Rohdaten Frage 15}}{196}{figure.D.5}
+\contentsline {figure}{\numberline {\relax D.6}{\ignorespaces Rohdaten Frage 16/17}}{197}{figure.D.6}
+\contentsline {figure}{\numberline {\relax D.7}{\ignorespaces Rohdaten Frage 18/19}}{198}{figure.D.7}
+\contentsline {figure}{\numberline {\relax D.8}{\ignorespaces Rohdaten Frage 20/21}}{199}{figure.D.8}
+\contentsline {figure}{\numberline {\relax D.9}{\ignorespaces Rohdaten Frage 22/23}}{200}{figure.D.9}
