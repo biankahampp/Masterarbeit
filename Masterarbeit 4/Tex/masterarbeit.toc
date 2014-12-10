@@ -101,9 +101,8 @@
 \contentsline {section}{\numberline {7.2}Verst\IeC {\"a}ndlichkeit von Prozessmodellierungssprachen}{148}{section.7.2}
 \contentsline {section}{\numberline {7.3}Vergleich von Prozessmodellierungssprachen}{149}{section.7.3}
 \contentsline {chapter}{\numberline {8}Zusammenfassung und Ausblick}{151}{chapter.8}
-\contentsline {section}{\numberline {8.1}Zusammenfassung}{151}{section.8.1}
-\contentsline {section}{\numberline {8.2}Fazit}{153}{section.8.2}
-\contentsline {section}{\numberline {8.3}Ausblick}{154}{section.8.3}
+\contentsline {section}{\numberline {8.1}Zusammenfassung und Fazit}{151}{section.8.1}
+\contentsline {section}{\numberline {8.2}Ausblick}{153}{section.8.2}
 \contentsline {chapter}{\numberline {A}BPMN Notation}{157}{appendix.A}
 \contentsline {chapter}{\numberline {B}ConDec Notation}{161}{appendix.B}
 \contentsline {chapter}{\numberline {C}Frageb\IeC {\"o}gen}{167}{appendix.C}

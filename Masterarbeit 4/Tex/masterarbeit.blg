@@ -8,54 +8,57 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Literature.bib
-Warning--entry type for "Menhorn2014" isn't style-file defined
---line 632 of file Literature.bib
+Warning--I'm ignoring kaschek1998's extra "booktitle" field
+--line 371 of file Literature.bib
+Warning--I'm ignoring bpm07's extra "series" field
+--line 599 of file Literature.bib
 Warning--I didn't find a database entry for "fahland2009"
+Warning--I didn't find a database entry for "white2004"
+Warning--I didn't find a database entry for "Wang2007"
 Warning--empty number in 2004vmodell
 Warning--empty note in 2004vmodell
-Warning--there's no year in freudenreichevaluierung
 Warning--empty pages in kaschek1998
 Warning--empty title in Kuhrmann2011
 Warning--neither address nor publication date in bpm07
-You've used 82 entries,
+You've used 78 entries,
             4793 wiz_defined-function locations,
-            1301 strings with 17789 characters,
-and the built_in function-call counts, 45234 in all, are:
-= -- 4481
-> -- 1320
-< -- 1335
-+ -- 1534
-- -- 443
-* -- 2782
-:= -- 7995
-add.period$ -- 86
-call.type$ -- 82
-change.case$ -- 406
-chr.to.int$ -- 79
-cite$ -- 88
-duplicate$ -- 1449
-empty$ -- 3310
-format.name$ -- 884
-if$ -- 8862
-int.to.chr$ -- 4
+            1274 strings with 17182 characters,
+and the built_in function-call counts, 42654 in all, are:
+= -- 4235
+> -- 1223
+< -- 1218
++ -- 1397
+- -- 407
+* -- 2587
+:= -- 7497
+add.period$ -- 78
+call.type$ -- 78
+change.case$ -- 385
+chr.to.int$ -- 76
+cite$ -- 83
+duplicate$ -- 1386
+empty$ -- 3194
+format.name$ -- 817
+if$ -- 8436
+int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 316
-newline$ -- 432
-num.names$ -- 250
-pop$ -- 659
+missing$ -- 306
+newline$ -- 409
+num.names$ -- 236
+pop$ -- 635
 preamble$ -- 1
-purify$ -- 570
+purify$ -- 541
 quote$ -- 0
-skip$ -- 2622
+skip$ -- 2425
 stack$ -- 0
-substring$ -- 2547
-swap$ -- 288
-text.length$ -- 238
-text.prefix$ -- 45
+substring$ -- 2448
+swap$ -- 271
+text.length$ -- 225
+text.prefix$ -- 44
 top$ -- 0
-type$ -- 647
-warning$ -- 6
-while$ -- 409
-width$ -- 86
-write$ -- 978
-(There were 8 warnings)
+type$ -- 611
+warning$ -- 5
+while$ -- 387
+width$ -- 82
+write$ -- 928
+(There were 10 warnings)
