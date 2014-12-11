@@ -24,15 +24,14 @@
 \textsc{Aalst}, W.M.P. ; \textsc{Pesic}, M.:
 \newblock DecSerFlow: Towards a Truly Declarative Service Flow Language.
 \newblock {In: }\emph{Web Services and Formal Methods}.
-\newblock Springer Berlin Heidelberg, 2006 (Lecture Notes in Computer Science
-  06291), S. 1--23
+\newblock Springer Berlin Heidelberg, Lecture Notes in Computer Science, Vol.
+  6291, S. 1-26, 2006
 
-\bibitem[{Bal}07]{eclipseopenup}
-\textsc{{Balduino, Ricardo }}:
+\bibitem[{Bal}]{eclipseopenup}
+\textsc{{Balduino, R.}}:
 \newblock \emph{Introduction to OpenUP (Open Unified Process)}.
-\newblock \url{http://www.eclipse.org/epf/general/OpenUP.pdf}.
-\newblock \,Version:\,August 2007. --
-\newblock Version: 08.Dezember 2014
+\newblock \url{http://www.eclipse.org/epf/general/OpenUP.pdf}. --
+\newblock Letzter Zugriff: 08.12.2014
 
 \bibitem[Bec12]{becker2012prozessmanagement}
 \textsc{Becker}, J.:
@@ -41,7 +40,7 @@
 \newblock Springer Berlin Heidelberg, 2012
 
 \bibitem[Boe81]{Boehm81}
-\textsc{Boehm}, Barry~W.:
+\textsc{Boehm}, B.~W.:
 \newblock \emph{Software Engineering Economics}.
 \newblock Prentice Hall, 1981
 
@@ -52,73 +51,76 @@
 \newblock Diplom.de, 2010
 
 \bibitem[Bre]{Bregenzer2014}
-\textsc{Bregenzer}, Stefan:
+\textsc{Bregenzer}, S.:
 \newblock \emph{Projektdurchführungstrategie als strategisches Prozessmodell
   in BPMN}.
 \newblock \url{http://blog.milsystems.de/2012/
   08/projektdurchfuehrungstrategie\ -als-strategisches-
   prozessmodell-in-bpmn/}. --
-\newblock Version: 08.Dezember 2014
+\newblock Letzter Zugriff: 08.12.2014
 
-\bibitem[BRS95]{journals95}
-\textsc{Becker}, Jörg ; \textsc{Rosemann}, Michael  ; \textsc{Schütte},
-  Reinhard:
+\bibitem[BRS]{journals95}
+\textsc{Becker}, J. ; \textsc{Rosemann}, M.  ; \textsc{Schütte}, R.:
 \newblock Grundsätze ordnungsmäßiger Modellierung.
-\newblock {In: }\emph{Wirtschaftsinformatik} 37 (1995), Nr. 5, S. 435--445
+\newblock {In: }\emph{Wirtschaftsinformatik} 37 (5): 435--445, 1995
 
 \bibitem[Bru07]{brunner2007fallstudie}
-\textsc{Brunner}, Maximilian:
+\textsc{Brunner}, M.:
 \newblock \emph{Fallstudie zur Modellierung von Software-Entwicklungsprozessen
   auf Basis des Software Process Engineering Metamodel 2.0}, Diplomarbeit,
   Lehrstuhl f{\"u}r Informatik 2, FAU, Diss., 2007
 
-\bibitem[Bun04]{2004vmodell}
+\bibitem[Bun]{2004vmodell}
 \textsc{Bundesverwaltung}, Beratungsstelle der Bundesregierung für
   Informationstechnik in~d. ; \textsc{Deutschland}, Bundesrepublik (Hrsg.):
 \newblock V-Modell XT.
-\newblock \,Version:\,2004.
 \newblock
   \url{http://ftp.uni-kl.de/pub/v-modell-xt/Release-1.2/Dokumentation/pdf/V-Modell-XT-Teil1.pdf}.
-\newblock 2004. --
-\newblock Forschungsbericht
+  --
+\newblock Forschungsbericht. --
+\newblock Letzter Zugriff: 08.12.2014
 
-\bibitem[CO13]{software}
-\textsc{Campos}, Andre L.~N. ; \textsc{Oliveira}, Toacy~C.:
+\bibitem[CO]{software}
+\textsc{Campos}, A.L.N. ; \textsc{Oliveira}, T. Cavalcante~d.:
 \newblock Software Processes with BPMN: An Empirical Analysis.
-\newblock {In: }\emph{PROFES'13}, 2013, S. 338--341
+\newblock {In: }\emph{PROFES'13}, S. 338--341, 2013
 
 \bibitem[COR]{OpenUPProcess}
 \textsc{CORP}, IBM:
 \newblock \emph{OpenUP Process Version 1.5.0.4}.
 \newblock \url{http://epf.eclipse.org/wikis/openup/}. --
-\newblock Version: 08.Dezember 2014
+\newblock Letzter Zugriff: 08.12. 2014
 
 \bibitem[{Ecl}]{eclipseScrum}
 \textsc{{Eclipse}}:
 \newblock \emph{Eclipse Scrum Library}.
 \newblock
   \url{http://www.eclipse.org/epf/downloads/praclib/praclib_downloads.php}. --
-\newblock Version: 08.Dezember 2014
+\newblock Letzter Zugriff: 08.12. 2014
 
 \bibitem[EHS10]{Basem2010}
-\textsc{El-Haik}, Basem ; \textsc{Shaout}, Adnan:
+\textsc{El-Haik}, B. ; \textsc{Shaout}, A.:
 \newblock \emph{Software Design For Six Sigma: A Roadmap For Excellence}.
 \newblock Wiley, 2010
 
 \bibitem[FHKS08]{Friedrich2008}
-\textsc{Friedrich}, Jan ; \textsc{Hammerschall}, Ulrike ; \textsc{Kuhrmann},
-  Marco  ; \textsc{Sihling}, Marc:
+\textsc{Friedrich}, J. ; \textsc{Hammerschall}, U. ; \textsc{Kuhrmann}, M.  ;
+  \textsc{Sihling}, M.:
 \newblock \emph{Das V-Modell XT}.
 \newblock Springer, 2008
 
 \bibitem[FMR{\etalchar{+}}10]{fahland2010}
-\textsc{Fahland}, Dirk ; \textsc{Mendling}, Jan ; \textsc{Reijers}, Hajo~A. ;
-  \textsc{Weber}, Barbara ; \textsc{Weidlich}, Matthias  ; \textsc{Zugal},
-  Stefan:
+\textsc{Fahland}, D. ; \textsc{Mendling}, J. ; \textsc{Reijers}, H.~A. ;
+  \textsc{Weber}, B. ; \textsc{Weidlich}, M.  ; \textsc{Zugal}, S.:
 \newblock Declarative versus imperative process modeling languages: the issue
   of maintainability.
-\newblock {In: }\emph{Business Process Management Workshops, LNBIP}, Springer,
-  2010, S. 477--488
+\newblock {In: }\emph{Business Process Management Workshops, LNBIP, Vol. 43},
+  Springer, 2010, S. 477--488
+
+\bibitem[Fre]{freudenreichevaluierung}
+\textsc{Freudenreich}, R.:
+\newblock Evaluierung der Potentiale des Eclipse Process Frameworks.
+\newblock {In: }\emph{Modellbasierte Softwareentwicklung}
 
 \bibitem[Fre07]{freund2007}
 \textsc{Freund}, T.:
@@ -126,40 +128,35 @@
   Entwicklungsprozesse}.
 \newblock GITO, 2007
 
-\bibitem[Fre09]{freudenreichevaluierung}
-\textsc{Freudenreich}, Robert:
-\newblock Evaluierung der Potentiale des Eclipse Process Frameworks.
-\newblock {In: }\emph{Modellbasierte Softwareentwicklung}  (2009), S.~34
-
 \bibitem[Gad12]{gadatsch2012}
 \textsc{Gadatsch}, A.:
 \newblock \emph{Grundkurs Gesch{\"a}ftsprozess-Management}.
 \newblock Vieweg+Teubner Verlag, 2012
 
 \bibitem[Gau06]{Gau2006}
-\textsc{Gau}, Thosten:
+\textsc{Gau}, T.:
 \newblock UMA und EPF: Einf{\"u}hrung und Anwendung in der Praxis.
 \newblock {In: }\emph{Objekt Spektrum,(November/Dezember 2006-6)}  (2006), S.
   42--47
 
 \bibitem[GBBK10]{Grechenig2010}
-\textsc{Grechenig}, Thomas ; \textsc{Bernhart}, Mario ; \textsc{Breiteneder},
-  Roland  ; \textsc{Kappel}, Karin:
+\textsc{Grechenig}, T. ; \textsc{Bernhart}, M. ; \textsc{Breiteneder}, R.  ;
+  \textsc{Kappel}, K.:
 \newblock \emph{Softwaretechnik}.
 \newblock Pearson Studium, 2010
 
-\bibitem[GL]{gruhn2006adopting}
-\textsc{Gruhn}, Volker ; \textsc{Laue}, Ralf:
+\bibitem[GLa]{gruhn2006adopting}
+\textsc{Gruhn}, V. ; \textsc{Laue}, R.:
 \newblock Adopting the cognitive complexity measure for business process
   models.
 \newblock {In: }\emph{5th IEEE International Conference on Cognitive
-  Informatics, 2006.} IEEE, S. 236--241
+  Informatics}, S. 236--241, 2006
 
-\bibitem[GL06]{gruhn2006complexity}
-\textsc{Gruhn}, Volker ; \textsc{Laue}, Ralf:
+\bibitem[GLb]{gruhn2006complexity}
+\textsc{Gruhn}, V. ; \textsc{Laue}, R.:
 \newblock Complexity metrics for business process models.
-\newblock {In: }\emph{9th international conference on business information
-  systems}, 2006, S. 1--12
+\newblock {In: }\emph{9th International Conference on Business Information
+  Systems}, S. 1--12, 2006
 
 \bibitem[GL12]{gpfert2012}
 \textsc{G{\"o}pfert}, J. ; \textsc{Lindenbach}, H.:
@@ -173,42 +170,43 @@
 \newblock Oldenbourg, 2012
 
 \bibitem[Han10]{Hanser2010}
-\textsc{Hanser}, Eckhart:
+\textsc{Hanser}, E.:
 \newblock \emph{Agile Prozesse}.
 \newblock Springer, 2010
 
-\bibitem[HBZ{\etalchar{+}}14]{haisjackl2014understanding}
-\textsc{Haisjackl}, Cornelia ; \textsc{Barba}, Irene ; \textsc{Zugal}, Stefan ;
-  \textsc{Soffer}, Pnina ; \textsc{Hadar}, Irit ; \textsc{Reichert}, Manfred ;
-  \textsc{Pinggera}, Jakob  ; \textsc{Weber}, Barbara:
+\bibitem[HBZ{\etalchar{+}}]{haisjackl2014understanding}
+\textsc{Haisjackl}, C. ; \textsc{Barba}, I. ; \textsc{Zugal}, S. ;
+  \textsc{Soffer}, P. ; \textsc{Hadar}, I. ; \textsc{Reichert}, M. ;
+  \textsc{Pinggera}, J.  ; \textsc{Weber}, B.:
 \newblock Understanding Declare models: strategies, pitfalls, empirical
   results.
-\newblock {In: }\emph{Software \& Systems Modeling}  (2014), S. 1--28
+\newblock {In: }\emph{Software \& Systems Modeling, 2014, DOI:
+  10.1007/s10270-014-0435-z}
 
 \bibitem[Hei07]{heinrich2007}
 \textsc{Heinrich}, G.:
 \newblock \emph{Allgemeine Systemanalyse}.
 \newblock Oldenbourg, 2007
 
-\bibitem[HM08]{Hesse2008}
-\textsc{Hesse}, Wolfgang ; \textsc{Mayr}, Heinrich~C.:
-\newblock Modellierung in der Softwaretechnik: eine Bestandsaufnahme.
-\newblock {In: }\emph{Informatik-Spektrum} 31 (2008), Nr. 5, S. 377--393
-
-\bibitem[HM10]{hauber2010}
-\textsc{Hauber}, Rudolf ; \textsc{Muth}, Bertil:
+\bibitem[HMa]{hauber2010}
+\textsc{Hauber}, R. ; \textsc{Muth}, B.:
 \newblock Architekturprozesse--Systeme systematisch entwickeln.
-\newblock {In: }\emph{URL: www. sigs-datacom. de}  (2010), S. 1--23
+\newblock {In: }\emph{URL: www. sigs-datacom. de}
+
+\bibitem[HMb]{Hesse2008}
+\textsc{Hesse}, W. ; \textsc{Mayr}, H.~C.:
+\newblock Modellierung in der Softwaretechnik: eine Bestandsaufnahme.
+\newblock {In: }\emph{Informatik-Spektrum} 31 (5) : 377-393, 2008
 
 \bibitem[HRB{\etalchar{+}}08]{reinhard2008}
-\textsc{H{\"o}hn}, Reinhard ; \textsc{Rausch}, A. ; \textsc{Broy}, M. ;
-  \textsc{H{\"o}ppner}, Stephan ; \textsc{Bergner}, K. ; \textsc{Petrasch}, R.
-  ; \textsc{Biffl}, S. ; \textsc{Wagner}, R.  ; \textsc{Hesse}, W.:
+\textsc{H{\"o}hn}, R. ; \textsc{Rausch}, A. ; \textsc{Broy}, M. ;
+  \textsc{H{\"o}ppner}, S. ; \textsc{Bergner}, K. ; \textsc{Petrasch}, R. ;
+  \textsc{Biffl}, S. ; \textsc{Wagner}, R.  ; \textsc{Hesse}, W.:
 \newblock \emph{Das V-Modell XT: Grundlagen, Methodik und Anwendungen}.
 \newblock Springer, 2008
 
 \bibitem[Kas98]{kaschek1998}
-\textsc{Kaschek}, Roland:
+\textsc{Kaschek}, R.:
 \newblock Proze{\ss}ontologie als Faktor der
   Gesch{\"a}ftsproze{\ss}modellierung.
 \newblock {In: }\emph{Modellierung '98, Proceedings des GI-Workshops in
@@ -221,7 +219,7 @@
 \newblock Oldenbourg, 2013
 
 \bibitem[Kei10]{Keith2010}
-\textsc{Keith}, Clinton:
+\textsc{Keith}, C.:
 \newblock \emph{Agile game development with Scrum: Description based on print
   version record}.
 \newblock Addison-Wesley, 2010
@@ -232,22 +230,21 @@
 \newblock Springer, 2006
 
 \bibitem[KLS11]{Kuhrmann2011}
-\textsc{Kuhrmann}, Marco ; \textsc{Lange}, Christian  ; \textsc{Schnackenburg},
-  André:
+\textsc{Kuhrmann}, M. ; \textsc{Lange}, C.  ; \textsc{Schnackenburg}, A.:
 \newblock {In: }\emph{EuroSPI}, Springer, 2011, S. 49--60
 
 \bibitem[Koc11]{koch2011}
-\textsc{Koch}, Susanne:
+\textsc{Koch}, S.:
 \newblock \emph{Einführung in das Management von Geschäftsprozessen}.
 \newblock Springer, 2011
 
 \bibitem[Kö00]{Koelmel2000}
-\textsc{Kölmel}, Bernhard:
+\textsc{Kölmel}, B.:
 \newblock \emph{Softwareprozessverbesserungsprojekte}.
 \newblock Norderstedt : Books on Demand GmbH, 2000
 
 \bibitem[Lac12]{Lacey2012}
-\textsc{Lacey}, Mitch:
+\textsc{Lacey}, M.:
 \newblock \emph{The Scrum field guide: practical advice for your first year}.
 \newblock Addison-Wesley, 2012
 
@@ -264,7 +261,7 @@
 \newblock Logos Verlag Berlin, 2012
 
 \bibitem[LK06]{list2006evaluation}
-\textsc{List}, Beate ; \textsc{Korherr}, Birgit:
+\textsc{List}, B. ; \textsc{Korherr}, B.:
 \newblock An evaluation of conceptual business process modelling languages.
 \newblock {In: }\emph{Proceedings of the 2006 ACM symposium on applied
   computing}, 2006, S. 1532--1539
@@ -275,12 +272,12 @@
   die standardisierte BPMN Notation}, Universität Ulm, Bachelorarbeit, 2014
 
 \bibitem[MM12]{Mishra2012}
-\textsc{Mishra}, Jibitesh ; \textsc{Mohanty}, Ashok:
+\textsc{Mishra}, J. ; \textsc{Mohanty}, A.:
 \newblock \emph{Software Engineering}.
 \newblock Pearson, 2012
 
 \bibitem[Mon10]{Montali2010}
-\textsc{Montali}, Marco:
+\textsc{Montali}, M.:
 \newblock \emph{Specification and verification of declarative open interaction
   models: A logic-based approach}.
 \newblock Springer, 2010
@@ -289,39 +286,39 @@
 \textsc{{Mountain Goat Software}}:
 \newblock \emph{BPMN Offensive Berlin}.
 \newblock \url{http://www.bpmb.de/index.php/BPMNPoster}. --
-\newblock Version: 08.Dezember 2014
+\newblock Letzter Zugriff: 08.12.2014
 
 \bibitem[{Mou}b]{scrum2008}
 \textsc{{Mountain Goat Software}}:
 \newblock \emph{Scrum Overview}.
 \newblock \url{http://epf.eclipse.org/wikis/scrum/}. --
-\newblock Version: 08.Dezember 2014
+\newblock Letzter Zugriff: 08.12.2014
 
-\bibitem[MRA10]{mendling2010seven}
-\textsc{Mendling}, Jan ; \textsc{Reijers}, Hajo~A.  ; \textsc{Aalst},
-  Wil~M.~d.:
+\bibitem[MRA]{mendling2010seven}
+\textsc{Mendling}, J. ; \textsc{Reijers}, H.~A.  ; \textsc{Aalst}, W.M.P.
+  van~d.:
 \newblock Seven process modeling guidelines (7PMG).
-\newblock {In: }\emph{Information and Software Technology} 52 (2010), Nr. 2, S.
-  127--136
+\newblock {In: }\emph{Information and Software Technology} 52 (2):127--136,
+  2010
 
 \bibitem[MRC]{bpm07}
 \textsc{Mendling}, J. ; \textsc{Reijers}, H.A.  ; \textsc{Cardoso}, J.:
 \newblock What Makes Process Models Understandable?
 \newblock {In: }\textsc{Alonso}, G. (Hrsg.) ; \textsc{Dadam}, P. (Hrsg.)  ;
   \textsc{Rosemann}, M. (Hrsg.): \emph{International Conference on Business
-  Process Management (BPM 2007)}, Springer-Verlag, Berlin (Lecture Notes in
-  Computer Science 4714), S. 48--63
+  Process Management (BPM 2007), Lecture Notes in Computer Science 4714, 2007},
+  Springer-Verlag, Berlin, S. 48--63
 
-\bibitem[MRW12]{quteprints}
-\textsc{Mendling}, Jan ; \textsc{Recker}, Jan~C.  ; \textsc{Wolf}, Johannes:
+\bibitem[MRW]{quteprints}
+\textsc{Mendling}, J. ; \textsc{Recker}, J.~C.  ; \textsc{Wolf}, J.:
 \newblock Collaboration features in current BPM tools.
-\newblock {In: }\emph{EMISA Forum} 32 (2012), Nr. 1, S. 48--65
+\newblock {In: }\emph{EMISA Forum} 32, Nr. 1, S. 48--65, 2012
 
 \bibitem[PA06]{pesic2006}
-\textsc{Pesic}, Maja ; \textsc{Aalst}, Wil~M.~d.:
+\textsc{Pesic}, M. ; \textsc{Aalst}, W.M.P. van~d.:
 \newblock A declarative approach for flexible business processes management.
-\newblock {In: }\emph{Business Process Management Workshops}, Springer, 2006
-  (Lecture Notes in Computer Science 4103), S. 169--180
+\newblock {In: }\emph{Business Process Management Workshops, Lecture Notes in
+  Computer Science 4103}, Springer, 2006, S. 169--180
 
 \bibitem[Pes08]{thesis_maja}
 \textsc{Pesic}, M.:
@@ -329,13 +326,13 @@
   to Users}, Eindhoven University of Technology, PhD Thesis, 2008
 
 \bibitem[Pha12]{Pham2012}
-\textsc{Pham}, Andrew:
+\textsc{Pham}, A.:
 \newblock \emph{Scrum in action: agile software project management and
   development}.
 \newblock Course Technology, 2012
 
 \bibitem[Pic10]{Pichler2010}
-\textsc{Pichler}, Roman:
+\textsc{Pichler}, R.:
 \newblock \emph{Agile product management with Scrum: creating products that
   customers love. - Description based on print version record}.
 \newblock Addison-Wesley, 2010
@@ -347,13 +344,12 @@
 \newblock Books on Demand, 2010
 
 \bibitem[PQ11]{Pries2011}
-\textsc{Pries}, Kim~H. ; \textsc{Quigley}, Jon~M.:
+\textsc{Pries}, K.~H. ; \textsc{Quigley}, J.~M.:
 \newblock \emph{Scrum project management}.
 \newblock Woodhead Publishing Limited, 2011
 
 \bibitem[PSA]{pesic2007declare}
-\textsc{Pesic}, Maja ; \textsc{Schonenberg}, Helen  ; \textsc{Aalst},
-  Wil~M.~d.:
+\textsc{Pesic}, M. ; \textsc{Schonenberg}, H.  ; \textsc{Aalst}, W.M.P. van~d.:
 \newblock Declare: Full support for loosely-structured processes.
 \newblock {In: }\emph{11th IEEE International Enterprise Distributed Object
   Computing Conference, 2007.}, S. 287--287
@@ -364,21 +360,19 @@
 \newblock Technical Publications, 2007
 
 \bibitem[PWZ{\etalchar{+}}12]{pichler2012}
-\textsc{Pichler}, Paul ; \textsc{Weber}, Barbara ; \textsc{Zugal}, Stefan ;
-  \textsc{Pinggera}, Jakob ; \textsc{Mendling}, Jan  ; \textsc{Reijers},
-  Hajo~A.:
+\textsc{Pichler}, P. ; \textsc{Weber}, B. ; \textsc{Zugal}, S. ;
+  \textsc{Pinggera}, J. ; \textsc{Mendling}, J.  ; \textsc{Reijers}, H.~A.:
 \newblock Imperative versus declarative process modeling languages: An
   empirical investigation.
 \newblock {In: }\emph{Business Process Management Workshops, LNBIP 99,}
   Springer, 2012, S. 383--394
 
-\bibitem[RD07]{recker2007does}
-\textsc{Recker}, Jan~C. ; \textsc{Dreiling}, Alexander:
+\bibitem[RD]{recker2007does}
+\textsc{Recker}, J.~C. ; \textsc{Dreiling}, A.:
 \newblock Does it matter which process modelling language we teach or use? an
   experimental study on understanding process modelling languages without
   formal education.
 \newblock {In: }\emph{18th Australasian Conference on Information Systems}
-  (2007), S. 356--366
 
 \bibitem[Rei09]{reinshagen2009}
 \textsc{Reinshagen}, F.:
@@ -393,15 +387,15 @@
   Anwendungen}.
 \newblock Oldenbourg, 2008
 
-\bibitem[RM11]{reijers2011study}
-\textsc{Reijers}, Hajo~A. ; \textsc{Mendling}, Jan:
+\bibitem[RM]{reijers2011study}
+\textsc{Reijers}, H.~A. ; \textsc{Mendling}, J.:
 \newblock A study into the factors that influence the understandability of
   business process models.
 \newblock {In: }\emph{IEEE Transactions on Systems, Man and Cybernetics, Part
-  A: Systems and Humans} 41 (2011), Nr. 3, S. 449--462
+  A: Systems and Humans} 41 (3) : 449--462, 2011
 
 \bibitem[RW12]{reichert2012}
-\textsc{Reichert}, Manfred ; \textsc{Weber}, Barbara:
+\textsc{Reichert}, M. ; \textsc{Weber}, B.:
 \newblock \emph{Enabling Flexibility in Process-Aware Information Systems:
   Challenges, Methods, Technologies}.
 \newblock Springer, 2012
@@ -413,12 +407,12 @@
 \newblock De Gruyter, 2011
 
 \bibitem[Sch04]{Schwaber2004}
-\textsc{Schwaber}, Ken:
+\textsc{Schwaber}, K.:
 \newblock \emph{Agile Project Management with Scrum}.
 \newblock Microsoft Press, 2004
 
 \bibitem[Sch07]{Schwaber2007}
-\textsc{Schwaber}, Ken:
+\textsc{Schwaber}, K.:
 \newblock \emph{The enterprise and Scrum}.
 \newblock Microsoft Press, 2007
 
@@ -426,57 +420,57 @@
 \textsc{{Sparkling Consulting}}:
 \newblock \emph{Open Unified Process (OpenUP)}.
 \newblock \url{http://www.itpractices.org/Live/framework/openup}. --
-\newblock Version: 08.Dezember 2014
+\newblock Letzter Zugriff: 08.12.2014
 
 \bibitem[Spe98]{Specker1998}
-\textsc{Specker}, Adrian:
+\textsc{Specker}, A.:
 \newblock \emph{Kognitives Software Engineering}.
 \newblock vdf Hochschulverlag AG, 1998
 
 \bibitem[Sta06]{Staud2006}
-\textsc{Staud}, Josef:
+\textsc{Staud}, J.:
 \newblock \emph{Geschäftsprozessanalyse: Ereignisgesteuerte Prozessketten und
   objektorientierte Geschäftsprozessmodellierung für betriebswirtschaftliche
   Standardsoftware}.
 \newblock Springer, 2006
 
 \bibitem[St{\"o}05]{Stoerrle2005}
-\textsc{St{\"o}rrle}, Harald:
+\textsc{St{\"o}rrle}, H.:
 \newblock \emph{UML 2 f\"ur Studenten}.
 \newblock Pearson Studium, 2005
 
 \bibitem[Tho09]{thomas2009}
-\textsc{Thomas}, Oliver:
+\textsc{Thomas}, O.:
 \newblock \emph{Fuzzy Process Engineering}.
 \newblock Gabler Verlag, 2009
 
 \bibitem[TN86]{Takeuchi1986}
-\textsc{Takeuchi}, Hirotaka ; \textsc{Nonaka}, Ikujiro:
+\textsc{Takeuchi}, H. ; \textsc{Nonaka}, I.:
 \newblock The New New Product Development Game.
 \newblock {In: }\emph{Harvard Business Review} 86 (1986), S. 137--146
 
 \bibitem[Wol11a]{Henning2011}
-\textsc{Wolf}, Henning:
+\textsc{Wolf}, H.:
 \newblock \emph{Die Kraft von Scrum: eine inspirierende Geschichte über einen
   revolutionären Projektmanagementansatz}.
 \newblock Addison-Wesley, 2011
 
 \bibitem[Wol11b]{Wolf2011}
-\textsc{Wolf}, Henning:
+\textsc{Wolf}, H.:
 \newblock \emph{Die Kraft von Scrum: eine inspirierende Geschichte über einen
   revolutionären Projektmanagementansatz}.
 \newblock Addison-Wesley, 2011
 
-\bibitem[ZSH{\etalchar{+}}13]{sabrina942}
-\textsc{Zugal}, Stefan ; \textsc{Soffer}, Pnina ; \textsc{Haisjackl}, Cornelia
-  ; \textsc{Pinggera}, Jakob ; \textsc{Reichert}, Manfred  ; \textsc{Weber},
-  Barbara:
+\bibitem[ZSH{\etalchar{+}}]{sabrina942}
+\textsc{Zugal}, S. ; \textsc{Soffer}, P. ; \textsc{Haisjackl}, C. ;
+  \textsc{Pinggera}, J. ; \textsc{Reichert}, M.  ; \textsc{Weber}, B.:
 \newblock Investigating expressiveness and understandability of hierarchy in
   declarative business process models.
-\newblock {In: }\emph{Software \& Systems Modeling}  (2013), S. 1--23
+\newblock {In: }\emph{Software \& Systems Modeling: 1--23, 2013, DOI
+  10.1007/s10270-013-0356-2}
 
 \bibitem[Zö12]{Zoerner2012}
-\textsc{Zörner}, Stefan:
+\textsc{Zörner}, S.:
 \newblock \emph{Software-Architekturen Dokumentieren und Kommunizieren}.
 \newblock Carl Hanser Verlag, 2012
 

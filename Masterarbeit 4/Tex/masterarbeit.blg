@@ -9,56 +9,69 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Literature.bib
 Warning--I'm ignoring kaschek1998's extra "booktitle" field
---line 371 of file Literature.bib
-Warning--I'm ignoring bpm07's extra "series" field
---line 599 of file Literature.bib
+--line 365 of file Literature.bib
+I was expecting a `,' or a `}'---line 659 of file Literature.bib
+ :   
+ :   publisher={University of Southern Queensland}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "fahland2009"
 Warning--I didn't find a database entry for "white2004"
 Warning--I didn't find a database entry for "Wang2007"
+Warning--empty pages in Pesic200
+Warning--there's no year in journals95
 Warning--empty number in 2004vmodell
-Warning--empty note in 2004vmodell
+Warning--there's no year in freudenreichevaluierung
+Warning--there's no year in haisjackl2014understanding
+Warning--there's no year in hauber2010
+Warning--there's no year in Hesse2008
 Warning--empty pages in kaschek1998
 Warning--empty title in Kuhrmann2011
+Warning--there's no year in mendling2010seven
 Warning--neither address nor publication date in bpm07
+Warning--there's no year in quteprints
+Warning--there's no year in recker2007does
+Warning--there's no year in reijers2011study
+Warning--there's no year in sabrina942
 You've used 78 entries,
             4793 wiz_defined-function locations,
-            1274 strings with 17182 characters,
-and the built_in function-call counts, 42654 in all, are:
-= -- 4235
+            1265 strings with 17118 characters,
+and the built_in function-call counts, 39299 in all, are:
+= -- 3743
 > -- 1223
-< -- 1218
-+ -- 1397
-- -- 407
-* -- 2587
-:= -- 7497
-add.period$ -- 78
+< -- 846
++ -- 1040
+- -- 406
+* -- 2446
+:= -- 7065
+add.period$ -- 75
 call.type$ -- 78
 change.case$ -- 385
-chr.to.int$ -- 76
-cite$ -- 83
-duplicate$ -- 1386
-empty$ -- 3194
+chr.to.int$ -- 74
+cite$ -- 93
+duplicate$ -- 1363
+empty$ -- 3114
 format.name$ -- 817
-if$ -- 8436
-int.to.chr$ -- 3
+if$ -- 7852
+int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 306
-newline$ -- 409
+missing$ -- 297
+newline$ -- 407
 num.names$ -- 236
-pop$ -- 635
+pop$ -- 690
 preamble$ -- 1
 purify$ -- 541
 quote$ -- 0
-skip$ -- 2425
+skip$ -- 2031
 stack$ -- 0
-substring$ -- 2448
-swap$ -- 271
-text.length$ -- 225
+substring$ -- 1969
+swap$ -- 257
+text.length$ -- 212
 text.prefix$ -- 44
 top$ -- 0
-type$ -- 611
-warning$ -- 5
-while$ -- 387
-width$ -- 82
-write$ -- 928
-(There were 10 warnings)
+type$ -- 609
+warning$ -- 15
+while$ -- 370
+width$ -- 83
+write$ -- 912
+(There was 1 error message)
