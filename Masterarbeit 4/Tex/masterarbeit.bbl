@@ -20,12 +20,11 @@
   in den Standard f{\"u}r die Gesch{\"a}ftsprozessmodellierung}.
 \newblock Books on Demand, 2013
 
-\bibitem[AP06]{Pesic200}
+\bibitem[AP26]{Pesic200}
 \textsc{Aalst}, W.M.P. ; \textsc{Pesic}, M.:
 \newblock DecSerFlow: Towards a Truly Declarative Service Flow Language.
 \newblock {In: }\emph{Web Services and Formal Methods}.
-\newblock Springer Berlin Heidelberg, Lecture Notes in Computer Science, Vol.
-  6291, S. 1-26, 2006
+\newblock Springer, 2006, Lecture Notes in Computer Science, Vol. 6291, S. 1-26
 
 \bibitem[{Bal}]{eclipseopenup}
 \textsc{{Balduino, R.}}:
@@ -37,7 +36,7 @@
 \textsc{Becker}, J.:
 \newblock \emph{Prozessmanagement: Ein Leitfaden Zur Prozessorientierten
   Organisationsgestaltung}.
-\newblock Springer Berlin Heidelberg, 2012
+\newblock Springer, 2012
 
 \bibitem[Boe81]{Boehm81}
 \textsc{Boehm}, B.~W.:
@@ -133,11 +132,11 @@
 \newblock \emph{Grundkurs Gesch{\"a}ftsprozess-Management}.
 \newblock Vieweg+Teubner Verlag, 2012
 
-\bibitem[Gau06]{Gau2006}
+\bibitem[Gau]{Gau2006}
 \textsc{Gau}, T.:
 \newblock UMA und EPF: Einf{\"u}hrung und Anwendung in der Praxis.
-\newblock {In: }\emph{Objekt Spektrum,(November/Dezember 2006-6)}  (2006), S.
-  42--47
+\newblock {In: }\emph{Objekt Spektrum,(November/Dezember 2006-6), 2006, S.
+  42-47}
 
 \bibitem[GBBK10]{Grechenig2010}
 \textsc{Grechenig}, T. ; \textsc{Bernhart}, M. ; \textsc{Breiteneder}, R.  ;
@@ -150,13 +149,13 @@
 \newblock Adopting the cognitive complexity measure for business process
   models.
 \newblock {In: }\emph{5th IEEE International Conference on Cognitive
-  Informatics}, S. 236--241, 2006
+  Informatics, 2006}, S. 236--241
 
 \bibitem[GLb]{gruhn2006complexity}
 \textsc{Gruhn}, V. ; \textsc{Laue}, R.:
 \newblock Complexity metrics for business process models.
 \newblock {In: }\emph{9th International Conference on Business Information
-  Systems}, S. 1--12, 2006
+  Systems, 2006}, S. 1--12
 
 \bibitem[GL12]{gpfert2012}
 \textsc{G{\"o}pfert}, J. ; \textsc{Lindenbach}, H.:
@@ -213,7 +212,7 @@
 \bibitem[HMa]{hauber2010}
 \textsc{Hauber}, R. ; \textsc{Muth}, B.:
 \newblock Architekturprozesse--Systeme systematisch entwickeln.
-\newblock {In: }\emph{URL: www. sigs-datacom. de}
+\newblock {In: }\emph{URL: www. sigs-datacom. de, S.1--23, 2010}
 
 \bibitem[HMb]{Hesse2008}
 \textsc{Hesse}, W. ; \textsc{Mayr}, H.~C.:
@@ -228,12 +227,13 @@
 \newblock Springer, 2008
 
 \bibitem[HZS{\etalchar{+}}]{sabrina933}
-\textsc{Haisjackl}, Cornelia ; \textsc{Zugal}, Stefan ; \textsc{Soffer}, Pnina
-  ; \textsc{Hadar}, Irit ; \textsc{Weber}, Barbara ; \textsc{Pinggera}, Jakob
-  ; \textsc{Reichert}, Manfred:
+\textsc{Haisjackl}, C. ; \textsc{Zugal}, S. ; \textsc{Soffer}, P. ;
+  \textsc{Hadar}, I. ; \textsc{Weber}, B. ; \textsc{Pinggera}, J.  ;
+  \textsc{Reichert}, M:
 \newblock Making Sense of Declarative Process Models: Common Strategies and
   Typical Pitfalls.
-\newblock {In: }\emph{Proc. BPMDS'13}, Springer (LNBIP 147), S. 2--17, 2013
+\newblock {In: }\emph{Proc. BPMDS'13}, Springer, LNBIP, vol. 147, S. 2--17,
+  2013
 
 \bibitem[Kas98]{kaschek1998}
 \textsc{Kaschek}, R.:
@@ -398,7 +398,7 @@
   Springer, 2012, S. 383--394
 
 \bibitem[PZW10]{pinggera2010investigating}
-\textsc{Pinggera}, Jakob ; \textsc{Zugal}, Stefan  ; \textsc{Weber}, Barbara:
+\textsc{Pinggera}, J. ; \textsc{Zugal}, S.  ; \textsc{Weber}, B.:
 \newblock Investigating the Process of Process Modeling with Cheetah
   Experimental Platform--Tool Paper--.
 \newblock {In: }\emph{ER-POIS 2010}  (2010), S.~13
@@ -408,7 +408,8 @@
 \newblock Does it matter which process modelling language we teach or use? an
   experimental study on understanding process modelling languages without
   formal education.
-\newblock {In: }\emph{18th Australasian Conference on Information Systems}
+\newblock {In: }\emph{18th Australasian Conference on Information Systems, S.
+  356--366, 2007}
 
 \bibitem[Rei09]{reinshagen2009}
 \textsc{Reinshagen}, F.:
@@ -484,6 +485,11 @@
 \textsc{Takeuchi}, H. ; \textsc{Nonaka}, I.:
 \newblock The New New Product Development Game.
 \newblock {In: }\emph{Harvard Business Review} 86 (1986), S. 137--146
+
+\bibitem[Whi04]{white2004introduction}
+\textsc{White}, S.~A.:
+\newblock Introduction to BPMN.
+\newblock {In: }\emph{IBM Cooperation} 2 (2004), Nr. 0, S.~0
 
 \bibitem[Wol11a]{Henning2011}
 \textsc{Wolf}, H.:

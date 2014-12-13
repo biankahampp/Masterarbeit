@@ -9,14 +9,13 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Literature.bib
 Warning--I'm ignoring kaschek1998's extra "booktitle" field
---line 365 of file Literature.bib
-Warning--I didn't find a database entry for "fahland2009"
-Warning--I didn't find a database entry for "white2004"
+--line 362 of file Literature.bib
 Warning--I didn't find a database entry for "Wang2007"
 Warning--empty pages in Pesic200
 Warning--there's no year in journals95
 Warning--empty number in 2004vmodell
 Warning--there's no year in freudenreichevaluierung
+Warning--there's no year in Gau2006
 Warning--there's no year in sabrina795
 Warning--there's no year in sabrina758
 Warning--neither address nor publication date in sabrina734
@@ -32,45 +31,45 @@ Warning--there's no year in quteprints
 Warning--there's no year in recker2007does
 Warning--there's no year in reijers2011study
 Warning--there's no year in sabrina942
-You've used 83 entries,
+You've used 84 entries,
             4793 wiz_defined-function locations,
-            1296 strings with 18234 characters,
-and the built_in function-call counts, 43391 in all, are:
-= -- 4174
-> -- 1368
-< -- 963
-+ -- 1187
-- -- 459
-* -- 2761
-:= -- 7780
-add.period$ -- 80
-call.type$ -- 83
-change.case$ -- 419
-chr.to.int$ -- 77
-cite$ -- 102
-duplicate$ -- 1465
-empty$ -- 3371
-format.name$ -- 912
-if$ -- 8635
+            1295 strings with 18293 characters,
+and the built_in function-call counts, 43323 in all, are:
+= -- 4145
+> -- 1376
+< -- 929
++ -- 1154
+- -- 462
+* -- 2763
+:= -- 7788
+add.period$ -- 81
+call.type$ -- 84
+change.case$ -- 423
+chr.to.int$ -- 78
+cite$ -- 104
+duplicate$ -- 1478
+empty$ -- 3385
+format.name$ -- 918
+if$ -- 8631
 int.to.chr$ -- 7
 int.to.str$ -- 0
-missing$ -- 317
-newline$ -- 432
-num.names$ -- 251
-pop$ -- 743
+missing$ -- 322
+newline$ -- 437
+num.names$ -- 254
+pop$ -- 752
 preamble$ -- 1
-purify$ -- 585
+purify$ -- 591
 quote$ -- 0
-skip$ -- 2210
+skip$ -- 2196
 stack$ -- 0
-substring$ -- 2284
-swap$ -- 290
-text.length$ -- 237
-text.prefix$ -- 44
+substring$ -- 2211
+swap$ -- 292
+text.length$ -- 238
+text.prefix$ -- 45
 top$ -- 0
-type$ -- 659
-warning$ -- 19
-while$ -- 413
-width$ -- 88
-write$ -- 975
-(There were 23 warnings)
+type$ -- 669
+warning$ -- 20
+while$ -- 415
+width$ -- 89
+write$ -- 985
+(There were 22 warnings)
