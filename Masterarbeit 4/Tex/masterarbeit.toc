@@ -89,21 +89,21 @@
 \contentsline {section}{\numberline {6.3}Durchf\IeC {\"u}hrung der Studie}{131}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}Teilnehmer}{131}{subsection.6.3.1}
 \contentsline {subsection}{\numberline {6.3.2}Ergebnisse Verst\IeC {\"a}ndnisfragen}{132}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}Ergebnisse Meinungsfragen}{139}{subsection.6.3.3}
+\contentsline {subsection}{\numberline {6.3.3}Ergebnisse Meinungsfragen}{138}{subsection.6.3.3}
 \contentsline {section}{\numberline {6.4}Fazit der Studie}{143}{section.6.4}
 \contentsline {subsubsection}{Richtigkeit, Relevanz}{143}{section*.40}
 \contentsline {subsubsection}{Systematischer Aufbau}{143}{section*.41}
 \contentsline {subsubsection}{Klarheit, Wirtschaftlichkeit}{144}{section*.42}
 \contentsline {subsubsection}{Vergleichbarkeit}{145}{section*.43}
-\contentsline {subsection}{\numberline {6.4.1}Grenzen der Studie}{146}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.1}Grenzen der Studie}{147}{subsection.6.4.1}
 \contentsline {chapter}{\numberline {7}Verwandte Arbeiten}{149}{chapter.7}
 \contentsline {section}{\numberline {7.1}Modellierung von Softwareentwicklungsprozessen}{149}{section.7.1}
-\contentsline {section}{\numberline {7.2}Verst\IeC {\"a}ndlichkeit von Prozessmodellierungssprachen}{150}{section.7.2}
-\contentsline {section}{\numberline {7.3}Vergleich von Prozessmodellierungssprachen}{151}{section.7.3}
-\contentsline {chapter}{\numberline {8}Zusammenfassung und Ausblick}{153}{chapter.8}
-\contentsline {section}{\numberline {8.1}Zusammenfassung und Fazit}{153}{section.8.1}
-\contentsline {section}{\numberline {8.2}Ausblick}{155}{section.8.2}
-\contentsline {chapter}{\numberline {A}BPMN Notation}{159}{appendix.A}
-\contentsline {chapter}{\numberline {B}ConDec Notation}{163}{appendix.B}
-\contentsline {chapter}{\numberline {C}Frageb\IeC {\"o}gen}{169}{appendix.C}
-\contentsline {chapter}{\numberline {D}Rohdaten}{193}{appendix.D}
+\contentsline {section}{\numberline {7.2}Verst\IeC {\"a}ndlichkeit von Prozessmodellierungssprachen}{151}{section.7.2}
+\contentsline {section}{\numberline {7.3}Vergleich von Prozessmodellierungssprachen}{152}{section.7.3}
+\contentsline {chapter}{\numberline {8}Zusammenfassung und Ausblick}{155}{chapter.8}
+\contentsline {section}{\numberline {8.1}Zusammenfassung und Fazit}{155}{section.8.1}
+\contentsline {section}{\numberline {8.2}Ausblick}{157}{section.8.2}
+\contentsline {chapter}{\numberline {A}BPMN Notation}{161}{appendix.A}
+\contentsline {chapter}{\numberline {B}ConDec Notation}{165}{appendix.B}
+\contentsline {chapter}{\numberline {C}Frageb\IeC {\"o}gen}{171}{appendix.C}
+\contentsline {chapter}{\numberline {D}Rohdaten}{195}{appendix.D}

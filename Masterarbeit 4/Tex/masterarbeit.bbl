@@ -164,6 +164,28 @@
   Model and Notation}.
 \newblock Oldenbourg Wissenschaftsverlag, 2012
 
+\bibitem[GORa]{sabrina795}
+\textsc{Grambow}, G. ; \textsc{Oberhauser}, R.  ; \textsc{Reichert}, M.:
+\newblock Contextual Generation of Declarative Workflows and their Application
+  to Software Engineering Processes.
+\newblock {In: }\emph{Int J on Advances in Intelligent Systems} 4, Nr. 3\&4, S.
+  158--179, 2011
+
+\bibitem[GORb]{sabrina758}
+\textsc{Grambow}, G. ; \textsc{Oberhauser}, R.  ; \textsc{Reichert}, M.:
+\newblock Contextual Injection of Quality Measures into Software Engineering
+  Processes.
+\newblock {In: }\emph{Int'l Journal on Advances in Software} 4, Nr. 1\&2, S.
+  76--99, 2011
+
+\bibitem[GORc]{sabrina734}
+\textsc{Grambow}, G. ; \textsc{Oberhauser}, R.  ; \textsc{Reichert}, M:
+\newblock Semantically-Driven Workflow Generation using Declarative Modeling
+  for Processes in Software Engineering.
+\newblock {In: }\emph{4th Int'l Workshop on Evolutionary Business Processes
+  (EVL-BP'11), Proceedings EDOCW'11 Workshops}, IEEE Computer Society, S.
+  164--173, 2011
+
 \bibitem[GS12]{gumm2012einfuhrung}
 \textsc{Gumm}, H.P. ; \textsc{Sommer}, M.:
 \newblock \emph{Einf{\"u}hrung in die Informatik}.
@@ -204,6 +226,14 @@
   \textsc{Biffl}, S. ; \textsc{Wagner}, R.  ; \textsc{Hesse}, W.:
 \newblock \emph{Das V-Modell XT: Grundlagen, Methodik und Anwendungen}.
 \newblock Springer, 2008
+
+\bibitem[HZS{\etalchar{+}}]{sabrina933}
+\textsc{Haisjackl}, Cornelia ; \textsc{Zugal}, Stefan ; \textsc{Soffer}, Pnina
+  ; \textsc{Hadar}, Irit ; \textsc{Weber}, Barbara ; \textsc{Pinggera}, Jakob
+  ; \textsc{Reichert}, Manfred:
+\newblock Making Sense of Declarative Process Models: Common Strategies and
+  Typical Pitfalls.
+\newblock {In: }\emph{Proc. BPMDS'13}, Springer (LNBIP 147), S. 2--17, 2013
 
 \bibitem[Kas98]{kaschek1998}
 \textsc{Kaschek}, R.:
@@ -267,7 +297,7 @@
   computing}, 2006, S. 1532--1539
 
 \bibitem[Men14]{Menhorn2014}
-\textsc{Menhorn}, Nicole:
+\textsc{Menhorn}, N.:
 \newblock \emph{Analyse und Überführung von Softwareentwicklungsprozessen in
   die standardisierte BPMN Notation}, Universität Ulm, Bachelorarbeit, 2014
 
@@ -366,6 +396,12 @@
   empirical investigation.
 \newblock {In: }\emph{Business Process Management Workshops, LNBIP 99,}
   Springer, 2012, S. 383--394
+
+\bibitem[PZW10]{pinggera2010investigating}
+\textsc{Pinggera}, Jakob ; \textsc{Zugal}, Stefan  ; \textsc{Weber}, Barbara:
+\newblock Investigating the Process of Process Modeling with Cheetah
+  Experimental Platform--Tool Paper--.
+\newblock {In: }\emph{ER-POIS 2010}  (2010), S.~13
 
 \bibitem[RD]{recker2007does}
 \textsc{Recker}, J.~C. ; \textsc{Dreiling}, A.:
