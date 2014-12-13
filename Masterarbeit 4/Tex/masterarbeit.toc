@@ -47,13 +47,13 @@
 \contentsline {subsection}{\numberline {5.1.3}Deklarative Modellierung Scrum}{49}{subsection.5.1.3}
 \contentsline {subsection}{\numberline {5.1.4}Vergleich}{51}{subsection.5.1.4}
 \contentsline {section}{\numberline {5.2}Open Unified Process (Open UP)}{55}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Analyse Open UP}{56}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.1}Analyse von Open UP}{56}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}Imperative Modellierung Open UP}{61}{subsection.5.2.2}
 \contentsline {subsubsection}{Phasen Open UP}{62}{section*.17}
-\contentsline {subsubsection}{L\IeC {\"o}sungsinkrement entwickeln}{67}{section*.18}
-\contentsline {subsubsection}{Iteration planen und managen- Inception}{68}{section*.19}
-\contentsline {subsubsection}{Anforderungen identifizieren und verfeinern}{72}{section*.20}
-\contentsline {subsubsection}{Produktdokumentation und Training erstellen-Construction}{73}{section*.21}
+\contentsline {subsubsection}{L\IeC {\"o}sungsinkrement entwickeln}{64}{section*.18}
+\contentsline {subsubsection}{Iteration planen und managen - Inception}{68}{section*.19}
+\contentsline {subsubsection}{Anforderungen identifizieren und verfeinern - Elaboration}{72}{section*.20}
+\contentsline {subsubsection}{Produktdokumentation und Training erstellen - Construction}{73}{section*.21}
 \contentsline {subsubsection}{Release deployen-Transition}{74}{section*.22}
 \contentsline {subsection}{\numberline {5.2.3}Deklarative Modellierung Open UP}{76}{subsection.5.2.3}
 \contentsline {subsubsection}{Phasen des Open UP}{76}{section*.23}
@@ -88,8 +88,8 @@
 \contentsline {subsection}{\numberline {6.2.3}Auswertung}{129}{subsection.6.2.3}
 \contentsline {section}{\numberline {6.3}Durchf\IeC {\"u}hrung der Studie}{129}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}Teilnehmer}{129}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Ergebnisse Verst\IeC {\"a}ndnisfragen}{130}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}Ergebnisse Meinungsfragen}{136}{subsection.6.3.3}
+\contentsline {subsection}{\numberline {6.3.2}Ergebnisse Verst\IeC {\"a}ndnisfragen}{132}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Ergebnisse Meinungsfragen}{137}{subsection.6.3.3}
 \contentsline {section}{\numberline {6.4}Fazit der Studie}{141}{section.6.4}
 \contentsline {subsubsection}{Richtigkeit, Relevanz}{141}{section*.40}
 \contentsline {subsubsection}{Systematischer Aufbau}{141}{section*.41}

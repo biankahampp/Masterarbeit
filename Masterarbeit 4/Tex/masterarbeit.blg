@@ -10,7 +10,6 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Literature.bib
 Warning--I'm ignoring kaschek1998's extra "booktitle" field
 --line 362 of file Literature.bib
-Warning--I didn't find a database entry for "Wang2007"
 Warning--empty pages in Pesic200
 Warning--there's no year in journals95
 Warning--empty number in 2004vmodell
@@ -31,45 +30,45 @@ Warning--there's no year in quteprints
 Warning--there's no year in recker2007does
 Warning--there's no year in reijers2011study
 Warning--there's no year in sabrina942
-You've used 84 entries,
+You've used 85 entries,
             4793 wiz_defined-function locations,
-            1295 strings with 18293 characters,
-and the built_in function-call counts, 43323 in all, are:
-= -- 4145
-> -- 1376
-< -- 929
-+ -- 1154
-- -- 462
-* -- 2763
-:= -- 7788
-add.period$ -- 81
-call.type$ -- 84
-change.case$ -- 423
-chr.to.int$ -- 78
-cite$ -- 104
-duplicate$ -- 1478
-empty$ -- 3385
-format.name$ -- 918
-if$ -- 8631
+            1297 strings with 18453 characters,
+and the built_in function-call counts, 44019 in all, are:
+= -- 4221
+> -- 1401
+< -- 960
++ -- 1191
+- -- 472
+* -- 2808
+:= -- 7917
+add.period$ -- 82
+call.type$ -- 85
+change.case$ -- 429
+chr.to.int$ -- 79
+cite$ -- 105
+duplicate$ -- 1492
+empty$ -- 3419
+format.name$ -- 934
+if$ -- 8754
 int.to.chr$ -- 7
 int.to.str$ -- 0
 missing$ -- 322
-newline$ -- 437
-num.names$ -- 254
-pop$ -- 752
+newline$ -- 442
+num.names$ -- 257
+pop$ -- 757
 preamble$ -- 1
-purify$ -- 591
+purify$ -- 599
 quote$ -- 0
-skip$ -- 2196
+skip$ -- 2245
 stack$ -- 0
-substring$ -- 2211
-swap$ -- 292
-text.length$ -- 238
+substring$ -- 2253
+swap$ -- 296
+text.length$ -- 241
 text.prefix$ -- 45
 top$ -- 0
-type$ -- 669
+type$ -- 677
 warning$ -- 20
-while$ -- 415
-width$ -- 89
-write$ -- 985
-(There were 22 warnings)
+while$ -- 421
+width$ -- 90
+write$ -- 997
+(There were 21 warnings)
