@@ -14,32 +14,32 @@
 \contentsline {subsection}{\numberline {3.1.2}Grunds\IeC {\"a}tze ordnungsgem\IeC {\"a}\IeC {\ss }er Modellierung}{15}{subsection.3.1.2}
 \contentsline {section}{\numberline {3.2}Prozessmodellierungssprachen}{18}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Imperative Modellierung}{19}{subsection.3.2.1}
-\contentsline {subsubsection}{BPMN}{19}{section*.3}
+\contentsline {subsubsection}{BPMN}{19}{section*.4}
 \contentsline {subsection}{\numberline {3.2.2}Deklarative Modellierung}{23}{subsection.3.2.2}
-\contentsline {subsubsection}{ConDec}{24}{section*.4}
+\contentsline {subsubsection}{ConDec}{24}{section*.5}
 \contentsline {section}{\numberline {3.3}Modellierungswerkzeuge}{25}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Signavio}{26}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Declare}{27}{subsection.3.3.2}
 \contentsline {chapter}{\numberline {4}Anforderungserhebung}{31}{chapter.4}
 \contentsline {section}{\numberline {4.1}Vergleichskriterien}{31}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Richtigkeit}{33}{subsection.4.1.1}
-\contentsline {subsubsection}{A 1.1}{33}{section*.5}
-\contentsline {subsubsection}{A 1.2}{33}{section*.6}
+\contentsline {subsubsection}{A 1.1}{33}{section*.6}
+\contentsline {subsubsection}{A 1.2}{33}{section*.7}
 \contentsline {subsection}{\numberline {4.1.2}Systematischer Aufbau}{34}{subsection.4.1.2}
-\contentsline {subsubsection}{A 2.1}{34}{section*.7}
+\contentsline {subsubsection}{A 2.1}{34}{section*.8}
 \contentsline {subsection}{\numberline {4.1.3}Relevanz}{34}{subsection.4.1.3}
-\contentsline {subsubsection}{A 3.1}{34}{section*.8}
+\contentsline {subsubsection}{A 3.1}{34}{section*.9}
 \contentsline {subsection}{\numberline {4.1.4}Klarheit}{35}{subsection.4.1.4}
-\contentsline {subsubsection}{A 4.1}{35}{section*.9}
-\contentsline {subsubsection}{A 4.2}{36}{section*.10}
-\contentsline {subsubsection}{A 4.3}{37}{section*.11}
+\contentsline {subsubsection}{A 4.1}{35}{section*.10}
+\contentsline {subsubsection}{A 4.2}{37}{section*.11}
+\contentsline {subsubsection}{A 4.3}{37}{section*.12}
 \contentsline {subsection}{\numberline {4.1.5}Wirtschaftlichkeit der Prozessmodelle}{37}{subsection.4.1.5}
-\contentsline {subsubsection}{A 5.1}{37}{section*.12}
-\contentsline {subsubsection}{A 5.2}{38}{section*.13}
+\contentsline {subsubsection}{A 5.1}{38}{section*.13}
+\contentsline {subsubsection}{A 5.2}{38}{section*.14}
 \contentsline {subsection}{\numberline {4.1.6}Vergleichbarkeit}{38}{subsection.4.1.6}
-\contentsline {subsubsection}{A 6.1}{38}{section*.14}
-\contentsline {subsubsection}{A 6.2}{39}{section*.15}
-\contentsline {subsubsection}{A 6.3}{39}{section*.16}
+\contentsline {subsubsection}{A 6.1}{38}{section*.15}
+\contentsline {subsubsection}{A 6.2}{39}{section*.16}
+\contentsline {subsubsection}{A 6.3}{39}{section*.17}
 \contentsline {chapter}{\numberline {5}Modellierung f\IeC {\"u}r Softwareentwicklungsprozesse}{41}{chapter.5}
 \contentsline {section}{\numberline {5.1}Scrum}{42}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}Analyse Scrum}{42}{subsection.5.1.1}
@@ -49,61 +49,66 @@
 \contentsline {section}{\numberline {5.2}Open Unified Process (Open UP)}{55}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}Analyse von Open UP}{56}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}Imperative Modellierung Open UP}{61}{subsection.5.2.2}
-\contentsline {subsubsection}{Phasen Open UP}{62}{section*.17}
-\contentsline {subsubsection}{L\IeC {\"o}sungsinkrement entwickeln}{64}{section*.18}
-\contentsline {subsubsection}{Iteration planen und managen - Inception}{68}{section*.19}
-\contentsline {subsubsection}{Anforderungen identifizieren und verfeinern - Elaboration}{72}{section*.20}
-\contentsline {subsubsection}{Produktdokumentation und Training erstellen - Construction}{73}{section*.21}
-\contentsline {subsubsection}{Release deployen-Transition}{74}{section*.22}
-\contentsline {subsection}{\numberline {5.2.3}Deklarative Modellierung Open UP}{76}{subsection.5.2.3}
-\contentsline {subsubsection}{Phasen des Open UP}{76}{section*.23}
-\contentsline {subsection}{\numberline {5.2.4}Vergleich}{84}{subsection.5.2.4}
-\contentsline {subsubsection}{Phasen Open UP}{84}{section*.24}
-\contentsline {subsubsection}{Iterationen Open UP-Inception}{84}{section*.25}
-\contentsline {section}{\numberline {5.3}V-Modell XT}{93}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Analyse V-Modell XT}{93}{subsection.5.3.1}
-\contentsline {subsubsection}{Projekttypen}{94}{section*.26}
-\contentsline {subsubsection}{Projekttypvarianten}{95}{section*.27}
-\contentsline {subsubsection}{Vorgehensbausteine}{96}{section*.28}
-\contentsline {subsubsection}{V-Modell XT-Kern und Vorgehensbausteinlandkarte}{98}{section*.29}
-\contentsline {subsubsection}{Projektdurchf\IeC {\"u}hrungsstrategie}{100}{section*.30}
-\contentsline {subsubsection}{Entscheidungspunkte}{100}{section*.31}
-\contentsline {subsection}{\numberline {5.3.2}Imperative Modellierung V-Modell XT}{103}{subsection.5.3.2}
-\contentsline {subsubsection}{Systementwicklungsprojekt AG/AN}{103}{section*.32}
-\contentsline {subsubsection}{Inkrementelle Entwicklung durchf\IeC {\"u}hren}{103}{section*.33}
-\contentsline {subsubsection}{System entwerfen}{106}{section*.34}
-\contentsline {subsubsection}{System spezifizieren}{106}{section*.35}
-\contentsline {subsection}{\numberline {5.3.3}Deklarative Modellierung V-Modell XT}{109}{subsection.5.3.3}
-\contentsline {subsubsection}{Systementwicklungsprojekt AG/AN}{109}{section*.36}
-\contentsline {subsubsection}{Inkrementelle Entwicklung durchf\IeC {\"u}hren}{109}{section*.37}
-\contentsline {subsubsection}{System entwerfen}{111}{section*.38}
-\contentsline {subsubsection}{System spezifizieren}{114}{section*.39}
-\contentsline {subsection}{\numberline {5.3.4}Vergleich}{115}{subsection.5.3.4}
-\contentsline {section}{\numberline {5.4}\IeC {\"U}bergreifender Vergleich}{120}{section.5.4}
-\contentsline {chapter}{\numberline {6}Validierung}{125}{chapter.6}
-\contentsline {section}{\numberline {6.1}Forschungsfragen}{125}{section.6.1}
-\contentsline {section}{\numberline {6.2}Design der Studie}{127}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Verst\IeC {\"a}ndnisfragen}{128}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Umfragewerkzeug und Durchf\IeC {\"u}hrung}{129}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Auswertung}{129}{subsection.6.2.3}
-\contentsline {section}{\numberline {6.3}Durchf\IeC {\"u}hrung der Studie}{129}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Teilnehmer}{129}{subsection.6.3.1}
+\contentsline {subsubsection}{Phasen Open UP}{61}{section*.18}
+\contentsline {subsubsection}{L\IeC {\"o}sungsinkrement entwickeln}{67}{section*.19}
+\contentsline {subsubsection}{Iteration planen und managen - Inception}{68}{section*.20}
+\contentsline {subsubsection}{Anforderungen identifizieren und verfeinern - Elaboration}{72}{section*.21}
+\contentsline {subsubsection}{Produktdokumentation und Training erstellen - Construction}{73}{section*.22}
+\contentsline {subsubsection}{Release deployen-Transition}{74}{section*.23}
+\contentsline {subsection}{\numberline {5.2.3}Deklarative Modellierung Open UP}{77}{subsection.5.2.3}
+\contentsline {subsubsection}{Phasen des Open UP}{77}{section*.24}
+\contentsline {subsubsection}{L\IeC {\"o}sungsinkrement entwickeln}{80}{section*.25}
+\contentsline {subsubsection}{Iteration planen und managen - Inception}{81}{section*.26}
+\contentsline {subsubsection}{Anforderungen identifizieren und verfeinern - Elaboration}{81}{section*.27}
+\contentsline {subsubsection}{ Produktdokumentation und Training erstellen - Construction}{83}{section*.28}
+\contentsline {subsubsection}{Release deployen - Transition}{84}{section*.29}
+\contentsline {subsection}{\numberline {5.2.4}Vergleich}{86}{subsection.5.2.4}
+\contentsline {subsubsection}{Phasen Open UP}{86}{section*.30}
+\contentsline {subsubsection}{Iterationen Open UP-Inception}{86}{section*.31}
+\contentsline {section}{\numberline {5.3}V-Modell XT}{95}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Analyse V-Modell XT}{95}{subsection.5.3.1}
+\contentsline {subsubsection}{Projekttypen}{96}{section*.32}
+\contentsline {subsubsection}{Projekttypvarianten}{97}{section*.33}
+\contentsline {subsubsection}{Vorgehensbausteine}{98}{section*.34}
+\contentsline {subsubsection}{V-Modell XT-Kern und Vorgehensbausteinlandkarte}{100}{section*.35}
+\contentsline {subsubsection}{Projektdurchf\IeC {\"u}hrungsstrategie}{102}{section*.36}
+\contentsline {subsubsection}{Entscheidungspunkte}{102}{section*.37}
+\contentsline {subsection}{\numberline {5.3.2}Imperative Modellierung V-Modell XT}{105}{subsection.5.3.2}
+\contentsline {subsubsection}{Systementwicklungsprojekt AG/AN}{105}{section*.38}
+\contentsline {subsubsection}{Inkrementelle Entwicklung durchf\IeC {\"u}hren}{105}{section*.39}
+\contentsline {subsubsection}{System entwerfen}{108}{section*.40}
+\contentsline {subsubsection}{System spezifizieren}{108}{section*.41}
+\contentsline {subsection}{\numberline {5.3.3}Deklarative Modellierung V-Modell XT}{111}{subsection.5.3.3}
+\contentsline {subsubsection}{Systementwicklungsprojekt AG/AN}{111}{section*.42}
+\contentsline {subsubsection}{Inkrementelle Entwicklung durchf\IeC {\"u}hren}{111}{section*.43}
+\contentsline {subsubsection}{System entwerfen}{113}{section*.44}
+\contentsline {subsubsection}{System spezifizieren}{116}{section*.45}
+\contentsline {subsection}{\numberline {5.3.4}Vergleich}{117}{subsection.5.3.4}
+\contentsline {section}{\numberline {5.4}\IeC {\"U}bergreifender Vergleich}{122}{section.5.4}
+\contentsline {chapter}{\numberline {6}Validierung}{127}{chapter.6}
+\contentsline {section}{\numberline {6.1}Forschungsfragen}{127}{section.6.1}
+\contentsline {section}{\numberline {6.2}Design der Studie}{129}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Verst\IeC {\"a}ndnisfragen}{130}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Umfragewerkzeug und Durchf\IeC {\"u}hrung}{131}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Auswertung}{131}{subsection.6.2.3}
+\contentsline {section}{\numberline {6.3}Durchf\IeC {\"u}hrung der Studie}{131}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Teilnehmer}{131}{subsection.6.3.1}
 \contentsline {subsection}{\numberline {6.3.2}Ergebnisse Verst\IeC {\"a}ndnisfragen}{132}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}Ergebnisse Meinungsfragen}{137}{subsection.6.3.3}
-\contentsline {section}{\numberline {6.4}Fazit der Studie}{141}{section.6.4}
-\contentsline {subsubsection}{Richtigkeit, Relevanz}{141}{section*.40}
-\contentsline {subsubsection}{Systematischer Aufbau}{141}{section*.41}
-\contentsline {subsubsection}{Klarheit, Wirtschaftlichkeit}{142}{section*.42}
-\contentsline {subsubsection}{Vergleichbarkeit}{144}{section*.43}
-\contentsline {subsection}{\numberline {6.4.1}Grenzen der Studie}{144}{subsection.6.4.1}
-\contentsline {chapter}{\numberline {7}Verwandte Arbeiten}{147}{chapter.7}
-\contentsline {section}{\numberline {7.1}Modellierung von Softwareentwicklungsprozessen}{147}{section.7.1}
-\contentsline {section}{\numberline {7.2}Verst\IeC {\"a}ndlichkeit von Prozessmodellierungssprachen}{149}{section.7.2}
-\contentsline {section}{\numberline {7.3}Vergleich von Prozessmodellierungssprachen}{150}{section.7.3}
-\contentsline {chapter}{\numberline {8}Zusammenfassung und Ausblick}{153}{chapter.8}
-\contentsline {section}{\numberline {8.1}Zusammenfassung und Fazit}{153}{section.8.1}
-\contentsline {section}{\numberline {8.2}Ausblick}{155}{section.8.2}
-\contentsline {chapter}{\numberline {A}BPMN Notation}{159}{appendix.A}
-\contentsline {chapter}{\numberline {B}ConDec Notation}{163}{appendix.B}
-\contentsline {chapter}{\numberline {C}Frageb\IeC {\"o}gen}{169}{appendix.C}
-\contentsline {chapter}{\numberline {D}Rohdaten}{193}{appendix.D}
+\contentsline {subsection}{\numberline {6.3.3}Ergebnisse Meinungsfragen}{138}{subsection.6.3.3}
+\contentsline {section}{\numberline {6.4}Fazit der Studie}{143}{section.6.4}
+\contentsline {subsubsection}{Richtigkeit, Relevanz}{143}{section*.46}
+\contentsline {subsubsection}{Systematischer Aufbau}{143}{section*.47}
+\contentsline {subsubsection}{Klarheit, Wirtschaftlichkeit}{144}{section*.48}
+\contentsline {subsubsection}{Vergleichbarkeit}{146}{section*.49}
+\contentsline {subsection}{\numberline {6.4.1}Grenzen der Studie}{146}{subsection.6.4.1}
+\contentsline {chapter}{\numberline {7}Verwandte Arbeiten}{149}{chapter.7}
+\contentsline {section}{\numberline {7.1}Modellierung von Softwareentwicklungsprozessen}{149}{section.7.1}
+\contentsline {section}{\numberline {7.2}Verst\IeC {\"a}ndlichkeit von Prozessmodellierungssprachen}{151}{section.7.2}
+\contentsline {section}{\numberline {7.3}Vergleich von Prozessmodellierungssprachen}{152}{section.7.3}
+\contentsline {chapter}{\numberline {8}Zusammenfassung und Ausblick}{155}{chapter.8}
+\contentsline {section}{\numberline {8.1}Zusammenfassung und Fazit}{155}{section.8.1}
+\contentsline {section}{\numberline {8.2}Ausblick}{157}{section.8.2}
+\contentsline {chapter}{\numberline {A}BPMN Notation}{161}{appendix.A}
+\contentsline {chapter}{\numberline {B}ConDec Notation}{165}{appendix.B}
+\contentsline {chapter}{\numberline {C}Frageb\IeC {\"o}gen}{171}{appendix.C}
+\contentsline {chapter}{\numberline {D}Rohdaten}{195}{appendix.D}

@@ -1,5 +1,5 @@
 \chapter{Modellierung für Softwareentwicklungsprozesse}\label{sec:chapter6}
-In diesem Kapitel wird ein Vergleich der Anwendbarkeit zwischen imperativer und deklarativer Modellierung für Softwareentwicklungsprozesse gezogen. Zunächst  wird dieser Vergleich in Kapitel 5.1 für das Softwareentwicklungsprozess Scrum durchgeführt. Hierfür wird in Kapitel 5.1 das der Modellierung zugrunde liegende Modell, das Softwareentwicklungsprozess Scrum, vorgestellt und für die Modellierung analysiert. Danach folgen die imperative Modellierung in der imperativen Prozessmodellierungssprache BPMN und anschließend die deklarative Modellierung in der deklarativen Prozessmodellierungssprache ConDec. Danach erfolgt der Vergleich zwischen den beiden Modellen.\newline
+In diesem Kapitel wird ein Vergleich der Anwendbarkeit zwischen imperativer und deklarativer Modellierung für Softwareentwicklungsprozesse gezogen. Zunächst  wird dieser Vergleich in Kapitel 5.1 für den Softwareentwicklungsprozess Scrum durchgeführt. Hierfür wird in Kapitel 5.1 das der Modellierung zugrunde liegende Modell, der Softwareentwicklungsprozess Scrum, vorgestellt und für die Modellierung analysiert. Danach folgen die imperative Modellierung in der imperativen Prozessmodellierungssprache BPMN und anschließend die deklarative Modellierung in der deklarativen Prozessmodellierungssprache ConDec. Danach erfolgt der Vergleich zwischen den beiden Modellen.\newline
 Der zweite Softwareentwicklungsprozess, welcher in diesem Kapitel in imperativer und deklarativer Prozessmodellierungssprache verglichen werden soll, ist der Open Unified Process (Open UP). Auch hier erfolgt zunächst eine kurze Einführung in den Open UP in Kapitel 5.2, bevor dieser analysiert wird, damit er in imperativer, bzw. deklarativer Prozessmodellierungssprache modelliert werden kann. Im Anschluss erfolgt der Vergleich zwischen den imperativen und deklarativen Prozessmodellen.\newline
 Zuletzt werden noch für das V-Modell XT die Prozessmodelle erstellt und verglichen. Eine Einführung in das V-Modell XT erfolgt in Kapitel 5.3. Für dieses wird als Vorbereitung für die Modellierung eine Analyse durchgeführt und es erfolgt die Modellierung in imperativer und deklarativer Prozessmodellierungssprache. Anschließend wird der Vergleich hierzu aufgezeigt.\newline
 Kapitel 5.4 widmet sich dem Vergleich zwischen allen Modellen insgesamt. Es werden die Ergebnisse der Vergleiche aus den vorherigen drei Kapiteln zusammengefasst und hierauf aufbauend werden allgemeine Schlüsse gezogen.\newline
@@ -44,8 +44,8 @@ Parallel zu allen anderen Aktivitäten des Teams und des Product Owners muss der
 Der Product Owner schätzt als erste Aktivität den Product Backlog ab. Anschließend priorisiert er den Product Backlog und erstellt parallel dazu die Releasepläne. \newline
 Wenn alle zwei bis vier Wochen ein neuer Sprint beginnt, was hier durch ein Zeitereignis dargestellt ist, wird zuerst das Sprint Planning Meeting durchgeführt. Dieses ist als Unterprozess in Abbildung \ref{fig:ScrumImperativUnter} dargestellt. Zunächst priorisiert der Product Owner die Anforderungen, welche während des Sprints erledigt werden müssen und erstellt danach den Sprint Backlog. Anschließend teilt sich das Team selbstständig die Sprint Backlog-Elemente in Tasks ein.\newline
 Im Anschluss findet ein Sprint-Rückblick statt (Abbildung \ref{fig:ScrumImperativ}) und der Product Owner veranstaltet ein Sprint Review Meeting.\newline
-Das Team führt während des Sprints täglich ein 15-minütiges Scrum Meeting durch und jedes Teammitglied arbeitet eine Task nach der anderen ab. Dies wird hier als Schleife dargestellt: Solange noch weitere Tasks vorhanden sind, führt das Exklusive Gateway immer wieder zurück zur Aktivität  \grqq Tasks abarbeiten \grqq. Erst wenn keine weiteren Tasks mehr vorhanden sind, führt der Prozess weiter zum nächsten Entscheidungspunkt.\newline
-Sind noch weitere Aufgaben im Product Backlog vorhanden, die noch erledigt werden müssen, so beginnt ein weiterer Sprint, was durch eine Rückschleife sichtbar ist. Ist jedoch schon der komplette Product Backlog abgearbeitet, so endet der Prozess hier.
+Das Team führt während des Sprints täglich ein 15-minütiges Scrum Meeting durch und jedes Teammitglied arbeitet eine Task nach der anderen ab. Dies wird hier als Schleife dargestellt: Solange noch weitere Tasks vorhanden sind, führt das Exklusive Gateway immer wieder zurück zur Aktivität  \grqq Tasks abarbeiten\grqq. Erst wenn keine weiteren Tasks mehr vorhanden sind, führt der Prozess weiter zum nächsten Entscheidungspunkt.\newline
+Sind noch weitere Aufgaben im Product Backlog vorhanden, die noch erledigt werden müssen, so beginnt ein weiterer Sprint, was durch eine Rückschleife sichtbar ist. Falls jedoch schon der komplette Product Backlog abgearbeitet ist, so endet der Prozess hier.
 
 
 \begin{sidewaysfigure}[htp]
@@ -95,7 +95,7 @@ Die Aktivitäten \grqq alle 24 Stunden 15-minütiges Scrum-Meeting durchführen\
 
 \subsection{Vergleich}
 
-Der Vergleich zwischen den in der deklarativen Prozessmodellierungssprache ConDec und in der imperativen Prozessmodellierungssprache BPMN erstellten Scrum Prozessmodellen wird im Folgenden anhand der in Kapitel 4 definierten Anforderungen ausgeführt. Auf Grund der dort definierten Vergleichskriterien wurden nachfolgend die Aktivitäten, die Anzahl der Constraints/Gateways, Anzahl der Sequenzflusselemente/Existenz, Anzahl unterschiedlicher Gateways/Constraints sowie die Summe der Elemente insgesamt in beiden Modellen gezählt. Weiterhin wurden die Aktivitäten gezählt, um später zwischen großen und kleinen Prozessmodellen vergleichen zu können. Hierdurch können im Folgenden die Modelle anhand der Vergleichskriterien miteinander verglichen werden. \newline
+Der Vergleich zwischen den in der deklarativen Prozessmodellierungssprache ConDec und in der imperativen Prozessmodellierungssprache BPMN erstellten Scrum Prozessmodellen wird im Folgenden anhand der in Kapitel 4 definierten Anforderungen ausgeführt. Auf Grund der dort definierten Vergleichskriterien wurden nachfolgend die Anzahl der Constraints/Gateways, Anzahl der Sequenzflusselemente/Existenz, Anzahl unterschiedlicher Gateways/Constraints sowie die Summe der Elemente insgesamt in beiden Modellen gezählt. Weiterhin wurden die Aktivitäten gezählt, um später zwischen großen und kleinen Prozessmodellen vergleichen zu können. Hierdurch können im Folgenden die Modelle anhand der Vergleichskriterien miteinander verglichen werden. \newline
 Wie Abbildung \ref{fig:ScrumExcel} entnommen werden kann, unterscheidet sich die Anzahl der Aktivitäten zwischen den in BPMN und ConDec modellierten Prozessmodellen nicht voneinander. In jedem Prozessmodell gibt es 12 Aktivitäten.\newline
 
 \begin{figure}[htp]
@@ -109,11 +109,9 @@ Wie Abbildung \ref{fig:ScrumExcel} entnommen werden kann, unterscheidet sich die
 
 Zudem braucht es in BPMN sechs Gateways und 26 Sequenzflusselemente, um den Ablauf des Metamodells darzustellen. Bei Verwendung von ConDec werden 13 Constraints (vier unterschiedliche) und sieben Existenz Constraints zur Darstellung der Abfolge der Aktivitäten benötigt. In BPMN werden sechs Gateways (zwei unterschiedliche) verwendet.\newline
 
-
 Die syntaktische \textit{Richtigkeit} [A 1.1] kann bei beiden Modellierungssprachen eingehalten werden, da bei beiden Prozessmodellierungssprachen die Notationsregeln zur korrekten Darstellung des Prozessablaufes nicht verletzt werden müssen. Dies hat das Testen der beiden Modelle in Signavio bzw. Declare bestätigt.\newline
 Die semantische \textit{Richtigkeit} [A 1.2] lässt sich mit BPMN in Bezug auf Rollen und Artefakte besser erfüllen als mit ConDec. Da es bei ConDec keine Möglichkeit gibt, Rollen und Artefakte im Prozessmodell zu visualisieren, fehlen diese Informationen. Die Rollen und Artefakte können zwar in Declare abgebildet werden, jedoch gibt es in ConDec hierfür keine Notationselemente, um Rollen und Artefakte im Prozessmodell selbst sichtbar zu machen. Aus diesem Grund müssen diese Informationen beim Modellieren weggelassen werden, was zur Folge hat, dass das im Metamodell beschriebene Verhalten nicht vollständig abgebildet werden kann. Dadurch leidet auch der Nutzen des Modells.\newline
 In Anbetracht der syntaktischen Richtigkeit [A 1.1] sind BPMN und ConDec gleich gut zur Modellierung geeignet. Bei Betrachtung der semantischen Richtigkeit ist  BPMN die geeignetere Modellierungssprache [A 1.2]. Somit erfüllt BPMN die \textit{Richtigkeit} besser, da es beiden Unterkriterien gerecht wird.\newline
-
 
 Nur BPMN bietet die Möglichkeit, Artefakte im Prozessmodell zu visualisieren und lässt somit die Integration anderer Sichten in das Modell zu. Somit kann der Modellierungsgrundsatz des \textit{systematischen Aufbaus} [A 2.1] nur von BPMN eingehalten werden. Da ConDec dies nicht zulässt, können wichtige Informationen aus dem Metamodell nicht abgebildet werden. Somit erfüllt nur BPMN den Grundsatz des \textit{systematischen Aufbaus}.\newline 
 
@@ -122,11 +120,11 @@ Lediglich die mit BPMN erstellten Prozessmodelle können mit minimal relevanten 
 Bei Untersuchung der \textit{Klarheit} lässt sich feststellen, dass sich die Anzahl der Sequenzflusselemente bzw. Existenz Constraints zwischen BPMN (26) und ConDec (7) unterscheidet. Ebenfalls gibt es eine Differenz bei der Anzahl der Gateways (6)/Constraints (13) und der Anzahl von unterschiedlichen Gateways (2)/Constraints (4) zwischen BPMN und ConDec.\newline
 
 Wie in Kapitel 4 bereits erwähnt [A 4.1], kann sich eine größere Anzahl an Gateways/Constraints negativ auf die Verständlichkeit auswirken. Hier ist die Anzahl bei ConDec mehr als doppelt so hoch wie bei BPMN. Zudem existiert im ConDec Modell keine eindeutige Start Aktivität [A 4.2], welche durch das Init-Constraint markiert ist. Dies liegt daran, dass mehrere Aktivitäten als Einstiegsaktivität in Frage kommen. Die möglichen Einstiegsaktivitäten sind jedoch nicht auf den ersten Blick ersichtlich. Dies steigert die Komplexität des ConDec Modelles. \newline
-Das BPMN-Modell hat nur im Hinblick auf die Anzahl von Sequenzflusselementen im Gegensatz zu Existenz Constraints einen höheren Wert. Wie in Kapitel 4 festgelegt, wird die Anzahl Sequenzfluss/Existenz Constraints [A 4.1] einfach gewichtet und die Anzahl Gateways/Constraints und Anzahl unterschiedlicher Gateways/Constraints beim ConDec Modell doppelt [A 4.1] gewichtet. Somit weist das mit ConDec erstellte Modell in zwei jeweils doppelt gewichteten Punkten eine höhere Komplexität auf und das BPMN Modell nur in einem einfach gewichteten Punkt. Da noch die fehlende Startmarkierung bei ConDec [A 4.2] hinzu kommt, wird das mit ConDec erstellte Modell auf Grund der definierten Anforderungen in Kapitel 4 als komplexer eingestuft.
+Das BPMN-Modell hat nur im Hinblick auf die Anzahl von Sequenzflusselementen im Gegensatz zu Existenz Constraints einen höheren Wert. Wie in Kapitel 4 festgelegt, wird die Anzahl Sequenzfluss/Existenz Constraints [A 4.1] einfach gewichtet und die Anzahl Gateways/Constraints und Anzahl unterschiedlicher Gateways/Constraints doppelt [A 4.1] gewichtet. Somit weist das mit ConDec erstellte Modell in zwei jeweils doppelt gewichteten Punkten eine höhere Komplexität auf und das BPMN Modell nur in einem einfach gewichteten Punkt. Da noch die fehlende Startmarkierung bei ConDec [A 4.2] hinzu kommt, wird das mit ConDec erstellte Modell auf Grund der definierten Anforderungen in Kapitel 4 als komplexer eingestuft.
 \newline
 Somit ist hier BPMN in Bezug auf die \textit{Klarheit} geeigneter zum Modellieren als ConDec, da es die beiden Unterkriterien [A 4.1] und [A 4.2] besser erfüllt.\newline
 
-Die \textit{Wirtschaftlichkeit} unterscheidet sich bei den beiden Modellierungssprachen. Das mit BPMN erstellte Modell weist 26 Sequenzflusselemente auf und das mit ConDec erstellte Modell beinhaltet sieben Existenz Constraints. Bei ConDec hingegen werden mehr Constraints (insgesamt 13,  devon 4 verschiedene) benötigt als Gateways (insgesamt 6, davon 2 verschiedene) bei BPMN. Hier gilt für das Kriterium [5.1] die gleiche Argumentation wie oben bei \textit{Klarheit, [4.1]}. Da die Anzahl Sequenzfluss/Existenz Constraints [A 5.1] einfach gewichtet und die Anzahl Gateways/Constraints und Anzahl unterschiedlicher Gateways/Constraints beim ConDec Modell doppelt [A 5.1] gewichtet wird, zeigt das ConDec Modell eine höhere Komplexität auf und der Modellierer hat somit einen höheren Aufwand beim Erstellen des Prozessmodelles.\newline
+Die \textit{Wirtschaftlichkeit} unterscheidet sich bei den beiden Modellierungssprachen. Das mit BPMN erstellte Modell weist 26 Sequenzflusselemente auf und das mit ConDec erstellte Modell beinhaltet sieben Existenz Constraints. Bei ConDec hingegen werden mehr Constraints (insgesamt 13, davon 4 verschiedene) benötigt als Gateways (insgesamt 6, davon 2 verschiedene) bei BPMN. Hier gilt für das Kriterium [5.1] die gleiche Argumentation wie oben bei \textit{Klarheit [4.1]}. Da die Anzahl Sequenzfluss/Existenz Constraints [A 5.1] einfach gewichtet und die Anzahl Gateways/Constraints und Anzahl unterschiedlicher Gateways/Constraints [A 5.1] doppelt gewichtet wird, zeigt das ConDec Modell eine höhere Komplexität auf und der Modellierer hat somit einen höheren Aufwand beim Erstellen des Prozessmodelles.\newline
 Aus diesem Grund erfüllt BPMN bei diesem Modell die \textit{Wirtschaftlichkeit} besser als ConDec.\newline
 
 Die \textit{Vergleichbarkeit} in Betracht auf das Ausführungsverhalten der beiden Modelle, wurde durch Testausführungen in den Modellierungstools Signavio und Declare gewährleistet [A 6.1].\newline
@@ -166,11 +164,9 @@ Es werden Rollen, Aufgaben, Artefakte und Ebenen in Open UP definiert. Dies soll
 \end{figure}
 
 Auf der persönlichen Ebene teilen sich die Teammitglieder ihre Arbeit in \textit{Mikro-Inkremente} ein (Abbildung \ref{fig:openup}). Diese stellen das Ergebnis von Stunden bzw. wenigen Tagen Arbeit dar. Die Arbeit entwickelt sich somit ein Mikro-Inkrement weiter und der Fortschritt kann Tag für Tag nachvollzogen werden. Die Teammitglieder teilen sich ihre Fortschritte täglich einander mit, was die Arbeitstransparenz und das Vertrauen erhöht und die Teamarbeit fördert \cite{eclipseopenup}. \newline
-
 Auf der Team-Ebene wird das Projekt in Iterationen unterteilt (Abbildung \ref{fig:openup}), welche einen Zeitraum von mehreren Wochen umfassen. Das Ziel ist es, am Ende eines Iterationszyklus ein funktionierendes Softwareinkrement zu haben. Dieses Inkrement stellt eine Version des Softwaresystems dar, welche eine zusätzliche oder verbesserte Funktionalität besitzt als die vorherige Version \cite{Basem2010}. In jeder Iteration wird ein Iterationsplan angefertigt, der vorgibt, was in dieser Iteration geliefert werden muss und auf welchen sich das Team verpflichten muss \cite{freudenreichevaluierung}.
-
 Auf Stakeholder-Ebene wird diesem durch den \textit{Projektlebenszyklus} die Möglichkeit gegeben, die Projektfinanzierung, den Umfang, das Risiko und andere Aspekte des Prozesses zu kontrollieren (Abbildung \ref{fig:openup}).
-Der Open UP teilt den \textit{Projektlebenszyklus} in die vier Phasen \textit{Inception}, \textit{Elaboration}, \textit{Construction} und \textit{Transition} ein, welche in Abbildung \ref{fig:Phasen} skizziert werdenPhasen \cite{eclipseopenup}.
+Der Open UP teilt den \textit{Projektlebenszyklus} in die vier Phasen \textit{Inception}, \textit{Elaboration}, \textit{Construction} und \textit{Transition} ein, welche in Abbildung \ref{fig:Phasen} skizziert werden \cite{eclipseopenup}.
 
 \begin{figure}[htp]
 \begin{center}
@@ -182,9 +178,9 @@ Der Open UP teilt den \textit{Projektlebenszyklus} in die vier Phasen \textit{In
 
 
 In jeder Phase finden eine oder mehrere Iterationen statt und werden mit einem Meilenstein abgeschlossen \cite{Basem2010}. In der Phase Inception ist dies der Zielsetzungmeilenstein, in der Phase Elaboration der Architekturmeilenstein, in der Phase Construction der Einsatzfähigkeitmeilenstein und in der Phase Transition der Produktreleasemeilenstein. Tabelle \ref{tab:tab1} zeigt die Abläufe der Iterationen in den einzelnen Phasen und die zugehörigen Zielstellungen.
-\newpage
 
-\begin{longtable}{|p{7cm}|p{8cm}|}
+
+\begin{longtable}{|p{6cm}|p{8cm}|}
 \hline
 Vorlagenmodell Iterationen & Zielsetzung der Phase \\
 \hline
@@ -305,16 +301,16 @@ In Abbildung \ref{fig:OpenUpPhasen} sind die vier Phasen des Open UP modelliert.
 
 \begin{sidewaysfigure}[htp]
 \begin{center}
-  \includegraphics[width=\textwidth]{OpenUpPhasen} %pdf, jpg, png...
+  \includegraphics[width=\textwidth,height=3cm]{OpenUpPhasen} %pdf, jpg, png...
   \caption{Phasen Open UP- imperativ}
   \label{fig:OpenUpPhasen}
 \end{center}
 \end{sidewaysfigure}
 
-Abbildung \ref{fig:OpenUpInception} zeigt die imperative Modellierung der Iteration \grqq Inception\grqq. Die Aktivität \grqq Projekt planen und managen\grqq \ kann parallel zu allen anderen Aktivitäten des Modells bearbeitet werden.\newline
+Abbildung \ref{fig:OpenUpInception} zeigt die imperative Modellierung der Iteration \grqq Inception\grqq. Die Aktivität \grqq Projekt planen und managen\grqq \ kann parallel zu allen anderen Aktivitäten des Modelles bearbeitet werden.\newline
 Nach Ausführung der Aktivität \grqq Iteration planen\grqq \ werden die Aktivitäten \grqq Anforderungen identifizieren und aufbereiten\grqq \ und \grqq auf technisches Vorgehen einigen\grqq \ parallel zueinander durchgeführt.
 
-\begin{figure}[htp]
+\begin{figure}[H]
 \begin{center}
   \includegraphics[width=\textwidth]{OpenUpInception} %pdf, jpg, png...
   \caption{Phasen Open UP Unterprozess Inception- imperativ}
@@ -324,7 +320,7 @@ Nach Ausführung der Aktivität \grqq Iteration planen\grqq \ werden die Aktivit
 
 In Abbildung \ref{fig:OpenUpElaboration} ist die imperative Modellierung der Iteration \grqq Elaboration\grqq \ abgebildet. Die sechs Aktivtäten \grqq Anforderungen identifizieren und verfeinern\grqq , \grqq Architektur entwickeln\grqq, \grqq Lösungsinkrement entwickeln\grqq, \grqq Lösung testen\grqq, \grqq Iteration planen und managen\grqq \ sowie \grqq weitere Aufgaben erledigen\grqq \ werden parallel zueinander abgehandelt.
 
-\begin{figure}[htp]
+\begin{figure}[H]
 \begin{center}
   \includegraphics[width=\textwidth]{OpenUpElaboration} %pdf, jpg, png...
   \caption{Phasen Open UP Unterprozess Elaboration- imperativ}
@@ -333,7 +329,7 @@ In Abbildung \ref{fig:OpenUpElaboration} ist die imperative Modellierung der Ite
 \end{figure}
 
 Die imperative Modellierung der Iteration \grqq Construction\grqq \ kann Abbildung \ref{fig:OpenUpConstruction} entnommen werden. Hier werden die sechs Aktivitäten \grqq Anforderungen identifizieren und verfeinern\grqq, \grqq Lösungsinkrement entwickeln\grqq , \grqq Lösung testen\grqq , \grqq Iteration planen und managen\grqq , \grqq weitere Aufgaben erledigen\grqq  \ und \grqq Produktdokumentation und Training erstellen\grqq \ nebeneinander parallel abgearbeitet.
-\begin{figure}[htp]
+\begin{figure}[H]
 \begin{center}
   \includegraphics[width=\textwidth]{OpenUpConstruction} %pdf, jpg, png...
   \caption{Phasen Open UP Unterprozess Construction- imperativ}
@@ -343,7 +339,7 @@ Die imperative Modellierung der Iteration \grqq Construction\grqq \ kann Abbildu
 
 Abbildung \ref{fig:OpenUpTransition} kann die imperative Modellierung der Iteration \grqq Transition\grqq \ entnommen werden. Die Aktivitäten \grqq Release vorbereiten\grqq, \grqq  Produkt Training vorbereiten\grqq, \grqq Lösungsinkrement entwickeln\grqq, \grqq Lösung testen\grqq , \grqq Iteration planen und managen\grqq \ und \grqq weitere Aufgaben erledigen\grqq \ werden parallel zueinander durchgeführt. Nach deren Ausführung können die Aktivitäten Produktdokumentation und Training durchführen \grqq \ sowie \grqq Release deployen\grqq \  parallel zueinander abgehandelt werden.
 
-\begin{figure}[htp]
+\begin{figure}[H]
 \begin{center}
   \includegraphics[width=\textwidth]{OpenUpTransition} %pdf, jpg, png...
   \caption{Phasen Open UP Unterprozess Transition- imperativ}
@@ -362,11 +358,11 @@ Im Unterprozess \grqq Lösungsinkrement entwickeln\grqq \ geht es um das Design,
  Handelt es sich um eine nicht-triviale Veränderung, wird zunächst eine \grqq Lösung designt\grqq \ und anschließend ein \grqq Entwickeltest implementiert\grqq. Bei einer trivialen Änderung an der bestehenden Implementierung kann diese auch direkt in der bestehenden Architektur vorgenommen werden. \newline
  Sobald die Fragen der technischen Umsetzung geklärt sind, werden \grqq Entwicklertests implementiert\grqq, um die Implementierung zu verifizieren. Anschließend werden diese \grqq Entwicklertests ausgeführt\grqq.\newline
  Falls bei der Ausführung der Tests Fehler ersichtlich werden, muss eine Lösung für diesen Fehler implementiert werden und die Entwicklertests müssen erneut durchgeführt werden. Dies wird solange wiederholt, bis alle Tests bestanden sind.\newline
-An dieser Stelle kann der Entwurf nochmals überdacht werden. Falls hier beschlossen wird, dass der Code überarbeitet werden muss, muss im Prozess zurückgegangen werden und erneut eine Lösung designt werden. Eine Änderung des Codes könnte die Implementation und die Entwicklertests beeinflussen.\newline
+An dieser Stelle kann der Entwurf nochmals überdacht werden. Falls hier beschlossen wird, dass der Code überarbeitet werden soll, muss im Prozess zurückgegangen werden und erneut eine Lösung designt werden. Eine Änderung des Codes könnte die Implementation und die Entwicklertests beeinflussen.\newline
  Da es am Besten ist, die Implementierungsteile so klein wie möglich zu halten, sollte zunächst eine kleine Design-Lösung für einen Teil der Arbeitsaufgabe entwickelt werden. Anschließend sollte dies für weitere kleine Teile solange wiederholt werden, bis die gesamte Arbeitsaufgabe implementiert ist. \newline
  In Abbildung \ref{fig:Dev} ist die imperative Modellierung von \grqq Lösungsinkrement entwickeln\grqq \ abgebildet.\newline
- Die Verknüpfung mit dem Exklusiven Gateway am Anfang führt im Falle einer trivialen Änderung zur sofortigen Ausführung der Aktivität  \grqq Entwicklertest implementieren \grqq. Falls es sich jedoch um eine typische Änderung handelt, muss zuvor die Aktivität \grqq Lösung designen\grqq \ ausgeführt werden. Im Anschluss an \grqq Entwicklertest implementieren\grqq \ muss die Aktivität \grqq Entwicklertest ausführen\grqq \ durchgeführt werden.\newline
- Hiernach wird im Falle eines fehlgeschlagenen Tests zunächst eine \grqq Lösung implementiert\grqq \ und anschließend erneut der \grqq Entwicklertest durchgeführt\grqq. \newline
+ Die Verknüpfung mit dem Exklusiven Gateway am Anfang führt im Falle einer trivialen Änderung zur sofortigen Ausführung der Aktivität  \grqq Entwicklertest implementieren \grqq. Falls es sich jedoch um eine nicht-triviale Änderung handelt, muss zuvor die Aktivität \grqq Lösung designen\grqq \ ausgeführt werden. Im Anschluss an \grqq Entwicklertest implementieren\grqq \ muss die Aktivität \grqq Entwicklertest ausführen\grqq \ durchgeführt werden.\newline
+ Hiernach wird im Falle eines fehlgeschlagenen Tests zunächst eine \grqq Lösung implementiert\grqq \ und anschließend erneut der \grqq Entwicklertest ausgeführt\grqq. \newline
  Wenn der Test bestanden ist, muss am Exklusiven Gateway entschieden werden ob der Code gut designt ist. Falls nicht, muss erneut eine Lösung designt werden. Falls doch, kann der Code integriert werden. Ist die Arbeit vollständig erledigt, so ist der Prozess beendet. Wenn jedoch noch weitere Arbeit vorhanden ist, beginnt der Prozess von vorne.
  
  
@@ -385,7 +381,7 @@ Die Iteration wird durch den Projektmanager und das Team gestartet. Hier findet 
 Die Teammitglieder melden sich für die Arbeitsaufgaben, die während der Iteration erledigt werden müssen. Anschließend teilt sich jedes Teammitglied seine Arbeitsaufgaben selbstständig in Arbeitseinheiten ein und schätzt den Aufwand hierfür ab.\newline
 Während der Iteration trifft sich das Team regelmäßig, um den aktuellen Stand der Arbeit und eventuelle Probleme zu besprechen. \newline
 Abbildung \ref{fig:PlanAndManageIterationInception-2} zeigt die imperative Modellierung von \grqq Iteration planen und managen\grqq. 
-Vom Projektmanager sind hierbei nacheinander die Aktivitäten \grqq Iteration planen\grqq, \grqq Umgebung vorbereiten\grqq, \grqq Iteration managen\grqq \ und \grqq Ergebnisse festlegen\grqq \ durchzuführen und das Team muss nacheinander die Aktivitäten \grqq Arbeitsaufgaben aussuchen, Arbeitsaufgaben in Entwicklungsaufgaben einteilen\grqq \ sowie \grqq Aufwand abschätzen\grqq \ ausführen. Hierbei gehen jeweils die Artefakte \grqq Arbeitseinheiten-Liste, Iterationsplan\grqq \ und \grqq Risiko-Liste\grqq \ in verschieden Aktivitäten als Input ein und kommen eventuell verändert als Output wieder heraus. \newline
+Vom Projektmanager sind hierbei nacheinander die Aktivitäten \grqq Iteration planen\grqq, \grqq Umgebung vorbereiten\grqq, \grqq Iteration managen\grqq \ und \grqq Ergebnisse festlegen\grqq \ durchzuführen und das Team muss nacheinander die Aktivitäten \grqq Arbeitsaufgaben aussuchen\grqq,\grqq Arbeitsaufgaben in Entwicklungsaufgaben einteilen\grqq \ sowie \grqq Aufwand abschätzen\grqq \ ausführen. Hierbei gehen jeweils die Artefakte \grqq Arbeitseinheiten-Liste, Iterationsplan\grqq \ und \grqq Risiko-Liste\grqq \ in verschieden Aktivitäten als Input ein und kommen eventuell verändert als Output wieder heraus. \newline
 Die Aktivität \grqq Umgebung vorbereiten\grqq \ ist als Unterprozess in Abbildung \ref{fig:Umgebungvorbereiten} dargestellt. Hier müssen vom Projektmanager die Aktivitäten \grqq Prozess Maßschneidern\grqq \ und \grqq Prozess deployen\grqq \ sequentiell erledigt werden während der Tool Spezialist die Aufgaben \grqq Tools aufsetzen\grqq \ und \grqq Tool-Konfiguration und Implementation verifizieren\grqq \ zu erledigen hat.
 
 
@@ -416,7 +412,7 @@ Die Aktivität \grqq Umgebung vorbereiten\grqq \ ist als Unterprozess in Abbildu
  Zudem müssen Testfälle und Testdaten für die Anforderungen entwickelt werden, um ein gemeinsames Verständnis für die spezifischen Bedingungen, welche die Lösung erfüllen muss, zu erreichen.
  In Abbildung \ref{fig:IdentifyAndOutlineKlein} ist die imperative Modellierung von \grqq Anforderungen identifizieren und verfeinern\grqq \ abgebildet. \newline
  Zunächst muss der Analyst die \grqq Anforderungen identifizieren und abgrenzen\grqq, bevor er anschließend die \grqq Use-Case-Szenarien detaillieren\grqq \ kann. Daraufhin muss er die \grqq Systemweiten Anforderungen detaillieren\grqq, damit der Tester anschließend die \grqq Testfälle erstellen\grqq \ kann.\newline
- Hier gehen bei den verschiedenen Aktivitäten die Artefakte \grqq Arbeitseinheitenliste\grqq, \grqq Use Case\grqq, \grqq Glossar\grqq, \grqq Systemweite Anforderungen\grqq, \grqq Use case Modell\grqq, \grqq Technische Spezifikation\grqq \ und \grqq Testfall\grqq \ als Input hinein, bzw. als Output heraus.
+ Hier gehen bei den verschiedenen Aktivitäten die Artefakte \grqq Arbeitseinheitenliste\grqq, \grqq Use Case\grqq, \grqq Glossar\grqq, \grqq Systemweite Anforderungen\grqq, \grqq Use case Modell\grqq, \grqq Technische Spezifikation\grqq \ und \grqq Testfall\grqq \ als Input hinein bzw. als Output heraus.
  
 \begin{figure}[[!htbp]
 \begin{center}
@@ -453,7 +449,7 @@ Das Ergebnis dieses Unterprozesses ist die Release eines Sets von integrierten K
  Zudem muss sichergestellt werden, dass eine Release zu keinen ungewollten Unterbrechungen im Ablauf in der Produktionsumgebung führt. Falls eine Release Probleme verursacht oder sie von den Stakeholdern als untauglich empfunden wird, muss diese Release von der Produktionsumgebung so schnell wie möglich entfernt werden. Zusätzlich muss dafür gesorgt werden, dass Informationen über eine anstehende Release weitest möglich verteilt werden.\newline
  
   Abbildung \ref{fig:DeployReleaseTransitionKlein} zeigt die imperative Modellierung von\grqq Release deployen\grqq.
-  Somit muss der Entwickler zunächst die \grqq Release zusammenstellen\grqq, bevor der Deployment Engineer nacheinander die Aktivitäten \grqq Deploymentplan ausführen\grqq \ und \grqq erfolgreiches Deployment sicherstellen\grqq \ ausführt. Falls das Deployment erfolgreich ist, wird gleich anschließend die Aktivität \grqq Releasemitteilungen übermitteln\grqq \ durchgeführt. Ist das Deployment nicht erfolgreich, muss zunächst die Aktivität \grqq Backoutplan ausführen\grqq \ erledigt werden und erst danach die Aktivität \grqq Releasemitteilungen übermitteln\grqq \ ausgeführt werden.
+  Somit muss der Entwickler zunächst auf Basis von \grqq release-Einschränkungen\grqq \ die \grqq Release zusammenstellen\grqq. Hierdurch entsteht das Artefakt \grqq Release\grqq. Danach muss der Deployment Engineer nacheinander die Aktivitäten \grqq Deploymentplan ausführen\grqq \ und ein \grqq erfolgreiches Deployment sicherstellen\grqq. Falls das Deployment erfolgreich ist, wird anschließend die Aktivität \grqq Releasemitteilungen übermitteln\grqq \ durchgeführt. Ist das Deployment nicht erfolgreich, muss zunächst die Aktivität \grqq Backoutplan ausführen\grqq \ erledigt werden und danach die Aktivität \grqq Releasemitteilungen übermitteln\grqq \ ausgeführt werden.
 
 
 \begin{figure}[!htbp]
@@ -488,7 +484,7 @@ In Abbildung \ref{fig:OpenUpPhasenDec} sind die vier Phasen des Open UP deklarat
 
 
 Abbildung \ref{fig:InceptionDecUnter} zeigt die deklarative Modellierung der Iteration \grqq Inception\grqq. Die Aktivität \grqq Projekt planen und managen\grqq \  kann parallel zu allen anderen Aktivitäten des Modells ausgeführt werden.\newline
-Nach Ausführung der Aktivität \grqq Iteration planen\grqq \ werden die Aktivitäten \grqq Anforderungen identifizieren und verfeinern\grqq \ und \grqq auf technisches Vorgehen einigen\grqq \ parallel zueinander bearbeitet. Aus diesem Grund sind die Aktivitäten \grqq Anforderungen identifizieren und aufbereiten\grqq \ und \grqq auf technisches Vorgehen einigen\grqq \ mit der Aktivität \grqq Projekt planen und managen\grqq \ durch das Constraint \textit{succession} verbunden, da sie erst nach deren Ausführung durchgeführt werden dürfen und auch ausgeführt werden müssen. \newline
+Nach Ausführung der Aktivität \grqq Iteration planen\grqq \ werden die Aktivitäten \grqq Anforderungen identifizieren und verfeinern\grqq \ und \grqq auf technisches Vorgehen einigen\grqq \ parallel zueinander bearbeitet. Aus diesem Grund sind die Aktivitäten \grqq Anforderungen identifizieren und verfeinern\grqq \ und \grqq auf technisches Vorgehen einigen\grqq \ mit der Aktivität \grqq Projekt planen und managen\grqq \ durch das Constraint \textit{succession} verbunden, da sie erst nach deren Ausführung durchgeführt werden dürfen und auch ausgeführt werden müssen. \newline
 
 \begin{figure}[htp]
 \begin{center}
@@ -534,20 +530,24 @@ Im weiteren Verlauf wird aus jeder der vier Iterationen \grqq Inception\grqq , \
 Somit wird für die Iteration Inception der Unterprozess \grqq Iteration planen und managen\grqq, für die Iteration Elaboration der Unterprozess \grqq Anforderungen identifizieren und verfeinern\grqq, für die Iteration Construction der Unterprozess \grqq Release deployen\grqq \  und für die Iteration Transition der Unterprozess \grqq Produktdokumentation und Training erstellen\grqq \  modelliert. Außerdem wird der in den drei Iterationen Elaboration, Construction und Transition wiederkehrende Unterprozess \grqq Lösungsinkrement entwickeln\grqq \  modelliert.
 
 
+ \subsubsection{Lösungsinkrement entwickeln}
+
 Die deklarative Modellierung von Lösungsinkrement entwickeln kann Abbildung \ref{fig:Develop} entnommen werden.\newline
-Falls eine \grqq Lösung designt\grqq \ wird, muss danach der \grqq Entwicklertest implementiert\grqq \ werden. Dies ist durch das Constraint \textit{chain response} zwischen diesen beiden Aktivitäten verlangt. Wenn der \grqq Entwicklertest implementiert\grqq \ wird, muss er danach auch durchgeführt werden und er kann nur ausgeführt werden, falls er vorher implementiert wurde (Constraints \textit{chain response} und \textit{precedence}).\newline
-Bevor die \grqq Lösung implementiert\grqq \ werden kann, muss vorher der \grqq Entwicklertest ausgeführt\grqq \ werden (Constraint \textit{precedence}) und nach der Implementierung der Lösung muss nochmals der \grqq Entwicklertest durchgeführt\grqq \ werden (Constraint chain response).\newline
+Falls eine \grqq Lösung designt\grqq \ wird, muss danach der \grqq Entwicklertest implementiert\grqq \ werden. Dies ist durch das Constraint \textit{chain response} zwischen diesen beiden Aktivitäten verlangt. Wenn der \grqq Entwicklertest implementiert\grqq \ wird, muss er danach auch durchgeführt werden und kann jedoch nur ausgeführt werden, falls er vorher implementiert wurde (Constraints \textit{chain response} und \textit{precedence}).\newline
+Bevor die \grqq Lösung implementiert\grqq \ werden kann, muss vorher der \grqq Entwicklertest ausgeführt\grqq \ werden (Constraint \textit{precedence}). Nach der Implementierung der Lösung muss nochmals der \grqq Entwicklertest durchgeführt\grqq \ werden (Constraint chain response).\newline
 Vor dem \grqq Integrieren\grqq \ muss der Entwicklertest ausgeführt worden sein, was durch das Constraint \textit{precedence} vorgegeben wird.
 \begin{figure}[htp]
 \begin{center}
-  \includegraphics[width=\linewidth]{DevelopSolutionIncrement} %pdf, jpg, png...
+  \includegraphics[width=\linewidth]{Develop} %pdf, jpg, png...
   \caption{Lösungsinkrement entwickeln- deklarativ}
   \label{fig:Develop}
 \end{center}
 \end{figure}
 
-Die deklarative Modellierung von Iteration planen und managen findet sich in den Abbildungen \ref{fig:IterationPlanenDec} und \ref{fig:UmgebungVorbereitenDec}. Gestartet werden kann mit den Aktivitäten \grqq Iteration planen\grqq \ oder \grqq Arbeitsaufgaben aussuchen\grqq, da diese unabhängig voneinander und von zwei verschiedenen Personen ausgeführt werden können.\newline
-Danach können entweder die Aktivitäten \grqq Umgebung vorbereiten\grqq \ oder \grqq Arbeitsaufgaben in Entwicklungsaufgaben einteilen\grqq \ ausgeführt werden. Diese sind jeweils mit ihrer Vorgängeraktivität durch das Constraint \textit{succession} verbunden und müssen deshalb auf die Ausführung ihres Vorgängers warten und nach dessen Ausführung bearbeitet werden.\newline
+ \subsubsection{Iteration planen und managen - Inception}
+
+Die deklarative Modellierung von Iteration planen und managen findet sich in den Abbildungen \ref{fig:IterationPlanenDec} und \ref{fig:UmgebungVorbereitenDec}. Gestartet werden kann mit den Aktivitäten \grqq Iteration planen\grqq \ oder \grqq Arbeitsaufgaben aussuchen\grqq, da diese unabhängig voneinander und von zwei verschiedenen Personen bearbeitet werden können.\newline
+Danach können entweder die Aktivitäten \grqq Umgebung vorbereiten\grqq \ oder \grqq Arbeitsaufgaben in Entwicklungsaufgaben einteilen\grqq \ abgearbeitet werden. Diese sind jeweils mit ihrer Vorgängeraktivität durch das Constraint \textit{succession} verbunden und müssen deshalb auf die Ausführung ihres Vorgängers warten und nach dessen Ausführung bearbeitet werden.\newline
 Das gleiche Ausführungsverhalten gilt auch für die anderen Aktivitäten im Prozess. 
 
 
@@ -563,38 +563,41 @@ Das gleiche Ausführungsverhalten gilt auch für die anderen Aktivitäten im Pro
 \begin{figure}[htp]
 \begin{center}
   \includegraphics[width=\linewidth]{UmgebungvorbereitenDec} %pdf, jpg, png...
-  \caption{Iteration planen und managen- Inception Unterprozess Umgebung vorbereiten- deklarativ}
+  \caption{Iteration planen und managen - Inception Unterprozess Umgebung vorbereiten- deklarativ}
   \label{fig:UmgebungVorbereitenDec}
 \end{center}
 \end{figure}
 
+ \subsubsection{Anforderungen identifizieren und verfeinern - Elaboration}
 
 In Abbildung \ref{fig:IdentifyAndRefineDecKlein} ist die deklarative Modellierung von Anforderungen identifizieren und verfeinern dargestellt.\newline
-Zu Beginn muss die Aktivität \grqq Anforderungen identifizieren und abgrenzen\grqq \ ausgeführt werden, was durch das Init-Label dargestellt ist. Im Anschluss muss die Aktivität \grqq Use-Case-Szenarien detaillieren\grqq \ ausgeführt werden. Dies ist durch das Constraint \textit{chain response} festgelegt. Das Constraint \textit{precedence} legt hingegen fest, dass bevor \grqq Use-Case-Szenarien detaillieren\grqq \ durchgeführt werden kann, zunächst \grqq Anforderungen identifizieren und abgrenzen\grqq \ bearbeitet werden muss. Die gleichen Constraints gelten zwischen \grqq Use-Case-Szenarien detaillieren\grqq \ und \grqq Systemweite Anforderungen detaillieren\grqq \ sowie zwischen \grqq Systemweite Anforderungen detaillieren\grqq \ und \grqq Testfaelle erstellen\grqq. Alle Aktivitäten werden genau einmal ausgeführt, was jeweils durch das 1-Label dargestellt ist. 
+Zu Beginn muss die Aktivität \grqq Anforderungen identifizieren und abgrenzen\grqq \ bearbeitet werden, was durch das Init-Label dargestellt ist. Im Anschluss muss die Aktivität \grqq Use-Case-Szenarien detaillieren\grqq \ ausgeführt werden. Dies ist durch das Constraint \textit{chain response} festgelegt. Das Constraint \textit{precedence} legt hingegen fest, dass bevor \grqq Use-Case-Szenarien detaillieren\grqq \ durchgeführt werden kann, zunächst \grqq Anforderungen identifizieren und abgrenzen\grqq \ bearbeitet werden muss. Die gleichen Constraints gelten zwischen \grqq Use-Case-Szenarien detaillieren\grqq \ und \grqq Systemweite Anforderungen detaillieren\grqq \ sowie zwischen \grqq Systemweite Anforderungen detaillieren\grqq \ und \grqq Testfaelle erstellen\grqq. Alle Aktivitäten werden genau einmal ausgeführt, was jeweils durch das 1-Label dargestellt ist. 
 
 \begin{figure}[h]
 \begin{center}
   \includegraphics[width=\linewidth]{IdentifyAndRefineDecKlein} %pdf, jpg, png...
-  \caption{Anforderungen identifizieren und verfeinern-Elaboration}
+  \caption{Anforderungen identifizieren und verfeinern - Elaboration}
   \label{fig:IdentifyAndRefineDecKlein}
 \end{center}
 \end{figure}
 
-
+ \subsubsection{ Produktdokumentation und Training erstellen - Construction}
 
 Abbildung \ref{fig:DevelopProductDecKlein} zeigt die deklarative Modellierung von \grqq Produktdokumentation und Training erstellen\grqq.
-Zu Beginn muss die Aktivität \grqq Produktdokumentation entwickeln\grqq \ ausgeführt werden, was durch das Init-Label dargestellt ist. Im Anschluss muss die Aktivität \grqq Benutzerdokumentation entwickeln\grqq \ bearbeitet werden. Dies ist durch das Constraint \textit{chain response} festgelegt. Das Constraint \textit{precedence} legt hingegen fest, dass bevor \grqq Benutzerdokumentation entwickeln\grqq \ ausgeführt werden kann, zunächst \grqq Produktdokumentation entwickeln\grqq \ bearbeitet werden muss. Die gleichen Constraints gelten zwischen \grqq Benutzerdokumentation entwickeln\grqq \ und \grqq Unterstützungsdokumentation entwickeln\grqq \ sowie zwischen \grqq Unterstützungsdokumentation entwickeln\grqq \ und \grqq Trainingsmaterial entwickeln\grqq. Alle Aktivitäten werden genau einmal ausgeführt, was jeweils durch das 1-Label beschrieben ist. 
+Zu Beginn muss die Aktivität \grqq Produktdokumentation entwickeln\grqq \ abgearbeitet werden, was durch das Init-Label dargestellt ist. Im Anschluss muss die Aktivität \grqq Benutzerdokumentation entwickeln\grqq \ bearbeitet werden. Dies ist durch das Constraint \textit{chain response} festgelegt. Das Constraint \textit{precedence} legt hingegen fest, dass bevor \grqq Benutzerdokumentation entwickeln\grqq \ durchgeführt werden kann, zunächst \grqq Produktdokumentation entwickeln\grqq \ bearbeitet werden muss. Die gleichen Constraints gelten zwischen \grqq Benutzerdokumentation entwickeln\grqq \ und \grqq Unterstützungsdokumentation entwickeln\grqq \ sowie zwischen \grqq Unterstützungsdokumentation entwickeln\grqq \ und \grqq Trainingsmaterial entwickeln\grqq. Alle Aktivitäten werden genau einmal bearbeitet, was jeweils durch das 1-Label beschrieben ist. 
 
 \begin{figure}[htp]
 \begin{center}
   \includegraphics[scale=0.6]{DevelopProductDecKlein} %pdf, jpg, png...
-  \caption{Produktdokumentation und Training erstellen-Construction}
+  \caption{Produktdokumentation und Training erstellen - Construction}
   \label{fig:DevelopProductDecKlein}
 \end{center}
 \end{figure}
 
-Abbildung \ref{fig:DeployReleaseDecKlein} zeigt die deklarative Modellierung von \grqq Deploy Release\grqq.\newline
-Zu Beginn muss Die Aktivität\grqq Release zusammenstellen\grqq \ bearbeitet werden, was durch das Init-Constraint vorgegeben ist. Danach muss die Aktivität \grqq Deploymentplan ausfuehren\grqq \ durchgeführt werden (Constraint response), aber erst nachdem \grqq Release zusammenstellen\grqq \ ausgeführt wurde (Contsraint precedence).\newline
+ \subsubsection{Release deployen - Transition}
+
+Abbildung \ref{fig:DeployReleaseDecKlein} zeigt die deklarative Modellierung von \grqq Release deployen\grqq.\newline
+Zu Beginn muss die Aktivität \grqq Release zusammenstellen\grqq \ bearbeitet werden, was durch das Init-Constraint vorgegeben ist. Danach muss die Aktivität \grqq Deploymentplan ausfuehren\grqq \ abgearbeitet werden (Constraint response), aber erst nachdem \grqq Release zusammenstellen\grqq \ verrichtet wurde (Contsraint precedence).\newline
 Die gleichen Constraints gelten zwischen den Aktivitäten \grqq Deploymentplan ausfuehren\grqq \ und \grqq erfolgreiches Deployment sicherstellen\grqq.\newline
 Nach Abschluss der Aktivität \grqq erfolgreiches Deployment sicherstellen\grqq \ kann entweder die Aktivität \grqq Backoutplan ausfuehren\grqq \ ausgeführt werden, welche optional ist (0..1 Constraint) oder die Aktivität \grqq Release-Mitteilungen uebermitteln\grqq, welche auf jeden Fall ausgeführt werden muss.\newline 
 Nach Ausführung von \grqq Release-Mitteilungen uebermitteln\grqq \ darf \grqq Backoutplan ausfuehren\grqq \ nicht mehr durchgeführt werden. Dies stellt das Constraint \textit{not succession} sicher.
@@ -640,10 +643,10 @@ Die Anzahl der Elemente zur Darstellung der Iterationen \grqq Inception\grqq, \g
 
 Zur Darstellung der Iteration \grqq Elaboration\grqq \ bedarf es in BPMN insgesamt 22 Elementen und in ConDec 14 Elementen wie in Abbildung \ref{fig:PhasenExcel} eingesehen werden kann. Weiterhin werden jeweils sechs Aktivitäten in beiden Prozessmodellierungssprachen verwendet. In BPMN sind zwei Gateways (keine unterschiedlichen) und 14 Sequenzflusselemente, also insgesamt 16 Verbindungselemente notwendig. ConDec hingegen braucht acht Existenz-Constraints. \newline
 
-Abbildung \ref{fig:PhasenExcel} kann die Anzahl der Elemente zur Darstellung der Iteration \grqq Construction\grqq \ entnommen werden. Demnach benötigt es in BPMN 24 Elemente und in ConDec 12 Elemente zur Darstellung des Prozesses. Sowohl in BPMN, als auch in ConDec werden jeweils sechs Aktivitäten benötigt. In BPMN sind vier Gateways (keine unterschiedlichen) und 14 Sequenzflusselemente erforderlich. In ConDec werden sechs Existenz-Constraints zur Darstellung des Ablaufes verwendet.\newline
+Abbildung \ref{fig:PhasenExcel} kann die Anzahl der Elemente zur Darstellung der Iteration \grqq Construction\grqq \ entnommen werden. Demnach benötigt es in BPMN 24 Elemente und in ConDec 12 Elemente zur Darstellung des Prozesses. Sowohl in BPMN als auch in ConDec werden jeweils sechs Aktivitäten benötigt. In BPMN sind vier Gateways (keine unterschiedlichen) und 14 Sequenzflusselemente erforderlich. In ConDec werden sechs Existenz-Constraints zur Darstellung des Ablaufes verwendet.\newline
 
 
-Die Anzahl der notwendigen Elemente zur Darstellung der Iteration \grqq Transition\grqq \ kann Abbildung \ref{fig:PhasenExcel} entnommen werden. Somit bedarf es jeweils acht Aktivitäten. BPMN benötigt vier Gateways (keine unterschiedlichen) und 19 Sequenzflusselemente zur korrekten Modellierung. In ConDec braucht es insgesamt acht Existenz-Constraints und 12 Constraints zur Darstellung des Ablaufes.\newline
+Die Anzahl der notwendigen Elemente zur Darstellung der Iteration \grqq Transition\grqq \ kann in Abbildung \ref{fig:PhasenExcel} eingesehen werden. Somit bedarf es jeweils acht Aktivitäten. BPMN benötigt vier Gateways (keine unterschiedlichen) und 19 Sequenzflusselemente zur korrekten Modellierung. In ConDec braucht es insgesamt acht Existenz-Constraints und 12 Constraints zur Darstellung des Ablaufes.\newline
 
 
 In Abbildung \ref{fig:LoesungsinkrementExcel} ist die Anzahl der Elemente zur Darstellung des Prozesses \grqq Lösungsinkrement entwickeln\grqq \ abgebildet. Es werden sowohl in BPMN, als auch in ConDec jeweils fünf Aktivitäten verwendet. Weiterhin werden in BPMN 15 Sequenzflusselemente und fünf Gateways gebraucht. Dabei handelt es sich ausschließlich um Exklusive Gateways. Das mit ConDec erstellte Modell benötigt insgesamt sechs Constraints. Hierbei werden insgesamt drei unterschiedliche Constraints benutzt. Insgesamt werden in BPMN 25 Elemente zum Modellieren eingesetzt und in ConDec 11 Elemente.\newline
@@ -657,7 +660,7 @@ In Abbildung \ref{fig:LoesungsinkrementExcel} ist die Anzahl der Elemente zur Da
 \end{figure}
 
 
-Abbildung \ref{fig:OpenUPExcel} kann die Anzahl der Elemente, welche jeweils zur Darstellung des Unterprozesses \grqq Iteration planen und managen\grqq \ notwendig sind, entnommen werden. Sowohl in BPMN, als auch in ConDec werden somit jeweils 11 Aktivitäten benötigt. In BPMN werden keine Gateways und 15 Sequenzflüsse verwendet. In ConDec sind zur korrekten Darstellung 21 Constraints notwendig. Somit werden in BPMN insgesamt 26 Elemente und in ConDec 32 Elemente gebraucht.\newline
+Abbildung \ref{fig:OpenUPExcel} kann die Anzahl der Elemente, welche jeweils zur Darstellung des Unterprozesses \grqq Iteration planen und managen\grqq \ notwendig sind, entnommen werden. Sowohl in BPMN als auch in ConDec werden somit jeweils 11 Aktivitäten benötigt. In BPMN werden keine Gateways und 15 Sequenzflüsse verwendet. In ConDec sind zur korrekten Darstellung 21 Constraints notwendig. Somit werden in BPMN insgesamt 26 Elemente und in ConDec 32 Elemente gebraucht.\newline
 
 \begin{figure}[htp]
 \begin{center}
@@ -670,7 +673,7 @@ Abbildung \ref{fig:OpenUPExcel} kann die Anzahl der Elemente, welche jeweils zur
 In Abbildung \ref{fig:OpenUPExcel} sind die Anzahl der Elemente zur Darstellung von \grqq Anforderungen identifizieren und verfeinern\grqq \ abgebildet. Demnach werden sowohl in BPMN, als auch in ConDec jeweils vier Aktivitäten benötigt. Weiterhin sind keine Gateways und 5 Sequenzflusselemente in BPMN zur Darstellung nötig. In ConDec werden drei Constraints verwendet, aber keine unterschiedlichen. Insgesamt werden zur korrekten Abbildung des Metamodells in BPMN neun Elemente und in ConDec 11 Elemente eingesetzt.\newline
 
 
-Die Anzahl der Elemente zur Darstellung des Prozesses \grqq Produktdokumentation entwickeln\grqq \ kann Abbildung \ref{fig:OpenUPExcel} entnommen werden. Es werden somit jeweils vier Aktivitäten zur Darstellung genutzt. Weiterhin werden in BPMN keine Gateways und sieben Sequenzflusselemente gebraucht. In ConDec sind zur Darstellung sieben Constraints notwendig jedoch keine unterschiedlichen Constraints. Insgesamt werden in BPMN neun Elemente und in ConDec 11 Elemente verwendet.\newline
+Die Anzahl der Elemente zur Darstellung des Prozesses \grqq Produktdokumentation entwickeln\grqq \ kann Abbildung \ref{fig:OpenUPExcel} entnommen werden. Es werden somit jeweils vier Aktivitäten zur Darstellung genutzt. Weiterhin werden in BPMN keine Gateways und sieben Sequenzflusselemente gebraucht. In ConDec sind zur Darstellung sieben Constraints notwendig allerdings keine unterschiedlichen Constraints. Insgesamt werden in BPMN neun Elemente und in ConDec 11 Elemente verwendet.\newline
 
 
 Wie viele Elemente zur Modellierung des Prozesses \grqq Release deployen\grqq \ benötigt werden ist in Abbildung \ref{fig:OpenUPExcel} aufgeführt. Jeweils fünf Aktivitäten werden in BPMN und ConDec eingesetzt. In BPMN sind zwei Gateways (keine verschiedenen) und neun Sequenzflusselemente zur Darstellung des Ablaufes notwendig. In ConDec werden hierfür fünf Constraints (drei unterschiedliche)  und fünf Existenz-Constraints benötigt. Somit sind insgesamt 16 Elemente in BPMN und 15 Elemente in ConDec zur Darstellung notwendig. \newline
@@ -683,27 +686,27 @@ Somit ist BPMN in Bezug auf die \textit{Richtigkeit} die geeignetere Modellierun
 Der Grundsatz des \textit{systematischen Aufbaus} [A 2.1] kann wiederum nur von BPMN eingehalten werden, da ConDec keine Möglichkeit bietet, Artefakte im Prozessmodell selbst zu visualisieren.\newline
 Auch hier weist BPMN eine bessere Eignung zur Modellierung auf.\newline
 
-Die \textit{Relevanz} [A 3.1] lässt sich nur bei BPMN einhalten, denn es ist wieder bei den in ConDec erstellten Modellen nicht möglich, Rollen und Artefakte zu visualisieren und somit können nicht alle minimal relevanten Informationen im ConDec Modell abgebildet werden.\newline
+Die \textit{Relevanz} [A 3.1] lässt sich nur bei BPMN einhalten, da es bei den in ConDec erstellten Modellen nicht möglich ist, Rollen und Artefakte zu visualisieren und somit können nicht alle minimal relevanten Informationen im ConDec Modell abgebildet werden.\newline
 
-In Bezug auf die \textit{Klarheit} fällt gerade bei Betrachtung der Modelle der Iterationen \grqq Inception\grqq, \grqq Elaboration\grqq, \grqq Construction\grqq \ und \grqq Transition\grqq \ auf, dass bei Modellen, bei denen mehrere Aktivitäten einfach parallel zueinander ablaufen, in BPMN deutlich mehr Sequenzflusselemente zur Darstellung des gleichen Sachverhaltes notwendig sind als Existenz Constraints in ConDec. Zudem werden bei BPMN auch noch jeweils zwei Gateways benötigt. Somit weist BPMN sowohl bei dem einfach gewichteten Punkt Sequenzfluss/Existenz Constraints, als auch bei den doppelt gewichteten Punkten Gateways/Constraints und unterschiedliche Gateways/Constraints eine höhere Anzahl auf als ConDec und bringt somit bei diesen drei Modellen komplexere Modelle hervor [A 4.1]. \newline
-Bei der Iteration Transition hingegen weist BPMN nur bei dem einfach gewichteten Punkt Sequenzfluss/Existenz einen höheren Wert auf. Beim doppelt gewichteten Punkt Gateways/Constraints weist das ConDec Modell eine deutlich höhere Anzahl auf. Somit wird hier insgesamt das mit ConDec erstellte Modell leicht komplexer eingestuft als das BPMN-Modell [A 4.1].\newline
-Zur Darstellung der  \grqq Phasen des Open UP \grqq \ wird für den Prozess in BPMN beim einfach gewichteten Punkt Sequenzfluss/Existenz eine höhere Anzahl an Sequenzflusselementen benötigt als Existenz Constraints bei ConDec. Ebenso werden bei dem doppelt gewichteten Punkt Gateways/Constraints bei BPMN mehr Elemente verwendet. Beim ebenfalls doppelt gewichteten Punkt unterschiedliche Gateways/Constraints werden bei ConDec mehr Elemente eingesetzt. Somit ist insgesamt das mit BPMN erstellte Modell das leicht komplexere [A 4.1].  \newline
-Beim Prozess \grqq Lösungsinkrement entwickeln \grqq \ werden fünf Gateways in BPMN verwendet und bei ConDec werden sechs Constraints benötigt. Bei ConDec werden drei verschiedene Constraints verwendet, bei BPMN jedoch keine verschiedenen Gateways, sondern immer nur das Exklusive Gateway. Somit weist BPMN beim einfach gewichteten Punkt Sequenzfluss/Existenz eine höhere Anzahl auf. Bei den doppelt gewichteten Punkten Gateways/Constraints und unterschiedliche Gateways/Constraints weist ConDec eine höhere Anzahl auf. Dadurch ist in Anbetracht von [A 4.1] das ConDec Modell das komplexere.\newline
+In Bezug auf die \textit{Klarheit} fällt gerade bei Betrachtung der Modelle der Iterationen \grqq Inception\grqq, \grqq Elaboration\grqq \ und \grqq Construction\grqq \ auf, dass bei Modellen, bei denen mehrere Aktivitäten einfach parallel zueinander ablaufen, in BPMN deutlich mehr Sequenzflusselemente zur Darstellung des gleichen Sachverhaltes notwendig sind als Existenz Constraints in ConDec. Zudem werden bei BPMN auch noch jeweils zwei Gateways benötigt. Somit weist BPMN sowohl bei dem einfach gewichteten Punkt Sequenzfluss/Existenz Constraints, als auch bei den doppelt gewichteten Punkten Gateways/Constraints und unterschiedliche Gateways/Constraints eine höhere Anzahl auf als ConDec und bringt somit bei diesen drei Modellen komplexere Modelle hervor [A 4.1]. \newline
+Bei der Iteration \grqq Transition\grqq \ hingegen zeigt BPMN nur bei dem einfach gewichteten Punkt Sequenzfluss/Existenz einen höheren Wert auf. Beim doppelt gewichteten Punkt Gateways/Constraints weist das ConDec Modell eine deutlich höhere Anzahl auf. Somit wird hier insgesamt das mit ConDec erstellte Modell leicht komplexer eingestuft als das BPMN-Modell [A 4.1].\newline
+Zur Darstellung der  \grqq Phasen des Open UP\grqq \ wird für den Prozess in BPMN beim einfach gewichteten Punkt Sequenzfluss/Existenz eine höhere Anzahl an Sequenzflusselementen benötigt als Existenz Constraints bei ConDec. Ebenso werden bei dem doppelt gewichteten Punkt Gateways/Constraints bei BPMN mehr Elemente verwendet. Beim ebenfalls doppelt gewichteten Punkt unterschiedliche Gateways/Constraints werden bei ConDec mehr Elemente eingesetzt. Somit ist insgesamt das mit BPMN erstellte Modell das leicht komplexere [A 4.1].  \newline
+Beim Prozess \grqq Lösungsinkrement entwickeln\grqq \ werden fünf Gateways in BPMN verwendet und bei ConDec werden sechs Constraints benötigt. Bei ConDec werden drei verschiedene Constraints verwendet, bei BPMN jedoch keine verschiedenen Gateways, sondern immer nur das Exklusive Gateway. Somit weist BPMN beim einfach gewichteten Punkt Sequenzfluss/Existenz eine höhere Anzahl auf. Bei den doppelt gewichteten Punkten Gateways/Constraints und unterschiedliche Gateways/Constraints hat ConDec eine höhere Anzahl. Dadurch ist in Anbetracht von [A 4.1] das ConDec Modell das komplexere.\newline
 Im BPMN Modell ist der Startpunkt durch das Startzeichen gekennzeichnet. Beim ConDec Modell kann kein eindeutiger Start im Modell angegeben werden da mehrere Aktivitäten als Start infrage kommen [A 4.2]. Dies erhöht die Komplexität des ConDec Modells ebenfalls, da die Aktivitäten, mit welchen gestartet werden kann, nicht auf einen Blick erkennbar sind. \newline
 Daher kann zusammenfassend gesagt werden, dass die Komplexität des ConDec Modells leicht höher ist, da dies sowohl bei [A 4.1] als auch bei [A 4.2] der Fall ist.\newline
 Im Prozess  \grqq Iteration planen und managen\grqq \ gibt es keine Verzweigungen. In ConDec werden sieben Constraints zur Darstellung verwendet. Beim einfach gewichteten Punkt Sequenzfluss/Existenz hat BPMN eine höhere Anzahl. Bei den doppelt gewichteten Punkten Gateways/Constraints und unterschiedliche Gateways/Constraints weist ConDec eine höhere Anzahl auf.\newline
-Bei den Prozessen  \grqq Anforderungen identifizieren und verfeinern \grqq \ und  \grqq Produktdokumentation entwickeln \grqq \ weisen die ConDec-Modelle jeweils drei Constraints auf und die BPMN-Modelle keine Gateways. Damit weist BPMN wiederum beim einfach gewichteten Punkt Sequenzfluss/Existenz einen höheren Wert auf und ConDec weist dies bei den doppelt gewichteten Punkten Gateways/Constraints und unterschiedliche Gateways/Constraints auf. Somit ist nach [A 4.1] das BPMN-Modell das weniger komplexe.\newline
-Beim Prozess \grqq Release deployen\grqq \ werden in ConDec insgesamt fünf Constraints (drei verschiedene) zur Darstellung des Sachverhaltes benötigt, in BPMN nur zwei Gateways. Somit liegt hier das BPMN-Modell in Bezug auf die Komplexität unter dem ConDec-Modell und ist somit das verständlichere, da es bei den doppelt gewichteten Punkten Gateways/Constraints und unterschiedliche Gateways/Constraints eine geringere Anzahl aufweist [A 4.1].\newline
+Bei den Prozessen  \grqq Anforderungen identifizieren und verfeinern\grqq \ und  \grqq Produktdokumentation entwickeln\grqq \ weisen die ConDec-Modelle jeweils drei Constraints auf und die BPMN-Modelle keine Gateways. Damit weist BPMN wiederum beim einfach gewichteten Punkt Sequenzfluss/Existenz einen höheren Wert auf und ConDec zeigt dies bei den doppelt gewichteten Punkten Gateways/Constraints und unterschiedliche Gateways/Constraints auf. Somit ist nach [A 4.1] das BPMN-Modell das weniger komplexe.\newline
+Beim Prozess \grqq Release deployen\grqq \ werden in ConDec insgesamt fünf Constraints (drei verschiedene) zur Darstellung des Sachverhaltes benötigt, in BPMN nur zwei Gateways. Somit liegt hier das BPMN-Modell in Bezug auf die Komplexität unter dem ConDec-Modell und ist somit das verständlichere, da es bei den doppelt gewichteten Punkten Gateways/Constraints und unterschiedliche Gateways/Constraints eine geringere Anzahl aufzeigt [A 4.1].\newline
 Somit liegt ConDec bei der Darstellung der Phasen, in denen viele parallele Abläufe dargestellt werden bei der \textit{Klarheit} vorne, während bei den anderen Modellen, bei denen es Schleifen oder Abläufe ohne Verzweigungen zum Darstellen gibt, BPMN vorne liegt.\newline
 
 Die \textit{Wirtschaftlichkeit} lässt sich auch beim Open UP bei den Prozessmodellen \grqq Inception\grqq, \grqq Elaboration\grqq, \grqq Construction\grqq \ sowie bei den \grqq Phasen des Open UP\grqq \ mit ConDec besser einhalten als mit BPMN.  \newline
 Bei den anderen Modellen des Open UP jedoch gibt es bei den mit ConDec erstellten Modellen deutlich mehr Constraints und auch unterschiedliche Constraints als  Gateways bei BPMN. Aus diesem Grund sind hier genau gegensätzlich die ConDec- Modelle komplexer und benötigen somit einen höheren geistigen Aufwand zum Erstellen. \newline
-Hierfür gelten die gleichen Argumente wie soeben bei \textit{Klarheit, [A 4.1]} beschrieben [A 5.1]
-Somit können hier einerseits mit ConDec bei der Darstellung der \grqq Phasen des Open UP\grqq \ und andererseits bei den anderen Modellen des Open UP die BPMN-Modelle die \textit{Wirtschaftlichkeit} besser erfüllen. Somit kann hier keine der beiden Sprachen als grundsätzlich geeigneter angesehen werden.\newline
+Hierfür gelten die gleichen Argumente wie soeben bei \textit{Klarheit, [A 4.1]} beschrieben [A 5.1].
+Somit können einerseits mit ConDec bei der Darstellung der \grqq Phasen des Open UP\grqq \ und andererseits bei den anderen Modellen des Open UP die BPMN-Modelle die \textit{Wirtschaftlichkeit} besser erfüllen. Deshalb kann hier keine der beiden Sprachen als grundsätzlich geeigneter angesehen werden.\newline
 
 
-Die Abläufe der Diagramme wurden in Signavio und Declare getestet und dadurch ist hier ihre \textit{Vergleichbarkeit} gewährleistet [A 6.1].\newline
-Bei der Darstellung der \grqq Phasen des Open UP\grqq \ werden doppelt so viele Elemente in ConDec wie in BPMN verwendet. Hier ist deshalb die \textit{Vergleichbarkeit} nicht ganz gewährleistet. Bei den anderen Modellen des Open UP unterscheidet sich die Anzahl der Elemente kaum voneinander, wodurch die Vergleichbarkeit hier gewährleistet ist [A 6.2]. \newline
+Die Abläufe der Diagramme wurden in Signavio und Declare getestet, wodurch ihre \textit{Vergleichbarkeit} garantiert ist [A 6.1].\newline
+Bei der Darstellung der \grqq Phasen des Open UP\grqq \ werden doppelt so viele Elemente in ConDec wie in BPMN verwendet. Deshalb ist die \textit{Vergleichbarkeit} nicht ganz gewährleistet. Bei den anderen Modellen des Open UP unterscheidet sich die Anzahl der Elemente kaum voneinander, wodurch die Vergleichbarkeit hier sichergestellt ist [A 6.2]. \newline
 Bei ConDec muss wieder auf die Darstellung von Artefakten und Rollen verzichtet werden, wodurch die \textit{Vergleichbarkeit} der Modelle von ConDec behindert wird. Somit weisen hier beide Prozessmodellierungssprachen Stärken und Schwächen auf [A 6.3].\newline
 
 Eine Zusammenfassung, welche Modellierungssprache bei welchem Grundsatz eher überzeugt hat, kann Abbildung \ref{fig:TabelleOpenUP} entnommen werden. \newline
@@ -747,7 +750,7 @@ Nicht alle V-Modell-Projekttypen laufen nach exakt demselben Schema ab. Auf Grun
 
 Es existieren somit vier verschiedene Projekttypen: \grqq Systementwicklungsprojekt eines Auftraggebers\grqq, \grqq Systementwicklungsprojekt eines Auftragnehmers\grqq, \grqq Systementwicklungsprojekt eines Auftraggebers/Auftragnehmers\grqq \ und \grqq Einführung und Pflege eines organisationsspezifischen Vorgehensmodells\grqq \ \cite{reinhard2008}. \newline
 
-Es werden drei verschiedene Projektrollen unterschieden, welche dem jeweiligen Projekttyp entsprechen: In der Rolle \textit{Auftragnehmer} wird ein vom \textit{Auftraggeber} spezifiziertes System entwickelt. Die Systementwicklung wird an einen oder mehrere \textit{Arbeitnehmer} weiter gegeben, wenn man sich in der Rolle \textit{Arbeitgeber} befindet. Das System  wird selbst entwickelt in der Rolle \grqq Auftraggeber/Auftragnehmer\grqq \ \cite{brack2010,2004vmodell}.\newline
+Drei verschiedene Projektrollen werden unterschieden, welche dem jeweiligen Projekttyp entsprechen: In der Rolle \textit{Auftragnehmer} wird ein vom \textit{Auftraggeber} spezifiziertes System entwickelt. Die Systementwicklung wird an einen oder mehrere \textit{Arbeitnehmer} weitergegeben, wenn man sich in der Rolle \textit{Arbeitgeber} befindet. Das System  wird selbst entwickelt in der Rolle \grqq Auftraggeber/Auftragnehmer\grqq \ \cite{brack2010,2004vmodell}.\newline
 
 
 Beim \grqq Systementwicklungsprojekt eines Auftraggebers\grqq \ wird die Entwicklung des Projektgegenstandes im Projektverlauf  ausgeschrieben und der Auftragnehmer trifft eine Auswahl anhand der eingehenden Angebote. Der Auftragnehmer, welcher für die Entwicklung des Projektgegenstandes ausgewählt wurde, entwickelt den Projektgegenstand, welcher dann vom Auftragnehmer abgenommen wird \cite{reinhard2008,2004vmodell}.\newline
@@ -756,7 +759,7 @@ Bei \grqq Einführung und Pflege eines organisationsspezifischen Vorgehensmodell
 Wie aus Abbildung \ref{fig:Projekttypen} ersichtlich ist, kann es sich im V-Modell XT beim Projektgegenstand um ein Hardware (HW)-System, ein Software (SW)-System, ein eingebettetes System oder eine Systemintegration handeln \cite{brack2010,2004vmodell}. \newline
 
 \subsubsection{Projekttypvarianten}
-Für jeden der Projekttypen gibt es im V-Modell XT mindestens eine passende Projekttypvariante. Diese bestimmt die Rahmenbedingungen für mögliche Abläufe eines Projektes. In Abbildung \ref{fig:Projekttypvarianten} sind die verschiedenen Projekttypvarianten des V-Modell XT aufgelistet und es wird gezeigt, mit welchen Merkmalen die zugehörigen Projekttypvarianten ausgewählt werden können \cite{2004vmodell}.   
+Für jeden der Projekttypen gibt es im V-Modell XT mindestens eine passende Projekttypvariante. Diese bestimmt die Rahmenbedingungen für mögliche Abläufe eines Projektes. In Abbildung \ref{fig:Projekttypvarianten} sind die verschiedenen Projekttypvarianten des V-Modell XT aufgelistet. Des Weiteren wird gezeigt, mit welchen Merkmalen die zugehörigen Projekttypvarianten ausgewählt werden können \cite{2004vmodell}.   
 \begin{figure}[htp]
 \begin{center}
   \includegraphics[width=\linewidth]{Projekttypvarianten-v-modell} %pdf, jpg, png...
@@ -765,7 +768,7 @@ Für jeden der Projekttypen gibt es im V-Modell XT mindestens eine passende Proj
 \end{center}
 \end{figure}
 
-Für den Projekttyp \grqq Systementwicklungsprojekt (AG)\grqq \ existieren zwei verschiedene Projekttypvarianten, welche je nach \grqq Auftragsstruktur\grqq \ ausgewählt werden. Falls der Auftraggeber mit nur einem Auftragnehmer zusammen arbeitet, ergibt sich die Projekttypvariante \grqq Systementwicklungsprojekt (AG)- Projekt mit einem Auftragnehmer\grqq. Arbeitet der Auftraggeber mit mehreren Auftragnehmern zusammen, ergibt sich die Projekttypvariante \grqq Systementwicklungsprojekt (AG)- Projekt mit mehreren Auftragnehmern\grqq \ \cite{2004vmodell}.\newline
+Für den Projekttyp \grqq Systementwicklungsprojekt (AG)\grqq \ existieren zwei verschiedene Projekttypvarianten, welche je nach \grqq Auftragsstruktur\grqq \ ausgewählt werden. Falls der Auftraggeber mit nur einem Auftragnehmer zusammenarbeitet, ergibt sich die Projekttypvariante \grqq Systementwicklungsprojekt (AG)- Projekt mit einem Auftragnehmer\grqq. Arbeitet der Auftraggeber mit mehreren Auftragnehmern zusammen, ergibt sich die Projekttypvariante \grqq Systementwicklungsprojekt (AG)- Projekt mit mehreren Auftragnehmern\grqq \ \cite{2004vmodell}.\newline
 Bei den Projekttypen \grqq Systementwicklungsprojekt (AN)\grqq \ und \grqq Systementwicklungsprojekt (AG/AN)\grqq \ wird die Unterscheidung anhand des Systemlebenszyklusausschnittes des Projektes durchgeführt. Somit wird in den Systemlebenszyklusausschnitten Entwicklung, Weiterentwicklung und Migration eine andere Projekttypvariante gewählt als in Wartung und Pflege \cite{2004vmodell}.\newline 
 Für den Projekttyp \grqq Einführung und Pflege eines organisationsspezifischen Vorgehensmodells\grqq \ existiert nur eine einzige Projekttypvariante, weshalb hier keine weiteren Merkmale zur Bestimmung der Projekttypvariante notwendig sind \cite{2004vmodell}.\newline
 
@@ -814,7 +817,7 @@ Demnach gelten die Entscheidungspunkte \grqq Projekt genehmigt\grqq, \grqq Proje
 Bei der Systementwicklung werden die Entscheidungspunkte \grqq Anforderungen festgelegt\grqq, \grqq System spezifiziert\grqq, \grqq System entworfen\grqq, \grqq Feinentwurf abgeschlossen\grqq, \grqq Systemelemente realisiert\grqq \ und \grqq System integriert\grqq \ verwendet. Falls das Projekt vor der Anforderungserhebung in mehrere Teilmodelle aufgeteilt werden soll, werden zusätzlich die Entscheidungspunkte \grqq Gesamtprojekt aufgeteilt\grqq \ und \grqq Gesamtprojektfortschritt überprüft\grqq \ hinzugenommen \cite{2004vmodell}. \newline
 Die Entscheidungspunkte für die Arbeitgeber/Arbeitnehmer Schnittstelle setzen sich aus \grqq Projekt ausgeschrieben\grqq, \grqq Angebot abgegeben\grqq, \grqq Projekt beauftragt\grqq, \grqq Lieferung durchgeführt\grqq, \grqq Abnahme erfolgt\grqq \ und \grqq Projektfortschritt überprüft\grqq \ zusammen \cite{2004vmodell}. \newline
  Bei der Entwicklung eines organisationsspezifischen Vorgehensmodells kommen die Entscheidungspunkte \grqq Vorgehensmodell analysiert\grqq, \grqq Verbesserung Vorgehensmodell konzipiert\grqq \ und \grqq Verbesserung Vorgehensmodell realisiert\grqq \ zum Einsatz \cite{2004vmodell}. \newline
- Die Entscheidungspunkte legen das \grqq Wann\grqq {} und \grqq Was\grqq {} fest, d.h. wann welche Produkte fertig gestellt sein müssen.
+ Die Entscheidungspunkte legen das \grqq Wann\grqq {} und \grqq Was\grqq {} fest, d.h. wann welche Produkte fertiggestellt sein müssen.
 
  
  
@@ -839,7 +842,7 @@ Die Entscheidungspunkte für die Arbeitgeber/Arbeitnehmer Schnittstelle setzen s
 
 \subsection{Imperative Modellierung V-Modell XT}
 
-Im Folgenden werden Teile des V-Modells XT modelliert da das ganze V-Modell XT den Rahmen dieser Arbeit sprengen würde. Aus diesem Grund wird zum Einen das \grqq Systementwicklungsprojekt AG/AN\grqq \ ausgewählt. Weiterhin wird ein hierzu gehöriger Unterprozess \grqq Inkrementelle Entwicklung\grqq \ und die hierzu gehörenden Unterprozesse \grqq System entwerfen\grqq \ und \grqq System spezifizieren\grqq \ modelliert.
+Im Folgenden werden Teile des V-Modells XT modelliert da das ganze V-Modell XT den Rahmen dieser Arbeit sprengen würde. Aus diesem Grund wird zum einen das \grqq Systementwicklungsprojekt AG/AN\grqq \ ausgewählt. Weiterhin wird ein hierzu gehöriger Unterprozess \grqq Inkrementelle Entwicklung\grqq \ und die hierzu gehörenden Unterprozesse \grqq System entwerfen\grqq \ und \grqq System spezifizieren\grqq \ modelliert.
 
 \subsubsection{Systementwicklungsprojekt AG/AN}
 
@@ -848,7 +851,7 @@ Die imperative Modellierung des Prozesses \grqq Systementwicklungsprojekt AG/AN\
 Zunächst muss ein Projekt genehmigt und definiert werden. Dies ist durch die einander folgenden Aktivitäten \grqq Projekt genehmigen\grqq \ und \grqq Projekt definieren\grqq \ dargestellt.\newline
 In der nachfolgenden Aktivität müssen sodann die \grqq Anforderungen festgelegt werden\grqq, bevor die \grqq Iteration geplant\grqq \ werden kann. \newline
 Hiernach muss entschieden werden, ob eine \grqq Prototypische Entwicklung durchgeführt\grqq, eine \grqq Komponentenbasierte Entwicklung durchgeführt\grqq \ oder eine \grqq Inkrementelle Entwicklung durchgeführt\grqq \ werden soll. Dies wird durch das Exklusive Gateway beschrieben, welches nur eine Alternative zulässt.\newline
-Anschließend wird das \grqq System abgenommen\grqq. An dieser Stelle wird entschieden, ob erneut zu \grqq Anforderungen festlegen\grqq \ zurückgekehrt wird und der Prozess ab dieser Aktivität erneut startet oder ob zu \grqq Projekt ausschreiben\grqq \ zurückgekehrt wird und der Prozess ab hier erneut startet. Ansonsten endet der Prozess mit der Aktivität \grqq Projekt abschließen\grqq.
+Anschließend wird das \grqq System abgenommen\grqq. An dieser Stelle wird entschieden, ob erneut zu \grqq Anforderungen festlegen\grqq \ zurückgekehrt wird, der Prozess ab dieser Aktivität erneut startet oder ob zu \grqq Projekt ausschreiben\grqq \ zurückgekehrt wird und der Prozess ab hier erneut startet. Ansonsten endet der Prozess mit der Aktivität \grqq Projekt abschließen\grqq.
 
 \begin{sidewaysfigure}[!htbp]
 \begin{center}
@@ -863,7 +866,7 @@ Anschließend wird das \grqq System abgenommen\grqq. An dieser Stelle wird entsc
 
 \subsubsection{Inkrementelle Entwicklung durchführen}
 In Abbildung \ref{fig:Inkrementell} ist die imperative Modellierung des Unterprozesses \grqq Inkrementelle Entwicklung durchführen\grqq \ abgebildet. \newline
-Zu Beginn muss das \grqq System spezifiziert\grqq \ werden und anschließend wird es entworfen. \newline
+Zu Beginn muss das \grqq System spezifiziert\grqq \ werden. Anschließend wird das \grqq System entworfen\grqq. \newline
 Hiernach wird der \grqq Feinentwurf entworfen\grqq \ und es werden die \grqq Systemelemente realisiert\grqq. Diese beiden Aktivitäten können so oft wie nötig durchgeführt werden, was durch das Exklusive Gateway beschrieben ist.  \newline
 Im nächsten Schritt wird das \grqq System integriert\grqq \ und es beginnt eine neue Iteration bei der Aktivität \grqq System entwerfen\grqq .\newline
 Falls keine weitere Iteration mehr notwendig ist, wird die \grqq Lieferung durchgeführt\grqq \ und der Unterprozess endet hier. \newline
@@ -897,11 +900,11 @@ Die Aktivitäten \grqq Systemarchitektur erstellen\grqq, \grqq Unterstütungssys
 \subsubsection{System spezifizieren}
 
 Zu Beginn des Unterprozesses \grqq System spezifizieren\grqq \  (Abbildung \ref{fig:BerichtswesenimpKlein}) muss die Aktivitäte \grqq Besprechung durchgeführen\grqq \  erfolgen. Hieraus entsteht das Artefakt \grqq Besprechungsdokument\grqq.\newline
-Parallel zu allen anderen Aktivitäten ist bei Bedarf bei jeder Änderung die Aktivität \grqq Projekttagebuch führen\grqq \ zu bearbeiten. Dies wird durch das Parallel-Gateway sichergestellt und das Exklusive Gateway stellt sicher, dass die Akitivität so oft durchgeführt wird, wie Anpassungen notwendig sind. \newline
+Parallel zu allen anderen Aktivitäten ist bei Bedarf bei jeder Änderung die Aktivität \grqq Projekttagebuch führen\grqq \ zu bearbeiten. Dies wird durch das Parallel-Gateway sichergestellt und das Exklusive Gateway garantiert, dass die Akitivität so oft durchgeführt wird, wie Anpassungen notwendig sind. \newline
 Im nächsten Schritt muss \grqq Messdaten erfassen\grqq \ bearbeitet werden, wodurch das Artefakt \grqq Messdaten\grqq \ entsteht.
-In der nachfolgenden Aktivität wird die \grqq Metrik berechnet und ausgewertet\grqq, woraus das Artefakt \grqq Metrikauswertung\grqq \  entsteht.
+In der nachfolgenden Aktivität wird die \grqq Metrik berechnet und ausgewertet\grqq, woraus das Artefakt \grqq Metrikauswertung\grqq \ gebildet wird.
 Anschließend erfolgt die Durchführung der Aktivität \grqq Kaufmännischen Projektstatusbericht erstellen\grqq, wobei das Artefakt \grqq {Kaufmännischer Projektstatusbericht\grqq \  als Artefakt herauskommt.\newline
-Bei der nächsten Aktivität wird der \grqq Projektstatusbericht erstellt\grqq \  und danach wird der \grqq Gesamtprojektfortschritt ermittelt\grqq.\newline
+Bei der nächsten Aktivität wird der \grqq Projektstatusbericht erstellt\grqq \ , wobei das Artefakt \grqq Projektstatusbericht\grqq \ erstellt wird. Danach wird der \grqq Gesamtprojektfortschritt ermittelt\grqq.\newline
 Die Aktivität \grqq QS-Bericht erstellen\grqq \  bringt dann das Artefakt \grqq QS-Bericht hervor\grqq \  und die nachfolgende Aktivität \grqq Projekt abschließen\grqq \  den \grqq Projektabschlussbericht\grqq.
 
 \begin{sidewaysfigure}[!htp]
@@ -921,10 +924,10 @@ Nachfolgend werden die entsprechenden deklarativen Modelle zu den imperativen Mo
 
 Die deklarative Modellierung von \grqq Systementwicklungsprojekt AG/AN\grqq  zeigt Abbildung \ref{fig:SystemV}. \newline
 Zunächst muss ein Projekt genehmigt und definiert werden. Dies ist durch die aufeinander folgenden Aktivitäten \grqq Projekt genehmigen\grqq \ und \grqq Projekt definieren\grqq \ dargestellt, welche durch das Constraint \textit{succession} verbunden sind.\newline
-In der nachfolgenden Aktivität müssen sodann die \grqq Anforderungen festgelegt werden\grqq, bevor die \grqq Iteration geplant\grqq \ werden kann. \newline
-Hiernach muss entschieden werden ob eine \grqq Komponentenbasierte Entwicklung durchgeführt\grqq, eine \grqq Prototypische Entwicklung durchgeführt\grqq oder eine \grqq Inkrementelle Entwicklung durchgeführt\grqq \ werden soll. Dies wird hier durch den Unterprozess \grqq Entwicklung durchführen\grqq \ (Abbildung \ref{fig:SystemVUnter}) dargestellt, da dieser Sachverhalt auf Grund der Schleifen im Prozess ohne Unterprozess nicht darstellbar war. Im Unterprozess kann dann eine der drei Aktivitäten ausgeführt werden, was das Constraint \textit{1of 3} vorgibt.\newline
+In der nachfolgenden Aktivität müssen sodann die \grqq Anforderungen festgelegt werden\grqq. Danach muss die Aktivität \grqq Projekt ausschreiben\grqq \  berabeitet werden, bevor die \grqq Iteration geplant\grqq \ werden kann. \newline
+Hiernach muss entschieden werden, ob eine \grqq Komponentenbasierte Entwicklung ausgeführt\grqq, eine \grqq Prototypische Entwicklung durchgeführt\grqq oder eine \grqq Inkrementelle Entwicklung durchgeführt\grqq \ werden soll. Dies wird hier durch den Unterprozess \grqq Entwicklung durchführen\grqq \ (Abbildung \ref{fig:SystemVUnter}) dargestellt, da dieser Sachverhalt auf Grund der Schleifen im Prozess ohne Unterprozess nicht modellierbar war. Im Unterprozess kann dann eine der drei Aktivitäten ausgeführt werden, was das Constraint \textit{1 of 3} vorgibt.\newline
 Anschließend wird das \grqq System abgenommen\grqq.
-An dieser Stelle wird entschieden, ob erneut zu \grqq Anforderungen festlegen\grqq \ zurückgekehrt wird und der Prozess ab dieser Aktivität erneut startet oder ob zu \grqq Projekt ausschreiben\grqq \ zurückgekehrt wird und der Prozess ab hier erneut startet. Ansonsten endet der Prozess mit der Aktivität \grqq Projekt abschließen\grqq.
+An dieser Stelle wird entschieden, ob erneut zu \grqq Anforderungen festlegen\grqq \ zurückgekehrt wird, der Prozess ab dieser Aktivität erneut startet oder ob zu \grqq Projekt ausschreiben\grqq \ zurückgekehrt wird und der Prozess ab hier erneut startet. Ansonsten endet der Prozess mit der Aktivität \grqq Projekt abschließen\grqq.
 
 \begin{figure}[!htbp]
 \begin{center}
@@ -964,7 +967,7 @@ Falls keine weitere Iteration mehr notwendig ist, wird \grqq Lieferung durchgef�
 
 
 Abbildung \ref{fig:SystementwurfKleinDec} zeigt die deklarative Modellierung von \grqq System entwerfen\grqq.\newline
-Die Aktivitäten \grqq Systemarchitektur erstellen\grqq,  \grqq Unterstütungssystemarchitektur erstellen \grqq,  \grqq Styleguide für die Mensch-Maschine-Schnittstelle erstellen\grqq,  \grqq HW-Architektur erstellen\grqq,  \grqq SW-Architektur erstellen\grqq,  \grqq Datenbankentwurf erstellen\grqq,  \grqq Implementierungs-, Integrations- und Prüfkonzeptsystem erstellen\grqq,  \grqq Implementierungs-, Integrations- und Prüfkonzeptunterstützungssystem erstellen\grqq,  \grqq Implementierungs-, Integrations- und Prüfkonzept HW erstellen, Implementierungs-, Integrations- und Prüfkonzept SW erstellen\grqq \ und \grqq Migrationskonzept erstellen\grqq \ werden hier nacheinander ausgeführt. Da die vorherige Aktivität immer Voraussetzung für das Ausführen der nachfolgenden Aktivität ist und die nachfolgende Aktivität nach der vorherigen ausgeführt werden muss, ist zwischen allen Aktivitäten jeweils \textit{succession} als Constraint eingefügt.
+Die Aktivitäten \grqq Systemarchitektur erstellen\grqq,  \grqq Unterstütungssystemarchitektur erstellen \grqq,  \grqq Styleguide für die Mensch-Maschine-Schnittstelle erstellen\grqq,  \grqq HW-Architektur erstellen\grqq,  \grqq SW-Architektur erstellen\grqq,  \grqq Datenbankentwurf erstellen\grqq,  \grqq Implementierungs-, Integrations- und Prüfkonzeptsystem erstellen\grqq,  \grqq Implementierungs-, Integrations- und Prüfkonzeptunterstützungssystem erstellen\grqq,  \grqq Implementierungs-, Integrations- und Prüfkonzept HW erstellen\grqq, \grqq Implementierungs-, Integrations- und Prüfkonzept SW erstellen\grqq \ und \grqq Migrationskonzept erstellen\grqq \ werden hier nacheinander ausgeführt. Da die vorherige Aktivität immer Voraussetzung für das Ausführen der nachfolgenden Aktivität ist und die nachfolgende Aktivität nach der vorherigen ausgeführt werden muss, ist zwischen allen Aktivitäten jeweils \textit{succession} als Constraint eingefügt.
 
 \begin{figure}[!htbp]
 \begin{center}
@@ -977,11 +980,11 @@ Die Aktivitäten \grqq Systemarchitektur erstellen\grqq,  \grqq Unterstütungssy
 \subsubsection{System spezifizieren}
 
 
-Am Anfang von \grqq System spezifizieren\grqq \ (Abbildung \ref{fig:BerichtswesenKlein}) muss mit \grqq Besprechung durchgeführen\grqq \ begonnen werden. Dies wird durch das Constraint \textit{Init} sichergestellt. Bei jeder Änderung muss die Aktivität \grqq Projekttagebuch fuehren\grqq \ ausgeführt werden. Aus diesem Grund ist diese durch kein Constraint mit einer anderen Aktivität verbunden, da sie jederzeit ausgeführt werden kann und so oft wie nötig.
-Im nächsten Schritt werden die \grqq Messdaten erfasst\grqq. Da ab hier alle Aktivitäten nacheinander auszuführen sind, sind dies jeweils durch das Constraint \textit{succession} verbunden.\newline
+Am Anfang von \grqq System spezifizieren\grqq \ (Abbildung \ref{fig:BerichtswesenKlein}) muss mit \grqq Besprechung durchführen\grqq \ begonnen werden. Dies wird durch das Constraint \textit{Init} sichergestellt. Bei jeder Änderung muss die Aktivität \grqq Projekttagebuch fuehren\grqq \ ausgeführt werden. Aus diesem Grund ist diese durch kein Constraint mit einer anderen Aktivität verbunden, da sie jederzeit, so oft wie nötig ausgeführt werden kann.
+Im nächsten Schritt werden die \grqq Messdaten erfasst\grqq. Da ab hier alle Aktivitäten nacheinander auszuführen sind, werden diese jeweils durch das Constraint \textit{succession} verbunden.\newline
 In der nachfolgenden Aktivität wird die \grqq Metrik berechnet und ausgewertet\grqq.\newline
 Anschließend erfolgt die Durchführung der Aktivität \grqq kaufmännischen Projektstatusbericht erstellen\grqq.\newline
-Bei der nächsten Aktivität wird \grqq Projektstatusbericht erstellen\grqq \ bearbeitet und danach wird \grqq Gesamtprojektfortschritt ermitteln\grqq ausgeführt.
+Bei der nächsten Aktivität wird \grqq Projektstatusbericht erstellen\grqq \ bearbeitet und danach wird \grqq Gesamtprojektfortschritt ermitteln\grqq durchgeführt.
 Danach werden noch die Aktivitäten \grqq QS-Bericht erstellen\grqq \ und \grqq Projekt abschließen\grqq \ ausgeführt.
 
 \begin{figure}[!htbp]
@@ -1075,18 +1078,18 @@ Abbildung \ref{fig:TabelleVModell} gibt nochmal eine zusammenfassende Übersicht
 \section{Übergreifender Vergleich}
 
 BPMN und ConDec können die syntaktische \textit{Richtigkeit} [A 1.1] bei allen Modellen einhalten da in beiden Modellierungssprachen die Notationsregeln bei der Modellierung der Metamodelle eingehalten werden können, um das dort beschriebene Verhalten korrekt wieder zu geben. Somit sind in Bezug auf die syntaktische \textit{Richtigkeit} beide Prozessmodellierungssprachen gleich geeignet.\newline
-Die semantische \textit{Richtigkeit} [A 1.2] kann von ConDec in Bezug auf die visuelle Darstellung von Rollen und Artefakten im Prozessmodell selbst bei keinem Modell eingehalten werden bei welchem solche Informationen notwendig wären. Die Grenzen der Darstellbarkeit von ConDec  werden erreicht. \newline
-Da BPMN die beiden Kriterien [A 1.1] und [A 1.2] einhalten kann und ConDec das Kriterium [A 1.2] nicht einhalten kann, ist BPMN in Bezug auf \textit{Richtigkeit} die geeignetere Modellierungssprache. \newline
+Die semantische \textit{Richtigkeit} [A 1.2] kann von ConDec in Bezug auf die visuelle Darstellung von Rollen und Artefakten im Prozessmodell selbst bei keinem Modell erfüllt werden bei welchem solche Informationen notwendig wären. Die Grenzen der Darstellbarkeit von ConDec  werden erreicht. \newline
+Da BPMN die beiden Kriterien [A 1.1] und [A 1.2] einhalten kann und ConDec das Kriterium [A 1.2] nicht realisieren kann, ist BPMN in Bezug auf \textit{Richtigkeit} die geeignetere Modellierungssprache. \newline
 
 
 Der  Grundsatz des \textit{systematischen Aufbaus} [A 2.1] kann bei ConDec bei keinem Prozessmodell eingehalten werden, da nirgendwo Artefakte visualisiert werden können. Da Artefakte jedoch für das Verständnis eines Modelles und die Darstellung von Schnittstellen sehr wichtige Elemente sind, ist BPMN in Hinsicht auf den \textit{systematischen Aufbau} die geeignetere Prozessmodellierungssprache. \newline
 
 
-Die \textit{Relevanz} [A 3.1] kann ebenfalls nur von BPMN eingehalten werden, da sich die ConDec-Modelle nicht mit den minimal relevanten Informationen erstellen lassen. Auch ist das Problem wiederum die fehlende Visualisierungsmöglichkeit von Rollen und Artefakten. Somit ist auch hier BPMN die geeignetere Prozessmodellierungssprache.\newline
+Die \textit{Relevanz} [A 3.1] kann ebenfalls nur von BPMN erfüllt werden, da sich die ConDec-Modelle nicht mit den minimal relevanten Informationen erstellen lassen. Auch ist das Problem wiederum die fehlende Visualisierungsmöglichkeit von Rollen und Artefakten. Somit ist auch hier BPMN die geeignetere Prozessmodellierungssprache.\newline
 
 Beim Grundsatz der \textit{Klarheit} gibt es Unterschiede bei der Eignung zwischen den beiden Prozessmodellierungssprachen abhängig vom abzubildenden Verhalten des Metamodelles. Hier weisen beide Modelle Stärken und Schwächen auf. \newline
 Bei der Darstellung von Metamodellen, bei denen viele Aktivitäten parallel ablaufen, wie z.B. bei den Phasen des Open UP, benötigt BPMN deutlich mehr Elemente zur Darstellung als ConDec. Auch sind in BPMN Gateways zur Darstellung notwendig, während bei ConDec lediglich leichter verständliche Existenz-Constraints eingesetzt werden [A 4.1]. Dies ist sowohl der Fall bei den kleineren Modellen ( kleiner hier definiert als <=8 Aktivitäten), als auch bei den größeren Modellen (größer hier definiert als >8 Aktivitäten). Somit sind die BPMN Modelle komplexer als die ConDec Modelle und ConDec ist hierfür die geeignetere Prozessmodellierungssprache im Hinblick auf [A 4.1] und [A 4.3]. \newline
-Ein anderes Bild zeichnet sich bei Prozessmodellen ab, bei welchen viele Verzweigungen oder aber auch Abläufe ohne Verzweigungen und Parallelität, also gerade Abläufe dargestellt werden müssen. Hier werden bei BPMN bei der Darstellung von Abläufen ohne Verzweigung keine Gateways und bei der Darstellung von Abläufen mit vielen Verzweigungen auch maximal zwei verschiedene Gateways benötigt. ConDec braucht zur Darstellung von Abläufen ohne Verzweigung und Parallelität trotzdem Constraints, wenn auch wenig unterschiedliche [A 4.1]. Zur Darstellung von Abläufen mit vielen Verzweigungen/Schleifen und auch eventuell noch gleichzeitig parallelen Abläufen werden bei ConDec viele unterschiedliche Constraints eingesetzt. Bei kleinen Modellen (<= 8 Aktivitäten), wie z.B. beim Modell \grqq Phasen des Open UP\grqq, ist ConDec das weniger komplexe Modell. Beim Prozess \grqq Lösungsinkrement entwickeln\grqq \ ist nur ein kleiner Unterschied in der Komplexität vorhanden. Bei größeren Modellen (>8 Aktivitäten) sind jedoch die ConDec Modelle deutlich komplexer. Dies lässt sich bei den Modellen Scrum sowie bei den beiden Modellen des V-Modell XT \grqq Systementwicklungsprojekt AG/AN\grqq \ und \grqq Inkrementelle Entwicklung\grqq \ erkennen. Hier müssen bei den ConDec Modellen vier bis sieben unterschiedliche Constraints zur Darstellung des Ablaufes verwendet werden. In BPMN hingegen werden bei diesen Modellen maximal zwei unterschiedliche Gateways verwendet. Daher ist bei Modellen mit mehr als fünf Aktivitäten und vielen Verzweigungen und eventuell noch parallelen Aktivitäten BPMN die geeignetere Modellierungssprache im Hinblick auf die Erfüllung von [A 4.1] und [A 4.3]. Hingegen bei Prozessen mit vielen parallelen Aktivitäten kann ConDec [A 4.1] und [A 4.3] besser erfüllen.\newline
+Ein anderes Bild zeichnet sich bei Prozessmodellen ab, bei welchen viele Verzweigungen oder aber auch Abläufe ohne Verzweigungen und Parallelität, also gerade Abläufe, dargestellt werden müssen. Hier werden bei BPMN bei der Darstellung von Abläufen ohne Verzweigung keine Gateways und bei der Darstellung von Abläufen mit vielen Verzweigungen auch maximal zwei verschiedene Gateways verwendet. ConDec braucht zur Darstellung von Abläufen ohne Verzweigung und Parallelität trotzdem Constraints, wenn auch wenig unterschiedliche [A 4.1]. Zur Darstellung von Abläufen mit vielen Verzweigungen/Schleifen und auch eventuell noch gleichzeitig parallelen Abläufen werden bei ConDec viele unterschiedliche Constraints eingesetzt. Bei kleinen Modellen (<= 8 Aktivitäten), wie z.B. beim Modell \grqq Phasen des Open UP\grqq, ist ConDec das weniger komplexe Modell. Beim Prozess \grqq Lösungsinkrement entwickeln\grqq \ ist nur ein kleiner Unterschied in der Komplexität vorhanden. Bei größeren Modellen (>8 Aktivitäten) sind jedoch die ConDec Modelle deutlich komplexer. Dies lässt sich bei den Modellen Scrum sowie bei den beiden Modellen des V-Modell XT \grqq Systementwicklungsprojekt AG/AN\grqq \ und \grqq Inkrementelle Entwicklung\grqq \ erkennen. Hier müssen bei den ConDec Modellen vier bis sieben unterschiedliche Constraints zur Darstellung des Ablaufes verwendet werden. In BPMN hingegen werden bei diesen Modellen maximal zwei unterschiedliche Gateways verwendet. Daher ist bei Modellen mit mehr als fünf Aktivitäten und vielen Verzweigungen und eventuell noch parallelen Aktivitäten BPMN die geeignetere Modellierungssprache im Hinblick auf die Erfüllung von [A 4.1] und [A 4.3]. Hingegen bei Prozessen mit vielen parallelen Aktivitäten kann ConDec [A 4.1] und [A 4.3] besser erfüllen.\newline
 
 Bei Betracht der \textit{Wirtschaftlichkeit} weisen beide Modellierungssprachen Stärken und Schwächen auf. Bei Modellen mit vielen parallelen Abläufen, wie z.B. den Phasen des Open UP, müssen in BPMN mehr Gateways und Sequenzflusselemente verwendet werden als bei ConDec, wodurch ein höherer Aufwand bei der Modellierung mit BPMN entsteht als bei ConDec [A 5.1].\newline
 Bei großen Modellen (>8 Aktivitäten) mit vielen Verzweigungen/Schleifen und noch dazu parallelen Aktivitäten werden bei ConDec sehr viel mehr Constraints bei der Modellierung benötigt als Gateways bei BPMN. Aus diesem Grund ist bei diesen Modellen bei der Modellierung mit ConDec ein größerer geistiger Aufwand notwendig als bei BPMN und daher ist bei Modellen mit vielen Verzweigungen/Schleifen BPMN die geeignetere Modellierungssprache, wenn die \textit{Wirtschaftlichkeit} betrachtet wird [A 5.1 und A 5.2].\newline
@@ -1099,7 +1102,7 @@ Die \textit{Vergleichbarkeit} kann jedoch in Bezug auf Artefakte und Rollen, au�
 Somit weisen bei der \textit{Vergleichbarkeit} beide Prozessmodellierungssprachen Stärken und Schwächen auf. ConDec kann das Kriterium [A 6.2] erfüllen und BPMN das Kriterium [A 6.3]. Das Kriterium [A 6.1] kann von beiden Modellierungssprachen eingehalten werden. \newline
 
 
-Abbildung \ref{fig:TabelleAllgemein} gibt nochmal eine zusammenfassende Übersicht über die Ergebnisse des Vergleichs. 
+Abbildung \ref{fig:TabelleAllgemein} gibt nochmals eine zusammenfassende Übersicht über die Ergebnisse des Vergleichs. 
 
 
 
