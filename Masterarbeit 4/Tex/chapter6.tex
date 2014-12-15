@@ -136,7 +136,7 @@ Abbildung \ref{fig:TabelleScrum} zeigt die Ergebnisse des Vergleichs von BPMN un
 
 \begin{figure}[htp]
 \begin{center}
-  \includegraphics[scale=0.6]{TabelleScrum} %pdf, jpg, png...
+  \includegraphics[width=\textwidth]{TabelleScrum} %pdf, jpg, png...
   \caption{Tabellarischer Vergleich von Scrum}
   \label{fig:TabelleScrum}
 \end{center}
@@ -518,7 +518,7 @@ Die Aktivitäten \grqq Release vorbereiten\grqq, \grqq Produkt Training vorberei
 
 \begin{figure}[htp]
 \begin{center}
-  \includegraphics[width=\linewidth]{TransitionDecUnter} %pdf, jpg, png...
+  \includegraphics[width=\textwidth]{TransitionDecUnter} %pdf, jpg, png...
   \caption{Phasen Open UP Unterprozess Transition- deklarativ}
   \label{fig:TransitionDecUnter}
 \end{center}
@@ -532,8 +532,8 @@ Somit wird für die Iteration Inception der Unterprozess \grqq Iteration planen 
 
  \subsubsection{Lösungsinkrement entwickeln}
 
-Die deklarative Modellierung von Lösungsinkrement entwickeln kann Abbildung \ref{fig:Develop} entnommen werden.\newline
-Falls eine \grqq Lösung designt\grqq \ wird, muss danach der \grqq Entwicklertest implementiert\grqq \ werden. Dies ist durch das Constraint \textit{chain response} zwischen diesen beiden Aktivitäten verlangt. Wenn der \grqq Entwicklertest implementiert\grqq \ wird, muss er danach auch durchgeführt werden und kann jedoch nur ausgeführt werden, falls er vorher implementiert wurde (Constraints \textit{chain response} und \textit{precedence}).\newline
+Die deklarative Modellierung von Lösungsinkrement entwickeln kann Abbildung \ref{fig:Develop} entnommen werden.
+Falls eine \grqq Lösung designt\grqq \ wird, muss danach der \grqq Entwicklertest implementiert\grqq \ werden. Dies ist durch das Constraint \textit{chain response} zwischen diesen beiden Aktivitäten verlangt. Wenn der \grqq Entwicklertest implementiert\grqq \ wird, muss er danach auch durchgeführt werden und kann jedoch nur ausgeführt werden, falls er vorher implementiert wurde (Constraints \textit{chain response} und \textit{precedence}).
 Bevor die \grqq Lösung implementiert\grqq \ werden kann, muss vorher der \grqq Entwicklertest ausgeführt\grqq \ werden (Constraint \textit{precedence}). Nach der Implementierung der Lösung muss nochmals der \grqq Entwicklertest durchgeführt\grqq \ werden (Constraint chain response).\newline
 Vor dem \grqq Integrieren\grqq \ muss der Entwicklertest ausgeführt worden sein, was durch das Constraint \textit{precedence} vorgegeben wird.
 \begin{figure}[htp]
@@ -570,7 +570,7 @@ Das gleiche Ausführungsverhalten gilt auch für die anderen Aktivitäten im Pro
 
  \subsubsection{Anforderungen identifizieren und verfeinern - Elaboration}
 
-In Abbildung \ref{fig:IdentifyAndRefineDecKlein} ist die deklarative Modellierung von Anforderungen identifizieren und verfeinern dargestellt.\newline
+In Abbildung \ref{fig:IdentifyAndRefineDecKlein} ist die deklarative Modellierung von Anforderungen identifizieren und verfeinern dargestellt.
 Zu Beginn muss die Aktivität \grqq Anforderungen identifizieren und abgrenzen\grqq \ bearbeitet werden, was durch das Init-Label dargestellt ist. Im Anschluss muss die Aktivität \grqq Use-Case-Szenarien detaillieren\grqq \ ausgeführt werden. Dies ist durch das Constraint \textit{chain response} festgelegt. Das Constraint \textit{precedence} legt hingegen fest, dass bevor \grqq Use-Case-Szenarien detaillieren\grqq \ durchgeführt werden kann, zunächst \grqq Anforderungen identifizieren und abgrenzen\grqq \ bearbeitet werden muss. Die gleichen Constraints gelten zwischen \grqq Use-Case-Szenarien detaillieren\grqq \ und \grqq Systemweite Anforderungen detaillieren\grqq \ sowie zwischen \grqq Systemweite Anforderungen detaillieren\grqq \ und \grqq Testfaelle erstellen\grqq. Alle Aktivitäten werden genau einmal ausgeführt, was jeweils durch das 1-Label dargestellt ist. 
 
 \begin{figure}[h]
@@ -603,7 +603,7 @@ Nach Abschluss der Aktivität \grqq erfolgreiches Deployment sicherstellen\grqq 
 Nach Ausführung von \grqq Release-Mitteilungen uebermitteln\grqq \ darf \grqq Backoutplan ausfuehren\grqq \ nicht mehr durchgeführt werden. Dies stellt das Constraint \textit{not succession} sicher.
 \begin{figure}[htp]
 \begin{center}
-  \includegraphics[width=\linewidth]{DeployReleaseDecKlein} %pdf, jpg, png...
+  \includegraphics[width=\textwidth]{DeployReleaseDecKlein} %pdf, jpg, png...
   \caption{Release deployen-Transition}
   \label{fig:DeployReleaseDecKlein}
 \end{center}
@@ -714,7 +714,7 @@ Eine Zusammenfassung, welche Modellierungssprache bei welchem Grundsatz eher üb
 
 \begin{figure}[htp]
 \begin{center}
-  \includegraphics[scale=0.6]{TabelleOpenUP} %pdf, jpg, png...
+  \includegraphics[width=\textwidth]{TabelleOpenUP} %pdf, jpg, png...
   \caption{Übersicht Vergleich Open UP}
   \label{fig:TabelleOpenUP}
 \end{center}
@@ -871,13 +871,13 @@ Hiernach wird der \grqq Feinentwurf entworfen\grqq \ und es werden die \grqq Sys
 Im nächsten Schritt wird das \grqq System integriert\grqq \ und es beginnt eine neue Iteration bei der Aktivität \grqq System entwerfen\grqq .\newline
 Falls keine weitere Iteration mehr notwendig ist, wird die \grqq Lieferung durchgeführt\grqq \ und der Unterprozess endet hier. \newline
 
-\begin{figure}[!htbp]
+\begin{sidewaysfigure}[!htbp]
 \begin{center}
   \includegraphics[width=\linewidth]{Inkrementell} %pdf, jpg, png...
   \caption{Unterprozess Inkrementelle Entwicklung durchführen V-Modell XT - imperativ}
   \label{fig:Inkrementell}
 \end{center}
-\end{figure}
+\end{sidewaysfigure}
 
 
 
@@ -931,7 +931,7 @@ An dieser Stelle wird entschieden, ob erneut zu \grqq Anforderungen festlegen\gr
 
 \begin{figure}[!htbp]
 \begin{center}
-  \includegraphics[width=\linewidth]{SystemV} %pdf, jpg, png...
+  \includegraphics[width=\textwidth, height=8cm]{SystemV} %pdf, jpg, png...
   \caption{Systementwicklungsprojekt AG/AN  V-Modell XT - deklarativ}
   \label{fig:SystemV}
 \end{center}
@@ -971,7 +971,7 @@ Die Aktivitäten \grqq Systemarchitektur erstellen\grqq,  \grqq Unterstütungssy
 
 \begin{figure}[!htbp]
 \begin{center}
-  \includegraphics[width=\linewidth]{SystementwurfKleinDec} %pdf, jpg, png...
+  \includegraphics[width=\textwidth, height=12cm]{SystementwurfKleinDec} %pdf, jpg, png...
   \caption{System entwerfen - deklarativ}
   \label{fig:SystementwurfKleinDec}
 \end{center}
@@ -989,7 +989,7 @@ Danach werden noch die Aktivitäten \grqq QS-Bericht erstellen\grqq \ und \grqq 
 
 \begin{figure}[!htbp]
 \begin{center}
-  \includegraphics[width=\linewidth]{BerichtswesenKlein} %pdf, jpg, png...
+  \includegraphics[width=\textwidth, height=10cm]{BerichtswesenKlein} %pdf, jpg, png...
   \caption{System spezifizieren- deklarativ}
   \label{fig:BerichtswesenKlein}
 \end{center}
@@ -1068,7 +1068,7 @@ Abbildung \ref{fig:TabelleVModell} gibt nochmal eine zusammenfassende Übersicht
 
 \begin{figure}[!htbp]
 \begin{center}
-  \includegraphics[scale=0.6]{TabelleVModell} %pdf, jpg, png...
+  \includegraphics[width=\textwidth]{TabelleVModell} %pdf, jpg, png...
   \caption{Übersicht Vergleich V-Modell XT}
   \label{fig:TabelleVModell}
 \end{center}
@@ -1108,7 +1108,7 @@ Abbildung \ref{fig:TabelleAllgemein} gibt nochmals eine zusammenfassende Übersi
 
  \begin{figure}[!htbp]
 \begin{center}
-  \includegraphics[width=\linewidth]{TabelleAllgemein} %pdf, jpg, png...
+  \includegraphics[width=\textwidth]{TabelleAllgemein} %pdf, jpg, png...
   \caption{Übersicht Vergleich Allgemein}
   \label{fig:TabelleAllgemein}
 \end{center}

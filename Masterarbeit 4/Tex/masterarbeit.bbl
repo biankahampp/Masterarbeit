@@ -116,6 +116,11 @@
 \newblock {In: }\emph{Business Process Management Workshops, LNBIP, Vol. 43},
   Springer, 2010, S. 477--488
 
+\bibitem[FPW]{forster2012collaborative}
+\textsc{Forster}, S. ; \textsc{Pinggera}, J.  ; \textsc{Weber}, B.:
+\newblock Collaborative Business Process Modeling.
+\newblock {In: }\emph{EMISA, 2012, Vol. 206, S. 81-94}
+
 \bibitem[Fre]{freudenreichevaluierung}
 \textsc{Freudenreich}, R.:
 \newblock Evaluierung der Potentiale des Eclipse Process Frameworks.
@@ -397,6 +402,14 @@
 \newblock {In: }\emph{Business Process Management Workshops, LNBIP 99,}
   Springer, 2012, S. 383--394
 
+\bibitem[PZW{\etalchar{+}}]{pinggera2012tracing}
+\textsc{Pinggera}, J. ; \textsc{Zugal}, S. ; \textsc{Weidlich}, M. ;
+  \textsc{Fahland}, D. ; \textsc{Weber}, B. ; \textsc{Mendling}, J.  ;
+  \textsc{Reijers}, H.~A.:
+\newblock Tracing the process of process modeling with modeling phase diagrams.
+\newblock {In: }\emph{Business Process Management Workshops, 2012, S. 370-382}
+  , Springer
+
 \bibitem[PZW10]{pinggera2010investigating}
 \textsc{Pinggera}, J. ; \textsc{Zugal}, S.  ; \textsc{Weber}, B.:
 \newblock Investigating the Process of Process Modeling with Cheetah
@@ -504,11 +517,11 @@
 \newblock Addison-Wesley, 2011
 
 \bibitem[WPR07]{opac}
-\textsc{Wang}, Qing (Hrsg.) ; \textsc{Pfahl}, Dietmar (Hrsg.)  ;
-  \textsc{Raffo}, David~M. (Hrsg.):
+\textsc{Wang}, Q. (Hrsg.) ; \textsc{Pfahl}, D. (Hrsg.)  ; \textsc{Raffo}, D.~M.
+  (Hrsg.):
 \newblock \emph{Software process dynamics and agility : International
   Conference on Software Process}.
-\newblock Springer, 2007 (Lecture notes in computer science)
+\newblock Springer, 2007 (Lecture notes in computer science, Vol. 4470)
 
 \bibitem[ZSH{\etalchar{+}}]{sabrina942}
 \textsc{Zugal}, S. ; \textsc{Soffer}, P. ; \textsc{Haisjackl}, C. ;
