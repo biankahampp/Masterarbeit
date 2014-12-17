@@ -494,6 +494,8 @@ Nach Ausführung der Aktivität \grqq Iteration planen\grqq \ werden die Aktivit
 \end{center}
 \end{figure}
 
+
+
 In Abbildung \ref{fig:ElaborationDecUnter} ist die deklarative Modellierung der Iteration \grqq Elaboration\grqq \  abgebildet. Die sechs Aktivtäten \grqq Anforderungen identifizieren und verfeinern\grqq, \grqq Architektur entwickeln\grqq, \grqq Lösungsinkrement entwickeln\grqq, \grqq Lösung testen\grqq, \grqq Iteration planen und managen\grqq \ sowie \grqq weitere Aufgaben erledigen\grqq \ werden parallel zueinander ausgeführt. Aus diesem Grund befindet sich lediglich das Existenz Constraint \textit{Ecactly 1} an jeder Aktivität, da sie innerhalb einer Prozessinstanz nur einmal ausgeführt werden dürfen, dies aber in beliebiger Reihenfolge. Im Falle einer weiteren Iteration der Phase Elaboration wird eine neue Prozessinstanz aufgerufen. \newline
 
 \begin{figure}[htp]
@@ -523,6 +525,7 @@ Die Aktivitäten \grqq Release vorbereiten\grqq, \grqq Produkt Training vorberei
   \label{fig:TransitionDecUnter}
 \end{center}
 \end{figure}
+
 
 
 
@@ -640,6 +643,8 @@ Die Anzahl der Elemente zur Darstellung der Iterationen \grqq Inception\grqq, \g
   \label{fig:PhasenExcel}
 \end{center}
 \end{figure}
+
+
 
 Zur Darstellung der Iteration \grqq Elaboration\grqq \ bedarf es in BPMN insgesamt 22 Elementen und in ConDec 14 Elementen wie in Abbildung \ref{fig:PhasenExcel} eingesehen werden kann. Weiterhin werden jeweils sechs Aktivitäten in beiden Prozessmodellierungssprachen verwendet. In BPMN sind zwei Gateways (keine unterschiedlichen) und 14 Sequenzflusselemente, also insgesamt 16 Verbindungselemente notwendig. ConDec hingegen braucht acht Existenz-Constraints. \newline
 
@@ -842,16 +847,16 @@ Die Entscheidungspunkte für die Arbeitgeber/Arbeitnehmer Schnittstelle setzen s
 
 \subsection{Imperative Modellierung V-Modell XT}
 
-Im Folgenden werden Teile des V-Modells XT modelliert da das ganze V-Modell XT den Rahmen dieser Arbeit sprengen würde. Aus diesem Grund wird zum einen das \grqq Systementwicklungsprojekt AG/AN\grqq \ ausgewählt. Weiterhin wird ein hierzu gehöriger Unterprozess \grqq Inkrementelle Entwicklung\grqq \ und die hierzu gehörenden Unterprozesse \grqq System entwerfen\grqq \ und \grqq System spezifizieren\grqq \ modelliert.
+Im Folgenden werden Teile des V-Modells XT modelliert da das ganze V-Modell XT den Rahmen dieser Arbeit sprengen würde. Das \grqq Systementwicklungsprojekt AG/AN\grqq, der zugehörige Unterprozess \grqq Inkrementelle Entwicklung\grqq \ und die hierzu gehörenden Unterprozesse \grqq System entwerfen\grqq \ und \grqq System spezifizieren\grqq \  werden modelliert.
 
 \subsubsection{Systementwicklungsprojekt AG/AN}
 
 
-Die imperative Modellierung des Prozesses \grqq Systementwicklungsprojekt AG/AN\grqq \ zeigt Abbildung \ref{fig:Systementwicklungimp}. \newline
-Zunächst muss ein Projekt genehmigt und definiert werden. Dies ist durch die einander folgenden Aktivitäten \grqq Projekt genehmigen\grqq \ und \grqq Projekt definieren\grqq \ dargestellt.\newline
-In der nachfolgenden Aktivität müssen sodann die \grqq Anforderungen festgelegt werden\grqq, bevor die \grqq Iteration geplant\grqq \ werden kann. \newline
-Hiernach muss entschieden werden, ob eine \grqq Prototypische Entwicklung durchgeführt\grqq, eine \grqq Komponentenbasierte Entwicklung durchgeführt\grqq \ oder eine \grqq Inkrementelle Entwicklung durchgeführt\grqq \ werden soll. Dies wird durch das Exklusive Gateway beschrieben, welches nur eine Alternative zulässt.\newline
-Anschließend wird das \grqq System abgenommen\grqq. An dieser Stelle wird entschieden, ob erneut zu \grqq Anforderungen festlegen\grqq \ zurückgekehrt wird, der Prozess ab dieser Aktivität erneut startet oder ob zu \grqq Projekt ausschreiben\grqq \ zurückgekehrt wird und der Prozess ab hier erneut startet. Ansonsten endet der Prozess mit der Aktivität \grqq Projekt abschließen\grqq.
+Die imperative Modellierung von \grqq Systementwicklungsprojekt AG/AN\grqq \ zeigt Abbildung \ref{fig:Systementwicklungimp}. 
+Zunächst muss ein Projekt genehmigt und definiert werden. Dies ist durch die Aktivitäten \grqq Projekt genehmigen\grqq \ und \grqq Projekt definieren\grqq \ dargestellt.
+In der nachfolgenden Aktivität müssen die \grqq Anforderungen festgelegt werden\grqq, bevor die \grqq Iteration geplant\grqq \ werden kann. 
+Hiernach muss entschieden werden, ob eine \grqq Prototypische Entwicklung durchgeführt\grqq, eine \grqq Komponentenbasierte Entwicklung durchgeführt\grqq \ oder eine \grqq Inkrementelle Entwicklung durchgeführt\grqq \ werden soll. Dies wird durch das Exklusive Gateway beschrieben.
+Anschließend wird das \grqq System abgenommen\grqq. An dieser Stelle wird entschieden, ob zu \grqq Anforderungen festlegen\grqq \ zurückgekehrt wird, der Prozess ab dieser Aktivität erneut startet oder ob zu \grqq Projekt ausschreiben\grqq \ zurückgekehrt wird und der Prozess ab hier erneut startet. Ansonsten endet der Prozess mit \grqq Projekt abschließen\grqq.
 
 \begin{sidewaysfigure}[!htbp]
 \begin{center}
@@ -865,11 +870,11 @@ Anschließend wird das \grqq System abgenommen\grqq. An dieser Stelle wird entsc
 
 
 \subsubsection{Inkrementelle Entwicklung durchführen}
-In Abbildung \ref{fig:Inkrementell} ist die imperative Modellierung des Unterprozesses \grqq Inkrementelle Entwicklung durchführen\grqq \ abgebildet. \newline
-Zu Beginn muss das \grqq System spezifiziert\grqq \ werden. Anschließend wird das \grqq System entworfen\grqq. \newline
-Hiernach wird der \grqq Feinentwurf entworfen\grqq \ und es werden die \grqq Systemelemente realisiert\grqq. Diese beiden Aktivitäten können so oft wie nötig durchgeführt werden, was durch das Exklusive Gateway beschrieben ist.  \newline
-Im nächsten Schritt wird das \grqq System integriert\grqq \ und es beginnt eine neue Iteration bei der Aktivität \grqq System entwerfen\grqq .\newline
-Falls keine weitere Iteration mehr notwendig ist, wird die \grqq Lieferung durchgeführt\grqq \ und der Unterprozess endet hier. \newline
+In Abbildung \ref{fig:Inkrementell} ist die imperative Modellierung des Unterprozesses \grqq Inkrementelle Entwicklung durchführen\grqq \ abgebildet. 
+Zu Beginn muss das \grqq System spezifiziert\grqq \ werden. Anschließend wird das \grqq System entworfen\grqq.
+Hiernach wird der \grqq Feinentwurf entworfen\grqq \ und es werden die \grqq Systemelemente realisiert\grqq. Diese beiden Aktivitäten können so oft wie nötig durchgeführt werden, was durch das Exklusive Gateway beschrieben ist.  
+Im nächsten Schritt wird das \grqq System integriert\grqq \ und es beginnt eine neue Iteration bei der Aktivität \grqq System entwerfen\grqq.
+Falls keine weitere Iteration notwendig ist, wird die \grqq Lieferung durchgeführt\grqq \ und der Prozess endet. \newline
 
 \begin{sidewaysfigure}[!htbp]
 \begin{center}
@@ -886,7 +891,7 @@ Falls keine weitere Iteration mehr notwendig ist, wird die \grqq Lieferung durch
 
 \subsubsection{System entwerfen}
 
-Abbildung \ref{fig:SystementwurfKlein} zeigt die imperative Modellierung des Unterprozesses \grqq System entwerfen\grqq.\newline
+Abbildung \ref{fig:SystementwurfKlein} zeigt die imperative Modellierung des Unterprozesses \grqq System entwerfen\grqq.
 Die Aktivitäten \grqq Systemarchitektur erstellen\grqq, \grqq Unterstütungssystemarchitektur erstellen\grqq, \grqq Styleguide für die Mensch-Maschine-Schnittstelle erstellen\grqq, \grqq HW-Architektur erstellen\grqq, \grqq SW-Architektur erstellen\grqq, \grqq Datenbankentwurf erstellen\grqq, \grqq Implementierungs-, Integrations- und Prüfkonzept System erstellen\grqq,\grqq Implementierungs-, Integrations- und Prüfkonzept Unterstützungssystem erstellen\grqq, \grqq Integrations- und Prüfkonzept Hardware (HW) erstellen\grqq, \grqq Integrations- und Prüfkonzept Software (SW) erstellen\grqq \ und \grqq Migrationskonzept erstellen\grqq \ werden hier nacheinander ausgeführt.
 \begin{sidewaysfigure}[!htbp]
 \begin{center}
@@ -899,12 +904,12 @@ Die Aktivitäten \grqq Systemarchitektur erstellen\grqq, \grqq Unterstütungssys
 
 \subsubsection{System spezifizieren}
 
-Zu Beginn des Unterprozesses \grqq System spezifizieren\grqq \  (Abbildung \ref{fig:BerichtswesenimpKlein}) muss die Aktivitäte \grqq Besprechung durchgeführen\grqq \  erfolgen. Hieraus entsteht das Artefakt \grqq Besprechungsdokument\grqq.\newline
-Parallel zu allen anderen Aktivitäten ist bei Bedarf bei jeder Änderung die Aktivität \grqq Projekttagebuch führen\grqq \ zu bearbeiten. Dies wird durch das Parallel-Gateway sichergestellt und das Exklusive Gateway garantiert, dass die Akitivität so oft durchgeführt wird, wie Anpassungen notwendig sind. \newline
+Zu Beginn des Unterprozesses \grqq System spezifizieren\grqq \  (Abbildung \ref{fig:BerichtswesenimpKlein}) muss die Aktivitäte \grqq Besprechung durchgeführen\grqq \  erfolgen. Hieraus entsteht das Artefakt \grqq Besprechungsdokument\grqq.
+Parallel zu allen anderen Aktivitäten ist bei Bedarf bei jeder Änderung die Aktivität \grqq Projekttagebuch führen\grqq \ zu bearbeiten. Dies wird durch das Parallel-Gateway sichergestellt und das Exklusive Gateway garantiert, dass die Akitivität so oft durchgeführt wird, wie Anpassungen notwendig sind. 
 Im nächsten Schritt muss \grqq Messdaten erfassen\grqq \ bearbeitet werden, wodurch das Artefakt \grqq Messdaten\grqq \ entsteht.
 In der nachfolgenden Aktivität wird die \grqq Metrik berechnet und ausgewertet\grqq, woraus das Artefakt \grqq Metrikauswertung\grqq \ gebildet wird.
-Anschließend erfolgt die Durchführung der Aktivität \grqq Kaufmännischen Projektstatusbericht erstellen\grqq, wobei das Artefakt \grqq {Kaufmännischer Projektstatusbericht\grqq \  als Artefakt herauskommt.\newline
-Bei der nächsten Aktivität wird der \grqq Projektstatusbericht erstellt\grqq \ , wobei das Artefakt \grqq Projektstatusbericht\grqq \ erstellt wird. Danach wird der \grqq Gesamtprojektfortschritt ermittelt\grqq.\newline
+Anschließend erfolgt die Durchführung der Aktivität \grqq Kaufmännischen Projektstatusbericht erstellen\grqq, wobei das Artefakt \grqq {Kaufmännischer Projektstatusbericht\grqq \  als Artefakt herauskommt.
+Bei der nächsten Aktivität wird der \grqq Projektstatusbericht erstellt\grqq \ , wobei das Artefakt \grqq Projektstatusbericht\grqq \ erstellt wird. Danach wird der \grqq Gesamtprojektfortschritt ermittelt\grqq.
 Die Aktivität \grqq QS-Bericht erstellen\grqq \  bringt dann das Artefakt \grqq QS-Bericht hervor\grqq \  und die nachfolgende Aktivität \grqq Projekt abschließen\grqq \  den \grqq Projektabschlussbericht\grqq.
 
 \begin{sidewaysfigure}[!htp]
